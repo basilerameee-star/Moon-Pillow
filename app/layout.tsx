@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Moon & Pillow — Les petits bonheurs de la maison",
-  description: "Housses de coussin, plaids et ensembles assortis en blanc nuage, rose poudré et vert sauge. Découvrez la première collection Moon & Pillow.",
+  description: "Housses de coussin, plaids et ensembles Cocon. Découvrez les couleurs et les formats de notre sélection. Découvrez la première collection Moon & Pillow.",
   robots: { index: false, follow: false },
   icons: {
     icon: "/favicon.svg",

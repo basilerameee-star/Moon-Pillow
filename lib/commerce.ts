@@ -1,5 +1,5 @@
 import "server-only";
-import { colors, products, resolveItem, type CartItem } from "./catalog";
+import { colorName, products, resolveItem, type CartItem } from "./catalog";
 
 export const SHOP_ID = "moon-and-pillow";
 export const MAX_BODY_BYTES = 16 * 1024;
@@ -171,7 +171,7 @@ export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedC
   checkout.items.forEach((item, index) => {
     // Prices and names are read exclusively from the server catalogue.
     const { product, option } = resolveItem(item);
-    const color = colors.find(candidate => candidate.id === item.color)!;
+    const color = { name: colorName(item.color, product) };
     const base = `line_items[${index}]`;
     params.set(`${base}[quantity]`, String(item.quantity));
     params.set(`${base}[price_data][currency]`, "eur");

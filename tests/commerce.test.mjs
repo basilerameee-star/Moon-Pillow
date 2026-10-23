@@ -1,12 +1,33 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { products } from "../lib/catalog.ts";
+import { products, productColors, colorName } from "../lib/catalog.ts";
 import { assertCheckoutAllowed, buildCheckoutParameters, checkoutFingerprint, createStripeCheckout, getShopConfig, MAX_BODY_BYTES, publicShopStatus, readCheckoutRequest, receiptFromSession, retrieveStripeReceipt, safeCheckoutUrl, validateCheckout } from "../lib/commerce.ts";
 
 const attemptId = "b8dc3488-5088-49b0-906d-d2e47f998a20";
 const first = { productId: products[0].id, optionId: products[0].options[0].id, color: "blanc", quantity: 1 };
 const request = (items = [first], extra = {}) => ({ attemptId, items, ...extra });
 const environment = () => ({ SHOP_READY: "true", LEGAL_APPROVED: "true", APP_ORIGIN: "https://shop.example", APPROVED_PRODUCT_IDS: products.map(product => product.id).join(","), SHIPPING_CENTS: "490", SHIPPING_MIN_DAYS: "3", SHIPPING_MAX_DAYS: "7", STRIPE_SECRET_KEY: "sk_test_fixtureonly" });
+
+test("green bundle is unavailable while both individual green products remain selectable", () => {
+  const bundle = products.find(p => p.id === 'ensemble-cocon');
+  assert.deepEqual(productColors(bundle).map(c => c.id), ['blanc', 'rose']);
+  assert.throws(() => validateCheckout(request([{productId:bundle.id,optionId:bundle.options[0].id,color:'vert',quantity:1}])));
+  for (const id of ['housse-cotelee','plaid-cotele']) {
+    const product=products.find(p=>p.id===id);
+    assert.equal(validateCheckout(request([{productId:id,optionId:product.options[0].id,color:'vert',quantity:1}])).items[0].color,'vert');
+  }
+  assert.equal(products.reduce((count,p)=>count+p.availableColors.length*p.options.length,0),14);
+});
+
+test("green names and checkout labels describe each product rather than a shared colour", () => {
+  const config=getShopConfig(environment());
+  for (const [id,label] of [['housse-cotelee','Vert clair'],['plaid-cotele','Vert olive']]) {
+    const product=products.find(p=>p.id===id);
+    assert.equal(colorName('vert',product),label);
+    const cart=validateCheckout(request([{productId:id,optionId:product.options[0].id,color:'vert',quantity:1}]));
+    assert.ok(buildCheckoutParameters(config,cart,'hash').get('line_items[0][price_data][product_data][name]').includes(label));
+  }
+});
 
 test("payment requires every explicit readiness condition, and status never exposes secrets", () => {
   assert.equal(getShopConfig({}).checkoutEnabled, false);
