@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Moon & Pillow — Les petits bonheurs de la maison",
-  description: "Housses de coussin, plaids et ensembles Cocon. Découvrez les couleurs et les formats de notre sélection. Découvrez la première collection Moon & Pillow.",
+  description: "Linge de maison pour la chambre et le salon : parures, taies d’oreiller, housses de coussin et plaids. Découvrez la collection Moon & Pillow en préparation.",
   robots: { index: false, follow: false },
   icons: {
     icon: "/favicon.svg",

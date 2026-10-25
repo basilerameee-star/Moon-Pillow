@@ -6,7 +6,7 @@ import { assertCheckoutAllowed, buildCheckoutParameters, checkoutFingerprint, cr
 const attemptId = "b8dc3488-5088-49b0-906d-d2e47f998a20";
 const first = { productId: products[0].id, optionId: products[0].options[0].id, color: "blanc", quantity: 1 };
 const request = (items = [first], extra = {}) => ({ attemptId, items, ...extra });
-const environment = () => ({ SHOP_READY: "true", LEGAL_APPROVED: "true", APP_ORIGIN: "https://shop.example", APPROVED_PRODUCT_IDS: products.map(product => product.id).join(","), SHIPPING_CENTS: "490", SHIPPING_MIN_DAYS: "3", SHIPPING_MAX_DAYS: "7", STRIPE_SECRET_KEY: "sk_test_fixtureonly" });
+const environment = () => ({ SHOP_READY: "true", LEGAL_APPROVED: "true", APP_ORIGIN: "https://shop.example", APPROVED_PRODUCT_IDS: products.filter(product=>!product.draftOnly).map(product => product.id).join(","), SHIPPING_CENTS: "490", SHIPPING_MIN_DAYS: "3", SHIPPING_MAX_DAYS: "7", STRIPE_SECRET_KEY: "sk_test_fixtureonly" });
 
 test("green bundle is unavailable while both individual green products remain selectable", () => {
   const bundle = products.find(p => p.id === 'ensemble-cocon');
@@ -16,7 +16,17 @@ test("green bundle is unavailable while both individual green products remain se
     const product=products.find(p=>p.id===id);
     assert.equal(validateCheckout(request([{productId:id,optionId:product.options[0].id,color:'vert',quantity:1}])).items[0].color,'vert');
   }
-  assert.equal(products.reduce((count,p)=>count+p.availableColors.length*p.options.length,0),14);
+  assert.equal(products.filter(p=>!p.draftOnly).reduce((count,p)=>count+p.availableColors.length*p.options.length,0),14);
+});
+
+test('all 48 supplier drafts remain unpurchasable, including direct server requests',()=>{
+ const drafts=products.filter(p=>p.draftOnly);
+ assert.equal(drafts.length,48);
+ assert.equal(new Set(drafts.map(p=>p.id)).size,48);
+ for(const product of drafts){
+  assert.throws(()=>validateCheckout(request([{productId:product.id,optionId:product.options[0]?.id??'invented',color:product.availableColors[0]??'invented',quantity:1}])));
+  assert.equal(getShopConfig({...environment(),APPROVED_PRODUCT_IDS:product.id}).checkoutEnabled,false);
+ }
 });
 
 test("green names and checkout labels describe each product rather than a shared colour", () => {
