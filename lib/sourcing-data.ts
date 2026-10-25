@@ -1,5 +1,5 @@
 import 'server-only';
-// Données publiques fournisseurs, conservées côté serveur dans cet aperçu privé.
+// Preuves et coûts fournisseurs conservés côté serveur.
 export const sourcingCandidates = [
   {
     "id": "alibaba-1600241398988",
@@ -10,14 +10,14 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "150*200 cm 3 pièces",
+        "label": "150 × 200 cm 3 pièces",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Winter-Duvet-Cover-and-Pillowcase-Set_1600241398988.html"
       },
       {
-        "label": "200*230 cm 3 pièces",
+        "label": "200 × 230 cm 3 pièces",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Winter-Duvet-Cover-and-Pillowcase-Set_1600241398988.html"
       }
     ],
     "colors": [
@@ -48,7 +48,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 20.28,
       "max": 23.88,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -70,17 +69,38 @@ export const sourcingCandidates = [
       "Coût livré à revalider par taille et couleur ; transport affiché élevé.",
       "Accord d’expédition directe à l’unité et adresse de retour.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Ha55747f00244464f9e38549f22432741O.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": true,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 1,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 159.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601070472662",
@@ -91,39 +111,39 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "Standard 20*26 pouces (51 cm*66 cm)",
+        "label": "Standard 20 × 26 pouces (51 cm × 66 cm)",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Silk-Silver-Infused-Pillow-Case-100_1601070472662.html"
       },
       {
-        "label": "Reine 20*30 pouces (51 cm*76 cm)",
+        "label": "Reine 20 × 30 pouces (51 cm × 76 cm)",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Silk-Silver-Infused-Pillow-Case-100_1601070472662.html"
       },
       {
-        "label": "Roi 20*36 pouces (51 cm * 91 cm)",
+        "label": "Roi 20 × 36 pouces (51 cm × 91 cm)",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Silk-Silver-Infused-Pillow-Case-100_1601070472662.html"
       }
     ],
     "colors": [
       {
-        "label": "#Ivoire",
+        "label": "Ivoire",
         "verified": true,
         "source": "Sélecteur de la fiche consultée en navigateur"
       },
       {
-        "label": "#Argent",
+        "label": "Argent",
         "verified": true,
         "source": "Sélecteur de la fiche consultée en navigateur"
       },
       {
-        "label": "#Champagne",
+        "label": "Champagne",
         "verified": true,
         "source": "Sélecteur de la fiche consultée en navigateur"
       },
       {
-        "label": "#Marine foncé",
+        "label": "Marine foncé",
         "verified": true,
         "source": "Sélecteur de la fiche consultée en navigateur"
       }
@@ -139,7 +159,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 11.98,
       "max": 15.31,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -154,17 +173,40 @@ export const sourcingCandidates = [
       "Ne pas reprendre les promesses antibactériennes ou thérapeutiques sans preuve.",
       "Coût complet livré en France et délai par variante non validés.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Marque Yasha Silk visible; ne pas présenter comme Moon & Pillow.",
+      "Logo OEKO-TEX et numéro affichés sur la photo; certification non vérifiée, éviter de publier comme preuve.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Hfdd64955518f46c7853c9677889220a6O.png_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601564961499",
@@ -175,9 +217,9 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "King:1*269*259cm;1*193*203+40cm;2*50*70cm",
+        "label": "King:1 × 269 × 259cm;1 × 193 × 203+40cm;2 × 50 × 70cm",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/2025-New-Product-Luxury-Bamboo-Fiber_1601564961499.html"
       }
     ],
     "colors": [
@@ -198,7 +240,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 36.03,
       "max": 36.03,
-      "tier": "1-349 jeux; >=350 jeux 25.32 EUR",
       "approved": false,
       "landedCostVerified": false
     },
@@ -221,17 +262,39 @@ export const sourcingCandidates = [
       "Composition textile exacte et absence de preuve de certification biologique.",
       "Coût livré France élevé ; minimum 350–400 lots pour une couleur personnalisée.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Photo saumon alors que seul Blanc a été confirmé dans le sélecteur; ne pas attribuer cette image à la variante Blanc.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/H8fc6ee3fa5c74348992648ef54812be0N.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "1-349 jeux; >=350 jeux 25.32 EUR",
+    "requiresSupplierBundle": true,
+    "sourcePriceBasis": "1-349 jeux; >=350 jeux 25.32 EUR",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 179.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601688153742",
@@ -242,9 +305,9 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "20\"*26\"(50*66cm)-1pcs pack per bag",
+        "label": "20\" × 26\"(50 × 66cm)-1pcs pack per bag",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Price-Solid-Color-Soft-Satin_1601688153742.html"
       }
     ],
     "colors": [],
@@ -259,7 +322,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 1.1,
       "max": 1.1,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -274,17 +336,40 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Couleurs et codes des variantes commandables à obtenir.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Montage de couleurs; les petits échantillons visuels ne constituent pas une liste de variantes commandables.",
+      "Image de plusieurs taies alors que le conditionnement relevé est une pièce.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Hf350d31781e246a689bde770c2678045k.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601248538962",
@@ -295,9 +380,9 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "200*230cm",
+        "label": "200 × 230cm",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Mink-Velvet-Bed-Sheet-Set-Solid_1601248538962.html"
       }
     ],
     "colors": [
@@ -383,7 +468,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 15.05,
       "max": 15.05,
-      "tier": "1-99 jeux; >=100 14.42; >=1000 12.62 EUR",
       "approved": false,
       "landedCostVerified": false
     },
@@ -408,17 +492,42 @@ export const sourcingCandidates = [
       "Le format 220 × 240 cm cité dans le descriptif n’est pas confirmé dans le sélecteur.",
       "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "La mise en scène comprend davantage de coussins décoratifs que les quatre pièces décrites; préciser le contenu.",
+      "Aucun coloris ne dispose de trois vues distinctes confirmées.",
+      "Les 13 images sont 6 vues de galerie et 7 vignettes, pas 13 vues d’une seule couleur.",
+      "Les vues peuvent montrer des coussins de mise en scène supplémentaires ; le contenu fournisseur reste une housse de couette, un drap et deux taies.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Hd05fc9680ad44c019b95c838263b5365S.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "1-99 jeux; >=100 14.42; >=1000 12.62 EUR",
+    "requiresSupplierBundle": true,
+    "sourcePriceBasis": "1-99 jeux; >=100 14.42; >=1000 12.62 EUR",
+    "photoAudit": {
+      "knownColors": 14,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 2,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 119.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601521930949",
@@ -431,12 +540,12 @@ export const sourcingCandidates = [
       {
         "label": "King Size",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Light-Luxury-Lyocell-Cotton-Green-Jacquard_1601521930949.html"
       },
       {
         "label": "QUEEN",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Light-Luxury-Lyocell-Cotton-Green-Jacquard_1601521930949.html"
       }
     ],
     "colors": [
@@ -477,7 +586,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 48.65,
       "max": 50.46,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -500,17 +608,39 @@ export const sourcingCandidates = [
       "Proportions de lyocell et coton.",
       "Le vert cité dans le titre n’est pas une couleur sélectionnable.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Photo bleu/vert d eau alors que ces couleurs ne sont pas confirmées dans le sélecteur; photo illustrative du modèle seulement.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Ha95a78a8e98e417ab683c76e195244a2P.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": true,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 199.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601451040881",
@@ -523,22 +653,22 @@ export const sourcingCandidates = [
       {
         "label": "Ensemble deux pièces pour lit simple 173x229cm, taie d'oreiller : 50x75cm x 1",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/ChamXue-Duvet-Comforter-Quilt-Insert-Four_1601451040881.html"
       },
       {
         "label": "Ensemble complet trois pièces 209x 219cm taie d'oreiller : 50x75cmx2",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/ChamXue-Duvet-Comforter-Quilt-Insert-Four_1601451040881.html"
       },
       {
         "label": "Ensemble trois pièces Queen 224x 224cm, taie d'oreiller : 50x75cmx2",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/ChamXue-Duvet-Comforter-Quilt-Insert-Four_1601451040881.html"
       },
       {
         "label": "Taie d'oreiller King trois pièces 259x 229cm : 50x75cmx2",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/ChamXue-Duvet-Comforter-Quilt-Insert-Four_1601451040881.html"
       }
     ],
     "colors": [
@@ -579,7 +709,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 10.81,
       "max": 16.21,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -594,17 +723,39 @@ export const sourcingCandidates = [
       "Composition et grammage par variante.",
       "Coût complet livré en France et délai par variante non validés.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Plusieurs oreillers de mise en scène; préciser le nombre inclus selon la taille.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/H2579b509c8ba47dab535d4c26036925bs.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 79.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601080870169",
@@ -615,19 +766,19 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "150*200cm+2taie d'oreiller",
+        "label": "150 × 200cm+2taie d'oreiller",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Stripe-Duvet-Cover-Set-European-Style_1601080870169.html"
       },
       {
-        "label": "180*220cm+2taie d'oreiller",
+        "label": "180 × 220cm+2taie d'oreiller",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Stripe-Duvet-Cover-Set-European-Style_1601080870169.html"
       },
       {
-        "label": "200*230cm+2 taie d'oreiller",
+        "label": "200 × 230cm+2 taie d'oreiller",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Stripe-Duvet-Cover-Set-European-Style_1601080870169.html"
       }
     ],
     "colors": [
@@ -693,7 +844,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 4.97,
       "max": 5.93,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -717,17 +867,39 @@ export const sourcingCandidates = [
       "L’expédition directe est citée dans le titre mais ses conditions restent à confirmer.",
       "Transport, taxes et coût total par variante.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Vérifier la correspondance entre image et libellé exact du fournisseur avant sélection de couleur.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/H82d1d677ddd8411da6f1ce47e7c199e1f.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": true,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 10,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1600901588050",
@@ -738,9 +910,9 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "45*75cm, 50*70cm ou 50*75cm sur mesure",
+        "label": "45 × 75cm, 50 × 70cm ou 50 × 75cm sur mesure",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://www.alibaba.com/product-detail/Bed-Pillows-50x75-Cm-Firm-Luxury_1600901588050.html"
       }
     ],
     "colors": [
@@ -806,7 +978,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 3.16,
       "max": 3.16,
-      "tier": "1-49 pieces; 50-199 2.26; >=200 0.901 EUR",
       "approved": false,
       "landedCostVerified": false
     },
@@ -814,7 +985,7 @@ export const sourcingCandidates = [
     "descriptionFrench": "Oreiller avec enveloppe déclarée en coton et garnissage déclaré en polyester. Le fournisseur présente un seul choix combinant plusieurs dimensions sur mesure.",
     "detailsFrench": [
       "Enveloppe déclarée 100 % coton ; garnissage déclaré 100 % fibres polyester.",
-      "Un seul choix fournisseur : « 45*75cm, 50*70cm ou 50*75cm sur mesure »."
+      "Un seul choix fournisseur : « 45 × 75cm, 50 × 70cm ou 50 × 75cm sur mesure »."
     ],
     "openQuestionsFR": [
       "Un seul libellé de dimension sur mesure regroupe trois formats : aucun format indépendant en stock n’est confirmé.",
@@ -822,19 +993,42 @@ export const sourcingCandidates = [
       "Prix livré et faisabilité d’une unité sur mesure.",
       "Coût complet livré en France et délai par variante non validés.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Étiquette CozyLux visible; produit de marque à ne pas présenter comme fabrication Moon & Pillow.",
+      "Photo de deux oreillers ne prouve pas un lot de deux.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/Hadc510aaf14949d3b33c69baeda5c0e5U.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
       "work/alibaba-bedding-evidence.json",
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "deduplicationNoteFR": "Conflit de prix avec un résultat indexé en USD : priorité au relevé courant de la fiche navigateur en EUR. Aucun prix livré validé.",
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "1-49 pieces; 50-199 2.26; >=200 0.901 EUR",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "1-49 pieces; 50-199 2.26; >=200 0.901 EUR",
+    "photoAudit": {
+      "knownColors": 10,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601816193307",
@@ -845,9 +1039,9 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "48*74cm",
+        "label": "48 × 74cm",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://french.alibaba.com/product-detail/Oreiller-de-lit-moelleux-et-respirant-1601816193307.html"
       }
     ],
     "colors": [
@@ -868,7 +1062,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 1.94,
       "max": 1.94,
-      "tier": "1-199 bags; >=200 1.91; >=5000 1.41 EUR",
       "approved": false,
       "landedCostVerified": false
     },
@@ -884,17 +1077,39 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Photo de trois oreillers alors que quantité par sac non confirmée; ne pas suggérer un lot de trois.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/H34a7dfe1cc1348f6996337fd26461cf5B.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "1-199 bags; >=200 1.91; >=5000 1.41 EUR",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "1-199 bags; >=200 1.91; >=5000 1.41 EUR",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601710942064",
@@ -907,7 +1122,7 @@ export const sourcingCandidates = [
       {
         "label": "50x75cm",
         "verified": true,
-        "source": "Sélecteur de la fiche consultée en navigateur"
+        "source": "https://french.alibaba.com/product-detail/Taie-d-oreiller-100-coton-bleu-1601710942064.html"
       }
     ],
     "colors": [
@@ -928,7 +1143,6 @@ export const sourcingCandidates = [
       "currency": "EUR",
       "min": 2.39,
       "max": 2.39,
-      "tier": "1-50 pieces; 51-100 2.29; >=101 2.19 EUR",
       "approved": false,
       "landedCostVerified": false
     },
@@ -944,17 +1158,39 @@ export const sourcingCandidates = [
       "Fournisseur et origine Italie déclarés, non audités.",
       "Coût complet livré en France et délai par variante non validés.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Image 400x400, netteté modérée; exploitable en petite carte, limitée pour grand zoom.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/H9f1c5a1fdf044c02a693e33f2362597al.jpg_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "Sélecteurs consultés en navigateur sur la fiche courante",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-bedding-evidence.json"
+      "work/alibaba-bedding-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "1-50 pieces; 51-100 2.29; >=101 2.19 EUR",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "1-50 pieces; 51-100 2.29; >=101 2.19 EUR",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601393545708",
@@ -976,7 +1212,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 1.1,
       "max": 1.3,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -992,17 +1227,38 @@ export const sourcingCandidates = [
       "Couleurs et codes des variantes commandables à obtenir.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601425929295",
@@ -1014,8 +1270,8 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "45x45cm",
-        "verified": false,
-        "source": "supplier_title"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Custom-18x18-Inch-45x45cm-Luxury_1601425929295.html"
       }
     ],
     "colors": [],
@@ -1030,7 +1286,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 0.51,
       "max": 1.15,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1046,17 +1301,38 @@ export const sourcingCandidates = [
       "Couleurs et codes des variantes commandables à obtenir.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_fetch_failed",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601524493215",
@@ -1078,7 +1354,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 2.91,
       "max": 3.36,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1095,17 +1370,38 @@ export const sourcingCandidates = [
       "Couleurs et codes des variantes commandables à obtenir.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1600456299693",
@@ -1117,19 +1413,19 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "45x45cm",
-        "verified": false,
-        "source": "supplier_title"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Cushion-Cover-45x45cm-Solid-Plain-Linen_1600456299693.html"
       }
     ],
     "colors": [
       {
         "label": "Jaune",
-        "verified": false,
+        "verified": true,
         "source": "supplier_title"
       },
       {
         "label": "Beige",
-        "verified": false,
+        "verified": true,
         "source": "supplier_title"
       }
     ],
@@ -1144,7 +1440,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 0.98,
       "max": 1.26,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1161,17 +1456,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601063679171",
@@ -1183,64 +1499,64 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "30x50cm (housse seule)",
-        "verified": false,
-        "source": "listing_variations"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html"
       },
       {
         "label": "45x45cm (housse seule)",
-        "verified": false,
-        "source": "listing_variations"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html"
       },
       {
         "label": "50x50cm (housse seule)",
-        "verified": false,
-        "source": "listing_variations"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html"
       },
       {
         "label": "30x50cm (housse + garnissage)",
-        "verified": false,
-        "source": "listing_variations"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html"
       },
       {
         "label": "45x45cm (housse + garnissage)",
-        "verified": false,
-        "source": "listing_variations"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html"
       },
       {
         "label": "50x50cm (housse + garnissage)",
-        "verified": false,
-        "source": "listing_variations"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html"
       }
     ],
     "colors": [
       {
         "label": "Blanc",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "Rose",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "Noir",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "Marron",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "Marron foncé",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "Kaki",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       }
     ],
@@ -1255,7 +1571,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 4.59,
       "max": 8.75,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1272,17 +1587,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_listing_indexed_content; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601420936444",
@@ -1294,24 +1630,24 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "30x50cm",
-        "verified": false,
-        "source": "supplier_title"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Insert-Cushion-Inner-Fluffy_1601420936444.html"
       },
       {
         "label": "45x45cm",
-        "verified": false,
-        "source": "supplier_title"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Insert-Cushion-Inner-Fluffy_1601420936444.html"
       },
       {
         "label": "50x50cm",
-        "verified": false,
-        "source": "supplier_title"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Throw-Pillow-Insert-Cushion-Inner-Fluffy_1601420936444.html"
       }
     ],
     "colors": [
       {
         "label": "Blanc",
-        "verified": false,
+        "verified": true,
         "source": "supplier_title"
       }
     ],
@@ -1326,7 +1662,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 1,
       "max": 1.6,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1340,17 +1675,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1600663621616",
@@ -1361,45 +1717,45 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "60*60cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "60 × 60cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       },
       {
-        "label": "80*100cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "80 × 100cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       },
       {
-        "label": "100*150cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "100 × 150cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       },
       {
-        "label": "100*200cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "100 × 200cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       },
       {
-        "label": "127*152cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "127 × 152cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       },
       {
-        "label": "60*80cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "60 × 80cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       },
       {
-        "label": "80*80cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "80 × 80cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html"
       }
     ],
     "colors": [
       {
         "label": "Beige",
-        "verified": false,
+        "verified": true,
         "source": "supplier_title_only"
       }
     ],
@@ -1414,7 +1770,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 6.4,
       "max": 23.4,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1432,17 +1787,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_listing_indexed_content; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601024896360",
@@ -1454,8 +1830,8 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "Queen (titre fournisseur, aucune dimension exacte confirmée)",
-        "verified": false,
-        "source": "Titre ou libellé générique ; dimension non vérifiée"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Cloudland-Custom-Cotton-Fitted-Sheets-Egyptian_1601024896360.html"
       }
     ],
     "colors": [],
@@ -1470,7 +1846,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 15,
       "max": 16,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1487,17 +1862,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Couleurs et codes des variantes commandables à obtenir.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_fetch_failed",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1600317900242",
@@ -1508,55 +1904,55 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "Toddler 14*20inch(51cm*36cm)",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "Toddler 14 × 20inch(51cm × 36cm)",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/suzhou-yasha-silk-technology-pillow-case_1600317900242.html"
       },
       {
-        "label": "Standard 20*26inch(51cm*66cm)",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "Standard 20 × 26inch(51cm × 66cm)",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/suzhou-yasha-silk-technology-pillow-case_1600317900242.html"
       },
       {
-        "label": "Queen 20*30inch(51cm*76cm)",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "Queen 20 × 30inch(51cm × 76cm)",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/suzhou-yasha-silk-technology-pillow-case_1600317900242.html"
       },
       {
-        "label": "King 20*36inch(51cm*91cm)",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "King 20 × 36inch(51cm × 91cm)",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/suzhou-yasha-silk-technology-pillow-case_1600317900242.html"
       }
     ],
     "colors": [
       {
         "label": "01 lavande",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "02 rose clair",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "04 ivoire",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "06 bleu clair",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "07 vert clair",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       },
       {
         "label": "08 violet",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       }
     ],
@@ -1571,7 +1967,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 9.7,
       "max": 17.8,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1589,17 +1984,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_listing_indexed_content; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601563999505",
@@ -1610,15 +2026,15 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "50*80",
-        "verified": false,
-        "source": "supplier_title; unité cm à confirmer"
+        "label": "50 × 80",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Wholesale-High-Quality-50-80-White_1601563999505.html"
       }
     ],
     "colors": [
       {
         "label": "Blanc",
-        "verified": false,
+        "verified": true,
         "source": "supplier_title"
       }
     ],
@@ -1633,7 +2049,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 1.83,
       "max": 2.05,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1649,17 +2064,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_fetch_failed",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-12000003344865",
@@ -1671,14 +2107,14 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "50x70 cm",
-        "verified": false,
-        "source": "supplier_title"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Modern-Breathable-White-Cotton-Striped-Satin_12000003344865.html"
       }
     ],
     "colors": [
       {
         "label": "Blanc",
-        "verified": false,
+        "verified": true,
         "source": "supplier_title"
       }
     ],
@@ -1693,7 +2129,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 1.57,
       "max": 1.57,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1709,17 +2144,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_exact_product_link; detail_fetch_failed",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1600774859826",
@@ -1730,30 +2186,30 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "70*140cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "70 × 140cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/High-Quality-600gsm-100-Cotton-5_1600774859826.html"
       },
       {
-        "label": "80*150cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "80 × 150cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/High-Quality-600gsm-100-Cotton-5_1600774859826.html"
       },
       {
-        "label": "35*75cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "35 × 75cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/High-Quality-600gsm-100-Cotton-5_1600774859826.html"
       },
       {
-        "label": "35*35cm",
-        "verified": false,
-        "source": "listing_variations"
+        "label": "35 × 35cm",
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/High-Quality-600gsm-100-Cotton-5_1600774859826.html"
       }
     ],
     "colors": [
       {
         "label": "Blanc",
-        "verified": false,
+        "verified": true,
         "source": "listing_variations"
       }
     ],
@@ -1768,7 +2224,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 0.6647,
       "max": 6.55,
-      "tier": null,
       "approved": false,
       "landedCostVerified": false
     },
@@ -1785,17 +2240,38 @@ export const sourcingCandidates = [
       "Coût complet livré en France et délai par variante non validés.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": null,
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_listing_indexed_content; detail_opened_but_empty",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1601723803318",
@@ -1806,9 +2282,9 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "35*75cm",
+        "label": "35 × 75cm",
         "verified": true,
-        "source": "listing_current_selection"
+        "source": "https://www.alibaba.com/product-detail/Premium-Hotel-Quality-100-Cotton-SPA_1601723803318.html"
       }
     ],
     "colors": [
@@ -1829,23 +2305,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 1.25,
       "max": 1.42,
-      "tier": [
-        {
-          "quantity_min": 20,
-          "quantity_max": 999,
-          "price": 1.42
-        },
-        {
-          "quantity_min": 1000,
-          "quantity_max": 1999,
-          "price": 1.33
-        },
-        {
-          "quantity_min": 2000,
-          "quantity_max": null,
-          "price": 1.25
-        }
-      ],
       "approved": false,
       "landedCostVerified": false
     },
@@ -1863,17 +2322,58 @@ export const sourcingCandidates = [
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Texte marketing 100% cotton intégré à image et broderie SPA; ne pas considérer comme certification de composition.",
+      "Pas adaptée comme image premium sans accord fournisseur et photo sans texte.",
+      "La galerie supplémentaire entière a été inspectée et exclue de la galerie commerciale : logos et contenus de personnalisation.",
+      "La description mentionne gris, rose, bleu et fabrication sur mesure ; seul Blanc est confirmé au sélecteur. Ne pas ajouter ces teintes comme variantes à l’unité.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://s.alicdn.com/@sc04/kf/He67371a883854e278530abcef34b71a4t.png_960x960q80.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_listing_opened_with_content",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix publics par paliers ; tarif de la variante à confirmer.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": [
+      {
+        "quantity_min": 20,
+        "quantity_max": 999,
+        "price": 1.42
+      },
+      {
+        "quantity_min": 1000,
+        "quantity_max": 1999,
+        "price": 1.33
+      },
+      {
+        "quantity_min": 2000,
+        "quantity_max": null,
+        "price": 1.25
+      }
+    ],
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "alibaba-1600911117672",
@@ -1885,13 +2385,13 @@ export const sourcingCandidates = [
     "sizes": [
       {
         "label": "King",
-        "verified": false,
-        "source": "Titre ou libellé générique ; dimension non vérifiée"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Chinese-Manufacture-Hotel-Home-100-organic_1600911117672.html"
       },
       {
         "label": "Queen",
-        "verified": false,
-        "source": "Titre ou libellé générique ; dimension non vérifiée"
+        "verified": true,
+        "source": "https://www.alibaba.com/product-detail/Chinese-Manufacture-Hotel-Home-100-organic_1600911117672.html"
       }
     ],
     "colors": [],
@@ -1906,28 +2406,6 @@ export const sourcingCandidates = [
       "currency": "USD",
       "min": 21.9,
       "max": 29.9,
-      "tier": [
-        {
-          "quantity_min": 50,
-          "quantity_max": 99,
-          "price": 29.9
-        },
-        {
-          "quantity_min": 100,
-          "quantity_max": 499,
-          "price": 27.9
-        },
-        {
-          "quantity_min": 500,
-          "quantity_max": 999,
-          "price": 25.9
-        },
-        {
-          "quantity_min": 1000,
-          "quantity_max": null,
-          "price": 21.9
-        }
-      ],
       "approved": false,
       "landedCostVerified": false
     },
@@ -1947,17 +2425,60 @@ export const sourcingCandidates = [
       "Couleurs et codes des variantes commandables à obtenir.",
       "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
       "Combinaisons taille/couleur et stock non confirmés.",
-      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés."
+      "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+      "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+      "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+      "Les couleurs et dimensions commandables restent inconnues; ne pas proposer jaune sur la seule base de la photo.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://sc04.alicdn.com/kf/Hf503d35bcc164fa687e72b5c1392d086u.jpg",
     "imageRightsApproved": false,
-    "checkedAt": "2026-10-24",
-    "evidenceLevel": "primary_category_and_product_introduction_price_gallery_only; product_detail_fetch_failed",
+    "checkedAt": "2026-10-25",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/alibaba-linen-evidence.json"
+      "work/alibaba-linen-evidence.json",
+      "work/alibaba-expanded-2026-10-25.json"
     ],
     "sourceLabel": "Alibaba",
-    "publicPriceHint": null
+    "publicPriceHint": "Prix publics par paliers ; tarif de la variante à confirmer.",
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": [
+      {
+        "quantity_min": 50,
+        "quantity_max": 99,
+        "price": 29.9
+      },
+      {
+        "quantity_min": 100,
+        "quantity_max": 499,
+        "price": 27.9
+      },
+      {
+        "quantity_min": 500,
+        "quantity_max": 999,
+        "price": 25.9
+      },
+      {
+        "quantity_min": 1000,
+        "quantity_max": null,
+        "price": 21.9
+      }
+    ],
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 69.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-20",
@@ -1970,14 +2491,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
       }
     ],
     "colors": [
       {
         "label": "Moutarde et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -1990,43 +2521,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Diamonds moutarde. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-20; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Diamonds moutarde. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vdt/XS7mCG4l.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-20; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-20.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Moutarde et écru",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-20.jpg",
-        "sku": "CICC-20"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-19",
@@ -2039,14 +2573,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
       }
     ],
     "colors": [
       {
         "label": "Jaune souci",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2059,43 +2603,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Marigold tissée. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-19; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Marigold tissée. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vdo/bytvl4TT.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-19; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-19.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 12,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Jaune souci",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-19.jpg",
-        "sku": "CICC-19"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-18",
@@ -2108,14 +2655,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18"
       }
     ],
     "colors": [
       {
         "label": "Beige pierre",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2128,43 +2685,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Soft Stone. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-18; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Soft Stone. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vdj/_Ec13Fgg.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-18; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-18.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Beige pierre",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-18.jpg",
-        "sku": "CICC-18"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-17",
@@ -2177,14 +2737,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-17"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-17"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-17"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-17"
       }
     ],
     "colors": [
       {
         "label": "Crème",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-17"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2197,43 +2767,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Geo crème. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-17; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Geo crème. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vde/wV2wSlqP.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-17; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-17.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Crème",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-17.jpg",
-        "sku": "CICC-17"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-16",
@@ -2246,14 +2819,14 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-16"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-16"
       }
     ],
     "colors": [
       {
         "label": "Neutre à rayures et nœuds",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-16"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2266,43 +2839,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 7.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Knot à reliefs. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-16; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Knot à reliefs. Dimensions documentées : 45x45 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vd9/nPlKq3Qx.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-16; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-16.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Neutre à rayures et nœuds",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-16.jpg",
-        "sku": "CICC-16"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-15",
@@ -2315,14 +2891,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-15"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-15"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-15"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-15"
       }
     ],
     "colors": [
       {
         "label": "Neutre à fils multicolores",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-15"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2335,43 +2921,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Rainbow tissée. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-15; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Rainbow tissée. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vd4/wb1nOAxP.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-15; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-15.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Neutre à fils multicolores",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-15.jpg",
-        "sku": "CICC-15"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-14",
@@ -2384,14 +2973,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-14"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-14"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-14"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-14"
       }
     ],
     "colors": [
       {
         "label": "Bordeaux",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-14"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2404,43 +3003,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Squares bordeaux. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-14; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Squares bordeaux. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vcz/sUdx4IOi.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-14; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-14.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bordeaux",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-14.jpg",
-        "sku": "CICC-14"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-13",
@@ -2453,14 +3055,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-13"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-13"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-13"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-13"
       }
     ],
     "colors": [
       {
         "label": "Motif géométrique multicolore",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-13"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2473,43 +3085,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Tribal géométrique. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-13; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Tribal géométrique. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vcu/HA6PYwSi.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-13; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-13.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Motif géométrique multicolore",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-13.jpg",
-        "sku": "CICC-13"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-12",
@@ -2522,14 +3137,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
       }
     ],
     "colors": [
       {
         "label": "Rayures roses, orange et multicolores",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2542,43 +3167,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Stripes multicolore. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-12; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Stripes multicolore. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vcp/9LkY2Uzi.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-12; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-12.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 12,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Rayures roses, orange et multicolores",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-12.jpg",
-        "sku": "CICC-12"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-cicc-11",
@@ -2591,14 +3219,24 @@ export const sourcingCandidates = [
       {
         "label": "45x45 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
       }
     ],
     "colors": [
       {
         "label": "Moutarde, rouille et gris",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2611,43 +3249,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 7.5,
+      "max": 14.7,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "7.5–7.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin Swirl rétro. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique CICC-11; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Housse de coussin Swirl rétro. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/4vck/SVyou7Yk.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique CICC-11; dimensions 45x45 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-11.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 13,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 13,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Moutarde, rouille et gris",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\cicc-11.jpg",
-        "sku": "CICC-11"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-hit-06",
@@ -2660,14 +3301,14 @@ export const sourcingCandidates = [
       {
         "label": "170x120 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-06"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-06"
       }
     ],
     "colors": [
       {
-        "label": "Bleu indigo",
+        "label": "Indigo et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-06"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2680,44 +3321,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 27.5,
+      "max": 27.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "27.5–27.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid indigo Namoona Waves. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique HIT-06; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid indigo Namoona Waves. Dimensions documentées : 170x120 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hxb/4SSj2ula.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique HIT-06; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-06.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bleu indigo",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-06.jpg",
-        "sku": "HIT-06"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-hit-05",
@@ -2730,14 +3373,14 @@ export const sourcingCandidates = [
       {
         "label": "170x120 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-05"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-05"
       }
     ],
     "colors": [
       {
-        "label": "Bleu indigo",
+        "label": "Indigo et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-05"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2750,44 +3393,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 27.5,
+      "max": 27.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "27.5–27.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid indigo Seedha Arrows. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique HIT-05; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid indigo Seedha Arrows. Dimensions documentées : 170x120 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hx7/B3WnapZv.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique HIT-05; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-05.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bleu indigo",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-05.jpg",
-        "sku": "HIT-05"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-hit-04",
@@ -2800,14 +3445,14 @@ export const sourcingCandidates = [
       {
         "label": "170x120 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-04"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-04"
       }
     ],
     "colors": [
       {
-        "label": "Bleu indigo",
+        "label": "Indigo et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-04"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2820,44 +3465,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 27.5,
+      "max": 27.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "27.5–27.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid indigo Desi Stripes. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique HIT-04; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid indigo Desi Stripes. Dimensions documentées : 170x120 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hx3/tXasgiyn.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique HIT-04; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-04.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bleu indigo",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-04.jpg",
-        "sku": "HIT-04"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-hit-03",
@@ -2870,14 +3517,14 @@ export const sourcingCandidates = [
       {
         "label": "170x120 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-03"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-03"
       }
     ],
     "colors": [
       {
-        "label": "Bleu indigo",
+        "label": "Indigo et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-03"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2890,44 +3537,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 27.5,
+      "max": 27.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "27.5–27.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid indigo Midnight Heerak. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique HIT-03; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid indigo Midnight Heerak. Dimensions documentées : 170x120 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hwz/aak0d-bU.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique HIT-03; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-03.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bleu indigo",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-03.jpg",
-        "sku": "HIT-03"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-hit-02",
@@ -2940,14 +3589,14 @@ export const sourcingCandidates = [
       {
         "label": "170x120 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-02"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-02"
       }
     ],
     "colors": [
       {
-        "label": "Bleu indigo",
+        "label": "Indigo et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-02"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -2960,44 +3609,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 27.5,
+      "max": 27.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "27.5–27.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid indigo Chhota Flower. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique HIT-02; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid indigo Chhota Flower. Dimensions documentées : 170x120 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hwv/p3PEd-Be.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique HIT-02; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-02.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bleu indigo",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-02.jpg",
-        "sku": "HIT-02"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-hit-01",
@@ -3010,14 +3661,14 @@ export const sourcingCandidates = [
       {
         "label": "170x120 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-01"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-01"
       }
     ],
     "colors": [
       {
-        "label": "Bleu indigo",
+        "label": "Indigo et écru",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/hit/hit-01"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -3030,49 +3681,51 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 27.5,
+      "max": 27.5,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "27.5–27.5 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid indigo Kasba Tiles. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique HIT-01; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid indigo Kasba Tiles. Dimensions documentées : 170x120 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hwr/Gd0uzqgj.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique HIT-01; dimensions 170x120 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-01.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Bleu indigo",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\hit-01.jpg",
-        "sku": "HIT-01"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-bohot-04",
     "supplierProductId": "aw-bohot-04",
-    "nameFR": "Plaid Ruby bicolore",
+    "nameFR": "Plaid coton Ruby bicolore",
     "category": "plaids",
     "status": "draft",
     "readyForSale": false,
@@ -3080,14 +3733,14 @@ export const sourcingCandidates = [
       {
         "label": "125x150 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-04"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-04"
       }
     ],
     "colors": [
       {
-        "label": "Rouge rubis et crème",
+        "label": "Ruby Two Tone",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-04"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -3100,49 +3753,51 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 12.51,
+      "max": 12.51,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "12.51–12.51 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid Ruby bicolore. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique BOHOT-04; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid coton Ruby bicolore. Dimensions documentées : 125x150 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hva/zoshE0_t.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique BOHOT-04; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-04.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Rouge rubis et crème",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-04.jpg",
-        "sku": "BOHOT-04"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-bohot-01",
     "supplierProductId": "aw-bohot-01",
-    "nameFR": "Plaid Boho à petit motif tissé",
+    "nameFR": "Plaid coton Boho à petit motif tissé",
     "category": "plaids",
     "status": "draft",
     "readyForSale": false,
@@ -3150,19 +3805,19 @@ export const sourcingCandidates = [
       {
         "label": "125x150 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-01"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-01"
       }
     ],
     "colors": [
       {
-        "label": "Navy Zigzag",
+        "label": "Bleu marine",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-01"
       },
       {
-        "label": "Charcoal",
+        "label": "Anthracite",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-01"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -3175,54 +3830,50 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 9.92,
+      "max": 9.92,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "9.92–9.92 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid Boho à petit motif tissé. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique BOHOT-01; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid coton Boho à petit motif tissé. Dimensions documentées : 125x150 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1huu/L0xIiO7y.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique BOHOT-01; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-01.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 10,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Navy Zigzag",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-01.jpg",
-        "sku": "BOHOT-01"
-      },
-      {
-        "name": "Charcoal",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-05.jpg",
-        "sku": "BOHOT-05"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-bohot-06",
     "supplierProductId": "aw-bohot-06",
-    "nameFR": "Plaid Mattala à rayures",
+    "nameFR": "Plaid coton Mattala à rayures",
     "category": "plaids",
     "status": "draft",
     "readyForSale": false,
@@ -3230,14 +3881,14 @@ export const sourcingCandidates = [
       {
         "label": "125x150 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-06"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-06"
       }
     ],
     "colors": [
       {
-        "label": "Crème, doré et gris foncé",
+        "label": "Mellow Mattala",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-06"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -3250,49 +3901,51 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 13.23,
+      "max": 13.23,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "13.23–13.23 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid Mattala à rayures. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique BOHOT-06; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid coton Mattala à rayures. Dimensions documentées : 125x150 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hvl/u6Xm6cgE.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique BOHOT-06; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-06.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Crème, doré et gris foncé",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-06.jpg",
-        "sku": "BOHOT-06"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-bohot-03",
     "supplierProductId": "aw-bohot-03",
-    "nameFR": "Plaid Regency",
+    "nameFR": "Plaid coton Regency",
     "category": "plaids",
     "status": "draft",
     "readyForSale": false,
@@ -3300,14 +3953,14 @@ export const sourcingCandidates = [
       {
         "label": "125x150 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-03"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-03"
       }
     ],
     "colors": [
       {
-        "label": "Noir et beige",
+        "label": "Black & Biege Regency",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-03"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -3320,49 +3973,51 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 9.92,
+      "max": 9.92,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "9.92–9.92 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid Regency. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique BOHOT-03; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid coton Regency. Dimensions documentées : 125x150 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1hv5/JWkcMPSt.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique BOHOT-03; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-03.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Noir et beige",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-03.jpg",
-        "sku": "BOHOT-03"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "aw-bohot-02",
     "supplierProductId": "aw-bohot-02",
-    "nameFR": "Plaid Geometric",
+    "nameFR": "Plaid coton Geometric",
     "category": "plaids",
     "status": "draft",
     "readyForSale": false,
@@ -3370,14 +4025,14 @@ export const sourcingCandidates = [
       {
         "label": "125x150 cm",
         "verified": true,
-        "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-02"
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-02"
       }
     ],
     "colors": [
       {
-        "label": "Gris",
+        "label": "Grey Geometric",
         "verified": true,
-        "evidence": "Coloris ou motif décrit dans le texte produit et associé à la photo du SKU; disponibilité commerciale non vérifiée."
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bohot/bohot-02"
       }
     ],
     "supplier": "AW Dropship Europe",
@@ -3390,44 +4045,46 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "EUR",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 9.92,
+      "max": 9.92,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "9.92–9.92 EUR. Balisage public Product/Offer de la fiche fournisseur; prix masqué dans l’interface hors connexion. Port et taxes non validés.",
-    "descriptionFrench": "Plaid Geometric. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche publique BOHOT-02; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
-      "Matière indiquée sur la fiche : Cotton",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "descriptionFrench": "Plaid coton Geometric. Dimensions documentées : 125x150 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement."
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://www.aw-dropship.eu/i/1huz/jT5_ASqA.jpeg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche publique BOHOT-02; dimensions 125x150 (cm); conditionnement annoncé à l’unité. Prix de compte, stock et coût livré non vérifiés.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/specialist-corrected-2026-10-25.json"
     ],
-    "previewPhoto": {
-      "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-02.jpg",
-      "caveats": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
     },
-    "verifiedColorAssets": [
-      {
-        "name": "Gris",
-        "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\additional-supplier-images\\bohot-02.jpg",
-        "sku": "BOHOT-02"
-      }
-    ]
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "cj-suede-cushion-cover",
@@ -3438,66 +4095,66 @@ export const sourcingCandidates = [
     "readyForSale": false,
     "sizes": [
       {
-        "label": "40×60 cm",
+        "label": "40X60cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "55×55 cm",
+        "label": "55X55cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "35×50 cm",
+        "label": "35X50cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "30×45 cm",
+        "label": "30X45cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "70×70 cm",
+        "label": "70X70cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "45×45 cm — lot de 2",
+        "label": "45X45cm 2pcs",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "50×50 cm",
+        "label": "50X50cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "60×60 cm",
+        "label": "60X60cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "40×40 cm",
+        "label": "40X40cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "65×65 cm",
+        "label": "65X65cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       },
       {
-        "label": "45×45 cm",
+        "label": "45X45cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       }
     ],
     "colors": [
       {
         "label": "White",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/household-products-solid-color-candy-pillow-p-A9BF8C90-4082-4131-A83C-2AA072723560.html"
       }
     ],
     "supplier": "CJdropshipping",
@@ -3510,116 +4167,141 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "USD",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 0.99,
+      "max": 2.4,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": "0.99–2.4 USD. Plage visible sur la fiche publique; aucune affectation à chaque combinaison SKU. Port et taxes non validés.",
-    "descriptionFrench": "Housse de coussin effet suédine. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
     "detailsFrench": [
-      "Fiche CJ publique : housse en polyester; 11 options dimension/lot listées. White est la couleur sélectionnée. La liste inclut une option 45×45 en lot de 2 à distinguer de la pièce unique.",
-      "Matière indiquée sur la fiche : 100 % polyester",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
+      "100% polyester"
     ],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement.",
-      "Vérifier la correspondance exacte photo/couleur et le nombre de pièces de chaque SKU; aucun choix croisé couleur–taille n’a été testé."
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://cf.cjdropshipping.com/20200707/1674191289511.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche CJ publique : housse en polyester; 11 options dimension/lot listées. White est la couleur sélectionnée. La liste inclut une option 45×45 en lot de 2 à distinguer de la pièce unique.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/cj-corrected-2026-10-25.json"
     ],
-    "previewPhoto": null,
-    "verifiedColorAssets": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 7,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   },
   {
     "id": "cj-satin-pillowcase",
     "supplierProductId": "cj-satin-pillowcase",
-    "nameFR": "Taie unie satinée",
+    "nameFR": "Taie d’oreiller effet satiné",
     "category": "taies",
     "status": "draft",
     "readyForSale": false,
     "sizes": [
       {
-        "label": "20×29 pouces",
+        "label": "20x29inches",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
-        "label": "20×36 pouces",
+        "label": "20X36inches",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
-        "label": "20×26 pouces",
+        "label": "20x26inches",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
-        "label": "75×50 cm",
+        "label": "75X50cm",
         "verified": true,
-        "sourceUrl": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
+      },
+      {
+        "label": "20 X36inches",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
+      },
+      {
+        "label": "20X29inches",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       }
     ],
     "colors": [
       {
         "label": "Silver",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Grey",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Champagne",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Beige",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Silk white",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "white",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Blue",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Pink",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "Coffee",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       },
       {
         "label": "black",
         "verified": true,
-        "evidence": "Libellé dans le sélecteur public CJ; présence dans la liste, sans preuve de stock ni de toutes les combinaisons."
+        "source": "https://cjdropshipping.com/product/pillowcase-satin-solid-color-simulation-silk-single-pillowcase-ice-silk-pillowcase-p-F25DF9B2-5E6B-42C9-85FD-B34D55E39822.html"
       }
     ],
     "supplier": "CJdropshipping",
@@ -3632,35 +4314,15914 @@ export const sourcingCandidates = [
     },
     "cost": {
       "currency": "USD",
-      "min": null,
-      "max": null,
-      "tier": null,
+      "min": 1.25,
+      "max": 2,
       "approved": false,
       "landedCostVerified": false
     },
     "shipping": null,
-    "publicPriceHint": null,
-    "descriptionFrench": "Taie unie satinée. Les formats et coloris de cette référence fournisseur sont présentés ci-dessous pour préparer la collection.",
-    "detailsFrench": [
-      "Fiche CJ publique : une taie par pièce; dimensions proposées en pouces et 75×50 cm. La composition diffère selon les variantes : polyester ou soie de mûrier selon le texte; aucune promesse soie n’est approuvée.",
-      "Matière indiquée sur la fiche : Polyester / soie de mûrier selon variante, à confirmer",
-      "Composition exacte, entretien et contenu du colis à confirmer avant ouverture."
-    ],
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "detailsFrench": [],
     "openQuestionsFR": [
-      "Vérifier le stock réellement commandable et le prix du SKU au moment de la commande.",
-      "Obtenir le coût livré en France, TVA et frais éventuels compris, pour une seule unité.",
-      "Confirmer les conditions de retour et la licence de réutilisation des photos avant publication commerciale.",
-      "Approuver le coût livré et le prix de vente avant toute activation du paiement.",
-      "Faire confirmer la composition de chaque SKU, les associations taille–couleur et leur prix; les noms Silk white/Champagne ne suffisent pas à promettre la soie."
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Plusieurs fourchettes de prix sont présentes; la première est relevée sans conclure au prix final d’une variante.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
     ],
     "imageUrl": "https://cc-west-usa.oss-accelerate.aliyuncs.com/20200307/1836969237760.jpg",
     "imageRightsApproved": false,
     "checkedAt": "2026-10-25",
-    "evidenceLevel": "Fiche CJ publique : une taie par pièce; dimensions proposées en pouces et 75×50 cm. La composition diffère selon les variantes : polyester ou soie de mûrier selon le texte; aucune promesse soie n’est approuvée.",
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
     "sourceFiles": [
-      "work/additional-supplier-candidates.json"
+      "work/additional-supplier-candidates.json",
+      "work/cj-corrected-2026-10-25.json"
     ],
-    "previewPhoto": null,
-    "verifiedColorAssets": []
+    "requiresSupplierBundle": false,
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "photoAudit": {
+      "knownColors": 10,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 14,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2406130514081620000",
+    "supplierProductId": "2406130514081620000",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d’oreiller unie",
+    "category": "taies",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "48cmX74cm 1PC",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "48cmX74cm 1Pairs",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Khaki",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Custard",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Light Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Dark Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Dark Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Water Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Sky Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Jade Color",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Grass Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Black And Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Black",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Light Pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Dark Cameo Brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Zhang Qing",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      },
+      {
+        "label": "Brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/modern-minimalist-washed-cotton-solid-color-pillowcase-pillow-insert-pairs-p-2406130514081620000.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.9,
+      "max": 3.05,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Chemical Fiber",
+      "Polyester Fiber (polyester)"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Le titre évoque du coton mais le détail matière indique une fibre chimique/polyester. Ne pas afficher une promesse coton.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 16,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 29,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2508220355361610500",
+    "supplierProductId": "2508220355361610500",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d’oreiller double face",
+    "category": "taies",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "51X66",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "51X76",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "51X91",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "19 White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 silver gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 apricot",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 cement Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 black",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 sky blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 light purple",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 dark blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 greige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 rubber red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 champagne",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 medium gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      },
+      {
+        "label": "19 Lotus Pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/19-m-double-sided-silk-pillowcase-p-2508220355361610500.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 10.95,
+      "max": 14.58,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Silk"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 14,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 18,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2411140800561622400",
+    "supplierProductId": "2411140800561622400",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin effet peluche",
+    "category": "housses",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blue Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      },
+      {
+        "label": "blood tooth color",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      },
+      {
+        "label": "skin pink light brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      },
+      {
+        "label": "blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      },
+      {
+        "label": "brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      },
+      {
+        "label": "Milky White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bed-pillow-sofa-cushion-plush-pillowcase-p-2411140800561622400.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.9,
+      "max": 11.94,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Polyester"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 17,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2507260800491628400",
+    "supplierProductId": "2507260800491628400",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d’oreiller zippée",
+    "category": "taies",
+    "supplier": "CJdropshipping",
+    "url": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "51 X66cm zipper",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "51 X76cm zipper",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "51 X91cm zipper",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "51 X66cm envelope",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "51 X76cm envelope",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "51 X91cm envelope",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "22 M Champagne",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22M Smoky Pink",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22 M Light Pink",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22 M White",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22 M Silver Gray",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22 M Dark Gray",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22 M Black",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      },
+      {
+        "label": "22 M Dark Blue",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/silk-pillowcase-22-m-pillow-case-p-2507260800491628400.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 22.07,
+      "max": 26.37,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Silk",
+      "Mulberry Silk"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 8,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 30,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2510010712421623400",
+    "supplierProductId": "2510010712421623400",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette unie",
+    "category": "housses-couette",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/linen-bedding-bag-nordic-style-solid-color-simple-and-light-luxury-p-2510010712421623400.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "200x230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/linen-bedding-bag-nordic-style-solid-color-simple-and-light-luxury-p-2510010712421623400.html"
+      },
+      {
+        "label": "220x240cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/linen-bedding-bag-nordic-style-solid-color-simple-and-light-luxury-p-2510010712421623400.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bleach Color",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/linen-bedding-bag-nordic-style-solid-color-simple-and-light-luxury-p-2510010712421623400.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 66.33,
+      "max": 72.47,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "linen"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 20,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1393125541086892032",
+    "supplierProductId": "1393125541086892032",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Couette unie",
+    "category": "couettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "150x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "180x220cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "200x230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "220 × 240cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "beige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "orange",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "blue gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      },
+      {
+        "label": "pure gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/down-duvet-winter-duvet-goose-down-duvet-core-air-conditioner-p-1393125541086892032.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 10.33,
+      "max": 17,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 7,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 7,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 79.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1585238757278756864",
+    "supplierProductId": "1585238757278756864",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid à bordure crochetée",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/cotton-hook-edge-nap-air-conditioning-blanket-simple-p-1585238757278756864.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Speckled off white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-hook-edge-nap-air-conditioning-blanket-simple-p-1585238757278756864.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 11.53,
+      "max": 11.53,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 17,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2509100704071614400",
+    "supplierProductId": "2509100704071614400",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid gaufré",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40X60cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "70X100cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "100X150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "150X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "180X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "200X230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Grass Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "Waffle-grass green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle-purple",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle-gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle-Brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle-beige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle-coffee",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle-Jade pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      },
+      {
+        "label": "waffle velvet-haze Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/class-a-milk-fiber-four-seasons-blanket-office-nap-blanket-p-2509100704071614400.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.06,
+      "max": 5.22,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Polyester Fiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 9,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 13,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1760929687901048832",
+    "supplierProductId": "1760929687901048832",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Couette légère unie",
+    "category": "couettes",
+    "supplier": "CJdropshipping",
+    "url": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "100×150cm",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "150×200cm",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "180×200cm",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "200×230cm",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "110x150cm",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Cherry Blossom Pink",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "Jade",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "cherry blossom powder",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "summer blue",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "watermelon red",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "temperament Gray",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "emerald green",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      },
+      {
+        "label": "peacock blue",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-p-1760929687901048832.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.67,
+      "max": 6.63,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 8,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 16,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 79.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2505020611461629500",
+    "supplierProductId": "2505020611461629500",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Couette d’été unie",
+    "category": "couettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "100x150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      },
+      {
+        "label": "150x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      },
+      {
+        "label": "180x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      },
+      {
+        "label": "200x230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Medium Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      },
+      {
+        "label": "Light Brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      },
+      {
+        "label": "Bean Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      },
+      {
+        "label": "Light Pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/washed-cotton-summer-quilt-solid-color-airable-cover-p-2505020611461629500.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.09,
+      "max": 4.46,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 8,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 79.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2406110759131620200",
+    "supplierProductId": "2406110759131620200",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin motif chat",
+    "category": "housses",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/home-fashion-minimalist-cat-print-pillowcase-p-2406110759131620200.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45 × 45CM",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/home-fashion-minimalist-cat-print-pillowcase-p-2406110759131620200.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "picture color",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/home-fashion-minimalist-cat-print-pillowcase-p-2406110759131620200.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.8,
+      "max": 6.62,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Short plush"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 11,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1594162272279212032",
+    "supplierProductId": "1594162272279212032",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin décorative",
+    "category": "housses",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30 × 50cm without core, 45 × 45cm without core",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Orange",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      },
+      {
+        "label": "white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      },
+      {
+        "label": "pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      },
+      {
+        "label": "green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      },
+      {
+        "label": "grey",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      },
+      {
+        "label": "red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/living-room-bedroom-sofa-pillow-cover-p-1594162272279212032.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.92,
+      "max": 2.99,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 12,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1437360848325709824",
+    "supplierProductId": "1437360848325709824",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin à motifs dorés",
+    "category": "housses",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/gold-peach-skin-pillowcase-nordic-sofa-home-decoration-products-p-1437360848325709824.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/gold-peach-skin-pillowcase-nordic-sofa-home-decoration-products-p-1437360848325709824.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/gold-peach-skin-pillowcase-nordic-sofa-home-decoration-products-p-1437360848325709824.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.89,
+      "max": 0.89,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "chemical fiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 6,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2501270947581604800",
+    "supplierProductId": "2501270947581604800",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain unie",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "35x75 2pcs",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html"
+      },
+      {
+        "label": "80x180 Thickened",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html"
+      },
+      {
+        "label": "70x140 Thickened",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html"
+      },
+      {
+        "label": "100x200 Thickened",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html"
+      },
+      {
+        "label": "gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/hotel-bath-towel-bath-center-hotel-thickened-absorbent-bed-towel-p-2501270947581604800.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.05,
+      "max": 4.49,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Microfiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 14,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1452829463002877952",
+    "supplierProductId": "1452829463002877952",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Chiffon de cuisine en microfibre",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://www.cjdropshipping.com/product/japanese-style-bamboo-charcoal-towel-fine-fiber-dish-cloth-p-1452829463002877952.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Grey",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/japanese-style-bamboo-charcoal-towel-fine-fiber-dish-cloth-p-1452829463002877952.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.47,
+      "max": 5.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Superfine fiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 12,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412110801271608100",
+    "supplierProductId": "2412110801271608100",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid polaire double face",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "100X160cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "160X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "180X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "200X230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Coreless",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Sleeve Core",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-coffee",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-black Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-milky white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-milk powder",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "CORENA-milk Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-milk coffee",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-creamy green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      },
+      {
+        "label": "Corena-light gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/double-sided-blanket-coral-fleece-nap-office-sofas-cover-blanket-thick-fleece-winter-p-2412110801271608100.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 5.03,
+      "max": 19.07,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "polyamide fiber (nylon/nylon)"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 12,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 29,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2411300645591615100",
+    "supplierProductId": "2411300645591615100",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid de canapé uni",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "130×160cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      },
+      {
+        "label": "230×230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      },
+      {
+        "label": "100X160cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      },
+      {
+        "label": "160X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      },
+      {
+        "label": "180X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      },
+      {
+        "label": "200X230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      },
+      {
+        "label": "white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-blanket-is-super-soft-comfortable-and-warm-p-2411300645591615100.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 6.08,
+      "max": 17.88,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Polyester Fiber (polyester)"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 18,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412040749281608900",
+    "supplierProductId": "2412040749281608900",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid tricoté",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "127×180CM",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      },
+      {
+        "label": "130×230CM",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Beige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      },
+      {
+        "label": "turmeric",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      },
+      {
+        "label": "khaki",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      },
+      {
+        "label": "smoky gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      },
+      {
+        "label": "navy blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/sofa-cover-nap-blanket-knitted-small-blanket-p-2412040749281608900.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 6.3,
+      "max": 8.62,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "polyacrylonitrile fiber (acrylic)"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 19,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1702566885981687808",
+    "supplierProductId": "1702566885981687808",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/super-water-absorbing-and-quick-drying-cleaning-bath-towel-p-1702566885981687808.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [],
+    "cost": {
+      "currency": "USD",
+      "min": 2.74,
+      "max": 3.46,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "fiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 0,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 8,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2406300252491604000",
+    "supplierProductId": "2406300252491604000",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain imprimée",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/microfiber-printed-bath-towel-bath-towel-blanket-absorbent-no-lint-no-fading-head-wiping-shower-bath-towel-p-2406300252491604000.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Dark Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/microfiber-printed-bath-towel-bath-towel-blanket-absorbent-no-lint-no-fading-head-wiping-shower-bath-towel-p-2406300252491604000.html"
+      },
+      {
+        "label": "blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/microfiber-printed-bath-towel-bath-towel-blanket-absorbent-no-lint-no-fading-head-wiping-shower-bath-towel-p-2406300252491604000.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.71,
+      "max": 3.42,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Microfiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 8,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2501221336081602300",
+    "supplierProductId": "2501221336081602300",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain effet polaire",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/absorbent-coral-fleece-home-beach-bath-towel-p-2501221336081602300.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Candy Velvet Almond Yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/absorbent-coral-fleece-home-beach-bath-towel-p-2501221336081602300.html"
+      },
+      {
+        "label": "Candy velvet candy pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/absorbent-coral-fleece-home-beach-bath-towel-p-2501221336081602300.html"
+      },
+      {
+        "label": "Candy Velvet Haze Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/absorbent-coral-fleece-home-beach-bath-towel-p-2501221336081602300.html"
+      },
+      {
+        "label": "Candy velvet cloud Frost Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/absorbent-coral-fleece-home-beach-bath-towel-p-2501221336081602300.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.65,
+      "max": 3.19,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Coral fleece"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 15,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1780911060157992960",
+    "supplierProductId": "1780911060157992960",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette effet brossé",
+    "category": "housses-couette",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "150x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "173x229cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "180x220cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "200x230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "220x240cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "203x229cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "229x290cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      },
+      {
+        "label": "264x229cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Aige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/brushed-single-duvet-cover-student-dormitory-quilt-cover-bedding-p-1780911060157992960.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 4.7,
+      "max": 6.8,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Chemical Fiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 21,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-0f2b2061-e1d2-4f95-af1c-157da04a2b8e",
+    "supplierProductId": "0F2B2061-E1D2-4F95-AF1C-157DA04A2B8E",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap de bain grand format",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/cotton-bath-towel-big-towel-p-0F2B2061-E1D2-4F95-AF1C-157DA04A2B8E.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "140x70cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-bath-towel-big-towel-p-0F2B2061-E1D2-4F95-AF1C-157DA04A2B8E.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Light blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-bath-towel-big-towel-p-0F2B2061-E1D2-4F95-AF1C-157DA04A2B8E.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 4.95,
+      "max": 4.95,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 6,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-0f71f755-035c-49ce-9e54-8103862c06ae",
+    "supplierProductId": "0F71F755-035C-49CE-9E54-8103862C06AE",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap de bain uni",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "70X140cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Dark brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html"
+      },
+      {
+        "label": "beige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html"
+      },
+      {
+        "label": "khaki",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html"
+      },
+      {
+        "label": "light brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html"
+      },
+      {
+        "label": "color mix and match",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-bath-towel-p-0F71F755-035C-49CE-9E54-8103862C06AE.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.83,
+      "max": 2.83,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 6,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2506080418241625500",
+    "supplierProductId": "2506080418241625500",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Linge de bain uni",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "Square Scarf 34x34CM",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      },
+      {
+        "label": "Towel 35X75cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      },
+      {
+        "label": "Bath Towel 70x140cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      },
+      {
+        "label": "white one",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      },
+      {
+        "label": "dark gray one",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      },
+      {
+        "label": "light gray one",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      },
+      {
+        "label": "blue one",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/bath-towel-soft-absorbent-quick-drying-bath-towel-p-2506080418241625500.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.78,
+      "max": 19.44,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 17,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2504170512571608400",
+    "supplierProductId": "2504170512571608400",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain grand format",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Light Light gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "light gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "gray blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "purple",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "milky white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "grass green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "medium green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "emerald green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "vermilion",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "light pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      },
+      {
+        "label": "dark coffee",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-large-bath-towel-cotton-soft-gift-absorbent-p-2504170512571608400.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.93,
+      "max": 2.93,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "pure cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 12,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 17,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1737748230328299520",
+    "supplierProductId": "1737748230328299520",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid effet flanelle",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/water-proof-blanket-flannel-comfortable-cotton-velvet-p-1737748230328299520.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Black",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/water-proof-blanket-flannel-comfortable-cotton-velvet-p-1737748230328299520.html"
+      },
+      {
+        "label": "gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/water-proof-blanket-flannel-comfortable-cotton-velvet-p-1737748230328299520.html"
+      },
+      {
+        "label": "brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/water-proof-blanket-flannel-comfortable-cotton-velvet-p-1737748230328299520.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.87,
+      "max": 24.73,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "cloth"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 12,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1400392295097962496",
+    "supplierProductId": "1400392295097962496",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette carrée blanche",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "25x25 18g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "25x25 20g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "30x30 50g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "23x23",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "24x24",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "25x25 25g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "28x28 25g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "28x28 30g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "28x28 35g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "28x28 40g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "30x30 40g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      },
+      {
+        "label": "34x74 60g",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "White",
+        "verified": true,
+        "source": "https://www.cjdropshipping.com/product/white-cotton-towel-p-1400392295097962496.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.94,
+      "max": 5.12,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "pure cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 3,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-ed69c553-b796-4777-b538-bd75737a7a13",
+    "supplierProductId": "ED69C553-B796-4777-B538-BD75737A7A13",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de toilette",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/cotton-face-towel-p-ED69C553-B796-4777-B538-BD75737A7A13.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-face-towel-p-ED69C553-B796-4777-B538-BD75737A7A13.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.55,
+      "max": 0.8,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 16,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-a1cde1ba-8380-4606-8d74-353616c822e8",
+    "supplierProductId": "A1CDE1BA-8380-4606-8D74-353616C822E8",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid uni effet flanelle",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "150x200",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html"
+      },
+      {
+        "label": "180x200",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html"
+      },
+      {
+        "label": "200x230",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html"
+      },
+      {
+        "label": "100x150",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html"
+      },
+      {
+        "label": "70x100",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/flannel-sheets-solid-blanket-p-A1CDE1BA-8380-4606-8D74-353616C822E8.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.57,
+      "max": 7.33,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 9,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412040824121618500",
+    "supplierProductId": "2412040824121618500",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap-housse effet brossé",
+    "category": "draps",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "90x200x25cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      },
+      {
+        "label": "99x190x30cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      },
+      {
+        "label": "120x200x25cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      },
+      {
+        "label": "150x200x25cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      },
+      {
+        "label": "153x203x30cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      },
+      {
+        "label": "180x200x25cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      },
+      {
+        "label": "200x220x25cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Silhouette",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/printed-brushed-fitted-sheet-one-piece-all-inclusive-mattress-cover-p-2412040824121618500.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 4.01,
+      "max": 6.6,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "washed cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 31,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412031152171627300",
+    "supplierProductId": "2412031152171627300",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Petite serviette carrée",
+    "category": "serviettes",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "35x35cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html"
+      },
+      {
+        "label": "Noble Blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html"
+      },
+      {
+        "label": "gentleman Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html"
+      },
+      {
+        "label": "cherry blossom powder",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html"
+      },
+      {
+        "label": "Pearl White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/pure-cotton-hand-towel-household-cotton-hand-towel-p-2412031152171627300.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 0.7,
+      "max": 0.7,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "pure cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 20,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412030755331624800",
+    "supplierProductId": "2412030755331624800",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid à franges",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "110x150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "130x170cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "130cmx230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Beige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "Haiqing",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "dark green camel",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "pink dark gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      },
+      {
+        "label": "white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/simple-tassel-casual-sofa-blanket-p-2412030755331624800.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 11.68,
+      "max": 25.38,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 22,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412240323031626200",
+    "supplierProductId": "2412240323031626200",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid polaire uni",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "70x100cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "100x150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "120x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "150x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "180x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "200x230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bright Red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "Army Green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "Orange",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "Rose Red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "light pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "light gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "light camel",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "light purple",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "dark gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "sky blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "black",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "guest Brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "watermelon red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "Milky White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      },
+      {
+        "label": "royal blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-color-coral-fleece-yoga-blanket-p-2412240323031626200.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.55,
+      "max": 5.47,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Polyester Fiber (polyester)"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 16,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 29,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2412230656071609300",
+    "supplierProductId": "2412230656071609300",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid décoratif",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "200cmX150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "220cmX150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "180cmX150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "220cmX75cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "60cmX150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "240cmX70cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "80cmX150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "70cmX150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Black Tip On White Background",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      },
+      {
+        "label": "yellow tip on white background",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/european-style-blanket-sample-room-soft-decoration-artificial-leather-p-2412230656071609300.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 15.59,
+      "max": 53.4,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "polyacrylonitrile fiber (acrylic)"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 11,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2406110909121605500",
+    "supplierProductId": "2406110909121605500",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid tissé à franges",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/household-fashion-tassel-simple-cloth-blanket-p-2406110909121605500.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "130X170cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/household-fashion-tassel-simple-cloth-blanket-p-2406110909121605500.html"
+      },
+      {
+        "label": "150X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/household-fashion-tassel-simple-cloth-blanket-p-2406110909121605500.html"
+      },
+      {
+        "label": "80x130cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/household-fashion-tassel-simple-cloth-blanket-p-2406110909121605500.html"
+      },
+      {
+        "label": "100x150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/household-fashion-tassel-simple-cloth-blanket-p-2406110909121605500.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Curry",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/household-fashion-tassel-simple-cloth-blanket-p-2406110909121605500.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 8.51,
+      "max": 19.7,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 15,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1380498548117868544",
+    "supplierProductId": "1380498548117868544",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin unie effet velours",
+    "category": "housses",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45 × 45 without core",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "purple",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "haze blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "dark green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "dark gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "light blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "lemon yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "rose red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "peacock blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "dark yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "black",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "light pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "big red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "navy blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "light gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "Taupe",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "Fuchsia",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "Jam",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      },
+      {
+        "label": "Zhenfeng",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/wind-velvet-solid-color-cushion-cover-for-office-p-1380498548117868544.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 2.98,
+      "max": 17.88,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "plush"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 19,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 28,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1723169213197594624",
+    "supplierProductId": "1723169213197594624",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin côtelée",
+    "category": "housses",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "60X60cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Pure White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "milky white",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "tender yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "light gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "light green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "Christmas red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "Christmas green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "beige",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "dark brown reindeer Brown",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      },
+      {
+        "label": "middle coffee color",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/solid-christmas-corduroy-corn-stripe-cushion-cover-p-1723169213197594624.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 1.78,
+      "max": 2.9,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 11,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 19,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2411100651541612500",
+    "supplierProductId": "2411100651541612500",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid tricoté uni à franges",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "127x152cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "130x200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "khaki",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "navy blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "Lake White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "aqua green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "purplish red",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "emerald",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      },
+      {
+        "label": "pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/tassel-sofa-cover-solid-color-knitted-blanket-p-2411100651541612500.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 9.12,
+      "max": 11.28,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "acrylic"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 9,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 18,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2406250724301611900",
+    "supplierProductId": "2406250724301611900",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid tricoté à franges",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/knitted-blanket-sofa-cover-cover-blanket-office-air-conditioner-p-2406250724301611900.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "127 X180CM Including Tassels",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/knitted-blanket-sofa-cover-cover-blanket-office-air-conditioner-p-2406250724301611900.html"
+      },
+      {
+        "label": "130X230CM Including Tassels",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/knitted-blanket-sofa-cover-cover-blanket-office-air-conditioner-p-2406250724301611900.html"
+      },
+      {
+        "label": "150X230CM Including Tassels",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/knitted-blanket-sofa-cover-cover-blanket-office-air-conditioner-p-2406250724301611900.html"
+      },
+      {
+        "label": "70X240CM Including Tassels",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/knitted-blanket-sofa-cover-cover-blanket-office-air-conditioner-p-2406250724301611900.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Orange",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/knitted-blanket-sofa-cover-cover-blanket-office-air-conditioner-p-2406250724301611900.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 4.7,
+      "max": 8.62,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% acrylic fiber"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 12,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-1566741036771323904",
+    "supplierProductId": "1566741036771323904",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid tricoté géométrique noir et blanc",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/retro-single-lunch-break-black-and-white-geometric-knit-blanket-p-1566741036771323904.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "130x170cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/retro-single-lunch-break-black-and-white-geometric-knit-blanket-p-1566741036771323904.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Black White",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/retro-single-lunch-break-black-and-white-geometric-knit-blanket-p-1566741036771323904.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 14.67,
+      "max": 14.67,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Au moins deux noms de coloris ne sont pas récupérés dans la version publique de la fiche.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 5,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "cj-2406100547151615200",
+    "supplierProductId": "2406100547151615200",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/cj-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Plaid à texture gaufrée",
+    "category": "plaids",
+    "supplier": "CJdropshipping",
+    "url": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html",
+    "sourceLabel": "CJdropshipping",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Référence fournisseur de linge de maison en préparation. Les caractéristiques ci-dessous sont relevées sur la fiche CJ; la matière, le stock et le coût livré restent à confirmer.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "100X150cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "150X200cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "200X230cm",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bean Pink",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "Ginger yellow",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "khaki",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "green",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "blue",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      },
+      {
+        "label": "silver gray",
+        "verified": true,
+        "source": "https://cjdropshipping.com/product/cotton-waffle-knit-chenille-towel-sofa-cover-blanket-p-2406100547151615200.html"
+      }
+    ],
+    "cost": {
+      "currency": "USD",
+      "min": 5.8,
+      "max": 15.75,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "publicPriceHint": "Fourchette publique du produit, hors livraison France, taxes et conversion; non approuvée.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Cotton"
+    ],
+    "openQuestionsFR": [
+      "Fiche publique indexée consultée le 25 octobre 2026; prix, variantes et disponibilité à reconfirmer directement avant vente.",
+      "Le rapprochement entre chaque photo et chaque coloris n’est pas encore validé: les images restent dans la galerie générale et ne doivent pas être copiées dans toutes les variantes.",
+      "Le critère deux coloris avec trois vues exactes par coloris n’est pas acquis; le produit reste un candidat en préparation.",
+      "Le port affiché 0.00 sur la page non connectée ne constitue pas une livraison gratuite. Coût livré en France inconnu.",
+      "Licence des photos, stock commandable, taxes et retour fournisseur à confirmer; aucun achat ni compte nouveau.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 0,
+      "unassignedPhotos": 17,
+      "minimumPhotosPerColor": 0,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 39.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-vcush",
+    "supplierProductId": "VCUSH",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin tissée",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin tissée. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicoloured",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      },
+      {
+        "label": "Natural Greens",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      },
+      {
+        "label": "Sunrise Oranges",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      },
+      {
+        "label": "Charcoal Greys",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      },
+      {
+        "label": "Aqua Blues",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      },
+      {
+        "label": "Rich Reds",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-collect/wsl/vcush-01"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 8.8,
+      "max": 8.8,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 1,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-09",
+    "supplierProductId": "CICC-09",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Berber Design",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-09",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Berber Design. Dimensions documentées : 45x47 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x47 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-09"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Berber Design",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-09"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.49,
+      "max": 9.49,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Dimensions contradictoires entre titre 45x45 cm et fiche technique 45x47 cm; ne pas annoncer de dimension résolue sans confirmation.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-08",
+    "supplierProductId": "CICC-08",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Cream Lux Criss-Cross",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-08",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Cream Lux Criss-Cross. Dimensions documentées : 45x46 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x46 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-08"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Cream Lux Criss-Cross",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-08"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.49,
+      "max": 9.49,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Dimensions contradictoires entre titre 45x45 cm et fiche technique 45x46 cm; ne pas annoncer de dimension résolue sans confirmation.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 1,
+      "unassignedPhotos": 3,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-06",
+    "supplierProductId": "CICC-06",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Criss-Cross Black",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-06",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Criss-Cross Black. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-06"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Criss-Cross Black",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-06"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 4.48,
+      "max": 4.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-05",
+    "supplierProductId": "CICC-05",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Maze Black",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-05",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Maze Black. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-05"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Maze Black",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-05"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 4.48,
+      "max": 4.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 1,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-03",
+    "supplierProductId": "CICC-03",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Squares Grey",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-03",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Squares Grey. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-03"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Squares Grey",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-03"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 4.48,
+      "max": 4.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-02",
+    "supplierProductId": "CICC-02",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Herringbone Wide Grey",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-02",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Herringbone Wide Grey. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-02"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Herringbone Wide Grey",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-02"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 4.48,
+      "max": 4.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 1,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-01",
+    "supplierProductId": "CICC-01",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Herringbone Fine Grey",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-01",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Herringbone Fine Grey. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-01"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Herringbone Fine Grey",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-01"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 4.48,
+      "max": 4.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-kcush-02ds",
+    "supplierProductId": "KCUSH-02DS",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin kilim - Charcoal",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/kcush/kcush-02ds",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin kilim - Charcoal. Dimensions documentées : 40x40x2 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40x2 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/kcush/kcush-02ds"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Charcoal",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/kcush/kcush-02ds"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 6.78,
+      "max": 6.78,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-linc-palm",
+    "supplierProductId": "LINC-PALM",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin lin 45 x 45 Palm Tree with Fringe",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-04",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin lin 45 x 45 Palm Tree with Fringe. Dimensions documentées : 45x45 cm, 60x60 cm, 30x50 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-04"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-04"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-04"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-04"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 8.96,
+      "max": 12.75,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 11,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 11,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-linc-plain",
+    "supplierProductId": "LINC-PLAIN",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin lin",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-01",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin lin. Dimensions documentées : 45x45 cm, 60x60 cm, 30x50 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-01"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-01"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-01"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/linc/linc-01"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 8.07,
+      "max": 10.82,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 9,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 9,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-bwcb-07",
+    "supplierProductId": "BWCB-07",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Couvre-lit coton noir et blanc - Ying yang",
+    "category": "couvre-lits",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-07",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Couvre-lit coton noir et blanc - Ying yang. Dimensions documentées : 230x200 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "230x200 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-07"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Noir et blanc",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-07"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 11.2,
+      "max": 11.2,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 69.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-bwcb-01",
+    "supplierProductId": "BWCB-01",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Couvre-lit coton noir et blanc - Dreamcatcher",
+    "category": "couvre-lits",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-01",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Couvre-lit coton noir et blanc - Dreamcatcher. Dimensions documentées : 230x200 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "230x200 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-01"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Noir et blanc",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-01"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 11.2,
+      "max": 11.2,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 69.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-inner",
+    "supplierProductId": "INNER",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Garnissage de coussin",
+    "category": "coussins",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/inner/inner-03",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Garnissage de coussin. Dimensions documentées : 60x60 cm, 75x50 cm, 30x50 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/inner/inner-03"
+      },
+      {
+        "label": "75x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/inner/inner-03"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/inner/inner-03"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/inner/inner-03"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 3.05,
+      "max": 4.24,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-10",
+    "supplierProductId": "CICC-10",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Lux Criss-Cross & Print",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-10",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Lux Criss-Cross & Print. Dimensions documentées : 45x48 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x48 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-10"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Lux Criss-Cross & Print",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-10"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.49,
+      "max": 9.49,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Dimensions contradictoires entre titre 45x45 cm et fiche technique 45x48 cm; ne pas annoncer de dimension résolue sans confirmation.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-07",
+    "supplierProductId": "CICC-07",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Tribal Design",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-07",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Tribal Design. Dimensions documentées : 45x45 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-07"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Tribal Design",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-07"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.49,
+      "max": 9.49,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 1,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cicc-04",
+    "supplierProductId": "CICC-04",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de coussin - Jaggered Pink",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-04",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de coussin - Jaggered Pink. Dimensions documentées : 40x40 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-04"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Jaggered Pink",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-04"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 4.48,
+      "max": 4.48,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 1,
+      "unassignedPhotos": 4,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 12.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-bwcb-03",
+    "supplierProductId": "BWCB-03",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Couvre-lit coton noir et blanc - Buddha",
+    "category": "couvre-lits",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-03",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Couvre-lit coton noir et blanc - Buddha. Dimensions documentées : 230x200 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "230x200 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-03"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Noir et blanc",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/bwcb/bwcb-03"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 11.2,
+      "max": 11.2,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 69.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cmc-hamsa",
+    "supplierProductId": "CMC-HAMSA",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Hamsa Mandala Cushion",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-03ds",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Hamsa Mandala Cushion. Dimensions documentées : 60x60x1 cm, 45x45 cm, 30x50x1 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60x1 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-03ds"
+      },
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-03ds"
+      },
+      {
+        "label": "30x50x1 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-03ds"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-03ds"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.43,
+      "max": 14.2,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 2,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cmc-lotus",
+    "supplierProductId": "CMC-LOTUS",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lotus Mandala Cushion",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-02ds",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lotus Mandala Cushion. Dimensions documentées : 60x60x1 cm, 30x50x1 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60x1 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-02ds"
+      },
+      {
+        "label": "30x50x1 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-02ds"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bronze",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-02ds"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.43,
+      "max": 14.2,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 2,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "aw-cmc-traditional",
+    "supplierProductId": "CMC-TRADITIONAL",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Traditional Mandala Cushion",
+    "category": "housses",
+    "supplier": "AW Dropship Europe",
+    "url": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-01ds",
+    "sourceLabel": "AW Europe",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Traditional Mandala Cushion. Dimensions documentées : 60x60 cm, 45x45x1 cm, 30x50x1 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-01ds"
+      },
+      {
+        "label": "45x45x1 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-01ds"
+      },
+      {
+        "label": "30x50x1 cm",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-01ds"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Noir",
+        "verified": true,
+        "source": "https://www.aw-dropship.eu/homeware/cmc-ds/cmc-01ds"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": 9.43,
+      "max": 14.2,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
+      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 2,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-26025",
+    "supplierProductId": "PD26025",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d’oreiller Gaze de Coton",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/26025-taie-doreiller-65x65-cm-gaze-de-coton-naturel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d’oreiller Gaze de Coton. Matière indiquée : 100% Gaze de Coton 74 fils. Dimensions documentées : 65x65 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "65x65 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/26025-taie-doreiller-65x65-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/26025-taie-doreiller-65x65-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/26025-taie-doreiller-65x65-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton 74 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-26023",
+    "supplierProductId": "PD26023",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d’oreiller Satin de Coton",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/26023-taie-doreiller-65x65-cm-satin-de-coton-blanc.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d’oreiller Satin de Coton. Matière indiquée : 100% Satin de Coton 105 fils. Dimensions documentées : 65x65 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "65x65 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/26023-taie-doreiller-65x65-cm-satin-de-coton-blanc.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/26023-taie-doreiller-65x65-cm-satin-de-coton-blanc.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Satin de Coton 105 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Composition et nombre de fils contradictoires sur PD26023: 105 fils dans la composition, 110 fils dans la caractéristique. Aucune valeur résolue sans confirmation.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21910",
+    "supplierProductId": "PD21910",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Fouta avec franges Coton Rina",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21910-fouta-avec-franges-100x200-cm-coton-rina-ebene.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Fouta avec franges Coton Rina. Matière indiquée : 100% Coton recyclé. Dimensions documentées : 100x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "100x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21910-fouta-avec-franges-100x200-cm-coton-rina-ebene.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ebène",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21910-fouta-avec-franges-100x200-cm-coton-rina-ebene.html"
+      },
+      {
+        "label": "Nénuphar",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21910-fouta-avec-franges-100x200-cm-coton-rina-ebene.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21910-fouta-avec-franges-100x200-cm-coton-rina-ebene.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton recyclé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21907",
+    "supplierProductId": "PD21907",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Fouta avec franges Coton Suly",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21907-fouta-avec-franges-100x200-cm-coton-suly-nenuphar.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Fouta avec franges Coton Suly. Matière indiquée : 100% Coton recyclé. Dimensions documentées : 100x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "100x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21907-fouta-avec-franges-100x200-cm-coton-suly-nenuphar.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Nénuphar",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21907-fouta-avec-franges-100x200-cm-coton-suly-nenuphar.html"
+      },
+      {
+        "label": "Ecume",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21907-fouta-avec-franges-100x200-cm-coton-suly-nenuphar.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21907-fouta-avec-franges-100x200-cm-coton-suly-nenuphar.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton recyclé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21309",
+    "supplierProductId": "PD21309",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Fouta avec franges Polycoton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21309-fouta-avec-franges-95x180-cm-polycoton-galet.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Fouta avec franges Polycoton. Matière indiquée : 92% Coton - 8% Polyester. Dimensions documentées : 95x180 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "95x180 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21309-fouta-avec-franges-95x180-cm-polycoton-galet.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Galet",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21309-fouta-avec-franges-95x180-cm-polycoton-galet.html"
+      },
+      {
+        "label": "Nénuphar",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21309-fouta-avec-franges-95x180-cm-polycoton-galet.html"
+      },
+      {
+        "label": "Corail",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21309-fouta-avec-franges-95x180-cm-polycoton-galet.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21309-fouta-avec-franges-95x180-cm-polycoton-galet.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "92% Coton - 8% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21168",
+    "supplierProductId": "PD21168",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap de bain Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21168-drap-de-bain-90x150-cm-coton-emeraude.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap de bain Coton. Matière indiquée : 100% Coton. Dimensions documentées : 90x150 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "90x150 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21168-drap-de-bain-90x150-cm-coton-emeraude.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Emeraude",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21168-drap-de-bain-90x150-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Rose Poudré",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21168-drap-de-bain-90x150-cm-coton-emeraude.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21166",
+    "supplierProductId": "PD21166",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap de douche Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21166-drap-de-douche-70x130-cm-coton-emeraude.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap de douche Coton. Matière indiquée : 100% Coton. Dimensions documentées : 70x130 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "70x130 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21166-drap-de-douche-70x130-cm-coton-emeraude.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Emeraude",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21166-drap-de-douche-70x130-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Rose Poudré",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21166-drap-de-douche-70x130-cm-coton-emeraude.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21164",
+    "supplierProductId": "PD21164",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de toilette Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Serviette de toilette Coton. Matière indiquée : 100% Coton. Dimensions documentées : 50x90 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x90 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Emeraude",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Rose Poudré",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Pampa",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Bleu Glacier",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Orage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Argile",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21164-serviette-de-toilette-50x90-cm-coton-emeraude.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 12,
+      "assignedPhotos": 28,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21152",
+    "supplierProductId": "PD21152",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de douche Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Serviette de douche Coton. Matière indiquée : 100% Coton. Dimensions documentées : 70x130 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "70x130 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Pampa",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Bleu Glacier",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Orage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Argile",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21152-serviette-de-douche-70x130-cm-coton-camel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 10,
+      "assignedPhotos": 22,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21142",
+    "supplierProductId": "PD21142",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Serviette de bain Coton. Matière indiquée : 100% Coton. Dimensions documentées : 90x150 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "90x150 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Pampa",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Bleu Glacier",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Orage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Argile",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21142-serviette-de-bain-90x150-cm-coton-camel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 10,
+      "assignedPhotos": 20,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21132",
+    "supplierProductId": "PD21132",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette invité Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Serviette invité Coton. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Emeraude",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Rose Poudré",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Pampa",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Bleu Glacier",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Orage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Argile",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21132-serviette-invite-30x50-cm-coton-emeraude.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 12,
+      "assignedPhotos": 24,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21120",
+    "supplierProductId": "PD21120",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot de 2 gants Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot de 2 gants Coton. Matière indiquée : 100% Coton. Dimensions documentées : 15x21 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "15x21 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Emeraude",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Rose Poudré",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Pampa",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Bleu Glacier",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Orage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Argile",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/21120-lot-de-2-gants-15x21-cm-coton-emeraude.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 12,
+      "assignedPhotos": 24,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-20986",
+    "supplierProductId": "PD20986",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Peignoir de bain Gaze de Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Peignoir de bain Gaze de Coton. Matière indiquée : 100% Gaze de Coton. Dimensions documentées : L/XL, S/M.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "L/XL",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "S/M",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20986-peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-20974",
+    "supplierProductId": "PD20974",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Poncho de bain enfant Gaze de Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Poncho de bain enfant Gaze de Coton. Matière indiquée : 100% Gaze de Coton. Dimensions documentées : 76x87 cm, 63x65 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "76x87 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "63x65 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/peignoir-poncho/20974-poncho-de-bain-enfant-6-10-ans-gaze-de-coton-eucalyptus.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-20931",
+    "supplierProductId": "PD20931",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de bain Gaze de Coton",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Serviette de bain Gaze de Coton. Matière indiquée : 100% Gaze de Coton. Dimensions documentées : 90x150 cm, 70x130 cm, 50x90 cm, 30x50 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "90x150 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "70x130 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "50x90 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 48,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 8,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-19039",
+    "supplierProductId": "PD19039",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap de bain Coton Bio",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/19039-drap-de-bain-70x130-cm-coton-bio-gris-clair.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap de bain Coton Bio. Matière indiquée : 100% Coton Bio. Dimensions documentées : 70x130 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "70x130 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19039-drap-de-bain-70x130-cm-coton-bio-gris-clair.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Gris Clair",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19039-drap-de-bain-70x130-cm-coton-bio-gris-clair.html"
+      },
+      {
+        "label": "Mais",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19039-drap-de-bain-70x130-cm-coton-bio-gris-clair.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton Bio"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-19037",
+    "supplierProductId": "PD19037",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Serviette de toilette Coton Bio",
+    "category": "serviettes",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/serviette-de-bain/19037-serviette-de-toilette-50x90-cm-coton-bio-paon.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Serviette de toilette Coton Bio. Matière indiquée : 100% Coton Bio. Dimensions documentées : 50x90 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x90 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19037-serviette-de-toilette-50x90-cm-coton-bio-paon.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Paon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19037-serviette-de-toilette-50x90-cm-coton-bio-paon.html"
+      },
+      {
+        "label": "Bleu Clair",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19037-serviette-de-toilette-50x90-cm-coton-bio-paon.html"
+      },
+      {
+        "label": "Mais",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/serviette-de-bain/19037-serviette-de-toilette-50x90-cm-coton-bio-paon.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton Bio"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 19.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25869",
+    "supplierProductId": "PD25869",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Oreiller à mémoire de forme Polyester",
+    "category": "oreillers",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/oreiller/25869-oreiller-a-memoire-de-forme-60x60-cm-polyester-blanc.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Oreiller à mémoire de forme Polyester. Matière indiquée : Housse : 100% Microfibre - Garnissage : 100% Mousse viscoélastique. Dimensions documentées : 60x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/25869-oreiller-a-memoire-de-forme-60x60-cm-polyester-blanc.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/25869-oreiller-a-memoire-de-forme-60x60-cm-polyester-blanc.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Housse : 100% Microfibre - Garnissage : 100% Mousse viscoélastique"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25615",
+    "supplierProductId": "PD25615",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot 2 oreillers Coton et Plumes de canard",
+    "category": "oreillers",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/oreiller/25615-lot-2-oreillers-50x70-cm-coton-et-plumes-de-canard-blanc.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot 2 oreillers Coton et Plumes de canard. Matière indiquée : 100% Coton. Dimensions documentées : 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/25615-lot-2-oreillers-50x70-cm-coton-et-plumes-de-canard-blanc.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/25615-lot-2-oreillers-50x70-cm-coton-et-plumes-de-canard-blanc.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23898",
+    "supplierProductId": "PD23898",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot 2 Oreillers Coton 57 fils Made in France",
+    "category": "oreillers",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/oreiller/23898-lot-2-oreillers-60x60-cm-coton-57-fils-made-in-france.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot 2 Oreillers Coton 57 fils Made in France. Matière indiquée : 100% Coton 57 fils - Polyester. Dimensions documentées : 60x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/23898-lot-2-oreillers-60x60-cm-coton-57-fils-made-in-france.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/23898-lot-2-oreillers-60x60-cm-coton-57-fils-made-in-france.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton 57 fils - Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-15111",
+    "supplierProductId": "PD15111",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Oreiller mousse à mémoire de forme Jean Louis Scherrer",
+    "category": "oreillers",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/oreiller/15111-oreiller-mousse-a-memoire-de-forme-60x60-cm-jean-louis-scherrer.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Oreiller mousse à mémoire de forme Jean Louis Scherrer. Matière indiquée : Mousse à mémoire de forme. Dimensions documentées : 60x60.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/15111-oreiller-mousse-a-memoire-de-forme-60x60-cm-jean-louis-scherrer.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Uni",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/oreiller/15111-oreiller-mousse-a-memoire-de-forme-60x60-cm-jean-louis-scherrer.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Mousse à mémoire de forme"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-5339",
+    "supplierProductId": "PD5339",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Oreiller rafraîchissant à eau multifonction",
+    "category": "oreillers",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/5339-oreiller-rafraichissant-a-l-eau-multifonction.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Oreiller rafraîchissant à eau multifonction.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [],
+    "colors": [
+      {
+        "label": "Coloris à confirmer",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/5339-oreiller-rafraichissant-a-l-eau-multifonction.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25114",
+    "supplierProductId": "PD25114",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Hampton",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Hampton. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Spring",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Opulence",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Liberty",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Bay",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25114-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 11,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25110",
+    "supplierProductId": "PD25110",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Montauk",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/25110-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-rose.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Montauk. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25110-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-rose.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25110-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-rose.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25110-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-rose.html"
+      },
+      {
+        "label": "Jaune",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/25110-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-rose.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 11,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24853",
+    "supplierProductId": "PD24853",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Lin Rosalie",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24853-coussin-carre-dehoussable-45x45-cm-lin-rosalie-vieux-rose.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Lin Rosalie. Matière indiquée : Housse : 100% Lin Lavé Français - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24853-coussin-carre-dehoussable-45x45-cm-lin-rosalie-vieux-rose.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vieux Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24853-coussin-carre-dehoussable-45x45-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Azur",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24853-coussin-carre-dehoussable-45x45-cm-lin-rosalie-vieux-rose.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Housse : 100% Lin Lavé Français - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24850",
+    "supplierProductId": "PD24850",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Terra",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Terra. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert d'eau",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Safran",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Rose Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Guimauve",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Granit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Canard",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 17,
+      "assignedPhotos": 68,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24833",
+    "supplierProductId": "PD24833",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Vickie",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24833-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Vickie. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24833-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24833-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24833-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24833-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 9,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24831",
+    "supplierProductId": "PD24831",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Camélia",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24831-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-camelia-ficelle.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Camélia. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24831-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-camelia-ficelle.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24831-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-camelia-ficelle.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24831-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-camelia-ficelle.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24830",
+    "supplierProductId": "PD24830",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Lucia",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24830-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-lucia.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Lucia. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24830-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-lucia.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24830-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-lucia.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24830-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-lucia.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24829",
+    "supplierProductId": "PD24829",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Azalée",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24829-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-azalee.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Azalée. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24829-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-azalee.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24829-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-azalee.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24829-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-azalee.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24828",
+    "supplierProductId": "PD24828",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Gaze de Coton Garance",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24828-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-garance.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Gaze de Coton Garance. Matière indiquée : Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 45x45 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "45x45 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24828-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-garance.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24828-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-garance.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24828-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-garance.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24798",
+    "supplierProductId": "PD24798",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Velours de Coton Valentine",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24798-coussin-carre-dehoussable-50x50-cm-velours-de-coton-valentine.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Velours de Coton Valentine. Matière indiquée : Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester. Dimensions documentées : 50x50 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24798-coussin-carre-dehoussable-50x50-cm-velours-de-coton-valentine.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24798-coussin-carre-dehoussable-50x50-cm-velours-de-coton-valentine.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24798-coussin-carre-dehoussable-50x50-cm-velours-de-coton-valentine.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24797",
+    "supplierProductId": "PD24797",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Velours de Coton Églantine",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24797-coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Velours de Coton Églantine. Matière indiquée : Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester. Dimensions documentées : 50x50 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24797-coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24797-coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24797-coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24796",
+    "supplierProductId": "PD24796",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Velours de Coton Margot",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24796-coussin-carre-dehoussable-50x50-cm-velours-de-coton-margot.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Velours de Coton Margot. Matière indiquée : Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester. Dimensions documentées : 50x50 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24796-coussin-carre-dehoussable-50x50-cm-velours-de-coton-margot.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24796-coussin-carre-dehoussable-50x50-cm-velours-de-coton-margot.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24796-coussin-carre-dehoussable-50x50-cm-velours-de-coton-margot.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24795",
+    "supplierProductId": "PD24795",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Velours de Coton Justine",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24795-coussin-carre-dehoussable-50x50-cm-velours-de-coton-justine.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Velours de Coton Justine. Matière indiquée : Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester. Dimensions documentées : 50x50 cm, 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24795-coussin-carre-dehoussable-50x50-cm-velours-de-coton-justine.html"
+      },
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24795-coussin-carre-dehoussable-50x50-cm-velours-de-coton-justine.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24795-coussin-carre-dehoussable-50x50-cm-velours-de-coton-justine.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24788",
+    "supplierProductId": "PD24788",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déhoussable Velours de Coton Bianca",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déhoussable Velours de Coton Bianca. Matière indiquée : Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester. Dimensions documentées : 40x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      },
+      {
+        "label": "Ardoise",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24788-coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Velours de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 6,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24782",
+    "supplierProductId": "PD24782",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Stella",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24782-coussin-deco-60x30-cm-coton-stella.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Stella. Matière indiquée : Enveloppe : 100% Coton - Garnissage : 100% Polyester. Dimensions documentées : 60x30 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x30 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24782-coussin-deco-60x30-cm-coton-stella.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24782-coussin-deco-60x30-cm-coton-stella.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Enveloppe : 100% Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24722",
+    "supplierProductId": "PD24722",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin de chaise extérieur Coton Dahlia",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24722-coussin-de-chaise-exterieur-38x38-cm-coton-dahlia-ficelle.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin de chaise extérieur Coton Dahlia. Matière indiquée : Housse : 100% Coton - Garnissage : 100% Coton. Dimensions documentées : 38x38 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "38x38 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24722-coussin-de-chaise-exterieur-38x38-cm-coton-dahlia-ficelle.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24722-coussin-de-chaise-exterieur-38x38-cm-coton-dahlia-ficelle.html"
+      },
+      {
+        "label": "Bleu Jean",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24722-coussin-de-chaise-exterieur-38x38-cm-coton-dahlia-ficelle.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Housse : 100% Coton - Garnissage : 100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24720",
+    "supplierProductId": "PD24720",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin de chaise Gaze de Coton Terra",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin de chaise Gaze de Coton Terra. Matière indiquée : Housse : 100% Double Gaze de Coton - Garnissage : 100% Polyester. Dimensions documentées : 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert d'eau",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Safran",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Rose Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Guimauve",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Granit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Canard",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/24720-coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Housse : 100% Double Gaze de Coton - Garnissage : 100% Polyester"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 17,
+      "assignedPhotos": 34,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23601",
+    "supplierProductId": "PD23601",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Coquelicot",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23601-coussin-deco-30x50-cm-coton-coquelicot.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Coquelicot. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23601-coussin-deco-30x50-cm-coton-coquelicot.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23601-coussin-deco-30x50-cm-coton-coquelicot.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23601-coussin-deco-30x50-cm-coton-coquelicot.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23599",
+    "supplierProductId": "PD23599",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Folkia",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23599-coussin-deco-30x50-cm-coton-folkia.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Folkia. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23599-coussin-deco-30x50-cm-coton-folkia.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23599-coussin-deco-30x50-cm-coton-folkia.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bleu",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23599-coussin-deco-30x50-cm-coton-folkia.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23597",
+    "supplierProductId": "PD23597",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Saphir",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23597-coussin-deco-30x50-cm-coton-saphir.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Saphir. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23597-coussin-deco-30x50-cm-coton-saphir.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23597-coussin-deco-30x50-cm-coton-saphir.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23597-coussin-deco-30x50-cm-coton-saphir.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23595",
+    "supplierProductId": "PD23595",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Sweet Home",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23595-coussin-deco-30x50-cm-coton-sweet-home.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Sweet Home. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23595-coussin-deco-30x50-cm-coton-sweet-home.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23595-coussin-deco-30x50-cm-coton-sweet-home.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23595-coussin-deco-30x50-cm-coton-sweet-home.html"
+      },
+      {
+        "label": "Bleu",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23595-coussin-deco-30x50-cm-coton-sweet-home.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23593",
+    "supplierProductId": "PD23593",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Kaïma",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23593-coussin-deco-30x50-cm-coton-kaima.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Kaïma. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23593-coussin-deco-30x50-cm-coton-kaima.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23593-coussin-deco-30x50-cm-coton-kaima.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Beige",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23593-coussin-deco-30x50-cm-coton-kaima.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23593-coussin-deco-30x50-cm-coton-kaima.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23591",
+    "supplierProductId": "PD23591",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Liora",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23591-coussin-deco-30x50-cm-coton-liora.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Liora. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23591-coussin-deco-30x50-cm-coton-liora.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23591-coussin-deco-30x50-cm-coton-liora.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Noir",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23591-coussin-deco-30x50-cm-coton-liora.html"
+      },
+      {
+        "label": "Gris",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23591-coussin-deco-30x50-cm-coton-liora.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23589",
+    "supplierProductId": "PD23589",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Réversible Coton Néolia",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23589-coussin-deco-reversible-30x50-cm-coton-neolia.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Réversible Coton Néolia. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23589-coussin-deco-reversible-30x50-cm-coton-neolia.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23589-coussin-deco-reversible-30x50-cm-coton-neolia.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bleu",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23589-coussin-deco-reversible-30x50-cm-coton-neolia.html"
+      },
+      {
+        "label": "Gris",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23589-coussin-deco-reversible-30x50-cm-coton-neolia.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23587",
+    "supplierProductId": "PD23587",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Marisol",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23587-coussin-deco-30x50-cm-coton-marisol.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Marisol. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23587-coussin-deco-30x50-cm-coton-marisol.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23587-coussin-deco-30x50-cm-coton-marisol.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23587-coussin-deco-30x50-cm-coton-marisol.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23585",
+    "supplierProductId": "PD23585",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Coton Soline",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23585-coussin-deco-30x50-cm-coton-soline.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Coton Soline. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23585-coussin-deco-30x50-cm-coton-soline.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23585-coussin-deco-30x50-cm-coton-soline.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Violet",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23585-coussin-deco-30x50-cm-coton-soline.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-23583",
+    "supplierProductId": "PD23583",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Coussin déco Réversible Coton Althéa",
+    "category": "coussins",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/coussin/23583-coussin-deco-reversible-30x50-cm-coton-althea.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Coussin déco Réversible Coton Althéa. Matière indiquée : 100% Coton. Dimensions documentées : 30x50 cm, 40x40 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "30x50 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23583-coussin-deco-reversible-30x50-cm-coton-althea.html"
+      },
+      {
+        "label": "40x40 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23583-coussin-deco-reversible-30x50-cm-coton-althea.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/coussin/23583-coussin-deco-reversible-30x50-cm-coton-althea.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 24.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25860",
+    "supplierProductId": "PD25860",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Gaze de Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Gaze de Coton. Matière indiquée : 100% Gaze de Coton 74 fils. Dimensions documentées : 160x200 cm, 140x190 cm, 180x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "180x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton 74 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25857",
+    "supplierProductId": "PD25857",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Percale de Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Percale de Coton. Matière indiquée : 100% Percale de Coton 65 fils. Dimensions documentées : 160x200 cm, 140x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert Sauge",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html"
+      },
+      {
+        "label": "Bleu Fumé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html"
+      },
+      {
+        "label": "Rose Thé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Percale de Coton 65 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25849",
+    "supplierProductId": "PD25849",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Microfibre",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25849-drap-housse-160x20023-cm-microfibre-gris-magnet.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Microfibre. Matière indiquée : 100% Polyester 82 gsm. Dimensions documentées : 160x200 cm, 140x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25849-drap-housse-160x20023-cm-microfibre-gris-magnet.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25849-drap-housse-160x20023-cm-microfibre-gris-magnet.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Gris Magnet",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25849-drap-housse-160x20023-cm-microfibre-gris-magnet.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Polyester 82 gsm"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25847",
+    "supplierProductId": "PD25847",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Microfibre",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25847-drap-housse-160x20028-cm-microfibre-sable.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Microfibre. Matière indiquée : 100% Microfibre lavé. Dimensions documentées : 160x200 cm, 140x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25847-drap-housse-160x20028-cm-microfibre-sable.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25847-drap-housse-160x20028-cm-microfibre-sable.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25847-drap-housse-160x20028-cm-microfibre-sable.html"
+      },
+      {
+        "label": "Bleu Nuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25847-drap-housse-160x20028-cm-microfibre-sable.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25847-drap-housse-160x20028-cm-microfibre-sable.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Microfibre lavé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 7,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25600",
+    "supplierProductId": "PD25600",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Percale de Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Percale de Coton. Matière indiquée : 100% Percale de Coton 80 fils. Dimensions documentées : 180x200 cm, 160x200 cm, 90x190 cm, 140x190 cm, 200x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "180x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "90x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Jaune Moutarde",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Emeraude",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Ocre",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Bleu Azur",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Lin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Noir Clair",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Vert Kaki",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Terre De Sienne",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Neige",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Havane",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Galet",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Céladon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Bleu Nuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Percale de Coton 80 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 16,
+      "assignedPhotos": 38,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25575",
+    "supplierProductId": "PD25575",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Coton. Matière indiquée : 100% Coton 57 fils. Dimensions documentées : 140x190 cm, 160x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Jaune Moutarde",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Gris Perle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html"
+      },
+      {
+        "label": "Anthracite",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton 57 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 10,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25536",
+    "supplierProductId": "PD25536",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Lin Métis",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Lin Métis. Matière indiquée : 50% Coton 57 fils + 50% Lin. Dimensions documentées : 180x200 cm, 160x200 cm, 140x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "180x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Aqua",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "Kaki",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "Caramel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "50% Coton 57 fils + 50% Lin"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "visualReviews": {
+      "aqua": true,
+      "naturel": true,
+      "caramel": true,
+      "kaki": true
+    },
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25512",
+    "supplierProductId": "PD25512",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap Housse Gaze de Coton - Coton 57 fils",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap Housse Gaze de Coton - Coton 57 fils. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 160x200 cm, 140x200 cm, 140x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ocre",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Bleu Mer",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Charbon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 10,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25126",
+    "supplierProductId": "PD25126",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap housse Gaze de Coton Hampton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap housse Gaze de Coton Hampton. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 180x200 cm, 160x200 cm, 140x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "180x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "160x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "140x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Spring",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Opulence",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Liberty",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Bay",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/25126-drap-housse-180x20030-cm-gaze-de-coton-hampton-spring.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24902",
+    "supplierProductId": "PD24902",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap housse Lyocell Gabrielle",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-housse/24902-drap-housse-90x19030-cm-lyocell-gabrielle-thym.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap housse Lyocell Gabrielle. Matière indiquée : 100% Lyocell Tencel Lavé. Dimensions documentées : 90x190 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "90x190 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/24902-drap-housse-90x19030-cm-lyocell-gabrielle-thym.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/24902-drap-housse-90x19030-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/24902-drap-housse-90x19030-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Stone",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/24902-drap-housse-90x19030-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-housse/24902-drap-housse-90x19030-cm-lyocell-gabrielle-thym.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Lyocell Tencel Lavé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25868",
+    "supplierProductId": "PD25868",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Gaze de Coton",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25868-housse-de-couette-220x240-cm-gaze-de-coton-naturel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Gaze de Coton. Matière indiquée : 100% Gaze de Coton 74 fils. Dimensions documentées : 220x240 cm, 240x260 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25868-housse-de-couette-220x240-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25868-housse-de-couette-220x240-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25868-housse-de-couette-220x240-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton 74 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25866",
+    "supplierProductId": "PD25866",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Satin de Coton",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25866-housse-de-couette-140x200-cm-satin-de-coton-bleu-marine.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Satin de Coton. Matière indiquée : 100% Satin de Coton 105 fils. Dimensions documentées : 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25866-housse-de-couette-140x200-cm-satin-de-coton-bleu-marine.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Bleu Marine",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25866-housse-de-couette-140x200-cm-satin-de-coton-bleu-marine.html"
+      },
+      {
+        "label": "Celadon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25866-housse-de-couette-140x200-cm-satin-de-coton-bleu-marine.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25866-housse-de-couette-140x200-cm-satin-de-coton-bleu-marine.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Satin de Coton 105 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25608",
+    "supplierProductId": "PD25608",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Satin de Coton Amboise",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25608-housse-de-couette-220x240-cm-satin-de-coton-amboise.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Satin de Coton Amboise. Matière indiquée : 100% Satin de Coton 90 fils. Dimensions documentées : 220x240 cm, 240x260 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25608-housse-de-couette-220x240-cm-satin-de-coton-amboise.html"
+      },
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25608-housse-de-couette-220x240-cm-satin-de-coton-amboise.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25608-housse-de-couette-220x240-cm-satin-de-coton-amboise.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Satin de Coton 90 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25300",
+    "supplierProductId": "PD25300",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Percale de Coton",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Percale de Coton. Matière indiquée : 100% Percale de Coton 80 fils. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Terre De Sienne",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Neige",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Havane",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Galet",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Céladon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      },
+      {
+        "label": "Bleu Nuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Percale de Coton 80 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "visualReviews": {
+      "terre de sienne": true,
+      "sable": true,
+      "neige": true,
+      "thym": true,
+      "havane": true,
+      "galet": true,
+      "celadon": true,
+      "bleu nuit": true
+    },
+    "photoAudit": {
+      "knownColors": 8,
+      "assignedPhotos": 32,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": true
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25138",
+    "supplierProductId": "PD25138",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Gaze de Coton Hampton",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Gaze de Coton Hampton. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Spring",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Opulence",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Liberty",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html"
+      },
+      {
+        "label": "Bay",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25138-housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25134",
+    "supplierProductId": "PD25134",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Gaze de Coton Montauk",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25134-housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Gaze de Coton Montauk. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25134-housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25134-housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25134-housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.html"
+      },
+      {
+        "label": "Jaune",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25134-housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25080",
+    "supplierProductId": "PD25080",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Vickie",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Vickie. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "visualReviews": {
+      "terracotta": true,
+      "naturel": true,
+      "romarin": true,
+      "eucalyptus": true
+    },
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25076",
+    "supplierProductId": "PD25076",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Camélia",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25076-housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Camélia. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25076-housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25076-housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25076-housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25076-housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25076-housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25075",
+    "supplierProductId": "PD25075",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Terra Harmonie",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Terra Harmonie. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25075-housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25071",
+    "supplierProductId": "PD25071",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Loana",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25071-housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Loana. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25071-housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25071-housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25071-housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25071-housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25071-housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25070",
+    "supplierProductId": "PD25070",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Lucia",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25070-housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Lucia. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25070-housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25070-housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25070-housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25070-housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25070-housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25068",
+    "supplierProductId": "PD25068",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Garance",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25068-housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Garance. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25068-housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25068-housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25068-housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25068-housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert d'eau",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25068-housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 5,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25067",
+    "supplierProductId": "PD25067",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Reversible Gaze de Coton Florence",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25067-housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Reversible Gaze de Coton Florence. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x260 cm, 220x240 cm, 200x200 cm, 140x200 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x260 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25067-housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.html"
+      },
+      {
+        "label": "220x240 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25067-housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.html"
+      },
+      {
+        "label": "200x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25067-housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.html"
+      },
+      {
+        "label": "140x200 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25067-housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25067-housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25024",
+    "supplierProductId": "PD25024",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Housse de couette Gaze de Coton Terra",
+    "category": "housses-couette",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Housse de couette Gaze de Coton Terra. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 240x280 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x280 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert d'eau",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Safran",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Rose Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Lie De Vin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Guimauve",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Granit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Canard",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/housse-de-couette/25024-housse-de-couette-240x280-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 18,
+      "assignedPhotos": 52,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 59.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25838",
+    "supplierProductId": "PD25838",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d’oreiller Percale de Coton",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25838-taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d’oreiller Percale de Coton. Matière indiquée : 100% Percale de Coton 80 fils. Dimensions documentées : 63x63 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "63x63 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25838-taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert Kaki",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25838-taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25838-taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.html"
+      },
+      {
+        "label": "Lin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25838-taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Percale de Coton 80 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25833",
+    "supplierProductId": "PD25833",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot 2 taies d’oreiller Satin de Coton Amboise",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25833-lot-2-taies-doreiller-50x70-cm-satin-de-coton-amboise.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot 2 taies d’oreiller Satin de Coton Amboise. Matière indiquée : 100% Satin de Coton 90 fils. Dimensions documentées : 50x70 cm, 64x64 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25833-lot-2-taies-doreiller-50x70-cm-satin-de-coton-amboise.html"
+      },
+      {
+        "label": "64x64 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25833-lot-2-taies-doreiller-50x70-cm-satin-de-coton-amboise.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25833-lot-2-taies-doreiller-50x70-cm-satin-de-coton-amboise.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Satin de Coton 90 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25547",
+    "supplierProductId": "PD25547",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot 2 taies d’oreiller Percale de Coton Floral Collage",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25547-lot-2-taies-doreiller-50x70-cm-percale-de-coton-floral-collage-rose.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot 2 taies d’oreiller Percale de Coton Floral Collage. Matière indiquée : 100% Percale de Coton 80 fils. Dimensions documentées : 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25547-lot-2-taies-doreiller-50x70-cm-percale-de-coton-floral-collage-rose.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25547-lot-2-taies-doreiller-50x70-cm-percale-de-coton-floral-collage-rose.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25547-lot-2-taies-doreiller-50x70-cm-percale-de-coton-floral-collage-rose.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Percale de Coton 80 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25524",
+    "supplierProductId": "PD25524",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot 2 taies d’oreiller Lin Métis",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25524-lot-2-taies-doreiller-50x70-cm-lin-metis-aqua.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot 2 taies d’oreiller Lin Métis. Matière indiquée : 50% Coton 57 fils + 50% Lin. Dimensions documentées : 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25524-lot-2-taies-doreiller-50x70-cm-lin-metis-aqua.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Aqua",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25524-lot-2-taies-doreiller-50x70-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25524-lot-2-taies-doreiller-50x70-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "Kaki",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25524-lot-2-taies-doreiller-50x70-cm-lin-metis-aqua.html"
+      },
+      {
+        "label": "Caramel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25524-lot-2-taies-doreiller-50x70-cm-lin-metis-aqua.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "50% Coton 57 fils + 50% Lin"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25497",
+    "supplierProductId": "PD25497",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Lot 2 taies d’oreiller Gaze de Coton - Coton 57 fils",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Lot 2 taies d’oreiller Gaze de Coton - Coton 57 fils. Matière indiquée : 1 face Double Gaze de Coton 1 face Coton 57 fils. Dimensions documentées : 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ocre",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Bleu Mer",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Charbon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "1 face Double Gaze de Coton 1 face Coton 57 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Conditionnement fournisseur par lot/parure; ne pas proposer les éléments séparément sans référence fournisseur unitaire.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 10,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25451",
+    "supplierProductId": "PD25451",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Soie Lila",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25451-taie-d-oreiller-80x80-cm-soie-lila-naturel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Soie Lila. Matière indiquée : 100% Soie de mûrier 19 momme. Dimensions documentées : 80x80 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "80x80 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25451-taie-d-oreiller-80x80-cm-soie-lila-naturel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25451-taie-d-oreiller-80x80-cm-soie-lila-naturel.html"
+      },
+      {
+        "label": "Crépuscule",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25451-taie-d-oreiller-80x80-cm-soie-lila-naturel.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25451-taie-d-oreiller-80x80-cm-soie-lila-naturel.html"
+      },
+      {
+        "label": "Argent",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25451-taie-d-oreiller-80x80-cm-soie-lila-naturel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Soie de mûrier 19 momme"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 12,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25447",
+    "supplierProductId": "PD25447",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Coton Paloma",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25447-taie-d-oreiller-80x80-cm-coton-paloma-naturel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Coton Paloma. Matière indiquée : 100% Coton. Dimensions documentées : 80x80 cm, 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "80x80 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25447-taie-d-oreiller-80x80-cm-coton-paloma-naturel.html"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25447-taie-d-oreiller-80x80-cm-coton-paloma-naturel.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25447-taie-d-oreiller-80x80-cm-coton-paloma-naturel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25447-taie-d-oreiller-80x80-cm-coton-paloma-naturel.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25447-taie-d-oreiller-80x80-cm-coton-paloma-naturel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25445",
+    "supplierProductId": "PD25445",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Lyocell Gabrielle",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Lyocell Gabrielle. Matière indiquée : 100% Lyocell Tencel Lavé. Dimensions documentées : 80x80 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "80x80 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Stone",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Lichen",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Granit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      },
+      {
+        "label": "Blush",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25445-taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Lyocell Tencel Lavé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 8,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25437",
+    "supplierProductId": "PD25437",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Lin Rosalie",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Lin Rosalie. Matière indiquée : 100% Lin Lavé Français. Dimensions documentées : 80x80 cm, 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "80x80 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vieux Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Paprika",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Miel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Craie",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Caramel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Azur",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Ardoise",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25437-taie-d-oreiller-80x80-cm-lin-rosalie-vieux-rose.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Lin Lavé Français"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 10,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25427",
+    "supplierProductId": "PD25427",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Iris",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Iris. Matière indiquée : 100% Quadruple Gaze de Coton. Dimensions documentées : 80x80 cm, 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "80x80 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25427-taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Quadruple Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 4,
+      "assignedPhotos": 11,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25423",
+    "supplierProductId": "PD25423",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Terra",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Terra. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 80x80 cm, 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "80x80 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vert d'eau",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Safran",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Rose Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Lie De Vin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Guimauve",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Granit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Canard",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25423-taie-d-oreiller-80x80-cm-gaze-de-coton-terra-vert-d-eau.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 18,
+      "assignedPhotos": 37,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25404",
+    "supplierProductId": "PD25404",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Flanelle de Coton Serena",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25404-taie-d-oreiller-63x63-cm-flanelle-de-coton-serena.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Flanelle de Coton Serena. Matière indiquée : 100% Flanelle de coton. Dimensions documentées : 63x63 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "63x63 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25404-taie-d-oreiller-63x63-cm-flanelle-de-coton-serena.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25404-taie-d-oreiller-63x63-cm-flanelle-de-coton-serena.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Flanelle de coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25401",
+    "supplierProductId": "PD25401",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Coton Nora",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25401-taie-d-oreiller-63x63-cm-coton-nora.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Coton Nora. Matière indiquée : 100% Coton 57 fils. Dimensions documentées : 63x63 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "63x63 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25401-taie-d-oreiller-63x63-cm-coton-nora.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25401-taie-d-oreiller-63x63-cm-coton-nora.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton 57 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25400",
+    "supplierProductId": "PD25400",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Coton Siena",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25400-taie-d-oreiller-63x63-cm-coton-siena.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Coton Siena. Matière indiquée : 100% Coton 57 fils. Dimensions documentées : 63x63 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "63x63 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25400-taie-d-oreiller-63x63-cm-coton-siena.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25400-taie-d-oreiller-63x63-cm-coton-siena.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Coton 57 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25388",
+    "supplierProductId": "PD25388",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Vickie",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25388-taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-terracotta.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Vickie. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25388-taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25388-taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-terracotta.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25388-taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-terracotta.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25388-taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-terracotta.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": true,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25386",
+    "supplierProductId": "PD25386",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Camélia",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25386-taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Camélia. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25386-taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25386-taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25386-taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 6,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25385",
+    "supplierProductId": "PD25385",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Lucia",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25385-taie-d-oreiller-60x60-cm-gaze-de-coton-lucia.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Lucia. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25385-taie-d-oreiller-60x60-cm-gaze-de-coton-lucia.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25385-taie-d-oreiller-60x60-cm-gaze-de-coton-lucia.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25385-taie-d-oreiller-60x60-cm-gaze-de-coton-lucia.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25384",
+    "supplierProductId": "PD25384",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Azalée",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25384-taie-d-oreiller-60x60-cm-gaze-de-coton-azalee.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Azalée. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25384-taie-d-oreiller-60x60-cm-gaze-de-coton-azalee.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25384-taie-d-oreiller-60x60-cm-gaze-de-coton-azalee.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25384-taie-d-oreiller-60x60-cm-gaze-de-coton-azalee.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25383",
+    "supplierProductId": "PD25383",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Garance",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25383-taie-d-oreiller-60x60-cm-gaze-de-coton-garance.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Garance. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25383-taie-d-oreiller-60x60-cm-gaze-de-coton-garance.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25383-taie-d-oreiller-60x60-cm-gaze-de-coton-garance.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25383-taie-d-oreiller-60x60-cm-gaze-de-coton-garance.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 4,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25382",
+    "supplierProductId": "PD25382",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Florence",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25382-taie-d-oreiller-60x60-cm-gaze-de-coton-florence.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Florence. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25382-taie-d-oreiller-60x60-cm-gaze-de-coton-florence.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25382-taie-d-oreiller-60x60-cm-gaze-de-coton-florence.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Multicolore",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25382-taie-d-oreiller-60x60-cm-gaze-de-coton-florence.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 3,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 3,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25381",
+    "supplierProductId": "PD25381",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Terra fusion",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25381-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Terra fusion. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm, 50x70 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25381-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.html"
+      },
+      {
+        "label": "50x70 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25381-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25381-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25381-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25381-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25378",
+    "supplierProductId": "PD25378",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Terra harmonie",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25378-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-harmonie-sapin.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Terra harmonie. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25378-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-harmonie-sapin.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25378-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-harmonie-sapin.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25378-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-harmonie-sapin.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25378-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-harmonie-sapin.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25375",
+    "supplierProductId": "PD25375",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Terra prestige",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25375-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-prestige-sapin.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Terra prestige. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25375-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-prestige-sapin.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25375-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-prestige-sapin.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25375-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-prestige-sapin.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25375-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-prestige-sapin.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25372",
+    "supplierProductId": "PD25372",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Taie d'oreiller Gaze de Coton Terra bohème",
+    "category": "taies",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/taie-d-oreiller/25372-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-boheme-sapin.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Taie d'oreiller Gaze de Coton Terra bohème. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 60x60 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "60x60 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25372-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-boheme-sapin.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25372-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-boheme-sapin.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25372-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-boheme-sapin.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/taie-d-oreiller/25372-taie-d-oreiller-60x60-cm-gaze-de-coton-terra-boheme-sapin.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 4,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 14.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-25863",
+    "supplierProductId": "PD25863",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Satin de Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/25863-drap-plat-265x300-cm-satin-de-coton-blanc.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Satin de Coton. Matière indiquée : 100% Satin de Coton 105 fils. Dimensions documentées : 265x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "265x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/25863-drap-plat-265x300-cm-satin-de-coton-blanc.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/25863-drap-plat-265x300-cm-satin-de-coton-blanc.html"
+      },
+      {
+        "label": "Celadon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/25863-drap-plat-265x300-cm-satin-de-coton-blanc.html"
+      },
+      {
+        "label": "Bleu Marine",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/25863-drap-plat-265x300-cm-satin-de-coton-blanc.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Satin de Coton 105 fils"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24912",
+    "supplierProductId": "PD24912",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Lin Rosalie",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/24912-drap-plat-270x300-cm-lin-rosalie-vieux-rose.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Lin Rosalie. Matière indiquée : 100% Lin Lavé Français. Dimensions documentées : 270x300 cm, 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "270x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24912-drap-plat-270x300-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24912-drap-plat-270x300-cm-lin-rosalie-vieux-rose.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Vieux Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24912-drap-plat-270x300-cm-lin-rosalie-vieux-rose.html"
+      },
+      {
+        "label": "Azur",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24912-drap-plat-270x300-cm-lin-rosalie-vieux-rose.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Lin Lavé Français"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 2,
+      "assignedPhotos": 2,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-24910",
+    "supplierProductId": "PD24910",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Gaze de Coton Terra",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/24910-drap-plat-270x300-cm-gaze-de-coton-terra-sapin.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Gaze de Coton Terra. Matière indiquée : 100% Double Gaze de Coton. Dimensions documentées : 270x300 cm, 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "270x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24910-drap-plat-270x300-cm-gaze-de-coton-terra-sapin.html"
+      },
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24910-drap-plat-270x300-cm-gaze-de-coton-terra-sapin.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Sapin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24910-drap-plat-270x300-cm-gaze-de-coton-terra-sapin.html"
+      },
+      {
+        "label": "Ficelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24910-drap-plat-270x300-cm-gaze-de-coton-terra-sapin.html"
+      },
+      {
+        "label": "Abricot",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/24910-drap-plat-270x300-cm-gaze-de-coton-terra-sapin.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Double Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 3,
+      "assignedPhotos": 6,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-21036",
+    "supplierProductId": "PD21036",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Flanelle de Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Flanelle de Coton. Matière indiquée : 100% Flanelle de coton. Dimensions documentées : 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Nuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Tomette",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Neige",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Brume",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      },
+      {
+        "label": "Orage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/21036-drap-plat-240x300-cm-flanelle-de-coton-camel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Flanelle de coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 8,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-20510",
+    "supplierProductId": "PD20510",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Lin Français",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Lin Français. Matière indiquée : 100% Lin Lavé Français. Dimensions documentées : 270x300 cm, 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "270x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Eucalyptus",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Caramel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Paprika",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Thym",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Miel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Ardoise",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      },
+      {
+        "label": "Craie",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/20510-drap-plat-270x300-cm-lin-francais-eucalyptus.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Lin Lavé Français"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 8,
+      "assignedPhotos": 8,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-18968",
+    "supplierProductId": "PD18968",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat 100% Lin Français Lavé",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat 100% Lin Français Lavé. Matière indiquée : 100% Lin Français. Dimensions documentées : 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Kiwi",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html"
+      },
+      {
+        "label": "Nougat",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html"
+      },
+      {
+        "label": "Poire",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html"
+      },
+      {
+        "label": "Beurre",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html"
+      },
+      {
+        "label": "Mineral",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/18968-drap-plat-240x300-cm-100-lin-francais-lave-kiwi.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Lin Français"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 5,
+      "assignedPhotos": 5,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-17737",
+    "supplierProductId": "PD17737",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Gaze de coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Gaze de coton. Matière indiquée : 100% Gaze de Coton. Dimensions documentées : 270x300 cm, 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "270x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Naturel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Rose",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Camel",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Minuit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Romarin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Lie de vin",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Chantilly",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Guimauve",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Vert d'eau",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Canard",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Safran",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Terracotta",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Nuage",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      },
+      {
+        "label": "Granit",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "100% Gaze de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 14,
+      "assignedPhotos": 28,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 2,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-16134",
+    "supplierProductId": "PD16134",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat Satin de Coton",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat Satin de Coton. Matière indiquée : Satin de Coton. Dimensions documentées : 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Noir",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Bronze",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Sable",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Tourterelle",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Cobalt",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Gris Foncé",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Celadon",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Gris Craie",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      },
+      {
+        "label": "Blanc",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Satin de Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Moins de trois photos sources pour au moins un coloris.",
+      "Après retrait des images partagées ambiguës, moins de trois photos sources propres pour au moins un coloris.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 9,
+      "assignedPhotos": 25,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 1,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-15235",
+    "supplierProductId": "PD15235-multi",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat 100% Coton 57 fils",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/15235-drap-plat-240x300-100-coton-57-fils.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat 100% Coton 57 fils. Matière indiquée : Coton. Dimensions documentées : 240x300 cm, 240x300 cm, 180x290 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/15235-drap-plat-240x300-100-coton-57-fils.html"
+      },
+      {
+        "label": "240x300 cm, 180x290 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/15235-drap-plat-240x300-100-coton-57-fils.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Uni",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/15235-drap-plat-240x300-100-coton-57-fils.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Coton"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 16,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 16,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-10984",
+    "supplierProductId": "PD10984-multi",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat 100% Percale de Coton Lavé 80 fils",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/10984-drap-plat-100-percale-de-coton-lave-80-fils.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat 100% Percale de Coton Lavé 80 fils. Matière indiquée : Percale de Coton Lavé. Dimensions documentées : 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/10984-drap-plat-100-percale-de-coton-lave-80-fils.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Uni",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/10984-drap-plat-100-percale-de-coton-lave-80-fils.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Percale de Coton Lavé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 17,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 17,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
+  },
+  {
+    "id": "pd-10983",
+    "supplierProductId": "PD10983-multi",
+    "status": "draft",
+    "readyForSale": false,
+    "sourceFiles": [
+      "work/specialist-corrected-2026-10-25.json"
+    ],
+    "nameFR": "Drap plat 100% Lin Lavé",
+    "category": "draps",
+    "supplier": "Planete Discount",
+    "url": "https://www.planetediscount.eu/drap-plat/10983-drap-plat-100-lin-lave.html",
+    "sourceLabel": "Planete Discount",
+    "checkedAt": "2026-10-25",
+    "descriptionFrench": "Drap plat 100% Lin Lavé. Matière indiquée : Lin Lavé. Dimensions documentées : 240x300 cm.",
+    "imageRightsApproved": false,
+    "requiresSupplierBundle": false,
+    "sizes": [
+      {
+        "label": "240x300 cm",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/10983-drap-plat-100-lin-lave.html"
+      }
+    ],
+    "colors": [
+      {
+        "label": "Uni",
+        "verified": true,
+        "source": "https://www.planetediscount.eu/drap-plat/10983-drap-plat-100-lin-lave.html"
+      }
+    ],
+    "cost": {
+      "currency": "EUR",
+      "min": null,
+      "max": null,
+      "approved": false,
+      "landedCostVerified": false
+    },
+    "sourcePriceBasis": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "publicPriceHint": "Tarifs professionnels non affichés avant connexion à un compte validé; HT et hors livraison.",
+    "moq": {
+      "quantity": 1,
+      "unit": "pièce",
+      "conflict": null
+    },
+    "shipping": null,
+    "detailsFrench": [
+      "Lin Lavé"
+    ],
+    "openQuestionsFR": [
+      "Prix professionnels réservés au compte validé; aucun devis livré ni stock commandable confirmé.",
+      "Licence photo et conditions de compte / expédition à confirmer; aucun compte créé, aucun message envoyé.",
+      "Association des photos issue du SKU et du libellé fournisseur; revue visuelle avant affichage comme coloris garanti.",
+      "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
+      "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
+      "Droits de réutilisation commerciale des photographies à confirmer."
+    ],
+    "evidenceLevel": "Fiche publique fournisseur ; informations et variantes à revalider avant ouverture.",
+    "photoAudit": {
+      "knownColors": 1,
+      "assignedPhotos": 15,
+      "unassignedPhotos": 0,
+      "minimumPhotosPerColor": 15,
+      "hasEnoughSourceLinks": false,
+      "meetsRequestedMinimum": false
+    },
+    "proposedPrice": {
+      "currency": "EUR",
+      "amount": 29.9,
+      "approved": false,
+      "basis": "Prix de vente proposé pour l’aperçu, selon une grille par catégorie ; plancher relevé lorsque le coût public en EUR l’exige. Ne valide ni coût livré, ni taxes, ni marge."
+    }
   }
 ];

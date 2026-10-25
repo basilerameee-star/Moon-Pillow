@@ -1,32 +1,73 @@
-import test from "node:test";
+import test, { before, after } from "node:test";
 import assert from "node:assert/strict";
-import { products, productColors, colorName } from "../lib/catalog.ts";
+import { products, productColors, colorName, galleryFor, firstColor, resolvePreviewItem, resolveItem, startingPrice } from "../lib/catalog.ts";
 import { assertCheckoutAllowed, buildCheckoutParameters, checkoutFingerprint, createStripeCheckout, getShopConfig, MAX_BODY_BYTES, publicShopStatus, readCheckoutRequest, receiptFromSession, retrieveStripeReceipt, safeCheckoutUrl, validateCheckout } from "../lib/commerce.ts";
 
 const attemptId = "b8dc3488-5088-49b0-906d-d2e47f998a20";
 const first = { productId: products[0].id, optionId: products[0].options[0].id, color: "blanc", quantity: 1 };
 const request = (items = [first], extra = {}) => ({ attemptId, items, ...extra });
 const environment = () => ({ SHOP_READY: "true", LEGAL_APPROVED: "true", APP_ORIGIN: "https://shop.example", APPROVED_PRODUCT_IDS: products.filter(product=>!product.draftOnly).map(product => product.id).join(","), SHIPPING_CENTS: "490", SHIPPING_MIN_DAYS: "3", SHIPPING_MAX_DAYS: "7", STRIPE_SECRET_KEY: "sk_test_fixtureonly" });
+// Explicit test fixtures only; the shipped catalogue retains proposed prices.
+const fixtures=products.filter(p=>!p.draftOnly);
+const originalStatuses=fixtures.map(p=>p.priceStatus);
+before(()=>fixtures.forEach(p=>{p.priceStatus='approved';}));
+after(()=>fixtures.forEach((p,i)=>{p.priceStatus=originalStatuses[i];}));
 
-test("green bundle is unavailable while both individual green products remain selectable", () => {
-  const bundle = products.find(p => p.id === 'ensemble-cocon');
-  assert.deepEqual(productColors(bundle).map(c => c.id), ['blanc', 'rose']);
-  assert.throws(() => validateCheckout(request([{productId:bundle.id,optionId:bundle.options[0].id,color:'vert',quantity:1}])));
+test("the forced bundle is removed; covers and throws remain individual choices", () => {
+  assert.equal(products.some(p=>p.id==='ensemble-cocon'),false);
+  assert.throws(() => validateCheckout(request([{productId:'ensemble-cocon',optionId:'cocon',color:'vert',quantity:1}])));
   for (const id of ['housse-cotelee','plaid-cotele']) {
     const product=products.find(p=>p.id===id);
     assert.equal(validateCheckout(request([{productId:id,optionId:product.options[0].id,color:'vert',quantity:1}])).items[0].color,'vert');
   }
-  assert.equal(products.filter(p=>!p.draftOnly).reduce((count,p)=>count+p.availableColors.length*p.options.length,0),14);
+  const cover=products.find(p=>p.id==='housse-cotelee');
+  assert.equal(cover.options.length,1);
+  assert.match(cover.options[0].label,/1 housse seule/);
+  assert.equal(products.filter(p=>!p.draftOnly).reduce((count,p)=>count+p.availableColors.length*p.options.length,0),9);
 });
 
-test('all 48 supplier drafts remain unpurchasable, including direct server requests',()=>{
+test('at least 200 distinct supplier drafts stay unpurchasable, including direct server requests',()=>{
  const drafts=products.filter(p=>p.draftOnly);
- assert.equal(drafts.length,48);
- assert.equal(new Set(drafts.map(p=>p.id)).size,48);
+ assert.ok(drafts.length>=200);
+ assert.equal(new Set(drafts.map(p=>p.id)).size,drafts.length);
  for(const product of drafts){
   assert.throws(()=>validateCheckout(request([{productId:product.id,optionId:product.options[0]?.id??'invented',color:product.availableColors[0]??'invented',quantity:1}])));
   assert.equal(getShopConfig({...environment(),APPROVED_PRODUCT_IDS:product.id}).checkoutEnabled,false);
  }
+});
+
+test('a proposed price never becomes payable by adding its product to the approval list',()=>{
+ const product=fixtures[0];product.priceStatus='proposed';
+ try{
+  assert.equal(getShopConfig(environment()).checkoutEnabled,false);
+  assert.throws(()=>validateCheckout(request()));
+ }finally{product.priceStatus='approved';}
+});
+
+test('colour galleries never reuse another colour or a general fallback',()=>{
+ for(const id of ['housse-cotelee','plaid-cotele']){
+  const product=products.find(p=>p.id===id);
+  assert.equal(galleryFor(product,'rose').length,1);
+  assert.ok(galleryFor(product,'blanc').length>=3);
+  assert.ok(!galleryFor(product,'rose').some(src=>galleryFor(product,'blanc').includes(src)));
+ }
+ const product={...fixtures[0],images:{blanc:'/white.jpg'},colorGalleries:{blanc:['/white.jpg','/texture.jpg']},coverImage:'/white.jpg',gallery:['/generic.jpg']};
+ assert.deepEqual(galleryFor(product,'rose'),[]);
+});
+
+test('neutral colours with an actual photo lead, while multicolour motifs do not become beige',()=>{
+ const product={...fixtures[0],availableColors:['blue','sand','white'],colorOptions:[{id:'blue',name:'Bleu'},{id:'sand',name:'Sable'},{id:'white',name:'Blanc'}],images:{blue:'/blue.jpg',sand:'/sand.jpg',white:'/white.jpg'},colorGalleries:{}};
+ assert.equal(firstColor(product),'sand');
+ delete product.images.sand;
+ assert.equal(firstColor(product),'white');
+});
+
+test('a draft selection can be prepared while payment rejects it',()=>{
+ const product=products.find(p=>p.draftOnly&&!p.requiresSupplierBundle&&p.options.length&&p.availableColors.length);
+ const item={productId:product.id,optionId:product.options[0].id,color:product.availableColors[0],quantity:1};
+ assert.ok(startingPrice(product)>0);
+ assert.equal(resolvePreviewItem(item).product.id,product.id);
+ assert.throws(()=>resolveItem(item));
 });
 
 test("green names and checkout labels describe each product rather than a shared colour", () => {

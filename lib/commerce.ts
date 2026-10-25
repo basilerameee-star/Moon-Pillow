@@ -51,7 +51,7 @@ export function getShopConfig(env: Environment): ShopConfig {
   const approvedIds = typeof env.APPROVED_PRODUCT_IDS === "string"
     ? [...new Set(env.APPROVED_PRODUCT_IDS.split(",").map(id => id.trim()).filter(Boolean))].sort()
     : [];
-  const approved = approvedIds.length > 0 && approvedIds.every(id => products.some(product => product.id === id && !product.draftOnly));
+  const approved = approvedIds.length > 0 && approvedIds.every(id => products.some(product => product.id === id && !product.draftOnly && product.priceStatus === "approved"));
   const shippingCents = integerSetting(env.SHIPPING_CENTS, 0, 10000);
   const minDays = integerSetting(env.SHIPPING_MIN_DAYS, 1, 60);
   const maxDays = integerSetting(env.SHIPPING_MAX_DAYS, 1, 60);
