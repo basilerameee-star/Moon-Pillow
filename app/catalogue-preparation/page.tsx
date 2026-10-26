@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { sourcingCandidates } from '@/lib/sourcing-data';
-import { categoryLabel, products, type Category } from '@/lib/catalog';
+import { categoryLabel, products, collectionImage, type Category } from '@/lib/catalog';
 
 export const metadata:Metadata={title:'Catalogue de préparation — Moon & Pillow',robots:{index:false,follow:false}};
 const cost=(value:number,currency:string)=>new Intl.NumberFormat('fr-FR',{style:'currency',currency}).format(value);
@@ -15,7 +15,7 @@ export default function Preparation(){
   <p className="category-intro">Les références ci-dessous sont des pistes de travail. Les prix relevés sont des prix fournisseurs, distincts du prix de vente. Aucun de ces nouveaux modèles n’est ouvert aux commandes.</p>
   <div className="progress-summary">
    <div><strong>{sourcingCandidates.length}</strong><span>modèles repérés</span></div>
-   <div><strong>{products.filter(p=>p.draftOnly&&!p.requiresSupplierBundle&&p.coverImage).length}</strong><span>modèles illustrés proposés séparément</span></div>
+   <div><strong>{products.filter(p=>p.draftOnly&&!p.requiresSupplierBundle&&collectionImage(p)).length}</strong><span>modèles avec une scène sélectionnée dans la collection</span></div>
    <div><strong>0</strong><span>nouvelle référence approuvée à la vente</span></div>
    <div><strong>{sourcingCandidates.filter(p=>p.photoAudit.meetsRequestedMinimum).length}</strong><span>galeries contrôlées : 2 coloris minimum, 3 vues distinctes par coloris</span></div>
   </div>
@@ -30,7 +30,7 @@ export default function Preparation(){
     <td><ul>{p.openQuestionsFR.slice(0,3).map(q=><li key={q}>{q}</li>)}</ul></td></tr>;
    })}
   </tbody></table></div>
-  <p className="source-note" style={{marginTop:32}}>Les modèles illustrés dans la collection sont sélectionnés pour la fidélité de leur photo de référence. Les photos dont la couleur ou une certification n’est pas vérifiée ne servent pas de visuel de variante. {products.filter(p=>p.draftOnly&&p.coverImage).length} nouveaux modèles disposent d’un visuel pour cet aperçu privé.</p>
+  <p className="source-note" style={{marginTop:32}}>La collection privilégie les mises en situation contrôlées et les macros sans détourage. Les autres modèles restent accessibles dans cette liste de préparation. Les photos dont la couleur ou une certification n’est pas vérifiée ne servent pas de visuel de variante. {products.filter(p=>p.draftOnly&&p.coverImage).length} nouveaux modèles disposent d’un visuel pour cet aperçu privé.</p>
   <a className="underlined" href="/#collection" style={{marginTop:35}}><ArrowLeft size={16}/> Retour à la collection</a>
  </main>;
 }

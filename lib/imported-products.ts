@@ -1,5 +1,5 @@
 import type { Product } from './catalog';
-// Modèles en préparation ; tous les prix de vente sont proposés, aucun encaissement autorisé.
+// Modèles en préparation ; tous les prix sont proposés, aucun encaissement autorisé.
 export const importedProducts: Product[] = [
   {
     "id": "alibaba-1601688153742",
@@ -374,17 +374,17 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/35435ecfaf37e9b9.webp",
         "https://www.aw-dropship.eu/i/4vdw/m6BYdYin/800x800.jpg",
-        "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
+        "/img/catalogue/9acd38a91f0e2a71.webp",
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5ezf/pvla1ewI/800x800.png",
-        "https://www.aw-dropship.eu/i/5eze/pCcX3zJk/800x800.png",
+        "/img/catalogue/e4c66066a4232788.webp",
         "https://www.aw-dropship.eu/i/5ezh/izEgwwmz/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5ezg/hRLQsRQU/800x800.jpg",
+        "/img/catalogue/d471b25bc8e98a4c.webp",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f21/XFaqQkEj/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f1s/RvwCt0jl/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5f1r/JCd8drF0/800x800.jpg"
+        "/img/catalogue/489714b351514fbb.webp"
       ]
     },
     "sharedGallery": [
@@ -441,14 +441,14 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/8da7e64cdad9c7fd.webp",
-        "https://www.aw-dropship.eu/i/4vdr/4R_e6qSX/800x800.jpg",
+        "/img/catalogue/1000594612df04cf.webp",
         "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5ez8/2jnNre9Y/800x800.png",
-        "https://www.aw-dropship.eu/i/5ez7/IrFVf8km/800x800.png",
+        "/img/catalogue/8c0da2f685569bde.webp",
         "https://www.aw-dropship.eu/i/5eza/jGZvRaIG/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5ez9/xZjKiKrH/800x800.jpg",
+        "/img/catalogue/b8c0d17ca8df059e.webp",
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f1i/iefmxPXH/800x800.png",
         "https://www.aw-dropship.eu/i/5f1j/Ga4APEXy/800x800.jpg"
@@ -508,18 +508,18 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/6edde8fcf9ec7ec4.webp",
-        "https://www.aw-dropship.eu/i/4vdm/Jed_kmz_/800x800.jpg",
+        "/img/catalogue/c8a23dc81f729e03.webp",
         "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5ez1/dlqR1bT9/800x800.png",
-        "https://www.aw-dropship.eu/i/5ez0/CJRRCU8N/800x800.png",
+        "/img/catalogue/80859109dd1a35be.webp",
         "https://www.aw-dropship.eu/i/5ez3/jtTUFrU8/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5ez2/8aly2yud/800x800.jpg",
+        "/img/catalogue/27911c6cb7126fee.webp",
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f20/mRTiNADm/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f1c/hOWaH3m9/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5f1b/Ou_qBEmY/800x800.jpg"
+        "/img/catalogue/07b05221035d0635.webp"
       ]
     },
     "sharedGallery": [
@@ -576,18 +576,18 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/916b1bf77f071113.webp",
-        "https://www.aw-dropship.eu/i/4vdh/bDVCtdFQ/800x800.jpg",
+        "/img/catalogue/4f9ff5cf7d8599b5.webp",
         "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5eyu/5T2oFrg0/800x800.png",
-        "https://www.aw-dropship.eu/i/5eyt/VmiSGiSk/800x800.png",
+        "/img/catalogue/8c6438288966d627.webp",
         "https://www.aw-dropship.eu/i/5eyw/VwffXzds/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5eyv/lHOmoPiJ/800x800.jpg",
+        "/img/catalogue/ee12480a021a2303.webp",
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f1z/f18tPSb-/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f14/u5dIapao/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5f13/yzH5EXJI/800x800.jpg"
+        "/img/catalogue/05e1ee8719fee46e.webp"
       ]
     },
     "sharedGallery": [
@@ -636,7 +636,7 @@ export const importedProducts: Product[] = [
         "https://www.aw-dropship.eu/i/4vdr/4R_e6qSX/800x800.jpg",
         "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
-        "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg"
+        "/img/catalogue/5890ee74e37a88dc.webp"
       ]
     },
     "sharedGallery": [
@@ -692,18 +692,18 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/c96d9b6102f71235.webp",
-        "https://www.aw-dropship.eu/i/4vd7/TbZe3rAA/800x800.jpg",
+        "/img/catalogue/828e618afb955fc6.webp",
         "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5eyn/1gKaMnVO/800x800.png",
-        "https://www.aw-dropship.eu/i/5eym/QnPlau39/800x800.png",
+        "/img/catalogue/8acc538d51951abb.webp",
         "https://www.aw-dropship.eu/i/5eyp/wUvw8cPy/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5eyo/NKk-p5Rs/800x800.jpg",
+        "/img/catalogue/eb48b52cf48fe361.webp",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f1y/Ge9bYh75/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f0v/JNG1OQmv/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5f0u/SuPeXpt3/800x800.jpg"
+        "/img/catalogue/1ca9aacee19a1af2.webp"
       ]
     },
     "sharedGallery": [
@@ -760,18 +760,18 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/7be0aba10e5fe3d6.webp",
-        "https://www.aw-dropship.eu/i/4vd2/b_KVl3TG/800x800.jpg",
+        "/img/catalogue/3120aef01a8c14da.webp",
         "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5eyg/1McFih-q/800x800.png",
-        "https://www.aw-dropship.eu/i/5eyf/bi23Tkkk/800x800.png",
+        "/img/catalogue/5faf26f0f0b20738.webp",
         "https://www.aw-dropship.eu/i/5eyi/ShiB-foD/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5eyh/ce34tOJl/800x800.jpg",
+        "/img/catalogue/9379cdfe80a883fd.webp",
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f0l/7qeViycD/800x800.png",
         "https://www.aw-dropship.eu/i/5f0n/1Mu19Mz5/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5f0m/mKmKwEe9/800x800.jpg"
+        "/img/catalogue/49f36dea1b2d6208.webp"
       ]
     },
     "sharedGallery": [
@@ -832,13 +832,13 @@ export const importedProducts: Product[] = [
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5ey9/zhQ2T2g0/800x800.png",
-        "https://www.aw-dropship.eu/i/5ey8/7UrOHuxO/800x800.png",
+        "/img/catalogue/bd311f0234f3dc80.webp",
         "https://www.aw-dropship.eu/i/5eyb/QxzcIX3T/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5eya/rXQvf0tK/800x800.jpg",
+        "/img/catalogue/20ee08fb13b8f71d.webp",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f0d/g4Gouv0X/800x800.png",
         "https://www.aw-dropship.eu/i/5f0f/NuwYj3Pd/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5f0e/HyzMtfoB/800x800.jpg"
+        "/img/catalogue/377cfea873bb5306.webp"
       ]
     },
     "sharedGallery": [
@@ -900,12 +900,12 @@ export const importedProducts: Product[] = [
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5ey1/DBrfKXyU/800x800.png",
-        "https://www.aw-dropship.eu/i/5ey0/G-AnZQ_8/800x800.png",
+        "/img/catalogue/d4f5a49bd42806cc.webp",
         "https://www.aw-dropship.eu/i/5ey2/ojdJjffA/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5ey3/gcQYocsv/800x800.jpg",
+        "/img/catalogue/ad80c338fded559c.webp",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/5f05/CZrI3Avr/800x800.png",
-        "https://www.aw-dropship.eu/i/5f06/i2ZkDSpg/800x800.jpg"
+        "/img/catalogue/a6b00ad0d82e4940.webp"
       ]
     },
     "sharedGallery": [
@@ -967,13 +967,13 @@ export const importedProducts: Product[] = [
         "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
         "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
         "https://www.aw-dropship.eu/i/5exu/lEEnDkTX/800x800.png",
-        "https://www.aw-dropship.eu/i/5ext/1MSEwPEY/800x800.png",
+        "/img/catalogue/5fa418fad734ed13.webp",
         "https://www.aw-dropship.eu/i/5exv/GucOUH7_/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5exw/TDE8DORg/800x800.jpg",
+        "/img/catalogue/c2aeb9a17c5ef5e8.webp",
         "https://www.aw-dropship.eu/i/5ezu/FB-pl7NS/800x800.jpg",
         "https://www.aw-dropship.eu/i/5ezm/8us78pNv/800x800.png",
         "https://www.aw-dropship.eu/i/5ezo/qngN8rzh/800x800.jpg",
-        "https://www.aw-dropship.eu/i/5ezn/zazpU-RM/800x800.jpg"
+        "/img/catalogue/e72d7c3653959e9d.webp"
       ]
     },
     "sharedGallery": [
@@ -1021,7 +1021,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/85a1a176ec492386.webp",
         "https://www.aw-dropship.eu/i/1hxe/exWNEJW6/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hxd/0-C0MZZF/800x800.jpeg",
+        "/img/catalogue/9679150cbc87bc4a.webp",
         "https://www.aw-dropship.eu/i/1hxc/RzYxBan-/800x800.jpeg"
       ]
     },
@@ -1070,7 +1070,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/456b940f18ac6883.webp",
         "https://www.aw-dropship.eu/i/1hxa/ejRTkg4X/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hx9/SBT3cAYY/800x800.jpeg",
+        "/img/catalogue/d266aabd595899c5.webp",
         "https://www.aw-dropship.eu/i/1hx8/vO9Xiyc5/800x800.jpeg"
       ]
     },
@@ -1119,7 +1119,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/c2bc1423c23e2195.webp",
         "https://www.aw-dropship.eu/i/1hx6/DWG6fZET/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hx5/9wPfMoSS/800x800.jpeg",
+        "/img/catalogue/1957eb8d37e91830.webp",
         "https://www.aw-dropship.eu/i/1hx4/bDYY7hGd/800x800.jpeg"
       ]
     },
@@ -1168,7 +1168,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/a4527836411922e4.webp",
         "https://www.aw-dropship.eu/i/1hx2/oZ1nPR63/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hx1/9ug6vwyk/800x800.jpeg",
+        "/img/catalogue/75284644d112fe3e.webp",
         "https://www.aw-dropship.eu/i/1hx0/L0-zY7_K/800x800.jpeg"
       ]
     },
@@ -1217,7 +1217,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/1519389dec5b36eb.webp",
         "https://www.aw-dropship.eu/i/1hwy/ISfjZhjd/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hwx/g0V3J-ry/800x800.jpeg",
+        "/img/catalogue/5b76388c248eb791.webp",
         "https://www.aw-dropship.eu/i/1hww/1IPlfKbB/800x800.jpeg"
       ]
     },
@@ -1266,7 +1266,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/ffaa17c92cb2eefe.webp",
         "https://www.aw-dropship.eu/i/1hwu/p9nN0gmk/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hwt/x-A0xVsW/800x800.jpeg",
+        "/img/catalogue/e33fed177a573c1b.webp",
         "https://www.aw-dropship.eu/i/1hws/qb5E8num/800x800.jpeg"
       ]
     },
@@ -1314,7 +1314,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/07fcf5ade6dcb6dc.webp",
-        "https://www.aw-dropship.eu/i/1hvf/RePbWZSs/800x800.jpeg",
+        "/img/catalogue/0667c0414ac58bf8.webp",
         "https://www.aw-dropship.eu/i/1hve/0tiEq7NT/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hvd/yELsjEbN/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hvc/jGCDnTpy/800x800.jpeg",
@@ -1371,7 +1371,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/cedf33ae4c62e143.webp",
-        "https://www.aw-dropship.eu/i/1huy/594DZEdX/800x800.jpeg",
+        "/img/catalogue/48b4e10c7471b8e2.webp",
         "https://www.aw-dropship.eu/i/1hux/FHBiObWm/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1huw/DbMStZJx/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1huv/qk5G2TKt/800x800.jpeg"
@@ -1427,7 +1427,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/766538f056451cd3.webp",
-        "https://www.aw-dropship.eu/i/1hvp/wkufFzCq/800x800.jpeg",
+        "/img/catalogue/ae6d00bd408971c9.webp",
         "https://www.aw-dropship.eu/i/1hvo/J0V_oUSB/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hvn/i4kcONoi/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hvm/EQMKIVG8/800x800.jpeg"
@@ -1477,7 +1477,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/d47e0a5786b9b5ac.webp",
-        "https://www.aw-dropship.eu/i/1hv9/3gH9ZAWm/800x800.jpeg",
+        "/img/catalogue/1debd0ce6f4f6dd5.webp",
         "https://www.aw-dropship.eu/i/1hv8/Ifep_XqE/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hv7/ACUw9vCn/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hv6/vihTk-AB/800x800.jpeg"
@@ -1527,8 +1527,8 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/de37a4a6966487c5.webp",
-        "https://www.aw-dropship.eu/i/1hv4/cCUTN6A5/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1hv3/roAkU2kp/800x800.jpeg",
+        "/img/catalogue/3b80f344e6449a95.webp",
+        "/img/catalogue/d5f2fa967c2fb345.webp",
         "https://www.aw-dropship.eu/i/1hv2/Gei1W7pl/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hv1/AkIexBes/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1hv0/qC8D01Ls/800x800.jpeg"
@@ -1873,50 +1873,50 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/e96ce098e1561594.webp",
         "https://www.planetediscount.eu/82192-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg",
-        "https://www.planetediscount.eu/82193-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg",
-        "https://www.planetediscount.eu/82194-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg"
+        "/img/catalogue/62bba249c2f38d92.webp",
+        "/img/catalogue/7c1d8ec9d569b46b.webp"
       ],
       "color-2": [
         "/img/catalogue/6ebdb9367a600536.webp",
         "https://www.planetediscount.eu/82188-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg",
-        "https://www.planetediscount.eu/82189-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg",
-        "https://www.planetediscount.eu/82190-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg"
+        "/img/catalogue/43089d5d1642e324.webp",
+        "/img/catalogue/0f8197ab5be0d7c0.webp"
       ],
       "color-3": [
         "/img/catalogue/7637a5fe2cb54c29.webp",
         "https://www.planetediscount.eu/82184-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
-        "https://www.planetediscount.eu/82185-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
-        "https://www.planetediscount.eu/82186-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg"
+        "/img/catalogue/c3ef6e7d935cd2f6.webp",
+        "/img/catalogue/fb1abbc8143aabdd.webp"
       ],
       "color-4": [
         "/img/catalogue/5befe8be7e919664.webp",
         "https://www.planetediscount.eu/82180-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg",
-        "https://www.planetediscount.eu/82181-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg",
-        "https://www.planetediscount.eu/82182-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg"
+        "/img/catalogue/e10a6bdcf5e2a52f.webp",
+        "/img/catalogue/5301a44eefb7c16b.webp"
       ],
       "color-5": [
         "/img/catalogue/f956085ddacf73b9.webp",
         "https://www.planetediscount.eu/82176-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg",
-        "https://www.planetediscount.eu/82177-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg",
-        "https://www.planetediscount.eu/82178-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg"
+        "/img/catalogue/e05a49dc552ad373.webp",
+        "/img/catalogue/eb5cf42486828e75.webp"
       ],
       "color-6": [
         "/img/catalogue/74529261b45aa83d.webp",
         "https://www.planetediscount.eu/82172-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg",
-        "https://www.planetediscount.eu/82173-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg",
-        "https://www.planetediscount.eu/82174-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg"
+        "/img/catalogue/bf11cdb584b7ce0b.webp",
+        "/img/catalogue/75b15d3c765daa01.webp"
       ],
       "color-7": [
         "/img/catalogue/14a4211e8992f036.webp",
         "https://www.planetediscount.eu/82168-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
-        "https://www.planetediscount.eu/82169-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
-        "https://www.planetediscount.eu/82170-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg"
+        "/img/catalogue/c2c9d2ed40788c64.webp",
+        "/img/catalogue/14b31815a73cb89d.webp"
       ],
       "color-8": [
         "/img/catalogue/1be1f5b9b2689c57.webp",
         "https://www.planetediscount.eu/82164-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg",
-        "https://www.planetediscount.eu/82165-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg",
-        "https://www.planetediscount.eu/82166-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg"
+        "/img/catalogue/05a1df06e62b7e96.webp",
+        "/img/catalogue/192268f6a53708d1.webp"
       ]
     },
     "sharedGallery": [],
@@ -2070,31 +2070,31 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/a0a7daab94ef379c.webp",
-        "https://www.planetediscount.eu/80932-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.jpg",
+        "/img/catalogue/4f859f1ac60e7a02.webp",
         "https://www.planetediscount.eu/80881-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-vert-d-eau.jpg",
         "https://www.planetediscount.eu/80882-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-vert-d-eau.jpg"
       ],
       "color-2": [
         "/img/catalogue/94c7aa67b450a0e6.webp",
-        "https://www.planetediscount.eu/80930-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-terracotta.jpg",
+        "/img/catalogue/04cfc23666d38e26.webp",
         "https://www.planetediscount.eu/80879-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-terracotta.jpg",
         "https://www.planetediscount.eu/80880-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-terracotta.jpg"
       ],
       "color-3": [
         "/img/catalogue/f93757b489e5c4dd.webp",
-        "https://www.planetediscount.eu/80928-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-sapin.jpg",
+        "/img/catalogue/7f61eb55333bcb37.webp",
         "https://www.planetediscount.eu/80877-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-sapin.jpg",
-        "https://www.planetediscount.eu/80878-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-sapin.jpg"
+        "/img/catalogue/e23d0caf6f1e5ef8.webp"
       ],
       "color-4": [
         "/img/catalogue/102bc061c7e1c96d.webp",
-        "https://www.planetediscount.eu/80926-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-safran.jpg",
+        "/img/catalogue/68cb1392d507c286.webp",
         "https://www.planetediscount.eu/80875-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-safran.jpg",
         "https://www.planetediscount.eu/80876-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-safran.jpg"
       ],
       "color-5": [
         "/img/catalogue/3dcb8315eca11a8f.webp",
-        "https://www.planetediscount.eu/80924-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-rose-fonce.jpg",
+        "/img/catalogue/5d414eab6f61bdd6.webp",
         "https://www.planetediscount.eu/80873-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-rose-fonce.jpg",
         "https://www.planetediscount.eu/80874-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-rose-fonce.jpg"
       ],
@@ -2106,9 +2106,9 @@ export const importedProducts: Product[] = [
       ],
       "color-7": [
         "/img/catalogue/542af84917e10e26.webp",
-        "https://www.planetediscount.eu/80920-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-naturel.jpg",
+        "/img/catalogue/f04c607c7796b023.webp",
         "https://www.planetediscount.eu/80869-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-naturel.jpg",
-        "https://www.planetediscount.eu/80870-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-naturel.jpg"
+        "/img/catalogue/c0a520b564862a43.webp"
       ],
       "color-8": [
         "/img/catalogue/c61a2272e9cea1b1.webp",
@@ -2118,9 +2118,9 @@ export const importedProducts: Product[] = [
       ],
       "color-9": [
         "/img/catalogue/ddde2cec77c45dea.webp",
-        "https://www.planetediscount.eu/80916-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-minuit.jpg",
+        "/img/catalogue/9fcb38c5cf251609.webp",
         "https://www.planetediscount.eu/80865-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-minuit.jpg",
-        "https://www.planetediscount.eu/80866-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-minuit.jpg"
+        "/img/catalogue/5987156597bc6dd6.webp"
       ],
       "color-10": [
         "/img/catalogue/1fe5ef1362a5c27c.webp",
@@ -2136,7 +2136,7 @@ export const importedProducts: Product[] = [
       ],
       "color-12": [
         "/img/catalogue/06ed9b266a6ddc2c.webp",
-        "https://www.planetediscount.eu/80910-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-ficelle.jpg",
+        "/img/catalogue/2b1d441fac7b7dc5.webp",
         "https://www.planetediscount.eu/80859-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-ficelle.jpg",
         "https://www.planetediscount.eu/80860-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-ficelle.jpg"
       ],
@@ -2270,7 +2270,7 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/61394-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-eucalyptus.jpg",
         "https://www.planetediscount.eu/61395-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-eucalyptus.jpg",
         "https://www.planetediscount.eu/61382-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-eucalyptus.jpg",
-        "https://www.planetediscount.eu/61383-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-eucalyptus.jpg"
+        "/img/catalogue/c2a8c5bf18a49ea8.webp"
       ],
       "color-2": [
         "/img/catalogue/d3cf9155bae70909.webp",
@@ -2278,9 +2278,9 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/61404-thickbox_default/serviette-de-bain-70x130-cm-gaze-de-coton-naturel.jpg",
         "https://www.planetediscount.eu/61405-thickbox_default/serviette-de-bain-70x130-cm-gaze-de-coton-naturel.jpg",
         "https://www.planetediscount.eu/61392-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-naturel.jpg",
-        "https://www.planetediscount.eu/61393-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-naturel.jpg",
+        "/img/catalogue/9e606456a09d5870.webp",
         "https://www.planetediscount.eu/61380-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-naturel.jpg",
-        "https://www.planetediscount.eu/61381-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-naturel.jpg"
+        "/img/catalogue/bd8823d33f08c56c.webp"
       ],
       "color-3": [
         "/img/catalogue/1f68406c6d392e2f.webp",
@@ -2290,7 +2290,7 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/61390-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-rose.jpg",
         "https://www.planetediscount.eu/61391-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-rose.jpg",
         "https://www.planetediscount.eu/61378-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-rose.jpg",
-        "https://www.planetediscount.eu/61379-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-rose.jpg"
+        "/img/catalogue/2f55a6823e870785.webp"
       ],
       "color-4": [
         "/img/catalogue/23f1ee2cfbcd714c.webp",
@@ -2300,7 +2300,7 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/61388-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-camel.jpg",
         "https://www.planetediscount.eu/61389-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-camel.jpg",
         "https://www.planetediscount.eu/61376-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-camel.jpg",
-        "https://www.planetediscount.eu/61377-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-camel.jpg"
+        "/img/catalogue/c75b9ccd6f224300.webp"
       ],
       "color-5": [
         "/img/catalogue/42d667b12cfd8b62.webp",
@@ -2310,7 +2310,7 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/61386-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-romarin.jpg",
         "https://www.planetediscount.eu/61387-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-romarin.jpg",
         "https://www.planetediscount.eu/61374-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-romarin.jpg",
-        "https://www.planetediscount.eu/61375-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-romarin.jpg"
+        "/img/catalogue/2025b3ec31ed39ab.webp"
       ],
       "color-6": [
         "/img/catalogue/08fb966b2e275826.webp",
@@ -2318,9 +2318,9 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/61396-thickbox_default/serviette-de-bain-70x130-cm-gaze-de-coton-terracotta.jpg",
         "https://www.planetediscount.eu/61397-thickbox_default/serviette-de-bain-70x130-cm-gaze-de-coton-terracotta.jpg",
         "https://www.planetediscount.eu/61384-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-terracotta.jpg",
-        "https://www.planetediscount.eu/61385-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-terracotta.jpg",
+        "/img/catalogue/5c1aad056b51a11c.webp",
         "https://www.planetediscount.eu/61372-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-terracotta.jpg",
-        "https://www.planetediscount.eu/61373-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-terracotta.jpg"
+        "/img/catalogue/6a35534c61735602.webp"
       ]
     },
     "sharedGallery": [],
@@ -2403,8 +2403,8 @@ export const importedProducts: Product[] = [
       ],
       "color-4": [
         "/img/catalogue/684635473f22081c.webp",
-        "https://www.planetediscount.eu/62318-thickbox_default/fouta-avec-franges-95x180-cm-polycoton-sable.jpg",
-        "https://www.planetediscount.eu/62320-thickbox_default/fouta-avec-franges-95x180-cm-polycoton-sable.jpg",
+        "/img/catalogue/033536a7461e3190.webp",
+        "/img/catalogue/679f54592445fb47.webp",
         "https://www.planetediscount.eu/62322-thickbox_default/fouta-avec-franges-95x180-cm-polycoton-sable.jpg"
       ]
     },
@@ -2488,14 +2488,14 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/567400a6ebf08fbf.webp",
         "https://www.planetediscount.eu/81592-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.jpg",
-        "https://www.planetediscount.eu/81593-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.jpg",
+        "/img/catalogue/bbc5db31c8ebd321.webp",
         "https://www.planetediscount.eu/81594-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.jpg"
       ],
       "color-2": [
         "/img/catalogue/3de97bc75a6ea494.webp",
         "https://www.planetediscount.eu/81588-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-naturel.jpg",
-        "https://www.planetediscount.eu/81589-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-naturel.jpg",
-        "https://www.planetediscount.eu/81590-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-naturel.jpg"
+        "/img/catalogue/760cacc4060c0488.webp",
+        "/img/catalogue/e383e506b07a6359.webp"
       ],
       "color-3": [
         "/img/catalogue/7733c1557493c164.webp",
@@ -2573,22 +2573,22 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/f33ed1f083039f62.webp",
         "https://www.planetediscount.eu/82492-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-naturel.jpg",
-        "https://www.planetediscount.eu/82493-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-naturel.jpg"
+        "/img/catalogue/074c23ef61f97af8.webp"
       ],
       "color-2": [
         "/img/catalogue/83dc552e03731f7f.webp",
         "https://www.planetediscount.eu/82489-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-crepuscule.jpg",
-        "https://www.planetediscount.eu/82490-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-crepuscule.jpg"
+        "/img/catalogue/8a83648b317c15a1.webp"
       ],
       "color-3": [
         "/img/catalogue/a95be74b4650bc4d.webp",
         "https://www.planetediscount.eu/82486-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-chantilly.jpg",
-        "https://www.planetediscount.eu/82487-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-chantilly.jpg"
+        "/img/catalogue/eb848ea437c4bdfe.webp"
       ],
       "color-4": [
         "/img/catalogue/77bbf62c18168c51.webp",
         "https://www.planetediscount.eu/82483-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-argent.jpg",
-        "https://www.planetediscount.eu/82484-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-argent.jpg"
+        "/img/catalogue/8ab1e7f8bb28e2ae.webp"
       ]
     },
     "sharedGallery": [],
@@ -2649,13 +2649,13 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/81679-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-rose.jpg",
         "https://www.planetediscount.eu/81664-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-montauk-rose.jpg",
         "https://www.planetediscount.eu/81665-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-montauk-rose.jpg",
-        "https://www.planetediscount.eu/81666-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-montauk-rose.jpg",
-        "https://www.planetediscount.eu/81667-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-montauk-rose.jpg"
+        "/img/catalogue/87259560f95953fe.webp",
+        "/img/catalogue/6eeadcc142a5b6de.webp"
       ],
       "color-2": [
         "/img/catalogue/358db255491c0c9b.webp",
         "https://www.planetediscount.eu/81676-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-jaune.jpg",
-        "https://www.planetediscount.eu/81677-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-jaune.jpg",
+        "/img/catalogue/5f78bac51739b211.webp",
         "https://www.planetediscount.eu/81661-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-montauk-jaune.jpg",
         "https://www.planetediscount.eu/81662-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-montauk-jaune.jpg"
       ]
@@ -2715,16 +2715,16 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/6ed33a0988e95c02.webp",
-        "https://www.planetediscount.eu/80896-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.jpg",
-        "https://www.planetediscount.eu/80897-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.jpg",
-        "https://www.planetediscount.eu/80898-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-terracotta.jpg",
+        "/img/catalogue/bd9f7420e0c77462.webp",
+        "/img/catalogue/fc3fb8fb364be44c.webp",
+        "/img/catalogue/940edd68d33235c0.webp",
         "https://www.planetediscount.eu/80846-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-vickie-terracotta.jpg"
       ],
       "color-2": [
         "/img/catalogue/2b5a69966d7c1143.webp",
         "https://www.planetediscount.eu/80894-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-vickie-romarin.jpg",
         "https://www.planetediscount.eu/80844-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-vickie-romarin.jpg",
-        "https://www.planetediscount.eu/80845-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-vickie-romarin.jpg"
+        "/img/catalogue/fa018de5db7424e5.webp"
       ]
     },
     "sharedGallery": [],
@@ -2782,15 +2782,15 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/18a40bc1e5d8926f.webp",
-        "https://www.planetediscount.eu/82377-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-terracotta.jpg",
+        "/img/catalogue/a813db0d4e4ebb51.webp",
         "https://www.planetediscount.eu/82322-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-vickie-terracotta.jpg",
-        "https://www.planetediscount.eu/82323-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-vickie-terracotta.jpg"
+        "/img/catalogue/5820835135a852ca.webp"
       ],
       "color-2": [
         "/img/catalogue/481c7d0c74245dae.webp",
-        "https://www.planetediscount.eu/82375-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-vickie-romarin.jpg",
+        "/img/catalogue/e2f4d761943d0d63.webp",
         "https://www.planetediscount.eu/82320-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-vickie-romarin.jpg",
-        "https://www.planetediscount.eu/82321-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-vickie-romarin.jpg"
+        "/img/catalogue/676365c9cc85a535.webp"
       ]
     },
     "sharedGallery": [],
@@ -3186,7 +3186,7 @@ export const importedProducts: Product[] = [
       "color-2": [
         "/img/catalogue/11665aeb05b51b5a.webp",
         "https://www.planetediscount.eu/81374-thickbox_default/housse-de-couette-240x280-cm-gaze-de-coton-terra-terracotta.jpg",
-        "https://www.planetediscount.eu/81375-thickbox_default/housse-de-couette-240x280-cm-gaze-de-coton-terra-terracotta.jpg"
+        "/img/catalogue/ac6a6cfb73c0c209.webp"
       ],
       "color-3": [
         "/img/catalogue/20ef9ce52edfe43b.webp",
@@ -3211,7 +3211,7 @@ export const importedProducts: Product[] = [
       "color-7": [
         "/img/catalogue/53d7cf8f5b2f8d8b.webp",
         "https://www.planetediscount.eu/81359-thickbox_default/housse-de-couette-240x280-cm-gaze-de-coton-terra-naturel.jpg",
-        "https://www.planetediscount.eu/81360-thickbox_default/housse-de-couette-240x280-cm-gaze-de-coton-terra-naturel.jpg"
+        "/img/catalogue/72850483f39e9ab8.webp"
       ],
       "color-8": [
         "/img/catalogue/4288c2d13a1bf8d3.webp",
@@ -4083,7 +4083,7 @@ export const importedProducts: Product[] = [
       ],
       "color-13": [
         "/img/catalogue/6a89f496314c9200.webp",
-        "https://www.planetediscount.eu/82423-thickbox_default/taie-d-oreiller-80x80-cm-gaze-de-coton-terra-ficelle.jpg",
+        "/img/catalogue/1973a76dab6e853a.webp",
         "https://www.planetediscount.eu/82326-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-terra-ficelle.jpg"
       ],
       "color-14": [
@@ -4103,7 +4103,7 @@ export const importedProducts: Product[] = [
       ],
       "color-18": [
         "/img/catalogue/3e115efea129c914.webp",
-        "https://www.planetediscount.eu/82414-thickbox_default/taie-d-oreiller-80x80-cm-gaze-de-coton-terra-abricot.jpg",
+        "/img/catalogue/2a6ddeb2623916fb.webp",
         "https://www.planetediscount.eu/82324-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-terra-abricot.jpg",
         "https://www.planetediscount.eu/82325-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-terra-abricot.jpg"
       ]
@@ -4220,7 +4220,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/1f453feded106515.webp",
         "https://www.planetediscount.eu/82393-thickbox_default/taie-d-oreiller-60x60-cm-lin-rosalie-vieux-rose.jpg",
-        "https://www.planetediscount.eu/82394-thickbox_default/taie-d-oreiller-60x60-cm-lin-rosalie-vieux-rose.jpg",
+        "/img/catalogue/5a64f46f2645d1d6.webp",
         "https://www.planetediscount.eu/82338-thickbox_default/taie-d-oreiller-50x70-cm-lin-rosalie-vieux-rose.jpg"
       ],
       "color-2": [
@@ -4247,7 +4247,7 @@ export const importedProducts: Product[] = [
       "color-9": [
         "/img/catalogue/769916fa45bf3ad1.webp",
         "https://www.planetediscount.eu/82391-thickbox_default/taie-d-oreiller-60x60-cm-lin-rosalie-azur.jpg",
-        "https://www.planetediscount.eu/82392-thickbox_default/taie-d-oreiller-60x60-cm-lin-rosalie-azur.jpg",
+        "/img/catalogue/0f4a0db9e491feb5.webp",
         "https://www.planetediscount.eu/82336-thickbox_default/taie-d-oreiller-50x70-cm-lin-rosalie-azur.jpg"
       ],
       "color-10": [
@@ -4357,7 +4357,7 @@ export const importedProducts: Product[] = [
       ],
       "color-4": [
         "/img/catalogue/bf339bd36047ae36.webp",
-        "https://www.planetediscount.eu/61715-thickbox_default/drap-plat-240x300-cm-flanelle-de-coton-sable.jpg"
+        "/img/catalogue/2a02781aa2f131dc.webp"
       ],
       "color-5": [
         "/img/catalogue/17406f796a16d014.webp",
@@ -4369,7 +4369,7 @@ export const importedProducts: Product[] = [
       ],
       "color-7": [
         "/img/catalogue/b1d81c91a1591b7c.webp",
-        "https://www.planetediscount.eu/61709-thickbox_default/drap-plat-240x300-cm-flanelle-de-coton-brume.jpg"
+        "/img/catalogue/a0d87834b2de9329.webp"
       ],
       "color-8": [
         "/img/catalogue/623a7411cb324247.webp",
@@ -4522,11 +4522,11 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/895181cad7b770dd.webp",
-        "https://www.planetediscount.eu/80647-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-vert-d-eau.jpg"
+        "/img/catalogue/366b50fc1c8d972f.webp"
       ],
       "color-2": [
         "/img/catalogue/516e761fa293e786.webp",
-        "https://www.planetediscount.eu/80645-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-terracotta.jpg"
+        "/img/catalogue/2efd07bba4e217cb.webp"
       ],
       "color-3": [
         "/img/catalogue/80a5047aae494e5a.webp",
@@ -4534,35 +4534,35 @@ export const importedProducts: Product[] = [
       ],
       "color-4": [
         "/img/catalogue/db9074544149c886.webp",
-        "https://www.planetediscount.eu/80641-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-safran.jpg"
+        "/img/catalogue/155811234eb46e8c.webp"
       ],
       "color-5": [
         "/img/catalogue/ebee2ef9f326c373.webp",
-        "https://www.planetediscount.eu/80639-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-rose-fonce.jpg"
+        "/img/catalogue/5b0938272104c97c.webp"
       ],
       "color-6": [
         "/img/catalogue/104c49c356d55d27.webp",
-        "https://www.planetediscount.eu/80637-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-romarin.jpg"
+        "/img/catalogue/b5772b013cf5aaee.webp"
       ],
       "color-7": [
         "/img/catalogue/5d990d1f6dd43256.webp",
-        "https://www.planetediscount.eu/80635-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-naturel.jpg"
+        "/img/catalogue/7cc14a25fed10c85.webp"
       ],
       "color-8": [
         "/img/catalogue/a27d0f3a26f8ff72.webp",
-        "https://www.planetediscount.eu/80633-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-nuage.jpg"
+        "/img/catalogue/00b68296fc6d50bf.webp"
       ],
       "color-9": [
         "/img/catalogue/a156711fdc9f0dac.webp",
-        "https://www.planetediscount.eu/80631-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-minuit.jpg"
+        "/img/catalogue/6d83ebad91276ab5.webp"
       ],
       "color-10": [
         "/img/catalogue/e335b8c861de74e4.webp",
-        "https://www.planetediscount.eu/80629-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-guimauve.jpg"
+        "/img/catalogue/dcd6ce2ba11ef336.webp"
       ],
       "color-11": [
         "/img/catalogue/76362b54083eed91.webp",
-        "https://www.planetediscount.eu/80627-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-granit.jpg"
+        "/img/catalogue/03a7ace5fa2368f5.webp"
       ],
       "color-12": [
         "/img/catalogue/ca7380fcb3fbf834.webp",
@@ -4570,15 +4570,15 @@ export const importedProducts: Product[] = [
       ],
       "color-13": [
         "/img/catalogue/d0c0b5cebd6807d6.webp",
-        "https://www.planetediscount.eu/80623-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-eucalyptus.jpg"
+        "/img/catalogue/033f2e91e8d834b7.webp"
       ],
       "color-14": [
         "/img/catalogue/026d8725435e877a.webp",
-        "https://www.planetediscount.eu/80621-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-chantilly.jpg"
+        "/img/catalogue/4293dde617347902.webp"
       ],
       "color-15": [
         "/img/catalogue/e4fe90b2ed3178c0.webp",
-        "https://www.planetediscount.eu/80619-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-canard.jpg"
+        "/img/catalogue/0201828338569816.webp"
       ],
       "color-16": [
         "/img/catalogue/56302825a38e1759.webp",
@@ -4586,7 +4586,7 @@ export const importedProducts: Product[] = [
       ],
       "color-17": [
         "/img/catalogue/10a5b731157d47c6.webp",
-        "https://www.planetediscount.eu/80615-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-abricot.jpg"
+        "/img/catalogue/1ff118b86eaa1574.webp"
       ]
     },
     "sharedGallery": [],
@@ -5485,43 +5485,43 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/f814735c97e460f2.webp",
-        "https://www.planetediscount.eu/62026-thickbox_default/serviette-de-toilette-50x90-cm-coton-emeraude.jpg",
+        "/img/catalogue/f36a431a2606ff4a.webp",
         "https://www.planetediscount.eu/62027-thickbox_default/serviette-de-toilette-50x90-cm-coton-emeraude.jpg"
       ],
       "color-2": [
         "/img/catalogue/5c3a88b7f933bb0e.webp",
-        "https://www.planetediscount.eu/62023-thickbox_default/serviette-de-toilette-50x90-cm-coton-rose-poudre.jpg",
+        "/img/catalogue/b336e90cfa8a1dca.webp",
         "https://www.planetediscount.eu/62024-thickbox_default/serviette-de-toilette-50x90-cm-coton-rose-poudre.jpg"
       ],
       "color-3": [
         "/img/catalogue/ecb0767f26b52533.webp",
-        "https://www.planetediscount.eu/62000-thickbox_default/serviette-de-toilette-50x90-cm-coton-camel.jpg",
+        "/img/catalogue/861c9ff4f15f6a88.webp",
         "https://www.planetediscount.eu/62001-thickbox_default/serviette-de-toilette-50x90-cm-coton-camel.jpg"
       ],
       "color-4": [
         "/img/catalogue/d043253b94df70f9.webp",
-        "https://www.planetediscount.eu/61997-thickbox_default/serviette-de-toilette-50x90-cm-coton-pampa.jpg",
+        "/img/catalogue/2a40ead472da8b06.webp",
         "https://www.planetediscount.eu/61998-thickbox_default/serviette-de-toilette-50x90-cm-coton-pampa.jpg"
       ],
       "color-5": [
         "/img/catalogue/c4a9d9547fff8d5d.webp",
-        "https://www.planetediscount.eu/61939-thickbox_default/serviette-de-toilette-50x90-cm-coton-romarin.jpg"
+        "/img/catalogue/be5f3070217e6d6d.webp"
       ],
       "color-6": [
         "/img/catalogue/9b088f382791071e.webp",
-        "https://www.planetediscount.eu/61935-thickbox_default/serviette-de-toilette-50x90-cm-coton-terracotta.jpg"
+        "/img/catalogue/a6024f4eefcbdd56.webp"
       ],
       "color-7": [
         "/img/catalogue/3b4c36cdeb7500bf.webp",
-        "https://www.planetediscount.eu/61936-thickbox_default/serviette-de-toilette-50x90-cm-coton-minuit.jpg"
+        "/img/catalogue/7a8d292420f4c43b.webp"
       ],
       "color-8": [
         "/img/catalogue/4373809bcddf45a3.webp",
-        "https://www.planetediscount.eu/61933-thickbox_default/serviette-de-toilette-50x90-cm-coton-bleu-glacier.jpg"
+        "/img/catalogue/3ec8c06d94c7dff0.webp"
       ],
       "color-9": [
         "/img/catalogue/0f44e7f1909a1c3d.webp",
-        "https://www.planetediscount.eu/61931-thickbox_default/serviette-de-toilette-50x90-cm-coton-orage.jpg"
+        "/img/catalogue/639eb8baeb37b532.webp"
       ],
       "color-10": [
         "/img/catalogue/13c8588ea625ccea.webp",
@@ -5529,7 +5529,7 @@ export const importedProducts: Product[] = [
       ],
       "color-11": [
         "/img/catalogue/363ff4da197adca3.webp",
-        "https://www.planetediscount.eu/61929-thickbox_default/serviette-de-toilette-50x90-cm-coton-argile.jpg"
+        "/img/catalogue/bc8d42d3441d99c8.webp"
       ],
       "color-12": [
         "/img/catalogue/8a760d21c33f29a6.webp",
@@ -5792,7 +5792,7 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/34916bd740078bdc.webp",
-        "https://www.planetediscount.eu/53425-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-camel.jpg"
+        "/img/catalogue/220f83a5027b0e2d.webp"
       ],
       "color-4": [
         "/img/catalogue/462f1f7de5342e6e.webp",
@@ -5820,7 +5820,7 @@ export const importedProducts: Product[] = [
       ],
       "color-10": [
         "/img/catalogue/544b5e6aa281803c.webp",
-        "https://www.planetediscount.eu/53411-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-canard.jpg"
+        "/img/catalogue/dfe74a9077a100d2.webp"
       ],
       "color-11": [
         "/img/catalogue/851f0c9b78ccb602.webp",
@@ -5828,7 +5828,7 @@ export const importedProducts: Product[] = [
       ],
       "color-12": [
         "/img/catalogue/e6ec3e138ad8063d.webp",
-        "https://www.planetediscount.eu/53407-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-terracotta.jpg"
+        "/img/catalogue/4765cb10b42227b4.webp"
       ],
       "color-13": [
         "/img/catalogue/d924c7f7d07ba078.webp",
@@ -6003,11 +6003,11 @@ export const importedProducts: Product[] = [
       ],
       "color-2": [
         "/img/catalogue/d0d60b516a5c3a6e.webp",
-        "https://www.planetediscount.eu/83499-thickbox_default/drap-housse-140x19028-cm-microfibre-bleu-nuit.jpg"
+        "/img/catalogue/6ce18573dbea86e1.webp"
       ],
       "color-3": [
         "/img/catalogue/b89b0e68c62ba4c3.webp",
-        "https://www.planetediscount.eu/83495-thickbox_default/drap-housse-140x19028-cm-microfibre-terracotta.jpg"
+        "/img/catalogue/b467051bbb314d24.webp"
       ]
     },
     "sharedGallery": [],
@@ -6192,27 +6192,27 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/22f0d21c6cc0157c.webp",
-        "https://www.planetediscount.eu/62021-thickbox_default/serviette-invite-30x50-cm-coton-emeraude.jpg"
+        "/img/catalogue/9517fc13855ab89c.webp"
       ],
       "color-2": [
         "/img/catalogue/c425c32bc2f9ddfc.webp",
-        "https://www.planetediscount.eu/62019-thickbox_default/serviette-invite-30x50-cm-coton-rose-poudre.jpg"
+        "/img/catalogue/e833879a4c77fd1d.webp"
       ],
       "color-3": [
         "/img/catalogue/78094f08dcd033b0.webp",
-        "https://www.planetediscount.eu/61995-thickbox_default/serviette-invite-30x50-cm-coton-camel.jpg"
+        "/img/catalogue/52b9458ce493c362.webp"
       ],
       "color-4": [
         "/img/catalogue/efdac056df510fd9.webp",
-        "https://www.planetediscount.eu/61994-thickbox_default/serviette-invite-30x50-cm-coton-pampa.jpg"
+        "/img/catalogue/5dacd9fb59a5bece.webp"
       ],
       "color-5": [
         "/img/catalogue/1a050b8f854aeff5.webp",
-        "https://www.planetediscount.eu/61923-thickbox_default/serviette-invite-30x50-cm-coton-romarin.jpg"
+        "/img/catalogue/7535a410b01f97cc.webp"
       ],
       "color-6": [
         "/img/catalogue/73a25d3a850289b3.webp",
-        "https://www.planetediscount.eu/61921-thickbox_default/serviette-invite-30x50-cm-coton-terracotta.jpg"
+        "/img/catalogue/59abd2602d8cd4d8.webp"
       ],
       "color-7": [
         "/img/catalogue/973cf2ba516204a8.webp",
@@ -6220,19 +6220,19 @@ export const importedProducts: Product[] = [
       ],
       "color-8": [
         "/img/catalogue/cbd07a013cf920c5.webp",
-        "https://www.planetediscount.eu/61905-thickbox_default/serviette-invite-30x50-cm-coton-bleu-glacier.jpg"
+        "/img/catalogue/e25230586f242003.webp"
       ],
       "color-9": [
         "/img/catalogue/ca2df8ea1393d432.webp",
-        "https://www.planetediscount.eu/61901-thickbox_default/serviette-invite-30x50-cm-coton-orage.jpg"
+        "/img/catalogue/fad07080ce5e7449.webp"
       ],
       "color-10": [
         "/img/catalogue/32128ebfe3160af7.webp",
-        "https://www.planetediscount.eu/61900-thickbox_default/serviette-invite-30x50-cm-coton-nuage.jpg"
+        "/img/catalogue/5e4be54f31298461.webp"
       ],
       "color-11": [
         "/img/catalogue/475332626993c133.webp",
-        "https://www.planetediscount.eu/61897-thickbox_default/serviette-invite-30x50-cm-coton-argile.jpg"
+        "/img/catalogue/97cf0a5aa7f0e9fd.webp"
       ],
       "color-12": [
         "/img/catalogue/72cf6941ecf97a63.webp",
@@ -6361,7 +6361,7 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/a7b3b47c630d2d86.webp",
-        "https://www.planetediscount.eu/61991-thickbox_default/lot-de-2-gants-15x21-cm-coton-camel.jpg"
+        "/img/catalogue/b6ffd8e8692d393e.webp"
       ],
       "color-4": [
         "/img/catalogue/fb69bf8705fcc8e0.webp",
@@ -6369,11 +6369,11 @@ export const importedProducts: Product[] = [
       ],
       "color-5": [
         "/img/catalogue/a4ce08dea858b47b.webp",
-        "https://www.planetediscount.eu/61894-thickbox_default/lot-de-2-gants-15x21-cm-coton-romarin.jpg"
+        "/img/catalogue/37e14f14eede30ca.webp"
       ],
       "color-6": [
         "/img/catalogue/c2875d9ef099f71f.webp",
-        "https://www.planetediscount.eu/61892-thickbox_default/lot-de-2-gants-15x21-cm-coton-terracotta.jpg"
+        "/img/catalogue/04350ce7c3fbea75.webp"
       ],
       "color-7": [
         "/img/catalogue/b831668784a4971d.webp",
@@ -6381,7 +6381,7 @@ export const importedProducts: Product[] = [
       ],
       "color-8": [
         "/img/catalogue/b36b991109387d58.webp",
-        "https://www.planetediscount.eu/61888-thickbox_default/lot-de-2-gants-15x21-cm-coton-bleu-glacier.jpg"
+        "/img/catalogue/c1b4c3e8a5095cc2.webp"
       ],
       "color-9": [
         "/img/catalogue/77eb7f8283848342.webp",
@@ -6389,11 +6389,11 @@ export const importedProducts: Product[] = [
       ],
       "color-10": [
         "/img/catalogue/8838d0cfccb2623c.webp",
-        "https://www.planetediscount.eu/61886-thickbox_default/lot-de-2-gants-15x21-cm-coton-nuage.jpg"
+        "/img/catalogue/c7d978abaf6c21d0.webp"
       ],
       "color-11": [
         "/img/catalogue/06adf2369016dc79.webp",
-        "https://www.planetediscount.eu/61884-thickbox_default/lot-de-2-gants-15x21-cm-coton-argile.jpg"
+        "/img/catalogue/78bc48466f72f1b3.webp"
       ],
       "color-12": [
         "/img/catalogue/78c09df4c40c8698.webp",
@@ -6563,21 +6563,21 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/2053787ddae965ca.webp",
-        "https://www.planetediscount.eu/62005-thickbox_default/serviette-de-douche-70x130-cm-coton-camel.jpg",
+        "/img/catalogue/94fa531cf6ca219b.webp",
         "https://www.planetediscount.eu/62041-thickbox_default/serviette-de-douche-70x130-cm-coton-camel.jpg"
       ],
       "color-2": [
         "/img/catalogue/e7d5f9bae10b2de2.webp",
-        "https://www.planetediscount.eu/62003-thickbox_default/serviette-de-douche-70x130-cm-coton-pampa.jpg",
+        "/img/catalogue/578795eb6e509d86.webp",
         "https://www.planetediscount.eu/62040-thickbox_default/serviette-de-douche-70x130-cm-coton-pampa.jpg"
       ],
       "color-3": [
         "/img/catalogue/518034668db601be.webp",
-        "https://www.planetediscount.eu/61955-thickbox_default/serviette-de-douche-70x130-cm-coton-romarin.jpg"
+        "/img/catalogue/76c8f82d1eb79b5d.webp"
       ],
       "color-4": [
         "/img/catalogue/9792063e19ae9961.webp",
-        "https://www.planetediscount.eu/61948-thickbox_default/serviette-de-douche-70x130-cm-coton-terracotta.jpg"
+        "/img/catalogue/2cb3f968f75aa36e.webp"
       ],
       "color-5": [
         "/img/catalogue/8bbb688315e77f18.webp",
@@ -6585,7 +6585,7 @@ export const importedProducts: Product[] = [
       ],
       "color-6": [
         "/img/catalogue/ffc9ce6494da014c.webp",
-        "https://www.planetediscount.eu/61949-thickbox_default/serviette-de-douche-70x130-cm-coton-bleu-glacier.jpg"
+        "/img/catalogue/e94f144e9b010b63.webp"
       ],
       "color-7": [
         "/img/catalogue/0e9e7b71974e9906.webp",
@@ -6593,15 +6593,15 @@ export const importedProducts: Product[] = [
       ],
       "color-8": [
         "/img/catalogue/fcefcc9dd9467262.webp",
-        "https://www.planetediscount.eu/61950-thickbox_default/serviette-de-douche-70x130-cm-coton-nuage.jpg"
+        "/img/catalogue/c8687a01afc25798.webp"
       ],
       "color-9": [
         "/img/catalogue/36d13156eeda6bed.webp",
-        "https://www.planetediscount.eu/61953-thickbox_default/serviette-de-douche-70x130-cm-coton-argile.jpg"
+        "/img/catalogue/6b399dd58384e20d.webp"
       ],
       "color-10": [
         "/img/catalogue/e8f624866f73aa10.webp",
-        "https://www.planetediscount.eu/61941-thickbox_default/serviette-de-douche-70x130-cm-coton-chantilly.jpg"
+        "/img/catalogue/1e407df856e49d4a.webp"
       ]
     },
     "sharedGallery": [],
@@ -6789,7 +6789,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/e3d5d606bd6da4ac.webp",
-        "https://www.planetediscount.eu/62007-thickbox_default/serviette-de-bain-90x150-cm-coton-camel.jpg"
+        "/img/catalogue/82617b89ac8df6d4.webp"
       ],
       "color-2": [
         "/img/catalogue/950bc97047536b48.webp",
@@ -6797,11 +6797,11 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/9ca4292d6782cd5f.webp",
-        "https://www.planetediscount.eu/61970-thickbox_default/serviette-de-bain-90x150-cm-coton-romarin.jpg"
+        "/img/catalogue/29701102c07674cc.webp"
       ],
       "color-4": [
         "/img/catalogue/ebdeb7fd058400a2.webp",
-        "https://www.planetediscount.eu/61968-thickbox_default/serviette-de-bain-90x150-cm-coton-terracotta.jpg"
+        "/img/catalogue/417618f34e52e793.webp"
       ],
       "color-5": [
         "/img/catalogue/1cc577098352a4f6.webp",
@@ -6809,11 +6809,11 @@ export const importedProducts: Product[] = [
       ],
       "color-6": [
         "/img/catalogue/4204c6f27cd6c1b0.webp",
-        "https://www.planetediscount.eu/61958-thickbox_default/serviette-de-bain-90x150-cm-coton-bleu-glacier.jpg"
+        "/img/catalogue/e115e491db93e55c.webp"
       ],
       "color-7": [
         "/img/catalogue/eb5d85dfe2c77cf4.webp",
-        "https://www.planetediscount.eu/61964-thickbox_default/serviette-de-bain-90x150-cm-coton-orage.jpg"
+        "/img/catalogue/fd59bbb2067bcc94.webp"
       ],
       "color-8": [
         "/img/catalogue/8435cbdbeac1ca0f.webp",
@@ -6821,7 +6821,7 @@ export const importedProducts: Product[] = [
       ],
       "color-9": [
         "/img/catalogue/754e6bba7edb82f3.webp",
-        "https://www.planetediscount.eu/61962-thickbox_default/serviette-de-bain-90x150-cm-coton-argile.jpg"
+        "/img/catalogue/c9040c49c5a5cb93.webp"
       ],
       "color-10": [
         "/img/catalogue/b3688892c5fcb0ff.webp",
@@ -7774,7 +7774,7 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/81601-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
         "https://www.planetediscount.eu/81602-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
         "https://www.planetediscount.eu/81603-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
-        "https://www.planetediscount.eu/81604-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg"
+        "/img/catalogue/c6c7501ac0aa0b3e.webp"
       ]
     },
     "sharedGallery": [],
@@ -7866,11 +7866,11 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/d04ef3e7df4c8995.webp",
-        "https://www.planetediscount.eu/82478-thickbox_default/taie-d-oreiller-80x80-cm-lyocell-gabrielle-thym.jpg"
+        "/img/catalogue/a09260eec58164d4.webp"
       ],
       "color-2": [
         "/img/catalogue/defb6b2576c46c2c.webp",
-        "https://www.planetediscount.eu/82476-thickbox_default/taie-d-oreiller-80x80-cm-lyocell-gabrielle-terracotta.jpg"
+        "/img/catalogue/d8cfd210f3b9590e.webp"
       ],
       "color-3": [
         "/img/catalogue/867da3e38d7fdc18.webp",
@@ -7882,7 +7882,7 @@ export const importedProducts: Product[] = [
       ],
       "color-5": [
         "/img/catalogue/41c7d5666d79564b.webp",
-        "https://www.planetediscount.eu/82470-thickbox_default/taie-d-oreiller-80x80-cm-lyocell-gabrielle-lichen.jpg"
+        "/img/catalogue/ff61955e54e4ad61.webp"
       ],
       "color-6": [
         "/img/catalogue/0797ee299aa74e37.webp",
@@ -7894,7 +7894,7 @@ export const importedProducts: Product[] = [
       ],
       "color-8": [
         "/img/catalogue/f8f15adaba80b019.webp",
-        "https://www.planetediscount.eu/82464-thickbox_default/taie-d-oreiller-80x80-cm-lyocell-gabrielle-blush.jpg"
+        "/img/catalogue/c6c5c0f59b97c412.webp"
       ]
     },
     "sharedGallery": [],
@@ -8116,7 +8116,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/68c732fe55683111.webp",
-        "https://www.aw-dropship.eu/i/1lgp/YzQNhkJd/800x800.jpeg"
+        "/img/catalogue/a436d80c100299b7.webp"
       ],
       "color-2": [
         "/img/catalogue/a20d288ad0c9479b.webp",
@@ -8124,7 +8124,7 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/f4b9e93bae9eaa75.webp",
-        "https://www.aw-dropship.eu/i/1lgu/pi4iusFn/800x800.jpeg"
+        "/img/catalogue/67e01b29e172ff52.webp"
       ],
       "color-4": [
         "/img/catalogue/3e9db2aee64a2401.webp",
@@ -8136,7 +8136,7 @@ export const importedProducts: Product[] = [
       ],
       "color-6": [
         "/img/catalogue/48caecfc3ab00641.webp",
-        "https://www.aw-dropship.eu/i/1lh0/MYK581R4/800x800.jpeg"
+        "/img/catalogue/37a16e969efa5f16.webp"
       ]
     },
     "sharedGallery": [
@@ -8363,7 +8363,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/4978a235d49f13d3.webp",
-        "https://www.planetediscount.eu/61539-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-eucalyptus.jpg"
+        "/img/catalogue/71ef9806de1932ec.webp"
       ],
       "color-2": [
         "/img/catalogue/896fc8027ff94fb1.webp",
@@ -8371,19 +8371,19 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/5b0587c161afbcb3.webp",
-        "https://www.planetediscount.eu/61535-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-rose.jpg"
+        "/img/catalogue/f4941474c0d96aaa.webp"
       ],
       "color-4": [
         "/img/catalogue/cc07baf31ee5b8ed.webp",
-        "https://www.planetediscount.eu/61533-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-camel.jpg"
+        "/img/catalogue/7497689e9a79869c.webp"
       ],
       "color-5": [
         "/img/catalogue/98ec2dd56445e589.webp",
-        "https://www.planetediscount.eu/61531-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-romarin.jpg"
+        "/img/catalogue/02fab177b3cf12ba.webp"
       ],
       "color-6": [
         "/img/catalogue/b8d7b73ca7de2fc9.webp",
-        "https://www.planetediscount.eu/61529-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-terracotta.jpg"
+        "/img/catalogue/d909410c7ee0ec7d.webp"
       ]
     },
     "sharedGallery": [],
@@ -8569,27 +8569,27 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/aa50e23e8c2c46d4.webp",
-        "https://www.planetediscount.eu/80805-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-thym.jpg"
+        "/img/catalogue/d4dccd768aa422d5.webp"
       ],
       "color-2": [
         "/img/catalogue/a46df284e37bfb56.webp",
-        "https://www.planetediscount.eu/80803-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-terracotta.jpg"
+        "/img/catalogue/77d08f0925afdb7e.webp"
       ],
       "color-3": [
         "/img/catalogue/951e7b7e6121ce35.webp",
-        "https://www.planetediscount.eu/80801-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-naturel.jpg"
+        "/img/catalogue/37d93188389e5dd1.webp"
       ],
       "color-4": [
         "/img/catalogue/e2886893677a8a20.webp",
-        "https://www.planetediscount.eu/80799-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-minuit.jpg"
+        "/img/catalogue/7def66982e629a6f.webp"
       ],
       "color-5": [
         "/img/catalogue/63f259069952c477.webp",
-        "https://www.planetediscount.eu/80797-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-camel.jpg"
+        "/img/catalogue/6ba3920551b5db6f.webp"
       ],
       "color-6": [
         "/img/catalogue/2ac6e9031652f218.webp",
-        "https://www.planetediscount.eu/80795-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-ardoise.jpg"
+        "/img/catalogue/fc15372ade8ff805.webp"
       ]
     },
     "sharedGallery": [],
@@ -8749,8 +8749,8 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/7a8e40f75ba32ace.webp",
-        "https://www.planetediscount.eu/81685-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.jpg",
-        "https://www.planetediscount.eu/81686-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-spring.jpg",
+        "/img/catalogue/51fed09540f4a9ae.webp",
+        "/img/catalogue/995395781c2bf05e.webp",
         "https://www.planetediscount.eu/81672-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-hampton-spring.jpg"
       ],
       "color-2": [
@@ -8759,7 +8759,7 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/07340c4e14b55fad.webp",
-        "https://www.planetediscount.eu/81682-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-liberty.jpg",
+        "/img/catalogue/61936d77b6c9c502.webp",
         "https://www.planetediscount.eu/81669-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-hampton-liberty.jpg"
       ],
       "color-4": [
@@ -8839,7 +8839,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/2f201470751ae169.webp",
-        "https://www.planetediscount.eu/82452-thickbox_default/taie-d-oreiller-80x80-cm-gaze-de-coton-iris-romarin.jpg",
+        "/img/catalogue/eaecd47c71e70422.webp",
         "https://www.planetediscount.eu/82334-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-iris-romarin.jpg"
       ],
       "color-2": [
@@ -8848,7 +8848,7 @@ export const importedProducts: Product[] = [
       ],
       "color-3": [
         "/img/catalogue/5c78a7af56c56d2f.webp",
-        "https://www.planetediscount.eu/82449-thickbox_default/taie-d-oreiller-80x80-cm-gaze-de-coton-iris-ficelle.jpg",
+        "/img/catalogue/55c956be6a38974c.webp",
         "https://www.planetediscount.eu/82331-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-iris-ficelle.jpg"
       ],
       "color-4": [
@@ -9109,23 +9109,23 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/37d3898ad0de1080.webp",
-        "https://www.planetediscount.eu/82569-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.jpg"
+        "/img/catalogue/cfd0111ca9fa6e5b.webp"
       ],
       "color-2": [
         "/img/catalogue/45a0ffb380830e76.webp",
-        "https://www.planetediscount.eu/82567-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg"
+        "/img/catalogue/b265137624fb9b2d.webp"
       ],
       "color-3": [
         "/img/catalogue/31eb906096e565e2.webp",
-        "https://www.planetediscount.eu/82565-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-terracotta.jpg"
+        "/img/catalogue/fbcb3a198f4d76b1.webp"
       ],
       "color-4": [
         "/img/catalogue/d24a37905696d783.webp",
-        "https://www.planetediscount.eu/82563-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-charbon.jpg"
+        "/img/catalogue/84b3496f1b07fc89.webp"
       ],
       "color-5": [
         "/img/catalogue/b7ea1cbf137464bb.webp",
-        "https://www.planetediscount.eu/82561-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-blanc.jpg"
+        "/img/catalogue/1f9847e696b2e362.webp"
       ]
     },
     "sharedGallery": [],
@@ -9325,19 +9325,19 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/29f03857081b73fc.webp",
-        "https://www.planetediscount.eu/83522-thickbox_default/drap-housse-160x20030-cm-percale-de-coton-vert-sauge.jpg"
+        "/img/catalogue/e41fab6ba9aa0075.webp"
       ],
       "color-2": [
         "/img/catalogue/f809be051785a7eb.webp",
-        "https://www.planetediscount.eu/83520-thickbox_default/drap-housse-140x19027-cm-percale-de-coton-blanc.jpg"
+        "/img/catalogue/6a9806c7b2e29a34.webp"
       ],
       "color-3": [
         "/img/catalogue/61bf26090ca5d21e.webp",
-        "https://www.planetediscount.eu/83518-thickbox_default/drap-housse-140x19027-cm-percale-de-coton-bleu-fume.jpg"
+        "/img/catalogue/0af85a5f5335fe49.webp"
       ],
       "color-4": [
         "/img/catalogue/429e19f0cf836d82.webp",
-        "https://www.planetediscount.eu/83514-thickbox_default/drap-housse-160x20030-cm-percale-de-coton-rose-the.jpg"
+        "/img/catalogue/b8c1123e8422db93.webp"
       ]
     },
     "sharedGallery": [],
@@ -9654,12 +9654,12 @@ export const importedProducts: Product[] = [
       ],
       "color-2": [
         "/img/catalogue/4e03de57933ab874.webp",
-        "https://www.planetediscount.eu/83541-thickbox_default/housse-de-couette-140x200-cm-satin-de-coton-celadon.jpg",
+        "/img/catalogue/7e83392d5b13a314.webp",
         "https://www.planetediscount.eu/83542-thickbox_default/housse-de-couette-140x200-cm-satin-de-coton-celadon.jpg"
       ],
       "color-3": [
         "/img/catalogue/068c654d50496ccb.webp",
-        "https://www.planetediscount.eu/83539-thickbox_default/housse-de-couette-140x200-cm-satin-de-coton-blanc.jpg"
+        "/img/catalogue/595960dbd11a831b.webp"
       ]
     },
     "sharedGallery": [],
@@ -9727,19 +9727,19 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/5fab76d2237d642e.webp",
-        "https://www.planetediscount.eu/81736-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-hampton-spring.jpg"
+        "/img/catalogue/ef6122418771e060.webp"
       ],
       "color-2": [
         "/img/catalogue/d9f6704ccb8e64e7.webp",
-        "https://www.planetediscount.eu/81734-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-hampton-opulence.jpg"
+        "/img/catalogue/406d2fe602922888.webp"
       ],
       "color-3": [
         "/img/catalogue/1bbfd491550e4ad0.webp",
-        "https://www.planetediscount.eu/81732-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-hampton-liberty.jpg"
+        "/img/catalogue/5d08ebea0f000dee.webp"
       ],
       "color-4": [
         "/img/catalogue/fa596981c6441920.webp",
-        "https://www.planetediscount.eu/81730-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-hampton-bay.jpg"
+        "/img/catalogue/37ff08bf5e001d77.webp"
       ]
     },
     "sharedGallery": [],
@@ -9874,15 +9874,15 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/4a3efed8f5fdbcb4.webp",
-        "https://www.planetediscount.eu/63949-thickbox_default/fouta-avec-franges-100x200-cm-coton-rina-ebene.jpg"
+        "/img/catalogue/fcd2cfc8f0616906.webp"
       ],
       "color-2": [
         "/img/catalogue/5c5109ad53f657ba.webp",
-        "https://www.planetediscount.eu/63949-thickbox_default/fouta-avec-franges-100x200-cm-coton-rina-ebene.jpg"
+        "/img/catalogue/fcd2cfc8f0616906.webp"
       ],
       "color-3": [
         "/img/catalogue/11ed7f88a89add10.webp",
-        "https://www.planetediscount.eu/63949-thickbox_default/fouta-avec-franges-100x200-cm-coton-rina-ebene.jpg"
+        "/img/catalogue/fcd2cfc8f0616906.webp"
       ]
     },
     "sharedGallery": [],
@@ -9939,15 +9939,15 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/efa58e98f2d01ef0.webp",
-        "https://www.planetediscount.eu/63943-thickbox_default/fouta-avec-franges-100x200-cm-coton-suly-nenuphar.jpg"
+        "/img/catalogue/7cc7149126a2894c.webp"
       ],
       "color-2": [
         "/img/catalogue/af373776fed02cc5.webp",
-        "https://www.planetediscount.eu/63943-thickbox_default/fouta-avec-franges-100x200-cm-coton-suly-nenuphar.jpg"
+        "/img/catalogue/7cc7149126a2894c.webp"
       ],
       "color-3": [
         "/img/catalogue/9012552851aed62c.webp",
-        "https://www.planetediscount.eu/63943-thickbox_default/fouta-avec-franges-100x200-cm-coton-suly-nenuphar.jpg"
+        "/img/catalogue/7cc7149126a2894c.webp"
       ]
     },
     "sharedGallery": [],
@@ -10073,15 +10073,15 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/6fc0ebcb3776a620.webp",
-        "https://www.planetediscount.eu/83483-thickbox_default/taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.jpg"
+        "/img/catalogue/a9f6faea5f338d1c.webp"
       ],
       "color-2": [
         "/img/catalogue/328b0da5ec2e200f.webp",
-        "https://www.planetediscount.eu/83481-thickbox_default/taie-doreiller-63x63-cm-percale-de-coton-blanc.jpg"
+        "/img/catalogue/8d4300955c302ae4.webp"
       ],
       "color-3": [
         "/img/catalogue/213258cf03e42453.webp",
-        "https://www.planetediscount.eu/83479-thickbox_default/taie-doreiller-63x63-cm-percale-de-coton-lin.jpg"
+        "/img/catalogue/2fcb6a19f7f38d97.webp"
       ]
     },
     "sharedGallery": [],
@@ -10143,7 +10143,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/a5d75ab0801acbd1.webp",
-        "https://www.planetediscount.eu/82360-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-terra-fusion-sapin.jpg",
+        "/img/catalogue/855b8e0ef870c2e4.webp",
         "https://www.planetediscount.eu/82305-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-terra-fusion-sapin.jpg"
       ],
       "color-2": [
@@ -10211,15 +10211,15 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/e754b418f699356e.webp",
-        "https://www.planetediscount.eu/83537-thickbox_default/drap-plat-265x300-cm-satin-de-coton-blanc.jpg"
+        "/img/catalogue/40f4e4c7122f63a6.webp"
       ],
       "color-2": [
         "/img/catalogue/af358846c45fc92e.webp",
-        "https://www.planetediscount.eu/83535-thickbox_default/drap-plat-265x300-cm-satin-de-coton-celadon.jpg"
+        "/img/catalogue/ca40fff946676656.webp"
       ],
       "color-3": [
         "/img/catalogue/eca40d760f8467dd.webp",
-        "https://www.planetediscount.eu/83533-thickbox_default/drap-plat-265x300-cm-satin-de-coton-bleu-marine.jpg"
+        "/img/catalogue/848d626e70296b4d.webp"
       ]
     },
     "sharedGallery": [],
@@ -10281,15 +10281,15 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/9cf02ca96397e498.webp",
-        "https://www.planetediscount.eu/81065-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-terra-sapin.jpg"
+        "/img/catalogue/03f737681481853a.webp"
       ],
       "color-2": [
         "/img/catalogue/c33e646d031f69c3.webp",
-        "https://www.planetediscount.eu/81063-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-terra-ficelle.jpg"
+        "/img/catalogue/ce3852bcab357811.webp"
       ],
       "color-3": [
         "/img/catalogue/5e17a38948ef73a7.webp",
-        "https://www.planetediscount.eu/81061-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-terra-abricot.jpg"
+        "/img/catalogue/49382b27313d723b.webp"
       ]
     },
     "sharedGallery": [],
@@ -10341,11 +10341,11 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/e3d7b1c9e120330f.webp",
-        "https://www.planetediscount.eu/62031-thickbox_default/drap-de-douche-70x130-cm-coton-emeraude.jpg"
+        "/img/catalogue/0b961bbe250f204c.webp"
       ],
       "color-2": [
         "/img/catalogue/939c2398cb1af8ba.webp",
-        "https://www.planetediscount.eu/62029-thickbox_default/drap-de-douche-70x130-cm-coton-rose-poudre.jpg",
+        "/img/catalogue/f455a5fec1c2cf46.webp",
         "https://www.planetediscount.eu/62042-thickbox_default/drap-de-douche-70x130-cm-coton-rose-poudre.jpg"
       ]
     },
@@ -10404,12 +10404,12 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/e77df7bdea60b1be.webp",
-        "https://www.planetediscount.eu/81727-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.jpg",
-        "https://www.planetediscount.eu/81728-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-montauk-rose.jpg"
+        "/img/catalogue/aab2c7a1987ab34d.webp",
+        "/img/catalogue/3664c43fc457aed3.webp"
       ],
       "color-2": [
         "/img/catalogue/9bdebba298363650.webp",
-        "https://www.planetediscount.eu/81725-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-montauk-jaune.jpg"
+        "/img/catalogue/aa57c2fa237899ba.webp"
       ]
     },
     "sharedGallery": [],
@@ -10471,7 +10471,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/6fb355a6fd0865cf.webp",
-        "https://www.planetediscount.eu/82481-thickbox_default/taie-d-oreiller-80x80-cm-coton-paloma-naturel.jpg",
+        "/img/catalogue/fd1fa8836abffe3f.webp",
         "https://www.planetediscount.eu/82340-thickbox_default/taie-d-oreiller-50x70-cm-coton-paloma-naturel.jpg"
       ],
       "color-2": [
@@ -10608,11 +10608,11 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/fdb3c4ba32294095.webp",
-        "https://www.planetediscount.eu/62035-thickbox_default/drap-de-bain-90x150-cm-coton-emeraude.jpg"
+        "/img/catalogue/c0a464bb0e87325f.webp"
       ],
       "color-2": [
         "/img/catalogue/a412ba4b61428bb4.webp",
-        "https://www.planetediscount.eu/62033-thickbox_default/drap-de-bain-90x150-cm-coton-rose-poudre.jpg"
+        "/img/catalogue/f3a69c266d91acfe.webp"
       ]
     },
     "sharedGallery": [],
@@ -10912,7 +10912,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/9b8fa3d465b61b9c.webp",
-        "https://www.planetediscount.eu/82356-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-terra-harmonie-sapin.jpg"
+        "/img/catalogue/d4dcb7e7f4a18d52.webp"
       ],
       "color-2": [
         "/img/catalogue/6c75d8fd418d84f8.webp"
@@ -10975,7 +10975,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/bf3c06754a1ffd8d.webp",
-        "https://www.planetediscount.eu/82352-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-terra-prestige-sapin.jpg"
+        "/img/catalogue/2ba59d98ca2b5c5b.webp"
       ],
       "color-2": [
         "/img/catalogue/8a92976d79a97aac.webp"
@@ -11038,7 +11038,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/fc1d07c8c37811b3.webp",
-        "https://www.planetediscount.eu/82348-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-terra-boheme-sapin.jpg"
+        "/img/catalogue/523b75f47f806c21.webp"
       ],
       "color-2": [
         "/img/catalogue/a5679d748bb814bc.webp"
@@ -11151,7 +11151,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/ca7380fcb3fbf834.webp",
-        "https://www.planetediscount.eu/80650-thickbox_default/coussin-de-chaise-exterieur-38x38-cm-coton-dahlia-ficelle.jpg"
+        "/img/catalogue/00982f0a48f11525.webp"
       ],
       "color-2": [
         "/img/catalogue/acd641e985dddf61.webp"
@@ -11685,7 +11685,7 @@ export const importedProducts: Product[] = [
         "https://www.planetediscount.eu/46678-thickbox_default/drap-plat-100-percale-de-coton-lave-80-fils.jpg",
         "https://www.planetediscount.eu/30285-thickbox_default/drap-plat-100-percale-de-coton-lave-80-fils.jpg",
         "https://www.planetediscount.eu/30275-thickbox_default/drap-plat-100-percale-de-coton-lave-80-fils.jpg",
-        "https://www.planetediscount.eu/30286-thickbox_default/drap-plat-100-percale-de-coton-lave-80-fils.jpg"
+        "/img/catalogue/1336705e976c4371.webp"
       ]
     },
     "sharedGallery": [],
@@ -12145,14 +12145,14 @@ export const importedProducts: Product[] = [
         "/img/catalogue/68e28dd5c96ba697.webp",
         "https://www.aw-dropship.eu/i/1dju/GcNRofEU/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1djt/ZRXbnMwy/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1djs/bPySjS6V/800x800.jpeg",
+        "/img/catalogue/e6da894c07910fcf.webp",
         "https://www.aw-dropship.eu/i/1djz/23g07R5G/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1djy/TZVrb4hr/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1djx/wW227sAy/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1djw/kpNPhGWT/800x800.jpeg",
+        "/img/catalogue/d18abfcc0f9c2bb9.webp",
+        "/img/catalogue/72f868a80ca3f280.webp",
         "https://www.aw-dropship.eu/i/1dk2/x__XMsxX/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1dk1/mfmuvcrm/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1dk0/yRis2Vmv/800x800.jpeg"
+        "/img/catalogue/7f56a8413fd23703.webp"
       ]
     },
     "sharedGallery": [],
@@ -12276,13 +12276,13 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/6840195b1ccde007.webp",
         "https://www.aw-dropship.eu/i/1djk/YgFXB1tI/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1djj/RptVSEzk/800x800.jpeg",
+        "/img/catalogue/ea85d026dc2f968c.webp",
         "https://www.aw-dropship.eu/i/1djn/4xBc6eJK/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1djm/ewk0xL8W/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1djr/juiwOnau/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1djq/iczBpLOY/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1djp/ngqxWvp8/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1djo/oDT4UZ1R/800x800.jpeg"
+        "/img/catalogue/c20d3281a4a785bb.webp",
+        "/img/catalogue/9796913cee785094.webp"
       ]
     },
     "sharedGallery": [],
@@ -12426,9 +12426,9 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/ed55d11e6751e7fe.webp",
-        "https://www.aw-dropship.eu/i/1dkc/AyORHGQD/800x800.jpeg",
+        "/img/catalogue/74011dc3b8fee1b4.webp",
         "https://www.aw-dropship.eu/i/1dka/5iU1pVE8/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1dk9/EzuDHjL_/800x800.jpeg",
+        "/img/catalogue/9ef8b532dd258c64.webp",
         "https://www.aw-dropship.eu/i/1e40/8V3CwpAV/800x800.jpeg"
       ]
     },
@@ -12489,7 +12489,7 @@ export const importedProducts: Product[] = [
         "/img/catalogue/00578df364273a65.webp",
         "https://www.aw-dropship.eu/i/1dkg/caQxSLfv/800x800.jpeg",
         "https://www.aw-dropship.eu/i/1dkf/JeE3gUQ4/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1dke/sMcwrtss/800x800.jpeg",
+        "/img/catalogue/dbd063b5301138d9.webp",
         "https://www.aw-dropship.eu/i/1e3z/Wq3OI2ox/800x800.jpeg"
       ]
     },
@@ -12628,7 +12628,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/46bba133d42ba17c.webp",
-        "https://www.aw-dropship.eu/i/1fw9/8SYVM3TF/800x800.jpeg"
+        "/img/catalogue/5a983746b411006e.webp"
       ]
     },
     "sharedGallery": [
@@ -12678,7 +12678,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/d8d5917e4ac84404.webp",
-        "https://www.aw-dropship.eu/i/1fw5/8VXr-4xV/800x800.jpeg"
+        "/img/catalogue/a1656242239416a6.webp"
       ]
     },
     "sharedGallery": [
@@ -12941,11 +12941,11 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/4044ac8fbec2be7e.webp",
-        "https://www.planetediscount.eu/80825-thickbox_default/coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.jpg",
-        "https://www.planetediscount.eu/80826-thickbox_default/coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.jpg",
+        "/img/catalogue/84dcadf0a4798e9e.webp",
+        "/img/catalogue/862ebba6488d3d17.webp",
         "https://www.planetediscount.eu/80810-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-eglantine.jpg",
-        "https://www.planetediscount.eu/80811-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-eglantine.jpg",
-        "https://www.planetediscount.eu/80813-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-eglantine.jpg"
+        "/img/catalogue/f7c0c72ba57bfccf.webp",
+        "/img/catalogue/86c65dd8cc6ff276.webp"
       ]
     },
     "sharedGallery": [],
@@ -13008,9 +13008,9 @@ export const importedProducts: Product[] = [
         "/img/catalogue/7aeeb011363059a2.webp",
         "https://www.planetediscount.eu/81574-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.jpg",
         "https://www.planetediscount.eu/81575-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.jpg",
-        "https://www.planetediscount.eu/81576-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.jpg",
-        "https://www.planetediscount.eu/81577-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.jpg",
-        "https://www.planetediscount.eu/81578-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.jpg"
+        "/img/catalogue/80700b64c556ee25.webp",
+        "/img/catalogue/6e3353312d884fed.webp",
+        "/img/catalogue/6f2d7d85c3410c94.webp"
       ]
     },
     "sharedGallery": [],
@@ -13071,11 +13071,11 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/b73fe479ba762c16.webp",
-        "https://www.planetediscount.eu/81568-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.jpg",
+        "/img/catalogue/605c98b8adfce901.webp",
         "https://www.planetediscount.eu/81569-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.jpg",
-        "https://www.planetediscount.eu/81570-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.jpg",
+        "/img/catalogue/79f77a1363c96e90.webp",
         "https://www.planetediscount.eu/81571-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.jpg",
-        "https://www.planetediscount.eu/81572-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.jpg"
+        "/img/catalogue/6e398c575550a71f.webp"
       ]
     },
     "sharedGallery": [],
@@ -13127,10 +13127,10 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/6317d463adbe98be.webp",
         "https://www.planetediscount.eu/83472-thickbox_default/lot-2-taies-doreiller-50x70-cm-satin-de-coton-amboise.jpg",
-        "https://www.planetediscount.eu/83473-thickbox_default/lot-2-taies-doreiller-50x70-cm-satin-de-coton-amboise.jpg",
+        "/img/catalogue/7d92090c5d6a9c3a.webp",
         "https://www.planetediscount.eu/83468-thickbox_default/lot-2-taies-doreiller-64x64-cm-satin-de-coton-amboise.jpg",
         "https://www.planetediscount.eu/83469-thickbox_default/lot-2-taies-doreiller-64x64-cm-satin-de-coton-amboise.jpg",
-        "https://www.planetediscount.eu/82818-thickbox_default/housse-de-couette-220x240-cm-satin-de-coton-amboise.jpg"
+        "/img/catalogue/fee6011fac592238.webp"
       ]
     },
     "sharedGallery": [],
@@ -13181,8 +13181,8 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/dd6cebe31fbbf7ab.webp",
         "https://www.planetediscount.eu/82371-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.jpg",
-        "https://www.planetediscount.eu/82372-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.jpg",
-        "https://www.planetediscount.eu/82373-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-camelia-ficelle.jpg",
+        "/img/catalogue/5e92a74117e71580.webp",
+        "/img/catalogue/426f319659174b07.webp",
         "https://www.planetediscount.eu/82316-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-camelia-ficelle.jpg",
         "https://www.planetediscount.eu/82317-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-camelia-ficelle.jpg"
       ]
@@ -13515,7 +13515,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/82ec52b85b7877ab.webp",
         "https://www.planetediscount.eu/80891-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-camelia-ficelle.jpg",
-        "https://www.planetediscount.eu/80892-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-camelia-ficelle.jpg",
+        "/img/catalogue/17e50ee7273efccd.webp",
         "https://www.planetediscount.eu/80841-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-camelia-ficelle.jpg",
         "https://www.planetediscount.eu/80842-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-camelia-ficelle.jpg"
       ]
@@ -13578,10 +13578,10 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/d18f4e8a8a71eb3c.webp",
-        "https://www.planetediscount.eu/81561-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.jpg",
+        "/img/catalogue/7f8d19c656395271.webp",
         "https://www.planetediscount.eu/81562-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.jpg",
-        "https://www.planetediscount.eu/81563-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.jpg",
-        "https://www.planetediscount.eu/81564-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.jpg"
+        "/img/catalogue/302d6170024ddbfd.webp",
+        "/img/catalogue/ab5e3b1edba8ea20.webp"
       ]
     },
     "sharedGallery": [],
@@ -13631,9 +13631,9 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/461525e0611600cc.webp",
-        "https://www.planetediscount.eu/80889-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-lucia.jpg",
+        "/img/catalogue/9ce2a89d2c503c85.webp",
         "https://www.planetediscount.eu/80839-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-lucia.jpg",
-        "https://www.planetediscount.eu/80840-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-lucia.jpg"
+        "/img/catalogue/fc668a3f43e900b9.webp"
       ]
     },
     "sharedGallery": [],
@@ -13683,9 +13683,9 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/baeefe891d417f22.webp",
-        "https://www.planetediscount.eu/80885-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-garance.jpg",
+        "/img/catalogue/df7f95acde8165e3.webp",
         "https://www.planetediscount.eu/80835-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-garance.jpg",
-        "https://www.planetediscount.eu/80836-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-garance.jpg"
+        "/img/catalogue/36c21cb0d26523dd.webp"
       ]
     },
     "sharedGallery": [],
@@ -13735,9 +13735,9 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/1231d03704df8d0b.webp",
-        "https://www.planetediscount.eu/80828-thickbox_default/coussin-carre-dehoussable-50x50-cm-velours-de-coton-valentine.jpg",
+        "/img/catalogue/2bf407d650d89a86.webp",
         "https://www.planetediscount.eu/80814-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-valentine.jpg",
-        "https://www.planetediscount.eu/80815-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-valentine.jpg"
+        "/img/catalogue/11cc319d4ad838fd.webp"
       ]
     },
     "sharedGallery": [],
@@ -13787,7 +13787,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/3af4b5021312bced.webp",
-        "https://www.planetediscount.eu/76127-thickbox_default/coussin-deco-30x50-cm-coton-coquelicot.jpg",
+        "/img/catalogue/c7403e91b22a1515.webp",
         "https://www.planetediscount.eu/76124-thickbox_default/coussin-deco-40x40-cm-coton-coquelicot.jpg",
         "https://www.planetediscount.eu/76125-thickbox_default/coussin-deco-40x40-cm-coton-coquelicot.jpg"
       ]
@@ -13841,8 +13841,8 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/d24edcffdda29ee2.webp",
         "https://www.planetediscount.eu/76123-thickbox_default/coussin-deco-30x50-cm-coton-folkia.jpg",
-        "https://www.planetediscount.eu/76120-thickbox_default/coussin-deco-40x40-cm-coton-folkia.jpg",
-        "https://www.planetediscount.eu/76121-thickbox_default/coussin-deco-40x40-cm-coton-folkia.jpg"
+        "/img/catalogue/1521f42a85fe4bd0.webp",
+        "/img/catalogue/ca4d90eca1862ded.webp"
       ]
     },
     "sharedGallery": [],
@@ -14116,7 +14116,7 @@ export const importedProducts: Product[] = [
         "/img/catalogue/6944d71f0930a2c7.webp",
         "https://www.planetediscount.eu/81596-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.jpg",
         "https://www.planetediscount.eu/81597-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.jpg",
-        "https://www.planetediscount.eu/81598-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-camelia-ficelle.jpg"
+        "/img/catalogue/7c5e02fe29a89229.webp"
       ]
     },
     "sharedGallery": [],
@@ -14178,8 +14178,8 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/0e8202dae358e20d.webp",
         "https://www.planetediscount.eu/81557-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.jpg",
-        "https://www.planetediscount.eu/81558-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.jpg",
-        "https://www.planetediscount.eu/81559-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-florence-terracotta.jpg"
+        "/img/catalogue/3995af5a2d2bd7ff.webp",
+        "/img/catalogue/59cd4b2b2c307682.webp"
       ]
     },
     "sharedGallery": [],
@@ -14229,9 +14229,9 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/3887b96675eb2eba.webp",
-        "https://www.planetediscount.eu/82369-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-lucia.jpg",
+        "/img/catalogue/ac21dbd7c0486797.webp",
         "https://www.planetediscount.eu/82314-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-lucia.jpg",
-        "https://www.planetediscount.eu/82315-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-lucia.jpg"
+        "/img/catalogue/f09acd01467b8639.webp"
       ]
     },
     "sharedGallery": [],
@@ -14282,7 +14282,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/6c4e5114fa654260.webp",
         "https://www.planetediscount.eu/80887-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-azalee.jpg",
-        "https://www.planetediscount.eu/82367-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-azalee.jpg",
+        "/img/catalogue/6a58dbab975808af.webp",
         "https://www.planetediscount.eu/82311-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-azalee.jpg"
       ]
     },
@@ -14333,9 +14333,9 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/90e0bf6463089134.webp",
-        "https://www.planetediscount.eu/82364-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-garance.jpg",
+        "/img/catalogue/6284408b0c678f52.webp",
         "https://www.planetediscount.eu/82309-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-garance.jpg",
-        "https://www.planetediscount.eu/82310-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-garance.jpg"
+        "/img/catalogue/e18c4bf9d37c7863.webp"
       ]
     },
     "sharedGallery": [],
@@ -14479,7 +14479,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/4afe214b9c077549.webp",
         "https://www.aw-dropship.eu/i/1egb/BP56DXH5/800x800.jpeg",
-        "https://www.aw-dropship.eu/i/1ega/kgnAwzjv/800x800.jpeg"
+        "/img/catalogue/d27ec0a77da8cda9.webp"
       ]
     },
     "sharedGallery": [],
@@ -14577,8 +14577,8 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/df2eae780bca9faf.webp",
-        "https://www.planetediscount.eu/83553-thickbox_default/oreiller-a-memoire-de-forme-60x60-cm-polyester-blanc.jpg",
-        "https://www.planetediscount.eu/83554-thickbox_default/oreiller-a-memoire-de-forme-60x60-cm-polyester-blanc.jpg"
+        "/img/catalogue/e8db14b81a9adcc3.webp",
+        "/img/catalogue/537687ad22857dae.webp"
       ]
     },
     "sharedGallery": [],
@@ -14623,7 +14623,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/fc170b1cbc3a7a82.webp",
-        "https://www.planetediscount.eu/46255-thickbox_default/oreiller-mousse-a-memoire-de-forme-60x60-cm-jean-louis-scherrer.jpg",
+        "/img/catalogue/5f8e214bad11a52e.webp",
         "https://www.planetediscount.eu/46256-thickbox_default/oreiller-mousse-a-memoire-de-forme-60x60-cm-jean-louis-scherrer.jpg"
       ]
     },
@@ -14983,7 +14983,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/56db44c699b8d526.webp",
-        "https://www.planetediscount.eu/83550-thickbox_default/housse-de-couette-220x240-cm-gaze-de-coton-naturel.jpg",
+        "/img/catalogue/77324b8c7e54825b.webp",
         "https://www.planetediscount.eu/83551-thickbox_default/housse-de-couette-220x240-cm-gaze-de-coton-naturel.jpg"
       ]
     },
@@ -15035,7 +15035,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/8a2358ff8a316899.webp",
-        "https://www.planetediscount.eu/82817-thickbox_default/housse-de-couette-220x240-cm-satin-de-coton-amboise.jpg",
+        "/img/catalogue/b9c0fd230e8d9065.webp",
         "https://www.planetediscount.eu/82818-thickbox_default/housse-de-couette-220x240-cm-satin-de-coton-amboise.jpg"
       ]
     },
@@ -15128,7 +15128,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/e4b02b6b94a4c117.webp",
         "https://www.planetediscount.eu/82402-thickbox_default/taie-d-oreiller-63x63-cm-coton-nora.jpg",
-        "https://www.planetediscount.eu/82403-thickbox_default/taie-d-oreiller-63x63-cm-coton-nora.jpg"
+        "/img/catalogue/5e5b011476efd6d8.webp"
       ]
     },
     "sharedGallery": [],
@@ -15174,7 +15174,7 @@ export const importedProducts: Product[] = [
       "color-1": [
         "/img/catalogue/a0c7aa0738b4f709.webp",
         "https://www.planetediscount.eu/82399-thickbox_default/taie-d-oreiller-63x63-cm-coton-siena.jpg",
-        "https://www.planetediscount.eu/82400-thickbox_default/taie-d-oreiller-63x63-cm-coton-siena.jpg"
+        "/img/catalogue/84db58ace1d489bc.webp"
       ]
     },
     "sharedGallery": [],
@@ -15224,7 +15224,7 @@ export const importedProducts: Product[] = [
     "colorGalleries": {
       "color-1": [
         "/img/catalogue/dea2ccc6668427ba.webp",
-        "https://www.planetediscount.eu/82362-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-florence.jpg",
+        "/img/catalogue/8211c213c3be4f74.webp",
         "https://www.planetediscount.eu/82307-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-florence.jpg"
       ]
     },

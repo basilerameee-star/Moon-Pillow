@@ -1,15 +1,17 @@
 import { importedProducts } from './imported-products';
+import { photoCuration } from './photo-curation';
 export type Color = string;
 export type Category = 'housses' | 'plaids' | 'ensembles' | 'housses-couette' | 'couettes' | 'oreillers' | 'taies' | 'draps' | 'coussins' | 'serviettes' | 'couvre-lits';
-export type Product = { id: string; category: Category; availableColors: Color[]; colorOptions?: {id:Color;name:string;hex?:string}[]; name: string; subtitle: string; description: string; options: { id: string; label: string; price: number }[]; details: string[]; images: Record<Color, string>; coverImage?:string; gallery: string[]; colorGalleries?:Record<Color,string[]>; sharedGallery?:string[]; draftOnly?:boolean; photoNote?:string; priceStatus?:'proposed'|'approved'; proposedPriceCents?:number; requiresSupplierBundle?:boolean; photoAssociationsReviewed?:boolean };
+export type Product = { id: string; category: Category; availableColors: Color[]; colorOptions?: {id:Color;name:string;hex?:string}[]; name: string; subtitle: string; description: string; options: { id: string; label: string; price: number }[]; details: string[]; images: Record<Color, string>; coverImage?:string; gallery: string[]; colorGalleries?:Record<Color,string[]>; sharedGallery?:string[]; lifestyleGalleries?:Record<Color,string[]>; macroGalleries?:Record<Color,string[]>; modelScenes?:string[]; video?:{src:string;poster?:string;caption:string}; draftOnly?:boolean; photoNote?:string; priceStatus?:'proposed'|'approved'; proposedPriceCents?:number; requiresSupplierBundle?:boolean; photoAssociationsReviewed?:boolean };
 export const colors: { id: Color; name: string; hex: string }[] = [
  { id: 'blanc', name: 'Blanc nuage', hex: '#eae4d9' }, { id: 'rose', name: 'Rose poudré', hex: '#d5aaa6' }, { id: 'vert', name: 'Vert', hex: '#9ea895' },
 ];
-export const products: Product[] = [
+const catalogueProducts: Product[] = [
  { id: 'housse-cotelee', category: 'housses', availableColors: ['blanc', 'rose', 'vert'], name: 'La housse côtelée', subtitle: 'La petite touche qui change le canapé.', description: 'Une housse à choisir à la pièce, dans la couleur qui vous plaît. Ajoutez ensuite les autres éléments de votre choix. Le coussin intérieur n’est pas inclus. Le vert clair de cette housse diffère du vert olive du plaid.', options: [{ id: 'unite-45-45', label: '1 housse seule · 45 × 45 cm', price: 1290 }], details: ['Vente proposée à l’unité : une housse, sans coussin intérieur.', 'Format indiqué dans la sélection initiale : 45 × 45 cm.', 'Conditionnement fournisseur, composition et entretien à confirmer avant ouverture.'], images: { blanc: '/img/blanc.jpg', rose: '/img/rose.jpg', vert: '/img/vert.jpg' }, gallery: [], colorGalleries:{blanc:['/img/blanc.jpg','/img/canape-blanc.jpg','/img/matiere.jpg'],rose:['/img/rose.jpg'],vert:['/img/vert.jpg']}, sharedGallery:['/img/dimensions.jpg'], priceStatus:'proposed' },
  { id: 'plaid-cotele', category: 'plaids', availableColors: ['blanc', 'rose', 'vert'], name: 'Le plaid côtelé', subtitle: 'Votre prochain rendez-vous avec le canapé.', description: 'À poser au bout du lit ou sur l’accoudoir du canapé. Le plaid se décline en blanc, rose ou vert olive, avec deux formats à choisir. Son vert est différent de celui des housses sur les photos.', options: [{ id: '120-200', label: '120 × 200 cm', price: 4990 }, { id: '150-200', label: '150 × 200 cm', price: 5990 }], details: ['Deux formats proposés dans la sélection initiale.', 'Effet fausse fourrure à côtes.', 'Composition exacte et consignes d’entretien à confirmer avant ouverture.'], images: { blanc: '/img/plaid-blanc.jpg', rose: '/img/plaid-rose.jpg', vert: '/img/plaid-vert.jpg' }, gallery: [], colorGalleries:{blanc:['/img/plaid-blanc.jpg','/img/plaid-matiere.jpg','/img/plaid-lit.jpg','/img/plaid-detente.jpg'],rose:['/img/plaid-rose.jpg'],vert:['/img/plaid-vert.jpg']}, priceStatus:'proposed' },
  ...importedProducts,
 ];
+export const products:Product[]=catalogueProducts.map(product=>({...product,...photoCuration[product.id]}));
 export const categories: {id:Category;label:string}[] = [{id:'housses-couette',label:'Housses de couette'},{id:'draps',label:'Draps'},{id:'taies',label:'Taies d’oreiller'},{id:'oreillers',label:'Oreillers'},{id:'couettes',label:'Couettes'},{id:'couvre-lits',label:'Couvre-lits'},{id:'housses',label:'Housses de coussin'},{id:'coussins',label:'Coussins'},{id:'plaids',label:'Plaids'},{id:'ensembles',label:'Ensembles'},{id:'serviettes',label:'Linge de bain'}];
 export const categoryLabel = (category:Category) => categories.find(c=>c.id===category)?.label??category;
 export const roomFor = (product:Product) => ['housses','coussins','plaids','ensembles'].includes(product.category)?'salon':product.category==='serviettes'?'bain':'chambre';
@@ -28,17 +30,33 @@ export function neutralRank(name:string){
 export function firstColor(product:Product){
  const choices=productColors(product);
  return [...choices].sort((a,b)=>{
+  const sceneA=lifestyleGalleryFor(product,a.id).length>0,sceneB=lifestyleGalleryFor(product,b.id).length>0;
   const hasA=Boolean(product.colorGalleries?.[a.id]?.length||product.images[a.id]);
   const hasB=Boolean(product.colorGalleries?.[b.id]?.length||product.images[b.id]);
-  return Number(hasB)-Number(hasA)||neutralRank(a.name)-neutralRank(b.name);
+  return Number(sceneB)-Number(sceneA)||Number(hasB)-Number(hasA)||neutralRank(a.name)-neutralRank(b.name);
  })[0]?.id??'';
 }
 export function galleryFor(product:Product,color:Color){
  const exact=product.colorGalleries?.[color]??(product.images[color]?[product.images[color]]:[]);
  return [...new Set(exact.filter(Boolean))];
 }
-export const productImage = (product:Product,color=firstColor(product)):string|undefined => galleryFor(product,color)[0]??(!color?product.coverImage:undefined);
-export const collectionImage = (product:Product,color=firstColor(product)) => productImage(product,color)??product.coverImage;
+// Curated views must already belong to this exact colour's source gallery.
+export function lifestyleGalleryFor(product:Product,color:Color){
+ const exact=new Set(galleryFor(product,color));
+ return [...new Set(product.lifestyleGalleries?.[color]??[])].filter(src=>exact.has(src));
+}
+export function macroGalleryFor(product:Product,color:Color){
+ const exact=new Set(galleryFor(product,color));
+ return [...new Set(product.macroGalleries?.[color]??[])].filter(src=>exact.has(src));
+}
+export const presentationGalleryFor=(product:Product,color:Color)=>[...new Set([...lifestyleGalleryFor(product,color),...macroGalleryFor(product,color)])];
+export function modelSceneGalleryFor(product:Product){
+ const general=new Set([...(product.sharedGallery??[]),...product.gallery,...(product.coverImage?[product.coverImage]:[])]);
+ return [...new Set(product.modelScenes??[])].filter(src=>general.has(src));
+}
+export const productImage = (product:Product,color=firstColor(product)):string|undefined => presentationGalleryFor(product,color)[0];
+export const collectionImage = (product:Product,color?:Color):string|undefined => color===undefined?(lifestyleGalleryFor(product,firstColor(product))[0]??modelSceneGalleryFor(product)[0]):lifestyleGalleryFor(product,color)[0];
+export const presentationColor=(product:Product)=>lifestyleGalleryFor(product,firstColor(product)).length?firstColor(product):'';
 export const startingPrice = (product:Product) => {
  const prices=product.options.map(o=>o.price).filter(p=>Number.isSafeInteger(p)&&p>0);
  return prices.length?Math.min(...prices):product.proposedPriceCents??0;
