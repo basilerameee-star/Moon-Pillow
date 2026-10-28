@@ -49,6 +49,10 @@ export function sizeGuideFor(product: Product, optionLabel?: string): SizeGuide 
   };
 }
 
+export function careStatements(product: Product): string[] {
+  return product.details.filter(detail => /^Entretien indiqué par le fabricant/.test(detail));
+}
+
 export function materialStatements(product: Product): string[] {
   return product.details.filter(detail => /coton|polyester|microfibre|viscose|\blin\b|laine|soie|velours|fourrure|grammage|g\/m|composition/i.test(detail) && !/certifi|oeko.?tex|gots|label/i.test(detail));
 }

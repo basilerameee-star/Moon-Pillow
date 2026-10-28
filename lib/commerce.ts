@@ -1,5 +1,5 @@
 import "server-only";
-import { colorName, products, resolveItem, type CartItem } from "./catalog";
+import { colorName, products, resolveItem, shippingFor, type CartItem } from "./catalog";
 
 export const SHOP_ID = "moon-and-pillow";
 export const MAX_BODY_BYTES = 16 * 1024;
@@ -145,8 +145,15 @@ export function assertCheckoutAllowed(config: ShopConfig, checkout: ValidatedChe
   }
 }
 
+function checkoutShipping(config: ShopConfig, checkout: ValidatedCheckout) {
+  if (config.shippingCents === null) throw new CheckoutError("La livraison doit être configurée.", 503);
+  const subtotal = checkout.items.reduce((sum, item) => sum + resolveItem(item).option.price * item.quantity, 0);
+  return shippingFor(subtotal, config.shippingCents);
+}
+
 export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedCheckout, cartHash: string) {
   if (!config.origin || config.shippingCents === null || config.minDays === null || config.maxDays === null) throw new CheckoutError("La livraison doit être configurée.", 503);
+  const shipping = checkoutShipping(config, checkout);
   const params = new URLSearchParams({
     mode: "payment", locale: "fr", customer_creation: "always",
     success_url: `${config.origin}/commande?session_id={CHECKOUT_SESSION_ID}`,
@@ -160,9 +167,9 @@ export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedC
     "payment_intent_data[metadata][shop]": SHOP_ID,
     "payment_intent_data[metadata][cart_hash]": cartHash,
     "shipping_options[0][shipping_rate_data][type]": "fixed_amount",
-    "shipping_options[0][shipping_rate_data][fixed_amount][amount]": String(config.shippingCents),
+    "shipping_options[0][shipping_rate_data][fixed_amount][amount]": String(shipping),
     "shipping_options[0][shipping_rate_data][fixed_amount][currency]": "eur",
-    "shipping_options[0][shipping_rate_data][display_name]": "Livraison en France",
+    "shipping_options[0][shipping_rate_data][display_name]": shipping === 0 ? "Livraison offerte en France" : "Livraison en France",
     "shipping_options[0][shipping_rate_data][delivery_estimate][minimum][unit]": "business_day",
     "shipping_options[0][shipping_rate_data][delivery_estimate][minimum][value]": String(config.minDays),
     "shipping_options[0][shipping_rate_data][delivery_estimate][maximum][unit]": "business_day",
@@ -187,7 +194,7 @@ export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedC
 export async function checkoutFingerprint(config: ShopConfig, checkout: ValidatedCheckout) {
   const pricedItems = checkout.items.map(item => ({ ...item, unitAmount: resolveItem(item).option.price }));
   const bytes = new TextEncoder().encode(JSON.stringify({ shop: SHOP_ID, origin: config.origin, items: pricedItems,
-    shipping: config.shippingCents, minDays: config.minDays, maxDays: config.maxDays, currency: "eur" }));
+    shipping: checkoutShipping(config, checkout), minDays: config.minDays, maxDays: config.maxDays, currency: "eur" }));
   const digest = await crypto.subtle.digest("SHA-256", bytes);
   return Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
 }

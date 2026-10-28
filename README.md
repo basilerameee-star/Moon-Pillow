@@ -172,7 +172,7 @@ Ces éléments ne peuvent pas être codés dans les pages ; ils demandent une d�
 - Emballage (papier de soie, boîte, étiquette, mot de remerciement) et livret d'accueil : opérationnel, dépend du fournisseur.
 - E-mails automatiques (panier abandonné, bienvenue, rétention) : outil d'e-mailing à choisir (Brevo, Klaviyo…). Brouillons dans `lib/email-flows.ts`.
 - Apple Pay / Google Pay / paiement en 3-4 fois : à activer dans Stripe (et un prestataire de paiement fractionné), après validation.
-- Seuil de livraison offerte et frais de port réels : décision commerciale du propriétaire, puis calcul côté serveur.
+- Livraison offerte dès 80 € (décision du 28/10/2026, calcul côté serveur dans `lib/commerce.ts`) ; frais de port sous ce seuil (`SHIPPING_CENTS`) encore à fixer.
 - Bulle d'aide / WhatsApp : visuelle tant qu'aucun service n'est branché.
 - Avis clients : uniquement des avis réels, collectés après livraison.
 - Certification (OEKO-TEX…), grammage, consignes de lavage : publiés seulement avec une preuve du fournisseur pour la référence exacte.
@@ -189,9 +189,9 @@ Statuts : ✅ codé | 📄 documenté (hors code) | 🚧 opérationnel | ⏳ à 
 6. Boutons « Épingler sur Pinterest » .............................. ✅ (`PinterestButton`)
 7. CGV, mentions légales, retours, confidentialité ................. ✅ (contenu à compléter avec les informations réelles de l'entreprise)
 8. Livret d'accueil ................................................ 🚧
-9. Frais de port affichés dès le panier ............................ ✅ (règle affichée ; montant réel à décider)
-10. Guide d'entretien avec icônes ................................. ⏳ (consignes publiées seulement d'après l'étiquette réelle)
-11. OEKO-TEX + grammage ........................................... ⏳ (aucune preuve fournisseur vérifiée à ce jour)
+9. Frais de port affichés dès le panier ............................ ✅ (offerts dès 80 € ; montant sous ce seuil à décider)
+10. Guide d'entretien avec icônes ................................. ✅ partiel (plaid : « lavable en machine » d'après la fiche fabricant ; housse : aucune consigne fournie)
+11. OEKO-TEX + grammage ........................................... ⏳ (fiches AliExpress lues le 28/10/2026 : aucune certification ni grammage ; demander le certificat au vendeur)
 12. Accessibilité AA (contraste, clavier, ARIA) ................... ⏳ (focus piégé, Échap, `aria-modal`, menus au clavier présents ; contraste non mesuré)
 13. Core Web Vitals : optimisations ............................... ⏳ (à mesurer après compilation)
 14. Core Web Vitals : mesure réelle ............................... 📄

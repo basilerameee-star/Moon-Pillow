@@ -1,9 +1,9 @@
 'use client';
 
-import { ChevronDown, Ruler, Sparkles, Truck, Wind } from 'lucide-react';
+import { ChevronDown, Ruler, Sparkles, Truck, WashingMachine, Wind } from 'lucide-react';
 import Link from 'next/link';
 import type { Product } from '@/lib/catalog';
-import { materialStatements, sizeGuideFor, type SizeGuide } from '@/lib/product-guides';
+import { careStatements, materialStatements, sizeGuideFor, type SizeGuide } from '@/lib/product-guides';
 
 function SizeDrawing({ guide }: { guide: SizeGuide }) {
   const { measured, kind } = guide;
@@ -26,6 +26,7 @@ function SizeDrawing({ guide }: { guide: SizeGuide }) {
 export function ProductGuides({ product, optionLabel }: { product: Product; optionLabel?: string }) {
   const guide = sizeGuideFor(product, optionLabel);
   const materials = materialStatements(product);
+  const care = careStatements(product);
   return <div className="guide-accordions">
     <details className="guide-panel">
       <summary><span><Ruler size={17} strokeWidth={1.3}/> Bien choisir sa taille</span><ChevronDown size={16}/></summary>
@@ -39,14 +40,15 @@ export function ProductGuides({ product, optionLabel }: { product: Product; opti
       <div className="guide-content">
         {materials.length > 0 ? <><h3>Les indications du modèle</h3><ul>{materials.map(text => <li key={text}>{text}</li>)}</ul></> : <p>La composition précise et le grammage restent à confirmer pour ce modèle avant l’ouverture des commandes.</p>}
         <h3>Pour en prendre soin</h3>
-        <div className="guide-care"><Wind size={21} strokeWidth={1.15}/><p>Aérez votre linge et suivez toujours l’étiquette pour le lavage, le séchage et le repassage. Les consignes exactes de cet article restent à confirmer.</p></div>
+        {care.map(text => <div className="guide-care" key={text}><WashingMachine size={21} strokeWidth={1.15} aria-hidden="true"/><p>{text}</p></div>)}
+        <div className="guide-care"><Wind size={21} strokeWidth={1.15}/><p>Aérez votre linge et suivez toujours l’étiquette pour le lavage, le séchage et le repassage.</p></div>
         <p>Un aspect froissé dépend de la fibre et du tissage. Sans consigne vérifiée, nous ne pouvons pas garantir l’absence de rétrécissement ni recommander une température précise.</p>
         <p className="guide-note">Aucune certification n’est revendiquée sans justificatif vérifié pour la référence concernée.</p>
       </div>
     </details>
     <details className="guide-panel">
       <summary><span><Truck size={17} strokeWidth={1.3}/> Livraison & retours</span><ChevronDown size={16}/></summary>
-        <div className="guide-content"><p>La collection est en préparation. Les frais, le délai de livraison et les conditions de retour de cette référence seront précisés avant l’ouverture des commandes.</p><p>Les éléments du décor photographié ne sont pas inclus, sauf mention explicite dans le format sélectionné.</p><Link href="/informations/retours" className="guide-link">Consulter les informations de livraison et de retour</Link></div>
+        <div className="guide-content"><p>Livraison offerte en France dès 80 € d’achat. Retours gratuits sous 30 jours après réception, sans justification.</p><p>Les éléments du décor photographié ne sont pas inclus, sauf mention explicite dans le format sélectionné.</p><Link href="/informations/retours" className="guide-link">Consulter les informations de livraison et de retour</Link></div>
     </details>
   </div>;
 }
