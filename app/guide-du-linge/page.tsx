@@ -1,6 +1,9 @@
 import { ArrowLeft, Moon } from 'lucide-react';
 import Link from 'next/link';
 import { PrintGuideButton } from '@/components/ProductGuides';
+import { robotsMeta } from '@/lib/seo';
+
+export const metadata={title:'Guide du linge de maison : tailles, matières et entretien',description:'Choisir la bonne taille de housse, de taie ou de plaid, comprendre les matières et entretenir son linge : le guide pratique de Moon & Pillow.',alternates:{canonical:'/guide-du-linge'},robots:robotsMeta};
 
 export default function LinenGuidePage() {
   return <main className="linen-guide">

@@ -4,6 +4,9 @@ import { useEffect, useRef, useState, useCallback, type ReactNode, type CSSPrope
 import { ArrowRight, ArrowUpRight, Check, ChevronDown, ChevronLeft, ChevronRight, Menu, Minus, Moon, Plus, Search, ShoppingBag, Ruler, Layers, X } from 'lucide-react';
 import { categories, categoryLabel, roomFor, firstColor, productImage, collectionImage, lifestyleGalleryFor, macroGalleryFor, presentationGalleryFor, modelSceneGalleryFor, presentationColor, neutralRank, startingPrice, priceLabel, productColors, photographedProductColors, colorSwatchBackground, colorName, money, products, resolvePreviewItem as resolveItem, type CartItem, type Category, type Color, type Product } from '@/lib/catalog';
 import { ProductGuides } from '@/components/ProductGuides';
+import { faq } from '@/lib/faq';
+import { JsonLd } from '@/components/JsonLd';
+import { faqLd } from '@/lib/seo';
 import { SelectMenu, StickyProductAction, PinterestButton, BoutiqueAssistance } from '@/components/BoutiqueControls';
 type View = { product: Product; color: Color };
 const featuredIds=['plaid-cotele','aw-cicc-17','alibaba-1601080870169','housse-cotelee','aw-bohot-06','aw-cicc-18','alibaba-1601710942064','aw-bohot-01','aw-cicc-16','alibaba-1601451040881','aw-bohot-04'];
@@ -30,14 +33,6 @@ const complementaryCategory:Partial<Record<Category,Category>>={
  'housses-couette':'taies','taies':'housses-couette','draps':'taies','oreillers':'taies','couettes':'housses-couette','couvre-lits':'taies',
  'housses':'coussins','coussins':'housses','plaids':'housses','serviettes':'serviettes',
 };
-const faq = [
- ['Comment choisir la bonne taille ?', 'Mesurez votre couette, votre oreiller ou votre coussin, puis comparez la mesure avec le format écrit en centimètres sur la fiche. Les mots « King » et « Queen » ne suffisent pas à confirmer la taille.'],
- ['Qu’est-ce qui est inclus ?', 'Seuls les articles nommés dans le format choisi sont inclus. Par exemple, « 1 housse seule » ne comprend pas le coussin intérieur. Les accessoires visibles sur les photos de décor ne sont pas inclus.'],
- ['Les couleurs vont-elles exactement ensemble ?', 'Pas forcément. Chaque produit a son propre nuancier ; deux beiges ou deux verts peuvent avoir des teintes différentes. La lumière et l’écran peuvent aussi modifier leur apparence.'],
- ['Comment entretenir le linge ?', 'La consigne sera indiquée pour chaque référence après vérification de son étiquette. Tant que cette information n’est pas confirmée, nous ne donnons pas de température de lavage.'],
- ['Comment fonctionnent les retours ?', 'La boutique est en préparation. Les conditions et frais de retour seront affichés avant l’ouverture des commandes. Aucun achat réel n’est possible dans cette préversion.'],
- ['Quand recevrai-je ma commande ?', 'Les ventes ne sont pas ouvertes. Les délais et frais de livraison restent à confirmer et seront affichés avant tout paiement.'],
-];
 function Sheet({ title, onClose, children, wide = false }: { title: string; onClose: () => void; children: ReactNode; wide?: boolean }) {
  const box = useRef<HTMLDivElement>(null);
  useEffect(() => {
@@ -65,6 +60,7 @@ export default function Home({initialProductId,initialColor='blanc',initialOptio
     try{const saved=JSON.parse(localStorage.getItem('mp-cart-v1')??'[]');if(Array.isArray(saved))setCart(saved.filter(i=>{try{resolveItem(i);return Number.isInteger(i.quantity)&&i.quantity>0&&i.quantity<=10;}catch{return false;}}).slice(0,15));}catch{}
     setHydrated(true);
     if(new URLSearchParams(window.location.search).get('panier')==='1')setCartOpen(true);
+    const recherche=new URLSearchParams(window.location.search).get('recherche');if(recherche){setSearch(recherche.slice(0,80));document.getElementById('collection')?.scrollIntoView();}
    });
    const controller=new AbortController();
    fetch('/api/shop-status',{signal:controller.signal}).then(async r=>r.ok?await r.json() as {checkoutEnabled:boolean;testMode:boolean;shippingCents:number|null;minDays:number|null;maxDays:number|null}:null).then(data=>data&&setShop(data)).catch(()=>{});
@@ -103,7 +99,7 @@ export default function Home({initialProductId,initialColor='blanc',initialOptio
  const suggestionColor=suggestion?lifestyleColorFor(suggestion,firstCartColor)?.id??presentationColor(suggestion):'';
  const canPrepareItem=Boolean(view&&!view.product.requiresSupplierBundle&&selectedOption&&selectedOption.price>0&&photographedProductColors(view.product).some(color=>color.id===view.color));
  const chooseRoom=(value:'tout'|'chambre'|'salon'|'bain')=>{setRoom(value);setFilter('tout');setColorFilter('');setMobileOpen(false);document.getElementById('collection')?.scrollIntoView({behavior:'smooth'});};
- return <><a className="skip" href="#main">Aller au contenu</a><div className="announcement"><Moon size={13}/><span>{shop.testMode&&shop.checkoutEnabled?'MODE TEST · Aucun paiement réel ni commande fournisseur':shop.checkoutEnabled?'La douceur fait son entrée chez vous':'Notre première collection se prépare. Prenez le temps de la découvrir.'}</span><Moon size={13}/></div>
+ return <>{!initialProductId&&<JsonLd data={faqLd()}/>}<a className="skip" href="#main">Aller au contenu</a><div className="announcement"><Moon size={13}/><span>{shop.testMode&&shop.checkoutEnabled?'MODE TEST · Aucun paiement réel ni commande fournisseur':shop.checkoutEnabled?'La douceur fait son entrée chez vous':'Notre première collection se prépare. Prenez le temps de la découvrir.'}</span><Moon size={13}/></div>
  <header className="site-header"><div className="header-inner">
  <button className="icon-button mobile-menu" aria-label="Ouvrir le menu" aria-expanded={mobileOpen} onClick={()=>setMobileOpen(!mobileOpen)}><Menu/></button>
  <Link href="/" className="wordmark" aria-label="Moon and Pillow, accueil">Moon <i>&</i> Pillow<span>LES PETITS BONHEURS DE LA MAISON</span></Link>

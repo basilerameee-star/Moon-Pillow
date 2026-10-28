@@ -150,3 +150,48 @@ The portable build runs Vinext directly without a host `timeout` command. The ma
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)
 - [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+
+## Référencement (SEO)
+
+- Adresse, ouverture à l'indexation et code Search Console : `lib/seo.ts` (`SITE_URL`, `INDEXATION_OUVERTE`, `GOOGLE_SITE_VERIFICATION`). En préouverture, toutes les pages sont en `noindex` et `robots.txt` ferme l'accès.
+- Données structurées (JSON-LD, rendues dans le HTML) : `Organization` et `WebSite` + `SearchAction` (`/?recherche=…`) sur toutes les pages, `FAQPage` sur l'accueil, `Product` + `BreadcrumbList` sur chaque fiche. L'offre (`Offer` / `AggregateOffer`) n'est déclarée que pour un prix validé (`priceStatus: 'approved'`). Aucune note ni avis n'est déclaré tant qu'il n'existe pas d'avis client réel.
+- `sitemap.xml` (accueil, Notre univers, guide du linge, fiches non brouillon) et `robots.txt` sont générés par `app/sitemap.xml/route.ts` et `app/robots.txt/route.ts`.
+- Canonical sur l'accueil, Notre univers, le guide et chaque fiche (`metadataBase` = `SITE_URL`).
+
+### Le jour de l'ouverture
+
+1. Passer `INDEXATION_OUVERTE` à `true` dans `lib/seo.ts`, redéployer.
+2. Ajouter le domaine dans Google Search Console, coller le code dans `GOOGLE_SITE_VERIFICATION`, redéployer, valider.
+3. Soumettre `https://moonandpillow.com/sitemap.xml` dans Search Console.
+4. Contrôler 3 fiches avec le test des résultats enrichis de Google et mesurer les Core Web Vitals avec Lighthouse (mobile).
+
+## À implémenter en production (hors code)
+
+Ces éléments ne peuvent pas être codés dans les pages ; ils demandent une décision, un outil ou une opération :
+
+- Emballage (papier de soie, boîte, étiquette, mot de remerciement) et livret d'accueil : opérationnel, dépend du fournisseur.
+- E-mails automatiques (panier abandonné, bienvenue, rétention) : outil d'e-mailing à choisir (Brevo, Klaviyo…). Brouillons dans `lib/email-flows.ts`.
+- Apple Pay / Google Pay / paiement en 3-4 fois : à activer dans Stripe (et un prestataire de paiement fractionné), après validation.
+- Seuil de livraison offerte et frais de port réels : décision commerciale du propriétaire, puis calcul côté serveur.
+- Bulle d'aide / WhatsApp : visuelle tant qu'aucun service n'est branché.
+- Avis clients : uniquement des avis réels, collectés après livraison.
+- Certification (OEKO-TEX…), grammage, consignes de lavage : publiés seulement avec une preuve du fournisseur pour la référence exacte.
+
+## Checklist (prompt DeepSeek v2, §17)
+
+Statuts : ✅ codé | 📄 documenté (hors code) | 🚧 opérationnel | ⏳ à décider ou à prouver
+
+1. Guide des tailles visuel ........................................ ✅ (`components/ProductGuides.tsx`, guide du linge)
+2. Page « Notre univers » .......................................... ✅
+3. Emballage premium ............................................... 🚧
+4. E-mails automatisés ............................................. 📄
+5. Apple Pay / Google Pay / paiement fractionné .................... 📄
+6. Boutons « Épingler sur Pinterest » .............................. ✅ (`PinterestButton`)
+7. CGV, mentions légales, retours, confidentialité ................. ✅ (contenu à compléter avec les informations réelles de l'entreprise)
+8. Livret d'accueil ................................................ 🚧
+9. Frais de port affichés dès le panier ............................ ✅ (règle affichée ; montant réel à décider)
+10. Guide d'entretien avec icônes ................................. ⏳ (consignes publiées seulement d'après l'étiquette réelle)
+11. OEKO-TEX + grammage ........................................... ⏳ (aucune preuve fournisseur vérifiée à ce jour)
+12. Accessibilité AA (contraste, clavier, ARIA) ................... ⏳ (focus piégé, Échap, `aria-modal`, menus au clavier présents ; contraste non mesuré)
+13. Core Web Vitals : optimisations ............................... ⏳ (à mesurer après compilation)
+14. Core Web Vitals : mesure réelle ............................... 📄
