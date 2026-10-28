@@ -124,13 +124,13 @@ test("Stripe receives server prices, EUR, address restriction, consent and canon
   assert.equal(params.get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "490");
 });
 
-test("delivery is free from 80 € of server-priced items, and charged below", () => {
+test("delivery is free from 100 € of server-priced items, and charged below", () => {
   const config = getShopConfig(environment());
   const price = products[0].options[0].price;
-  const below = Math.max(1, Math.ceil(8000 / price) - 1);
-  const above = Math.ceil(8000 / price);
+  const below = Math.max(1, Math.ceil(10000 / price) - 1);
+  const above = Math.ceil(10000 / price);
   const amount = quantity => buildCheckoutParameters(config, validateCheckout(request([{ ...first, quantity }])), "hash");
-  if (price * below < 8000) assert.equal(amount(below).get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "490");
+  if (price * below < 10000) assert.equal(amount(below).get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "490");
   assert.equal(amount(above).get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "0");
   assert.equal(amount(above).get("shipping_options[0][shipping_rate_data][display_name]"), "Livraison offerte en France");
 });
