@@ -1,0 +1,87 @@
+[
+  {
+    "reviewId": 30,
+    "classification": "scene",
+    "reason": "Confirmé en relisant les quatre originaux Sable du SKU PD25298 : la housse percale est réellement visible sur le lit. Teinte beige sable cohérente avec les détails boutons/tissu, avec écarts de lumière ; les taies et le décor ne sont pas inclus."
+  },
+  {
+    "reviewId": 48,
+    "classification": "scene",
+    "reason": "Confirmation : drap plat flanelle Sable visible comme pièce mince avec ourlet et retombée sur le côté du lit, non masqué par une couette."
+  },
+  {
+    "reviewId": 56,
+    "classification": "scene",
+    "reason": "Confirmation : drap plat lin Sable déplié/replié sur le lit, son ourlet et le tissage restent visibles ; l’image ne doit pas promettre la literie environnante."
+  },
+  {
+    "reviewId": 57,
+    "classification": "scene",
+    "reason": "Confirmation : drap plat gaze Naturel visible avec bord/ourlet en retombée sur le côté du lit ; scène de détail acceptable."
+  },
+  {
+    "reviewId": 106,
+    "classification": "scene",
+    "reason": "Confirmation : drap plat gaze Sapin visible drapé en couche mince sur le côté du lit, ourlet visible ; autres textiles exclus du contenu."
+  },
+  {
+    "reviewId": 122,
+    "classification": "scene",
+    "reason": "Confirmation : drap plat Vieux Rose étendu en bande repliée sur le lit ; la pièce photographiée est visible et non masquée."
+  },
+  {
+    "reviewId": 123,
+    "classification": "reject",
+    "reason": "Confirmation : la couette noire imprimée couvre le matelas et masque le drap-housse vendu. Vue générale d’ambiance, pas une preuve de l’article exact."
+  },
+  {
+    "reviewId": 217,
+    "classification": "reject",
+    "reason": "Confirmation : lit couvert d’une housse de couette Sable épaisse. Impossible d’identifier le drap plat vendu ; ne pas choisir comme tête exacte."
+  },
+  {
+    "reviewId": 218,
+    "classification": "reject",
+    "reason": "Confirmation : taies et housse de couette dominent ; aucun drap plat isolable avec certitude."
+  },
+  {
+    "reviewId": 223,
+    "classification": "reject",
+    "reason": "Confirmation : la couche supérieure épaisse ressemble à une couette/couverture et le drap plat vendu n’est pas identifiable avec assez de certitude."
+  },
+  {
+    "reviewId": 241,
+    "classification": "scene",
+    "reason": "Confirmation : taies blanches rectangulaires visibles dans la chambre. Source photo 82561 et packshot 82560 reliés au même SKU PD25493, 2 taies 50×70 Blanc ; pas quatre taies ni couette incluses. La correspondance documentaire ne vaut pas test physique de la couleur."
+  },
+  {
+    "reviewId": 254,
+    "classification": "scene",
+    "reason": "Confirmation : le drap plat satin Blanc est découvert, déplié sur le lit et retombe librement sur le côté. La pièce n’est pas masquée par une housse de couette."
+  },
+  {
+    "reviewId": 271,
+    "classification": "reject",
+    "reason": "Correction de l’audit initial : la scène montre une teinte violette/plum, tandis que le seul coloris de ce groupe est « Uni » et le packshot 128 est blanc. « Uni » ne prouve pas un même coloris. Ne pas utiliser comme image exacte d’une variante avant résolution du nuancier ; éventuellement scène générale du modèle non attribuée."
+  },
+  {
+    "reviewId": 283,
+    "classification": "scene",
+    "reason": "Confirmation : les taies satin Amboise blanches sont visibles en premier plan sur le lit ; URL exacte du lot de taies. Couette et taies de fond non incluses."
+  },
+  {
+    "reviewId": 284,
+    "classification": "reject",
+    "reason": "Correction : même scène/cadrage que 283, mais URL de housse de couette et non de lot de taies. Écarter comme preuve exacte de taie et comme vue supplémentaire ; 283 suffit et possède la bonne référence."
+  },
+  {
+    "reviewId": 317,
+    "classification": "reject",
+    "reason": "Confirmation : URL d’un coussin carré déhoussable 45×45 Azalée, alors que l’article est une taie 60×60. Objet de la même collection mais pas le même article ; exclusion de la galerie couleur exacte."
+  },
+  {
+    "reviewId": 318,
+    "classification": "scene",
+    "reason": "Confirmation : URL de taie 60×60 Azalée et taies fleuries visibles dans une scène de lit. Les coussins décoratifs/taies rouges autour sont accessoires non inclus. Fine bordure blanche externe du fichier à recadrer si utilisée ; pas un fond blanc derrière le produit."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "project_id": "appgprj_6adb9a7bbcc881918aa8b032128d0fd5",
+  "commit_sha": "f16dd163f08f1e86c6b3e765f6423de99e4f2fdf",
+  "version_id": "appgprj_6adb9a7bbcc881918aa8b032128d0fd5~appgver_08004fe7e82c8191bccffe975a4dcf1a",
+  "deployment_id": "appgdep_6adf8b9a042c8191be0db9377b92d4c1",
+  "status": "succeeded",
+  "url": "https://moon-and-pillow-boutique.bahethora.chatgpt.site/",
+  "audience": "owner-private",
+  "archive": "outputs/moon-and-pillow-premium-v4-deployment.tar.gz",
+  "screenshot": "outputs/moon-and-pillow-premium-v4.png"
+}

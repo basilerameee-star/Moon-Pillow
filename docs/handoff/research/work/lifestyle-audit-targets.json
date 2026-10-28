@@ -1,0 +1,165 @@
+{
+  "checkedAt": "2026-10-25",
+  "method": "Inspection réelle de16imagesuniques sur2planches locales issues des URL fournisseurs, rapprochement des SKU/couleurs/tailles dans données publiques conservées, lecture primaire en ligne de PD25493. Aucun test physique, aucun contact fournisseur.",
+  "contactSheets": [
+    "work/lifestyle-targets-sheet-1.jpg",
+    "work/lifestyle-targets-sheet-2.jpg"
+  ],
+  "sourceData": "work/specialist-corrected-2026-10-25.json",
+  "products": [
+    {
+      "productId": "pd-25600",
+      "productName": "Drap Housse Percale de Coton",
+      "colorName": "Jaune Moutarde",
+      "sourceModelUrl": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html",
+      "directSupplierRefs": [
+        "PD25587",
+        "PD25588",
+        "PD25600"
+      ],
+      "sourceLinksConfirmed": true,
+      "physicalColorMatchGuaranteed": false,
+      "sceneUrlsVerified": [],
+      "sceneUrlsRejected": [
+        {
+          "url": "https://www.planetediscount.eu/82797-thickbox_default/drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.jpg",
+          "reason": "La scène montre une couette/housse de couette et des taies. Le drap-housse vendu est masqué ou non identifiable. Ne convient pas comme photo produit exacte de tête; ne pas conclure que le drap-housse est l’article visible.",
+          "sourceSku": "PD25600",
+          "classification": "ambiance-collection-only"
+        },
+        {
+          "url": "https://www.planetediscount.eu/82771-thickbox_default/drap-housse-140x19030-cm-percale-de-coton-jaune-moutarde.jpg",
+          "reason": "La scène montre une couette/housse de couette et des taies. Le drap-housse vendu est masqué ou non identifiable. Ne convient pas comme photo produit exacte de tête; ne pas conclure que le drap-housse est l’article visible.",
+          "sourceSku": "PD25588",
+          "classification": "ambiance-collection-only"
+        }
+      ],
+      "labels": [
+        "2 scènes fournisseur mais article vendu masqué",
+        "teinte variable entre éclairages",
+        "packshots exacts à conserver comme détails"
+      ],
+      "reason": "Les cinq vues sont réellement reliées à des SKU de drap-housse percale Jaune Moutarde (tailles différentes) dans les données fournisseurs. Cette association documentaire ne prouve pas que la pièce montrée en scène soit le drap-housse. Un simple effet de lumière pourrait expliquer une partie des nuances, mais il ne peut pas être certifié sans échantillon/réponse fournisseur.",
+      "recommendedAction": "Ne pas remplacer automatiquement le packshot par ces scènes comme photographie exacte. Les classer éventuellement en inspiration de collection, avec contenu non inclus explicite, ou suspendre la mise en avant de ce coloris faute de vraie scène du drap-housse."
+    },
+    {
+      "productId": "pd-25600",
+      "productName": "Drap Housse Percale de Coton",
+      "colorName": "Emeraude",
+      "sourceModelUrl": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html",
+      "directSupplierRefs": [
+        "PD25594",
+        "PD25598",
+        "PD25599"
+      ],
+      "sourceLinksConfirmed": true,
+      "physicalColorMatchGuaranteed": false,
+      "sceneUrlsVerified": [],
+      "sceneUrlsRejected": [],
+      "labels": [
+        "2 vues de produit détouré",
+        "aucune scène de chambre disponible dans le relevé"
+      ],
+      "reason": "Coin de matelas et produit roulé, même couleur bleu-vert dans les deux vues inspectées. Toutes les autres URL sont des répétitions pour tailles.",
+      "recommendedAction": "Aucune substitution par une scène vérifiée possible à partir de ces fichiers. Conserver comme détails ou en préparation, ne pas utiliser une chambre jaune/sable pour ce coloris."
+    },
+    {
+      "productId": "pd-25575",
+      "productName": "Drap Housse Coton",
+      "colorName": "Anthracite",
+      "sourceModelUrl": "https://www.planetediscount.eu/drap-housse/25575-drap-housse-140x19030-cm-coton-jaune-moutarde.html",
+      "directSupplierRefs": [
+        "PD25569",
+        "PD25571"
+      ],
+      "sourceLinksConfirmed": true,
+      "physicalColorMatchGuaranteed": false,
+      "sceneUrlsVerified": [],
+      "sceneUrlsRejected": [],
+      "labels": [
+        "coin de matelas sur blanc",
+        "produit roulé sur blanc"
+      ],
+      "reason": "Deux vues uniques inspectées; aucun décor de chambre dans les variantes relevées.",
+      "recommendedAction": "Conserver en détail/préparation faute de scène exacte, sans remplacer par un autre tissu anthracite."
+    },
+    {
+      "productId": "pd-25512",
+      "productName": "Drap Housse Gaze de Coton - Coton 57 fils",
+      "colorName": "Blanc",
+      "sourceModelUrl": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+      "directSupplierRefs": [
+        "PD25498",
+        "PD25503",
+        "PD25508"
+      ],
+      "sourceLinksConfirmed": true,
+      "physicalColorMatchGuaranteed": false,
+      "sceneUrlsVerified": [],
+      "sceneUrlsRejected": [],
+      "labels": [
+        "drap-housse seul, coin de matelas",
+        "produit roulé sur blanc"
+      ],
+      "reason": "Deux vues uniques malgré plusieurs tailles. Ne pas réutiliser la scène des taies blanches comme preuve visuelle du drap-housse: elle masque celui-ci sous la couette.",
+      "recommendedAction": "Pas de scène exacte disponible. Conserver en détails/préparation ou rechercher une vraie vue du même SKU installé sur un lit."
+    },
+    {
+      "productId": "pd-25497",
+      "productName": "Lot 2 taies d’oreiller Gaze de Coton - Coton 57 fils",
+      "colorName": "Blanc",
+      "sourceModelUrl": "https://www.planetediscount.eu/taie-d-oreiller/25497-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-ocre.html",
+      "directSupplierRefs": [
+        "PD25493"
+      ],
+      "sourceLinksConfirmed": true,
+      "physicalColorMatchGuaranteed": false,
+      "sceneUrlsVerified": [
+        "https://www.planetediscount.eu/82561-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-blanc.jpg"
+      ],
+      "sceneUrlsRejected": [],
+      "sceneEvidence": [
+        {
+          "url": "https://www.planetediscount.eu/82561-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "sourceSku": "PD25493",
+          "sourceUrl": "https://www.planetediscount.eu/taie-d-oreiller/25493-lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "visibleItem": "Taies blanches visibles à la tête du lit, dans une chambre.",
+          "caveat": "Le lit, la couette, les autres textiles et la décoration ne sont pas inclus. La forme du garnissage et le tombé changent l’aspect; correspondance fondée sur galerie du SKU, pas contrôle physique."
+        }
+      ],
+      "labels": [
+        "mise en situation du SKU disponible",
+        "taies visibles",
+        "autres pièces non incluses"
+      ],
+      "reason": "La vue lit 82561 provient du même SKU PD25493 que le packshot de deux taies 82560. La page primaire confirme couleur Blanc et contenu 2 taies 50x70. C’est une candidature solide de photo de tête sous réserve des droits déjà non validés.",
+      "recommendedAction": "Mettre 82561 en premier pour ce coloris, packshot 82560 en détail; expliciter que seules deux taies sont incluses."
+    },
+    {
+      "productId": "pd-25860",
+      "productName": "Drap Housse Gaze de Coton",
+      "colorName": "Naturel",
+      "sourceModelUrl": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html",
+      "directSupplierRefs": [
+        "PD25858",
+        "PD25859",
+        "PD25860"
+      ],
+      "sourceLinksConfirmed": true,
+      "physicalColorMatchGuaranteed": false,
+      "sceneUrlsVerified": [],
+      "sceneUrlsRejected": [],
+      "partialContextUrls": [
+        "https://www.planetediscount.eu/83531-thickbox_default/drap-housse-160x20030-cm-gaze-de-coton-naturel.jpg"
+      ],
+      "labels": [
+        "lit partiel sans décor",
+        "drap-housse visible sur matelas",
+        "fond blanc résiduel"
+      ],
+      "reason": "La troisième vue montre le drap-housse installé sur un matelas, avec oreillers à la tête, mais reste un visuel sur fond clair/blanc sans chambre. Le produit est plus identifiable qu’un lit entièrement recouvert de couette.",
+      "recommendedAction": "Peut servir de solution de repli contextualisée à la place du simple coin/roulé, mais ne pas la qualifier de photographie lifestyle de chambre ni de zéro fond blanc."
+    }
+  ],
+  "importantLimit": "Même galerie fournisseur ≠ même article visuellement identifiable. Une scène peut montrer une collection entière, dont la couette n’est pas le drap-housse vendu. Aucun changement de couleur ni génération/retouche appliqué."
+}

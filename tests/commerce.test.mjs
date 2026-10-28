@@ -1,6 +1,6 @@
 import test, { before, after } from "node:test";
 import assert from "node:assert/strict";
-import { products, productColors, colorName, galleryFor, firstColor, resolvePreviewItem, resolveItem, startingPrice } from "../lib/catalog.ts";
+import { products, colorName, galleryFor, firstColor, resolvePreviewItem, resolveItem, startingPrice } from "../lib/catalog.ts";
 import { assertCheckoutAllowed, buildCheckoutParameters, checkoutFingerprint, createStripeCheckout, getShopConfig, MAX_BODY_BYTES, publicShopStatus, readCheckoutRequest, receiptFromSession, retrieveStripeReceipt, safeCheckoutUrl, validateCheckout } from "../lib/commerce.ts";
 
 const attemptId = "b8dc3488-5088-49b0-906d-d2e47f998a20";

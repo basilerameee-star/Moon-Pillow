@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-25",
+  "target": 200,
+  "uniqueModels": 219,
+  "allResearchedModels": 259,
+  "withIllustration": 203,
+  "collectionSupplierModels": 200,
+  "withTwoColors": 105,
+  "meetsTwoColorsThreePhotos": 1,
+  "colorSpecificPhotos": 1349,
+  "unassignedModelPhotos": 758,
+  "knownColorLabels": 760,
+  "knownSizeLabels": 466,
+  "proposedPrices": 219,
+  "sources": {
+    "Alibaba": 25,
+    "AW Europe": 42,
+    "CJdropshipping": 44,
+    "Planete Discount": 108
+  },
+  "sourceNotes": [
+    "25 modèles Alibaba existants normalisés ; aucune multiplication des tailles ou couleurs en modèles distincts.",
+    "Nouvelles galeries issues de fiches officielles Alibaba dans des copies publiques indexées. La fiche active dans le navigateur est bloquée par un CAPTCHA, qui n’a pas été résolu ni contourné.",
+    "13 photos et vignettes réelles utiles sur la parure velours, toutes inspectées ; elles ne valident pas 3 vues distinctes pour chaque teinte.",
+    "Aucune nouvelle référence ne satisfait complètement MOQ1 récurrent + 2 couleurs + 3 photos uniques par couleur + coût livré + droits images. Aucun produit nouveau n’a été ajouté au catalogue marchand par cet agent.",
+    "Prix fournisseurs indicatifs conservés avec devises et dates. Aucun prix public de vente inventé, aucun accord de coût ni de stock reçu.",
+    "Sources primaires CJdropshipping uniquement; aucune URL de produit inventée.",
+    "Le navigateur CJ et le HTML direct affichent une vérification humaine. Aucune tentative de résolution ou de contournement; seules les fiches publiques indexées et leurs liens médias sont utilisées.",
+    "Galeries du modèle séparées des images du coloris exact. Aucune image recolorée ni dupliquée pour remplir artificiellement le seuil.",
+    "Prix fournisseurs USD observés hors port/taxes; aucun prix de vente déduit ou approuvé ici.",
+    {
+      "source": "AW Dropship Europe",
+      "url": "https://www.aw-dropship.eu/homeware/sd-rugs",
+      "note": "82 SKU publics lus; vrais objets image identifiés dans le JSON public et regroupement des tailles/couleurs. Galerie ne signifie pas licence commerciale ni validation visuelle."
+    },
+    {
+      "source": "Planete Discount",
+      "url": "https://www.planetediscount.eu/content/23-conditions-generales-de-ventes-b2b",
+      "note": "CGV : aucun minimum de commande (4.4), vente aux professionnels après validation du compte, dropshipping traité en article6. Tarifs HT hors livraison après connexion. Aucun compte, accord, achat ou contact engagé."
+    },
+    {
+      "source": "Planete Discount",
+      "url": "https://www.planetediscount.eu/235-linge-de-lit",
+      "note": "Index et catégories publiques; les variantes de taille et de couleur sont regroupées par libellé, matière et densité/conditionnement conservés. Les regroupements restent à contrôler avant vente."
+    }
+  ]
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "productId": "aw-cicc-12",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5f06/i2ZkDSpg/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 1
+  },
+  {
+    "productId": "aw-cicc-14",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5eyh/ce34tOJl/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 2
+  },
+  {
+    "productId": "aw-cicc-13",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5f0e/HyzMtfoB/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 3
+  },
+  {
+    "productId": "aw-cicc-15",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5eyo/NKk-p5Rs/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 4
+  },
+  {
+    "productId": "aw-cicc-20",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5f1r/JCd8drF0/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 5
+  },
+  {
+    "productId": "aw-linc-plain",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1djo/oDT4UZ1R/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Housse naturelle à franges posée sur un fauteuil en rotin, contexte réel.",
+    "extraId": 6
+  },
+  {
+    "productId": "aw-cicc-11",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5exw/TDE8DORg/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 7
+  },
+  {
+    "productId": "aw-vcush",
+    "colorId": "color-5",
+    "src": "https://www.aw-dropship.eu/i/1lgy/jbrmm-4L/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Le coussin paraît multicolore chaud, le libellé Aqua Blues ne correspond pas nettement ; association couleur à revérifier.",
+    "extraId": 8
+  },
+  {
+    "productId": "aw-linc-palm",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1djx/wW227sAy/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Housses motif palmier visibles sur un banc devant du linge et du mobilier.",
+    "extraId": 9
+  },
+  {
+    "productId": "aw-cicc-17",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5f13/yzH5EXJI/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 10
+  },
+  {
+    "productId": "aw-cicc-09",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1fw9/8SYVM3TF/800x800.jpeg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 11
+  },
+  {
+    "productId": "aw-bohot-02",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hv3/roAkU2kp/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Plaid gris géométrique déployé sur un canapé jaune, sans fond blanc.",
+    "extraId": 12
+  },
+  {
+    "productId": "aw-cmc-lotus",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1dk9/EzuDHjL_/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Housse mandala bronze visible sur un canapé vert avec plante.",
+    "extraId": 13
+  },
+  {
+    "productId": "aw-cicc-18",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/4vdm/Jed_kmz_/800x800.jpg",
+    "classification": "scene",
+    "reason": "Housse beige pierre visible sur un fauteuil, à côté d’une housse rayée rose ; ne pas attribuer la housse rose au produit.",
+    "extraId": 14
+  },
+  {
+    "productId": "aw-cicc-19",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/5ez7/IrFVf8km/800x800.png",
+    "classification": "scene",
+    "reason": "Housses jaunes visibles sur fauteuil dans une pièce.",
+    "extraId": 15
+  },
+  {
+    "productId": "aw-bohot-01",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1huy/594DZEdX/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Plaid bleu marine déployé sur canapé jaune dans une pièce.",
+    "extraId": 16
+  },
+  {
+    "productId": "pd-16134",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/48701-thickbox_default/drap-plat-240x300-satin-de-coton-bronze.jpg",
+    "classification": "reject",
+    "reason": "Drap plat bronze non identifiable : la scène montre surtout une couette et des taies.",
+    "extraId": 17
+  },
+  {
+    "productId": "aw-cicc-16",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 18
+  },
+  {
+    "productId": "pd-25451",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/82490-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-crepuscule.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 19
+  },
+  {
+    "productId": "pd-15235",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/46897-thickbox_default/drap-plat-240x300-100-coton-57-fils.jpg",
+    "classification": "reject",
+    "reason": "Drap plat vendu non identifiable avec certitude : la scène ressemble à un ensemble de housse de couette et taies.",
+    "extraId": 20
+  },
+  {
+    "productId": "pd-24788",
+    "colorId": "color-5",
+    "src": "https://www.planetediscount.eu/80797-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-camel.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 21
+  },
+  {
+    "productId": "pd-25847",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/83495-thickbox_default/drap-housse-140x19028-cm-microfibre-terracotta.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 22
+  },
+  {
+    "productId": "pd-25536",
+    "colorId": "color-1",
+    "src": "/img/catalogue/785693248eff1a25.webp",
+    "classification": "scene",
+    "reason": "Drap-housse aqua visible sur matelas et sommier en bois, sol visible ; cadrage rapproché mais vrai contexte.",
+    "extraId": 23
+  },
+  {
+    "productId": "pd-25838",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/83479-thickbox_default/taie-doreiller-63x63-cm-percale-de-coton-lin.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 24
+  },
+  {
+    "productId": "pd-25382",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/82362-thickbox_default/taie-d-oreiller-60x60-cm-gaze-de-coton-florence.jpg",
+    "classification": "scene",
+    "reason": "Taies imprimées visibles en tête de lit dans une chambre.",
+    "extraId": 25
+  },
+  {
+    "productId": "alibaba-1601248538962",
+    "colorId": "color-4",
+    "src": "/img/catalogue/16722b06e3a95b84.webp",
+    "classification": "scene",
+    "reason": "Parure en velours jaune visible sur un lit dans une chambre.",
+    "extraId": 26
+  },
+  {
+    "productId": "pd-25600",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/82797-thickbox_default/drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.jpg",
+    "classification": "reject",
+    "reason": "Drap-housse masqué par la couette jaune : la référence source ne suffit pas à montrer l’article vendu.",
+    "extraId": 27
+  },
+  {
+    "productId": "aw-cmc-traditional",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1dke/sMcwrtss/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Housse mandala noire visible sur canapé vert avec plante.",
+    "extraId": 28
+  },
+  {
+    "productId": "pd-25388",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/82321-thickbox_default/taie-d-oreiller-50x70-cm-gaze-de-coton-vickie-romarin.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 29
+  },
+  {
+    "productId": "pd-24798",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/80828-thickbox_default/coussin-carre-dehoussable-50x50-cm-velours-de-coton-valentine.jpg",
+    "classification": "scene",
+    "reason": "Coussin à motif cachemire visible sur un fauteuil.",
+    "extraId": 30
+  },
+  {
+    "productId": "aw-bohot-06",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hvp/wkufFzCq/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Plaid Mattala déployé sur les genoux d’une personne assise sur fauteuil en rotin.",
+    "extraId": 31
+  },
+  {
+    "productId": "aw-cicc-06",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1fw5/8VXr-4xV/800x800.jpeg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 32
+  },
+  {
+    "productId": "aw-bohot-04",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hvf/RePbWZSs/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Plaid Ruby déployé sur les genoux d’une personne assise sur fauteuil en rotin.",
+    "extraId": 33
+  },
+  {
+    "productId": "pd-25437",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/82394-thickbox_default/taie-d-oreiller-60x60-cm-lin-rosalie-vieux-rose.jpg",
+    "classification": "scene",
+    "reason": "Taies vieux rose visibles en tête du lit dans une chambre ; produit petit dans le cadre, préférer une vue rapprochée ensuite.",
+    "extraId": 34
+  },
+  {
+    "productId": "aw-bohot-03",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hv9/3gH9ZAWm/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Plaid Regency déployé sur les genoux d’une personne assise sur fauteuil en rotin.",
+    "extraId": 35
+  },
+  {
+    "productId": "pd-25423",
+    "colorId": "color-13",
+    "src": "https://www.planetediscount.eu/82423-thickbox_default/taie-d-oreiller-80x80-cm-gaze-de-coton-terra-ficelle.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 36
+  },
+  {
+    "productId": "pd-25860",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/83531-thickbox_default/drap-housse-160x20030-cm-gaze-de-coton-naturel.jpg",
+    "classification": "reject",
+    "reason": "Drap-housse naturel sur matelas avec oreillers mais environnement détouré blanc : ne respecte pas le brief zéro fond blanc.",
+    "extraId": 37
+  },
+  {
+    "productId": "pd-25400",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/82400-thickbox_default/taie-d-oreiller-63x63-cm-coton-siena.jpg",
+    "classification": "scene",
+    "reason": "Taies imprimées visibles sur une chaise près du lit, contexte de chambre.",
+    "extraId": 38
+  },
+  {
+    "productId": "alibaba-1600241398988",
+    "colorId": "color-1",
+    "src": "/img/catalogue/62afb99f5bc4926b.webp",
+    "classification": "scene",
+    "reason": "Parure polaire rose visible sur un lit occupé dans une chambre.",
+    "extraId": 39
+  },
+  {
+    "productId": "pd-15111",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/46255-thickbox_default/oreiller-mousse-a-memoire-de-forme-60x60-cm-jean-louis-scherrer.jpg",
+    "classification": "macro",
+    "reason": "Gros plan de la texture matelassée blanche et de l’étiquette ; le blanc est le tissu, pas un fond de détourage.",
+    "extraId": 40
+  },
+  {
+    "productId": "pd-20931",
+    "colorId": "color-6",
+    "src": "https://www.planetediscount.eu/61373-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-terracotta.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 41
+  },
+  {
+    "productId": "pd-25575",
+    "colorId": "color-1",
+    "src": "/img/catalogue/6f67c0a2eea8846e.webp",
+    "classification": "reject",
+    "reason": "Coin de drap-housse jaune détouré sur fond blanc.",
+    "extraId": 42
+  },
+  {
+    "productId": "pd-25401",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/82403-thickbox_default/taie-d-oreiller-63x63-cm-coton-nora.jpg",
+    "classification": "scene",
+    "reason": "Taie imprimée visible sur une chaise près du lit, contexte de chambre.",
+    "extraId": 43
+  },
+  {
+    "productId": "aw-kcush-02ds",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1ega/kgnAwzjv/800x800.jpeg",
+    "classification": "scene",
+    "reason": "Housse kilim visible à gauche sur canapé bleu ; d’autres coussins décoratifs sont également présents.",
+    "extraId": 44
+  },
+  {
+    "productId": "pd-26025",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/84071-thickbox_default/taie-doreiller-65x65-cm-gaze-de-coton-naturel.jpg",
+    "classification": "reject",
+    "reason": "Taies empilées isolées sur fond blanc.",
+    "extraId": 45
+  },
+  {
+    "productId": "pd-25524",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/82619-thickbox_default/lot-2-taies-doreiller-50x70-cm-lin-metis-kaki.jpg",
+    "classification": "reject",
+    "reason": "Taies kaki isolées sur fond blanc.",
+    "extraId": 46
+  },
+  {
+    "productId": "pd-24902",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/81051-thickbox_default/drap-housse-90x19030-cm-lyocell-gabrielle-thym.jpg",
+    "classification": "reject",
+    "reason": "Coin de drap-housse vert détouré sur fond blanc.",
+    "extraId": 47
+  },
+  {
+    "productId": "pd-20986",
+    "colorId": "color-5",
+    "src": "https://www.planetediscount.eu/61531-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-romarin.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 48
+  },
+  {
+    "productId": "aw-cicc-10",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1fwb/T4cJDMet/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Détail de housse avec bord isolé sur fond blanc visible ; ne respecte pas le brief.",
+    "extraId": 49
+  },
+  {
+    "productId": "pd-25512",
+    "colorId": "color-1",
+    "src": "/img/catalogue/1b701fa11e0e1d09.webp",
+    "classification": "reject",
+    "reason": "Coin de drap-housse ocre détouré sur fond blanc.",
+    "extraId": 50
+  },
+  {
+    "productId": "aw-bwcb-07",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1a8z/6cKsKEHa/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Produit montré comme tenture murale avec une personne, aucun couvre-lit en usage sur un lit ; catégorie à vérifier.",
+    "extraId": 51
+  },
+  {
+    "productId": "pd-25445",
+    "colorId": "color-7",
+    "src": "https://www.planetediscount.eu/82466-thickbox_default/taie-d-oreiller-80x80-cm-lyocell-gabrielle-camel.jpg",
+    "classification": "reject",
+    "reason": "Taie et fermeture éclair avec fond blanc visible autour du produit ; ne respecte pas le brief.",
+    "extraId": 52
+  },
+  {
+    "productId": "pd-23593",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/76109-thickbox_default/coussin-deco-40x40-cm-coton-kaima.jpg",
+    "classification": "reject",
+    "reason": "Bord de coussin isolé avec fond blanc visible.",
+    "extraId": 53
+  },
+  {
+    "productId": "aw-bwcb-03",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1a8u/Ld1kjUHz/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Produit montré comme tenture murale avec une personne, aucun couvre-lit en usage sur un lit ; catégorie à vérifier.",
+    "extraId": 54
+  },
+  {
+    "productId": "pd-25126",
+    "colorId": "color-2",
+    "src": "/img/catalogue/dd68245218017ffb.webp",
+    "classification": "reject",
+    "reason": "Coin de drap-housse violet isolé sur fond blanc.",
+    "extraId": 55
+  },
+  {
+    "productId": "aw-cicc-03",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1fw1/nyx9hKb8/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Détail de housse avec étiquette sur un fond blanc visible ; ne respecte pas le brief.",
+    "extraId": 56
+  },
+  {
+    "productId": "aw-cmc-hamsa",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1e3y/B_W1cY5J/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Housse mandala isolée sur fond blanc visible.",
+    "extraId": 57
+  },
+  {
+    "productId": "pd-23601",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/76127-thickbox_default/coussin-deco-30x50-cm-coton-coquelicot.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 58
+  },
+  {
+    "productId": "aw-bwcb-01",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1a8r/WdMbcORQ/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Produit montré comme tenture murale avec une personne, aucun couvre-lit en usage sur un lit ; catégorie à vérifier.",
+    "extraId": 59
+  },
+  {
+    "productId": "pd-25110",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/81677-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-montauk-jaune.jpg",
+    "classification": "scene",
+    "reason": "Coussin imprimé jaune visible sur un fauteuil sombre dans une pièce.",
+    "extraId": 60
+  },
+  {
+    "productId": "pd-21309",
+    "colorId": "color-1",
+    "src": "/img/catalogue/bde2c77bb1384b9a.webp",
+    "classification": "scene",
+    "reason": "Fouta galet déployée sur chaise avec mobilier et plantes.",
+    "extraId": 61
+  },
+  {
+    "productId": "pd-21132",
+    "colorId": "color-4",
+    "src": "https://www.planetediscount.eu/61994-thickbox_default/serviette-invite-30x50-cm-coton-pampa.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 62
+  },
+  {
+    "productId": "pd-25075",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/81593-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-terra-harmonie-rose-fonce.jpg",
+    "classification": "scene",
+    "reason": "Housse de couette rose foncé visible au pied du lit, avec chambre et sol.",
+    "extraId": 63
+  },
+  {
+    "productId": "pd-24910",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/81061-thickbox_default/drap-plat-270x300-cm-gaze-de-coton-terra-abricot.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 64
+  },
+  {
+    "productId": "pd-17737",
+    "colorId": "color-2",
+    "src": "/img/catalogue/17877ca45ce1120d.webp",
+    "classification": "scene",
+    "reason": "Drap plat rose visible drapé sur le côté du lit avec oreiller et sol.",
+    "extraId": 65
+  },
+  {
+    "productId": "pd-24720",
+    "colorId": "color-14",
+    "src": "https://www.planetediscount.eu/80621-thickbox_default/coussin-de-chaise-40x40-cm-gaze-de-coton-terra-chantilly.jpg",
+    "classification": "scene",
+    "reason": "Coussin de chaise chantilly visible fixé sur une chaise dans une pièce.",
+    "extraId": 66
+  },
+  {
+    "productId": "pd-25080",
+    "colorId": "color-4",
+    "src": "https://www.planetediscount.eu/81604-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 67
+  },
+  {
+    "productId": "pd-21164",
+    "colorId": "color-11",
+    "src": "https://www.planetediscount.eu/61929-thickbox_default/serviette-de-toilette-50x90-cm-coton-argile.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 68
+  },
+  {
+    "productId": "pd-25024",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/81375-thickbox_default/housse-de-couette-240x280-cm-gaze-de-coton-terra-terracotta.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 69
+  },
+  {
+    "productId": "pd-21142",
+    "colorId": "color-6",
+    "src": "https://www.planetediscount.eu/61958-thickbox_default/serviette-de-bain-90x150-cm-coton-bleu-glacier.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 70
+  },
+  {
+    "productId": "pd-25300",
+    "colorId": "color-7",
+    "src": "https://www.planetediscount.eu/82169-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 71
+  },
+  {
+    "productId": "pd-24912",
+    "colorId": "color-2",
+    "src": "/img/catalogue/f99d47716943a29d.webp",
+    "classification": "scene",
+    "reason": "Drap plat azur visible drapé sur le lit avec oreiller et linge.",
+    "extraId": 72
+  },
+  {
+    "productId": "pd-21152",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/62003-thickbox_default/serviette-de-douche-70x130-cm-coton-pampa.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 73
+  },
+  {
+    "productId": "pd-25857",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/83518-thickbox_default/drap-housse-140x19027-cm-percale-de-coton-bleu-fume.jpg",
+    "classification": "scene",
+    "reason": "Drap-housse bleu fumé visible sur un matelas avec tête de lit, table et plante.",
+    "extraId": 74
+  },
+  {
+    "productId": "pd-24850",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/80928-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-sapin.jpg",
+    "classification": "scene",
+    "reason": "Coussin sapin visible sur un fauteuil avec plante et décor mural.",
+    "extraId": 75
+  },
+  {
+    "productId": "pd-20510",
+    "colorId": "color-3",
+    "src": "/img/catalogue/7f5eb48ed25083f9.webp",
+    "classification": "scene",
+    "reason": "Drap plat paprika visible sur le lit avec oreiller et linge.",
+    "extraId": 76
+  },
+  {
+    "productId": "pd-21036",
+    "colorId": "color-7",
+    "src": "/img/catalogue/b1d81c91a1591b7c.webp",
+    "classification": "scene",
+    "reason": "Drap plat brume visible tombant du bord du lit avec sol.",
+    "extraId": 77
+  },
+  {
+    "productId": "pd-21166",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/62029-thickbox_default/drap-de-douche-70x130-cm-coton-rose-poudre.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 78
+  },
+  {
+    "productId": "pd-25863",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/83535-thickbox_default/drap-plat-265x300-cm-satin-de-coton-celadon.jpg",
+    "classification": "scene",
+    "reason": "Drap plat céladon visible sur le lit, coussins et table de chevet présents.",
+    "extraId": 79
+  },
+  {
+    "productId": "pd-21910",
+    "colorId": "color-2",
+    "src": "/img/catalogue/5c5109ad53f657ba.webp",
+    "classification": "reject",
+    "reason": "Fouta pliée isolée sur fond transparent/noir, pas une scène ni une macro pleine matière.",
+    "extraId": 80
+  },
+  {
+    "productId": "pd-21907",
+    "colorId": "color-3",
+    "src": "/img/catalogue/9012552851aed62c.webp",
+    "classification": "reject",
+    "reason": "Fouta pliée isolée sur fond transparent/noir, pas une scène ni une macro pleine matière.",
+    "extraId": 81
+  },
+  {
+    "productId": "pd-25866",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/83541-thickbox_default/housse-de-couette-140x200-cm-satin-de-coton-celadon.jpg",
+    "classification": "scene",
+    "reason": "Housse de couette céladon visible sur un lit ; cadrage rapproché, pas de fond blanc.",
+    "extraId": 82
+  },
+  {
+    "productId": "pd-21120",
+    "colorId": "color-8",
+    "src": "https://www.planetediscount.eu/61888-thickbox_default/lot-de-2-gants-15x21-cm-coton-bleu-glacier.jpg",
+    "classification": "scene",
+    "reason": "Gants bleu glacier visibles sur une chaise en rotin dans une pièce.",
+    "extraId": 83
+  },
+  {
+    "productId": "pd-25114",
+    "colorId": "color-3",
+    "src": "https://www.planetediscount.eu/81682-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-hampton-liberty.jpg",
+    "classification": "scene",
+    "reason": "Coussin Liberty bordeaux visible sous un autre coussin imprimé dans un cadre de chambre.",
+    "extraId": 84
+  },
+  {
+    "productId": "pd-24833",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/80845-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-vickie-romarin.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 85
+  },
+  {
+    "productId": "pd-25138",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/81734-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-hampton-opulence.jpg",
+    "classification": "scene",
+    "reason": "Housse de couette Opulence à motif léopard visible sur lit dans une chambre.",
+    "extraId": 86
+  },
+  {
+    "productId": "pd-21168",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/62033-thickbox_default/drap-de-bain-90x150-cm-coton-rose-poudre.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 87
+  },
+  {
+    "productId": "pd-25497",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/82567-thickbox_default/lot-2-taies-doreiller-50x70-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+    "classification": "scene",
+    "reason": "Taies bleu mer visibles sur des oreillers dans une chambre ; le reste du lit n’est pas inclus.",
+    "extraId": 88
+  },
+  {
+    "productId": "pd-25134",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/81725-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-montauk-jaune.jpg",
+    "classification": "scene",
+    "reason": "Housse de couette Montauk jaune visible sur lit dans un espace meublé.",
+    "extraId": 89
+  },
+  {
+    "productId": "aw-hit-05",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hx9/SBT3cAYY/800x800.jpeg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 90
+  },
+  {
+    "productId": "aw-hit-06",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hxd/0-C0MZZF/800x800.jpeg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 91
+  },
+  {
+    "productId": "aw-hit-01",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hwt/x-A0xVsW/800x800.jpeg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 92
+  },
+  {
+    "productId": "aw-hit-04",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hx5/9wPfMoSS/800x800.jpeg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 93
+  },
+  {
+    "productId": "aw-hit-02",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hwy/ISfjZhjd/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Plaid entièrement à plat au sol, cadrage de présentation sans mobilier ni ambiance ; conserver hors images premium.",
+    "extraId": 94
+  },
+  {
+    "productId": "aw-hit-03",
+    "colorId": "color-1",
+    "src": "https://www.aw-dropship.eu/i/1hx2/oZ1nPR63/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Plaid entièrement à plat au sol, cadrage de présentation sans mobilier ni ambiance ; conserver hors images premium.",
+    "extraId": 95
+  },
+  {
+    "productId": "pd-25071",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/81578-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-loana-rose-fonce.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 96
+  },
+  {
+    "productId": "pd-24797",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/80825-thickbox_default/coussin-carre-dehoussable-50x50-cm-velours-de-coton-eglantine.jpg",
+    "classification": "scene",
+    "reason": "Coussin Églantine visible sur un lit aménagé, avec d’autres coussins.",
+    "extraId": 97
+  },
+  {
+    "productId": "pd-25608",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/82817-thickbox_default/housse-de-couette-220x240-cm-satin-de-coton-amboise.jpg",
+    "classification": "scene",
+    "reason": "Housse satin Amboise blanche visible sur un lit dans une chambre.",
+    "extraId": 98
+  },
+  {
+    "productId": "pd-25869",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/83554-thickbox_default/oreiller-a-memoire-de-forme-60x60-cm-polyester-blanc.jpg",
+    "classification": "scene",
+    "reason": "Oreiller blanc visible sur un lit avec tête de lit grise ; le blanc est le produit, pas un détourage.",
+    "extraId": 99
+  },
+  {
+    "productId": "pd-25070",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/81568-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-lucia-eucalyptus.jpg",
+    "classification": "scene",
+    "reason": "Housse Lucia eucalyptus visible sur un lit, face unie apparente et revers imprimé en tête.",
+    "extraId": 100
+  },
+  {
+    "productId": "pd-25868",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/83550-thickbox_default/housse-de-couette-220x240-cm-gaze-de-coton-naturel.jpg",
+    "classification": "scene",
+    "reason": "Housse de couette gaze naturelle visible sur un lit avec table et luminaires.",
+    "extraId": 101
+  },
+  {
+    "productId": "pd-25068",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/81561-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-garance-vert-d-eau.jpg",
+    "classification": "scene",
+    "reason": "Housse Garance vert d’eau visible sur un lit avec chambre aménagée.",
+    "extraId": 102
+  },
+  {
+    "productId": "pd-23599",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/76123-thickbox_default/coussin-deco-30x50-cm-coton-folkia.jpg",
+    "classification": "reject",
+    "reason": "Coussin isolé sur un fond blanc visible.",
+    "extraId": 103
+  },
+  {
+    "productId": "aw-vcush",
+    "colorId": "color-4",
+    "src": "https://www.aw-dropship.eu/i/1lgw/LZDRBlzb/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Housse visuellement multicolore rouge/vert/crème, libellé Charcoal Greys peu cohérent ; association de couleur à revérifier.",
+    "extraId": 104
+  },
+  {
+    "productId": "pd-16134",
+    "colorId": "color-6",
+    "src": "https://www.planetediscount.eu/48693-thickbox_default/drap-plat-240x300-satin-de-coton-gris-fonce.jpg",
+    "classification": "reject",
+    "reason": "Drap plat gris foncé non identifiable : la scène montre surtout une couette et des taies.",
+    "extraId": 105
+  },
+  {
+    "productId": "aw-bohot-01",
+    "colorId": "color-2",
+    "src": "https://www.aw-dropship.eu/i/1hvk/B1XASx4S/800x800.jpeg",
+    "classification": "reject",
+    "reason": "Plaid paraît bleu marine alors que la variante est Anthracite ; association couleur non certaine, à revérifier.",
+    "extraId": 106
+  },
+  {
+    "productId": "pd-24788",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/80803-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-velours-de-coton-bianca-terracotta.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 107
+  },
+  {
+    "productId": "pd-25847",
+    "colorId": "color-2",
+    "src": "https://www.planetediscount.eu/83499-thickbox_default/drap-housse-140x19028-cm-microfibre-bleu-nuit.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 108
+  },
+  {
+    "productId": "pd-25536",
+    "colorId": "color-4",
+    "src": "/img/catalogue/e47d8bda36a08c92.webp",
+    "classification": "scene",
+    "reason": "Drap-housse caramel visible sur matelas et sommier en bois avec sol ; contexte rapproché sans fond blanc.",
+    "extraId": 109
+  },
+  {
+    "productId": "pd-25838",
+    "colorId": "color-1",
+    "src": "https://www.planetediscount.eu/83483-thickbox_default/taie-doreiller-63x63-cm-percale-de-coton-vert-kaki.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 110
+  },
+  {
+    "productId": "alibaba-1601248538962",
+    "colorId": "color-6",
+    "src": "/img/catalogue/99762698d093d8bf.webp",
+    "classification": "scene",
+    "reason": "Parure velours rose vif visible sur le lit dans une chambre.",
+    "extraId": 111
+  },
+  {
+    "productId": "pd-25451",
+    "colorId": "color-4",
+    "src": "https://www.planetediscount.eu/82484-thickbox_default/taie-d-oreiller-80x80-cm-soie-lila-argent.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 112
+  },
+  {
+    "productId": "pd-25437",
+    "colorId": "color-9",
+    "src": "https://www.planetediscount.eu/82392-thickbox_default/taie-d-oreiller-60x60-cm-lin-rosalie-azur.jpg",
+    "classification": "scene",
+    "reason": "Taies lin azur visibles en tête de lit dans une chambre ; petit produit dans le cadre.",
+    "extraId": 113
+  },
+  {
+    "productId": "pd-25423",
+    "colorId": "color-18",
+    "src": "https://www.planetediscount.eu/82414-thickbox_default/taie-d-oreiller-80x80-cm-gaze-de-coton-terra-abricot.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 114
+  },
+  {
+    "productId": "pd-25600",
+    "colorId": "color-2",
+    "src": "/img/catalogue/951e42cffb748122.webp",
+    "classification": "reject",
+    "reason": "Coin de drap-housse émeraude isolé sur fond blanc.",
+    "extraId": 115
+  },
+  {
+    "productId": "pd-20931",
+    "colorId": "color-5",
+    "src": "https://www.planetediscount.eu/61375-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-romarin.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 116
+  },
+  {
+    "productId": "pd-25575",
+    "colorId": "color-4",
+    "src": "/img/catalogue/e387ed049918473f.webp",
+    "classification": "reject",
+    "reason": "Coin de drap-housse anthracite isolé sur fond blanc.",
+    "extraId": 117
+  },
+  {
+    "productId": "pd-25524",
+    "colorId": "color-4",
+    "src": "https://www.planetediscount.eu/82617-thickbox_default/lot-2-taies-doreiller-50x70-cm-lin-metis-caramel.jpg",
+    "classification": "reject",
+    "reason": "Taies caramel isolées sur fond blanc.",
+    "extraId": 118
+  },
+  {
+    "productId": "pd-24902",
+    "colorId": "color-2",
+    "src": "/img/catalogue/f8f9936a31d86d11.webp",
+    "classification": "reject",
+    "reason": "Coin de drap-housse terracotta isolé sur fond blanc.",
+    "extraId": 119
+  },
+  {
+    "productId": "pd-20986",
+    "colorId": "color-4",
+    "src": "https://www.planetediscount.eu/61533-thickbox_default/peignoir-de-bain-l-xl-gaze-de-coton-camel.jpg",
+    "classification": "macro",
+    "reason": "Gros plan réel sur la matière, ses motifs ou sa finition, sans fond blanc de détourage.",
+    "extraId": 120
+  }
+]

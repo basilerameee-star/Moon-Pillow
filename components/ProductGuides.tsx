@@ -1,6 +1,7 @@
 'use client';
 
 import { ChevronDown, Ruler, Sparkles, Truck, Wind } from 'lucide-react';
+import Link from 'next/link';
 import type { Product } from '@/lib/catalog';
 import { materialStatements, sizeGuideFor, type SizeGuide } from '@/lib/product-guides';
 
@@ -45,11 +46,11 @@ export function ProductGuides({ product, optionLabel }: { product: Product; opti
     </details>
     <details className="guide-panel">
       <summary><span><Truck size={17} strokeWidth={1.3}/> Livraison & retours</span><ChevronDown size={16}/></summary>
-      <div className="guide-content"><p>La collection est en préparation. Les frais, le délai de livraison et les conditions de retour de cette référence seront précisés avant l’ouverture des commandes.</p><p>Les éléments du décor photographié ne sont pas inclus, sauf mention explicite dans le format sélectionné.</p><a href="/informations/retours" className="guide-link">Consulter les informations de livraison et de retour</a></div>
+        <div className="guide-content"><p>La collection est en préparation. Les frais, le délai de livraison et les conditions de retour de cette référence seront précisés avant l’ouverture des commandes.</p><p>Les éléments du décor photographié ne sont pas inclus, sauf mention explicite dans le format sélectionné.</p><Link href="/informations/retours" className="guide-link">Consulter les informations de livraison et de retour</Link></div>
     </details>
   </div>;
 }
 
-export function PrintGuideButton() {
-  return <button type="button" className="button secondary guide-print-button" onClick={() => window.print()}>Imprimer le guide</button>;
+export function PrintGuideButton({label='Imprimer le guide'}:{label?:string}) {
+  return <button type="button" className="button secondary guide-print-button" onClick={() => window.print()}>{label}</button>;
 }

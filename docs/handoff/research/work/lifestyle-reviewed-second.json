@@ -1,0 +1,702 @@
+[
+  {
+    "reviewId": 181,
+    "classification": "scene",
+    "reason": "Oreiller matelassé réellement visible posé contre un dossier gris, décor sobre sans fond blanc détouré."
+  },
+  {
+    "reviewId": 182,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 183,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 184,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 185,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 186,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 187,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 188,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 189,
+    "classification": "scene",
+    "reason": "Housse de couette naturelle clairement visible sur un lit dans une chambre, vue cohérente avec la catégorie."
+  },
+  {
+    "reviewId": 190,
+    "classification": "scene",
+    "reason": "Housse de couette satin blanc Amboise visible sur un lit dans une chambre boisée."
+  },
+  {
+    "reviewId": 191,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 192,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 193,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 194,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 195,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 196,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 197,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 198,
+    "classification": "scene",
+    "reason": "Coussin Naturel carré visible sur un fauteuil dans un décor réel."
+  },
+  {
+    "reviewId": 199,
+    "classification": "scene",
+    "reason": "Coussin Naturel rectangulaire visible sur un fauteuil ; forme à conserver liée à sa dimension réelle."
+  },
+  {
+    "reviewId": 200,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 201,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 202,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 203,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 204,
+    "classification": "scene",
+    "reason": "Housse de couette quadrillée réellement visible retombant sur le lit ; cadrage de détail en situation."
+  },
+  {
+    "reviewId": 205,
+    "classification": "scene",
+    "reason": "Housse de couette quadrillée visible dans une chambre, sur un lit."
+  },
+  {
+    "reviewId": 206,
+    "classification": "macro",
+    "reason": "Vue rapprochée de tissu soyeux sans fond détouré ; matière uniquement, ne prouve pas la forme de la taie."
+  },
+  {
+    "reviewId": 207,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 208,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 209,
+    "classification": "scene",
+    "reason": "Coussins motif Montauk visibles dans une scène de lit, avec décor extérieur ; ne pas promettre la couette incluse."
+  },
+  {
+    "reviewId": 210,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 211,
+    "classification": "scene",
+    "reason": "Coussins Vickie visibles sur un lit ; photo de composition, autres pièces non incluses."
+  },
+  {
+    "reviewId": 212,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 213,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 214,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 215,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 216,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 217,
+    "classification": "reject",
+    "reason": "La photo montre une housse de couette épaisse et des taies ; le drap plat vendu n’est pas clairement identifiable."
+  },
+  {
+    "reviewId": 218,
+    "classification": "reject",
+    "reason": "Gros plan de lit dominé par les taies et la couette ; le drap plat n’est pas isolable avec certitude."
+  },
+  {
+    "reviewId": 219,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 220,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 221,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 222,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 223,
+    "classification": "reject",
+    "reason": "Vue de lit dominée par une couverture/couette gaufrée ; identification du drap plat vendu incertaine."
+  },
+  {
+    "reviewId": 224,
+    "classification": "reject",
+    "reason": "La taie domine et masque le drap-housse ; le drap-housse vendu n’est pas clairement identifiable."
+  },
+  {
+    "reviewId": 225,
+    "classification": "reject",
+    "reason": "Photo de taie et de literie ; le drap-housse vendu est masqué et non identifiable."
+  },
+  {
+    "reviewId": 226,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 227,
+    "classification": "scene",
+    "reason": "Gants/linge camel pliés dans un panier sur une étagère ; mise en situation et non détourage."
+  },
+  {
+    "reviewId": 228,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 229,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 230,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 231,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 232,
+    "classification": "reject",
+    "reason": "Détail de taie bleue sur large fond blanc ; ce n’est pas une macro plein cadre."
+  },
+  {
+    "reviewId": 233,
+    "classification": "reject",
+    "reason": "Détail de peignoir gaufré mais bord blanc détouré visible ; à garder hors des visuels premium."
+  },
+  {
+    "reviewId": 234,
+    "classification": "reject",
+    "reason": "Détail de poncho gaufré sur fond blanc détouré ; à garder hors des visuels premium."
+  },
+  {
+    "reviewId": 235,
+    "classification": "macro",
+    "reason": "Gros plan du coussin velours et de ses coutures dans une scène textile, sans fond blanc détouré."
+  },
+  {
+    "reviewId": 236,
+    "classification": "scene",
+    "reason": "Coussins Hampton verts imprimés visibles dans une scène de lit ; le décor et la couette ne sont pas inclus."
+  },
+  {
+    "reviewId": 237,
+    "classification": "scene",
+    "reason": "Revers vert du coussin Hampton visible au premier plan ; montrer comme vue de détail du modèle réversible."
+  },
+  {
+    "reviewId": 238,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 239,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 240,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 241,
+    "classification": "scene",
+    "reason": "Taies blanches visibles sur le lit dans une vraie chambre ; même variante Blanc."
+  },
+  {
+    "reviewId": 242,
+    "classification": "scene",
+    "reason": "Drap-housse blanc dégagé et visible sur le matelas, dans une chambre avec tête de lit et table de chevet."
+  },
+  {
+    "reviewId": 243,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 244,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 245,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 246,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 247,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 248,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 249,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 250,
+    "classification": "reject",
+    "reason": "Empilement de plusieurs couleurs de serviettes sur fond blanc ; ne prouve pas un seul coloris Paon et échoue au brief visuel."
+  },
+  {
+    "reviewId": 251,
+    "classification": "macro",
+    "reason": "Tissage/couture de percale blanche en gros plan plein cadre ; le blanc est celui du tissu et non un fond de détourage."
+  },
+  {
+    "reviewId": 252,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 253,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 254,
+    "classification": "scene",
+    "reason": "Drap plat blanc étendu sur le lit et retombant sur le côté, pièce visible sans housse de couette la masquant."
+  },
+  {
+    "reviewId": 255,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 256,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 257,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 258,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 259,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 260,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 261,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 262,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 263,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 264,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 265,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 266,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 267,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 268,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 269,
+    "classification": "reject",
+    "reason": "Pile de plusieurs coloris sur fond blanc ; ne pas utiliser comme visuel d’un seul drap de bain Gris Clair."
+  },
+  {
+    "reviewId": 270,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 271,
+    "classification": "scene",
+    "reason": "Vue en situation de drap plat replié et de literie ; variante seulement nommée Uni, teinte photographiée violette à ne pas appeler neutre."
+  },
+  {
+    "reviewId": 272,
+    "classification": "reject",
+    "reason": "Assortiment multicolore de pièces empilées ; aucune couleur unique et pas de scène de chambre cohérente pour le drap plat."
+  },
+  {
+    "reviewId": 273,
+    "classification": "reject",
+    "reason": "Lit couvert par une couette, le drap plat vendu est masqué et ne peut pas être identifié."
+  },
+  {
+    "reviewId": 274,
+    "classification": "reject",
+    "reason": "Lit couvert par une couette, le drap plat vendu est masqué et ne peut pas être identifié."
+  },
+  {
+    "reviewId": 275,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 276,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 277,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 278,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 279,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 280,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 281,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 282,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 283,
+    "classification": "scene",
+    "reason": "Taies blanches satin Amboise visibles sur le lit, vue rapprochée en situation."
+  },
+  {
+    "reviewId": 284,
+    "classification": "scene",
+    "reason": "Taies blanches satin Amboise visibles sur le lit, vue rapprochée en situation."
+  },
+  {
+    "reviewId": 285,
+    "classification": "scene",
+    "reason": "Taies Camélia Ficelle visibles en tête de lit ; ne pas promettre la housse de couette dans le contenu."
+  },
+  {
+    "reviewId": 286,
+    "classification": "scene",
+    "reason": "Taies Camélia Ficelle visibles dans un cadrage rapproché du lit."
+  },
+  {
+    "reviewId": 287,
+    "classification": "reject",
+    "reason": "Photo de manipulation d’un oreiller à eau près d’un lavabo ; image explicative et non mise en scène déco."
+  },
+  {
+    "reviewId": 288,
+    "classification": "reject",
+    "reason": "Photo de manipulation d’un oreiller à eau près d’un lavabo ; image explicative et non mise en scène déco."
+  },
+  {
+    "reviewId": 289,
+    "classification": "scene",
+    "reason": "Coussin Camélia visible sur un siège en rotin, mise en situation réelle."
+  },
+  {
+    "reviewId": 290,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 291,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 292,
+    "classification": "scene",
+    "reason": "Produit réellement visible dans une mise en situation cohérente, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 293,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 294,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 295,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 296,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 297,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 298,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 299,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 300,
+    "classification": "reject",
+    "reason": "Gros plan d’un coussin mais bande blanche de détourage visible ; à écarter du parcours premium."
+  },
+  {
+    "reviewId": 301,
+    "classification": "scene",
+    "reason": "Coussins Folkia visibles sur un canapé, sans détourage."
+  },
+  {
+    "reviewId": 302,
+    "classification": "scene",
+    "reason": "Coussins Folkia visibles sur un canapé, sans détourage."
+  },
+  {
+    "reviewId": 303,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 304,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 305,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 306,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 307,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 308,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 309,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 310,
+    "classification": "reject",
+    "reason": "Produit détouré ou détail partiel sur fond blanc, photo de présentation générique sans décor ; exclu du parcours premium."
+  },
+  {
+    "reviewId": 311,
+    "classification": "scene",
+    "reason": "Housse de couette Camélia Ficelle visible dans une chambre, vue entière en situation."
+  },
+  {
+    "reviewId": 312,
+    "classification": "reject",
+    "reason": "Vue de bord de couette avec grande bande blanche vide au-dessus ; ni vraie scène complète ni macro plein cadre."
+  },
+  {
+    "reviewId": 313,
+    "classification": "scene",
+    "reason": "Housse de couette Florence Terracotta visible sur un lit, chambre décorée."
+  },
+  {
+    "reviewId": 314,
+    "classification": "scene",
+    "reason": "Détail du lit avec housse Florence Terracotta et taies visibles ; cohérent avec la housse de couette."
+  },
+  {
+    "reviewId": 315,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 316,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 317,
+    "classification": "reject",
+    "reason": "URL et sujet = coussin carré déhoussable 45×45 Azalée, alors que le produit est une taie d’oreiller ; mauvais objet à exclure."
+  },
+  {
+    "reviewId": 318,
+    "classification": "scene",
+    "reason": "Taie d’oreiller Azalée fleurie visible avec une taie rouge dans une scène de lit ; URL taie 60×60 cohérente, fine bordure blanche externe à recadrer si utilisée."
+  },
+  {
+    "reviewId": 319,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  },
+  {
+    "reviewId": 320,
+    "classification": "macro",
+    "reason": "Gros plan de texture/tissage plein cadre, sans fond blanc de détourage."
+  }
+]

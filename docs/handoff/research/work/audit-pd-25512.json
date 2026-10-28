@@ -1,0 +1,839 @@
+{
+  "id": "pd-25512",
+  "name": "Drap Housse Gaze de Coton - Coton 57 fils",
+  "sourceUrl": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+  "colors": [
+    {
+      "id": "ocre",
+      "name": "Ocre",
+      "images": [
+        {
+          "url": "https://www.planetediscount.eu/82598-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25512",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25512; coloris 'Ocre' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82599-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25512",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25512; coloris 'Ocre' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82588-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25507",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25507-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25507; coloris 'Ocre' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82589-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25507",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25507-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25507; coloris 'Ocre' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82578-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25502",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25502-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25502; coloris 'Ocre' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82579-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25502",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25502-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25502; coloris 'Ocre' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        }
+      ],
+      "associationVerified": false
+    },
+    {
+      "id": "bleu-mer",
+      "name": "Bleu Mer",
+      "images": [
+        {
+          "url": "https://www.planetediscount.eu/82596-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25511",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25511-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25511; coloris 'Bleu Mer' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82597-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25511",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25511-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25511; coloris 'Bleu Mer' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82586-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25506",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25506-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25506; coloris 'Bleu Mer' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82587-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25506",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25506-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25506; coloris 'Bleu Mer' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82576-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25501",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25501-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25501; coloris 'Bleu Mer' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82577-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25501",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25501-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25501; coloris 'Bleu Mer' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        }
+      ],
+      "associationVerified": false
+    },
+    {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "images": [
+        {
+          "url": "https://www.planetediscount.eu/82594-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25510",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25510-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25510; coloris 'Terracotta' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82595-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25510",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25510-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25510; coloris 'Terracotta' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82584-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25505",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25505-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25505; coloris 'Terracotta' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82585-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25505",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25505-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25505; coloris 'Terracotta' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82574-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25500",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25500-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25500; coloris 'Terracotta' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82575-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25500",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25500-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25500; coloris 'Terracotta' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        }
+      ],
+      "associationVerified": false
+    },
+    {
+      "id": "charbon",
+      "name": "Charbon",
+      "images": [
+        {
+          "url": "https://www.planetediscount.eu/82592-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25509",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25509-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25509; coloris 'Charbon' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82593-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25509",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25509-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25509; coloris 'Charbon' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82582-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25504",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25504-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25504; coloris 'Charbon' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82583-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25504",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25504-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25504; coloris 'Charbon' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82572-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25499",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25499-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25499; coloris 'Charbon' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82573-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25499",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25499-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25499; coloris 'Charbon' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        }
+      ],
+      "associationVerified": false
+    },
+    {
+      "id": "blanc",
+      "name": "Blanc",
+      "images": [
+        {
+          "url": "https://www.planetediscount.eu/82590-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25508",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25508-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25508; coloris 'Blanc' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82591-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25508",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25508-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "sourceSize": "160x200 cm",
+          "evidence": "Galerie publique de la référence PD25508; coloris 'Blanc' lu dans le titre ou la fiche technique. Taille source : 160x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82580-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25503",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25503-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25503; coloris 'Blanc' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82581-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25503",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25503-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "sourceSize": "140x200 cm",
+          "evidence": "Galerie publique de la référence PD25503; coloris 'Blanc' lu dans le titre ou la fiche technique. Taille source : 140x200 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82570-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25498",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25498-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25498; coloris 'Blanc' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        },
+        {
+          "url": "https://www.planetediscount.eu/82571-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+          "kind": "variant",
+          "supplierSku": "PD25498",
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25498-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+          "sourceSize": "140x190 cm",
+          "evidence": "Galerie publique de la référence PD25498; coloris 'Blanc' lu dans le titre ou la fiche technique. Taille source : 140x190 cm. Revue visuelle à effectuer."
+        }
+      ],
+      "associationVerified": false
+    }
+  ],
+  "variants": [
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25512-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+      "productId": "25512",
+      "sku": "PD25512",
+      "name": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Ocre",
+      "listedName": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Ocre",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "160",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "160x200 cm",
+        "Couleur marketing": "Ocre",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Drap Housse 2 personnes 160x200 cm Gaze de Coton - Coton 57 fils Ocre en gros - demi-gros - dropshipping. Fournisseur de linge de lit au service des professionnels. Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Ocre Contenu 1 Drap Housse 100% Double Gaze de Coton 160x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82598-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+        "https://www.planetediscount.eu/82599-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg"
+      ],
+      "embeddedPriceHintHT": 14.116667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Ocre",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25511-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+      "productId": "25511",
+      "sku": "PD25511",
+      "name": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Bleu Mer",
+      "listedName": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Bleu Mer",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "160",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "160x200 cm",
+        "Couleur marketing": "Bleu Mer",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Drap Housse 2 personnes 160x200 cm Gaze de Coton - Coton 57 fils Bleu Mer en gros - demi-gros - dropshipping. Fournisseur de linge de lit au service des professionnels. Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Bleu Mer Contenu 1 Drap Housse 100% Double Gaze de Coton 160x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82596-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+        "https://www.planetediscount.eu/82597-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg"
+      ],
+      "embeddedPriceHintHT": 14.116667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Bleu Mer",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25510-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+      "productId": "25510",
+      "sku": "PD25510",
+      "name": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Terracotta",
+      "listedName": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Terracotta",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "160",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "160x200 cm",
+        "Couleur marketing": "Terracotta",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Drap Housse 2 personnes 160x200 cm Gaze de Coton - Coton 57 fils Terracotta en gros - demi-gros - dropshipping. Fournisseur de linge de lit au service des professionnels. Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Terracotta Contenu 1 Drap Housse 100% Double Gaze de Coton 160x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82594-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+        "https://www.planetediscount.eu/82595-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg"
+      ],
+      "embeddedPriceHintHT": 14.116667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Terracotta",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25509-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+      "productId": "25509",
+      "sku": "PD25509",
+      "name": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Charbon",
+      "listedName": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Charbon",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "160",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "160x200 cm",
+        "Couleur marketing": "Charbon",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Drap Housse 2 personnes 160x200 cm Gaze de Coton - Coton 57 fils Charbon en gros - demi-gros - dropshipping. Fournisseur de linge de lit au service des professionnels. Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Charbon Contenu 1 Drap Housse 100% Double Gaze de Coton 160x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82592-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+        "https://www.planetediscount.eu/82593-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg"
+      ],
+      "embeddedPriceHintHT": 14.116667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Charbon",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25508-drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+      "productId": "25508",
+      "sku": "PD25508",
+      "name": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Blanc",
+      "listedName": "Drap Housse 160x200+35 cm Gaze de Coton - Coton 57 fils Blanc",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "160",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "160x200 cm",
+        "Couleur marketing": "Blanc",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Drap Housse 2 personnes 160x200 cm Gaze de Coton - Coton 57 fils Blanc en gros - demi-gros - dropshipping. Fournisseur de linge de lit au service des professionnels. Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Blanc Contenu 1 Drap Housse 100% Double Gaze de Coton 160x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82590-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+        "https://www.planetediscount.eu/82591-thickbox_default/drap-housse-160x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg"
+      ],
+      "embeddedPriceHintHT": 14.116667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Blanc",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25507-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+      "productId": "25507",
+      "sku": "PD25507",
+      "name": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Ocre",
+      "listedName": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Ocre",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x200 cm",
+        "Couleur marketing": "Ocre",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 personne",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x200 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x200 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x200+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Ocre Contenu 1 Drap Housse 100% Double Gaze de Coton 140x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82588-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+        "https://www.planetediscount.eu/82589-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-ocre.jpg"
+      ],
+      "embeddedPriceHintHT": 13.533333,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Ocre",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25506-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+      "productId": "25506",
+      "sku": "PD25506",
+      "name": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Bleu Mer",
+      "listedName": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Bleu Mer",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x200 cm",
+        "Couleur marketing": "Bleu Mer",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 personne",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x200 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x200 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x200+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Bleu Mer Contenu 1 Drap Housse 100% Double Gaze de Coton 140x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82586-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+        "https://www.planetediscount.eu/82587-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg"
+      ],
+      "embeddedPriceHintHT": 13.533333,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Bleu Mer",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25505-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+      "productId": "25505",
+      "sku": "PD25505",
+      "name": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Terracotta",
+      "listedName": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Terracotta",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x200 cm",
+        "Couleur marketing": "Terracotta",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 personne",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x200 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x200 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x200+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Terracotta Contenu 1 Drap Housse 100% Double Gaze de Coton 140x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82584-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+        "https://www.planetediscount.eu/82585-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg"
+      ],
+      "embeddedPriceHintHT": 13.533333,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Terracotta",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25504-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+      "productId": "25504",
+      "sku": "PD25504",
+      "name": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Charbon",
+      "listedName": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Charbon",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x200 cm",
+        "Couleur marketing": "Charbon",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 personne",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x200 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x200 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x200+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Charbon Contenu 1 Drap Housse 100% Double Gaze de Coton 140x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82582-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+        "https://www.planetediscount.eu/82583-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-charbon.jpg"
+      ],
+      "embeddedPriceHintHT": 13.533333,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Charbon",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25503-drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+      "productId": "25503",
+      "sku": "PD25503",
+      "name": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Blanc",
+      "listedName": "Drap Housse 140x200+35 cm Gaze de Coton - Coton 57 fils Blanc",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "200",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x200 cm",
+        "Couleur marketing": "Blanc",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 personne",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x200 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x200 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x200+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Blanc Contenu 1 Drap Housse 100% Double Gaze de Coton 140x200 cm",
+      "images": [
+        "https://www.planetediscount.eu/82580-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+        "https://www.planetediscount.eu/82581-thickbox_default/drap-housse-140x20035-cm-gaze-de-coton-coton-57-fils-blanc.jpg"
+      ],
+      "embeddedPriceHintHT": 13.533333,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Blanc",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25502-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.html",
+      "productId": "25502",
+      "sku": "PD25502",
+      "name": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Ocre",
+      "listedName": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Ocre",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "190",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x190 cm",
+        "Couleur marketing": "Ocre",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 ou 2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x190 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x190 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x190+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Ocre Contenu 1 Drap Housse 100% Double Gaze de Coton 140x190 cm",
+      "images": [
+        "https://www.planetediscount.eu/82578-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.jpg",
+        "https://www.planetediscount.eu/82579-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-ocre.jpg"
+      ],
+      "embeddedPriceHintHT": 12.941667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Ocre",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25501-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.html",
+      "productId": "25501",
+      "sku": "PD25501",
+      "name": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Bleu Mer",
+      "listedName": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Bleu Mer",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "190",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x190 cm",
+        "Couleur marketing": "Bleu Mer",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 ou 2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x190 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x190 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x190+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Bleu Mer Contenu 1 Drap Housse 100% Double Gaze de Coton 140x190 cm",
+      "images": [
+        "https://www.planetediscount.eu/82576-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg",
+        "https://www.planetediscount.eu/82577-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-bleu-mer.jpg"
+      ],
+      "embeddedPriceHintHT": 12.941667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Bleu Mer",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25500-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.html",
+      "productId": "25500",
+      "sku": "PD25500",
+      "name": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Terracotta",
+      "listedName": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Terracotta",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "190",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x190 cm",
+        "Couleur marketing": "Terracotta",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 ou 2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x190 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x190 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x190+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Terracotta Contenu 1 Drap Housse 100% Double Gaze de Coton 140x190 cm",
+      "images": [
+        "https://www.planetediscount.eu/82574-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg",
+        "https://www.planetediscount.eu/82575-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-terracotta.jpg"
+      ],
+      "embeddedPriceHintHT": 12.941667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Terracotta",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25499-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.html",
+      "productId": "25499",
+      "sku": "PD25499",
+      "name": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Charbon",
+      "listedName": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Charbon",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "190",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x190 cm",
+        "Couleur marketing": "Charbon",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 ou 2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x190 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x190 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x190+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Charbon Contenu 1 Drap Housse 100% Double Gaze de Coton 140x190 cm",
+      "images": [
+        "https://www.planetediscount.eu/82572-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.jpg",
+        "https://www.planetediscount.eu/82573-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-charbon.jpg"
+      ],
+      "embeddedPriceHintHT": 12.941667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Charbon",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    },
+    {
+      "url": "https://www.planetediscount.eu/drap-housse/25498-drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.html",
+      "productId": "25498",
+      "sku": "PD25498",
+      "name": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Blanc",
+      "listedName": "Drap Housse 140x190+35 cm Gaze de Coton - Coton 57 fils Blanc",
+      "categorySource": "Drap housse",
+      "features": {
+        "Certification": "OEKO-TEX® STANDARD 100",
+        "Longueur": "190",
+        "Matériaux": "Gaze de Coton",
+        "Conseils d'entretien": "Lavable en machine",
+        "Type de public": "Adulte",
+        "Largeur": "140",
+        "Hauteur du Bonnet": "35",
+        "Pays de fabrication": "Pakistan",
+        "Finition housse de couette": "Bouton",
+        "Dimensions (cm)": "140x190 cm",
+        "Couleur marketing": "Blanc",
+        "Finition taie d'oreiller": "Portefeuille",
+        "Forme": "Rectangle",
+        "Nombre de personnes": "1 ou 2 personnes",
+        "Motif": "Uni",
+        "Matériaux détail": "100% Double Gaze de Coton",
+        "Conseil d'utilisation": "Lavable à 40°C - Laver et sécher sur l'envers - couleurs similaires (+infos étiquette)"
+      },
+      "description": "Vous êtes à la recherche de Drap Housse 140x190 cm ? Ne cherchez plus et faites-vous plaisir avec notre large choix de Linge de lit au meilleur rapport qualité/prix. 1 Drap Housse 100% Double Gaze de Coton 140x190 cm 100% Double Gaze de Coton. En gaze de coton constituée de deux épaisseurs tissées ensemble et reliées par des petits points. Ultra douce, elle offre un bel aspect gaufré et moelleux. Avec son côté naturellement souple et léger, la gaze de coton nous enveloppe dans la douceur des langes. Laver votre linge sur l'envers afin de protéger les couleurs. Drap Housse Gaze de Coton - Coton 57 fils uni 140x190+35 cm ! Détail Matière : 100% Double Gaze de Coton uni Entretien : Lavable à 40°C - Laver et sécher sur l'envers - Avec couleurs similaires (+infos voir étiquette et descriptif) Finition housse de couette : Bouton Finition taie d'oreiller : Portefeuille Modèle : Blanc Contenu 1 Drap Housse 100% Double Gaze de Coton 140x190 cm",
+      "images": [
+        "https://www.planetediscount.eu/82570-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.jpg",
+        "https://www.planetediscount.eu/82571-thickbox_default/drap-housse-140x19035-cm-gaze-de-coton-coton-57-fils-blanc.jpg"
+      ],
+      "embeddedPriceHintHT": 12.941667,
+      "priceNote": "Prix affichés uniquement après validation de compte professionnel; une valeur technique du script public ne constitue pas un devis livré ni un tarif professionnel confirmé.",
+      "checkedAt": "2026-10-25",
+      "resolvedColorLabel": "Blanc",
+      "baseName": "Drap Housse Gaze de Coton - Coton 57 fils"
+    }
+  ]
+}

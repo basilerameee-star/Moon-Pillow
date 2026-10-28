@@ -1,0 +1,375 @@
+[
+  {
+    "id": "cj-2406130514081620000",
+    "nameFR": "Taie d’oreiller unie",
+    "category": "taies",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-a9bf8c90-4082-4131-a83c-2aa072723560",
+    "nameFR": "Housse de coussin effet suédine",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2508220355361610500",
+    "nameFR": "Taie d’oreiller double face",
+    "category": "taies",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2411140800561622400",
+    "nameFR": "Housse de coussin effet peluche",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2507260800491628400",
+    "nameFR": "Taie d’oreiller zippée",
+    "category": "taies",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2503020244061618700",
+    "nameFR": "Parure de lit unie effet lavé",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2510010712421623400",
+    "nameFR": "Housse de couette unie",
+    "category": "housses-couette",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1393125541086892032",
+    "nameFR": "Couette unie",
+    "category": "couettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1585238757278756864",
+    "nameFR": "Plaid à bordure crochetée",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2509100704071614400",
+    "nameFR": "Plaid gaufré",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1760929687901048832",
+    "nameFR": "Couette légère unie",
+    "category": "couettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2505020611461629500",
+    "nameFR": "Couette d’été unie",
+    "category": "couettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2508130157551621100",
+    "nameFR": "Parure de lit à fleurs",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Fiche mêlant ensembles et options de pièces individuelles; l’association SKU, contenu et prix unitaire reste à isoler. À conserver en recherche seulement en attendant."
+  },
+  {
+    "id": "cj-2406110759131620200",
+    "nameFR": "Housse de coussin motif chat",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412060434001617000",
+    "nameFR": "Ensemble couvre-lit brodé",
+    "category": "couvre-lits",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-1594162272279212032",
+    "nameFR": "Housse de coussin décorative",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1437360848325709824",
+    "nameFR": "Housse de coussin à motifs dorés",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2507290244131629600",
+    "nameFR": "Parure de lit trois pièces",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-1441992219224576000",
+    "nameFR": "Parure de lit motif bohème",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2506100545071604700",
+    "nameFR": "Parure de lit jacquard",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2505240354531617900",
+    "nameFR": "Parure de lit jacquard tissé",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2508180123221627900",
+    "nameFR": "Parure de lit pied-de-poule",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2507160551571624400",
+    "nameFR": "Parure de lit effet lavé",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2510010731251628800",
+    "nameFR": "Parure de lit jacquard froissé",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2501270947581604800",
+    "nameFR": "Serviette de bain unie",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1452829463002877952",
+    "nameFR": "Chiffon de cuisine en microfibre",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412110801271608100",
+    "nameFR": "Plaid polaire double face",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2411300645591615100",
+    "nameFR": "Plaid de canapé uni",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412040749281608900",
+    "nameFR": "Plaid tricoté",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2411130918551616200",
+    "nameFR": "Ensemble draps et taies",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Fiche mêlant ensembles et options de pièces individuelles; l’association SKU, contenu et prix unitaire reste à isoler. À conserver en recherche seulement en attendant."
+  },
+  {
+    "id": "cj-1702566885981687808",
+    "nameFR": "Serviette de bain",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2406300252491604000",
+    "nameFR": "Serviette de bain imprimée",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2501221336081602300",
+    "nameFR": "Serviette de bain effet polaire",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1889850942357028865",
+    "nameFR": "Coussin décoratif brodé",
+    "category": "coussins",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-f25df9b2-5e6b-42c9-85fd-b34d55e39822",
+    "nameFR": "Taie d’oreiller effet satiné",
+    "category": "taies",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1780911060157992960",
+    "nameFR": "Housse de couette effet brossé",
+    "category": "housses-couette",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-0f2b2061-e1d2-4f95-af1c-157da04a2b8e",
+    "nameFR": "Drap de bain grand format",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-0f71f755-035c-49ce-9e54-8103862c06ae",
+    "nameFR": "Drap de bain uni",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2506080418241625500",
+    "nameFR": "Linge de bain uni",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2504170512571608400",
+    "nameFR": "Serviette de bain grand format",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1737748230328299520",
+    "nameFR": "Plaid effet flanelle",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1400392295097962496",
+    "nameFR": "Serviette carrée blanche",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-ed69c553-b796-4777-b538-bd75737a7a13",
+    "nameFR": "Serviette de toilette",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-a1cde1ba-8380-4606-8d74-353616c822e8",
+    "nameFR": "Plaid uni effet flanelle",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412040956341610800",
+    "nameFR": "Drap-housse imprimé",
+    "category": "draps-housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2501210747581623500",
+    "nameFR": "Parure avec drap plat ou drap-housse",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2508140715201614900",
+    "nameFR": "Parure de lit motif pierre",
+    "category": "parures",
+    "requiresSupplierBundle": true,
+    "excludeReason": "Lot fournisseur comprenant plusieurs pièces. À conserver en recherche seulement tant qu’une variante unitaire distincte n’est pas isolée et confirmée; ne pas vendre les pièces du lot séparément."
+  },
+  {
+    "id": "cj-2412040824121618500",
+    "nameFR": "Drap-housse effet brossé",
+    "category": "draps-housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2503210221401604900",
+    "nameFR": "Protection de matelas matelassée",
+    "category": "protections",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412031152171627300",
+    "nameFR": "Petite serviette carrée",
+    "category": "serviettes",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412030755331624800",
+    "nameFR": "Plaid à franges",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412240323031626200",
+    "nameFR": "Plaid polaire uni",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2412230656071609300",
+    "nameFR": "Plaid décoratif",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2406110909121605500",
+    "nameFR": "Plaid tissé à franges",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1380498548117868544",
+    "nameFR": "Housse de coussin unie effet velours",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1723169213197594624",
+    "nameFR": "Housse de coussin côtelée",
+    "category": "housses",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2411100651541612500",
+    "nameFR": "Plaid tricoté uni à franges",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2406250724301611900",
+    "nameFR": "Plaid tricoté à franges",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-1566741036771323904",
+    "nameFR": "Plaid tricoté géométrique noir et blanc",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  },
+  {
+    "id": "cj-2406100547151615200",
+    "nameFR": "Plaid à texture gaufrée",
+    "category": "plaids",
+    "requiresSupplierBundle": false
+  }
+]

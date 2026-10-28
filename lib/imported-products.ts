@@ -344,26 +344,18 @@ export const importedProducts: Product[] = [
     ],
     "name": "Housse de coussin Diamonds moutarde",
     "subtitle": "Housses de coussin",
-    "description": "Housse de coussin Diamonds moutarde. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "description": "Housse de coussin Diamonds moutarde, proposée à l’unité au format fournisseur 45 × 45 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "options": [
       {
         "id": "format-1",
-        "label": "45x45 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-2",
-        "label": "30x50 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-3",
-        "label": "60x60 cm",
+        "label": "45 × 45 cm · 1 housse seule",
         "price": 1990
       }
     ],
     "details": [
-      "Les options sont relevées séparément : associations taille/couleur, contenu et stock restent à confirmer."
+      "Le fournisseur documente un format de 45 × 45 cm pour cette référence.",
+      "Une housse seule ; le coussin intérieur n’est pas inclus.",
+      "Disponibilité et coût livré à confirmer avant ouverture."
     ],
     "images": {
       "color-1": "/img/catalogue/35435ecfaf37e9b9.webp"
@@ -412,26 +404,19 @@ export const importedProducts: Product[] = [
     ],
     "name": "Housse de coussin Marigold tissée",
     "subtitle": "Housses de coussin",
-    "description": "Housse de coussin Marigold tissée. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "description": "Housse de coussin Marigold tissée, proposée à l’unité au format fournisseur 45 × 45 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "options": [
       {
         "id": "format-1",
-        "label": "45x45 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-2",
-        "label": "30x50 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-3",
-        "label": "60x60 cm",
+        "label": "45 × 45 cm · 1 housse seule",
         "price": 1990
       }
     ],
     "details": [
-      "Les options sont relevées séparément : associations taille/couleur, contenu et stock restent à confirmer."
+      "Le fournisseur documente un format de 45 × 45 cm pour cette référence.",
+      "Une housse seule ; le coussin intérieur n’est pas inclus.",
+      "La photo de mise en scène montre aussi un coussin décoratif distinct, non inclus.",
+      "Disponibilité et coût livré à confirmer avant ouverture."
     ],
     "images": {
       "color-1": "/img/catalogue/8da7e64cdad9c7fd.webp"
@@ -866,26 +851,18 @@ export const importedProducts: Product[] = [
     ],
     "name": "Housse de coussin Stripes multicolore",
     "subtitle": "Housses de coussin",
-    "description": "Housse de coussin Stripes multicolore. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "description": "Housse de coussin Stripes multicolore, proposée à l’unité au format fournisseur 45 × 45 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "options": [
       {
         "id": "format-1",
-        "label": "45x45 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-2",
-        "label": "30x50 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-3",
-        "label": "60x60 cm",
+        "label": "45 × 45 cm · 1 housse seule",
         "price": 1990
       }
     ],
     "details": [
-      "Les options sont relevées séparément : associations taille/couleur, contenu et stock restent à confirmer."
+      "La fiche fournisseur consultée documente le format 45 × 45 cm.",
+      "Une housse seule ; le coussin intérieur n’est pas inclus.",
+      "Disponibilité et coût livré à confirmer avant ouverture."
     ],
     "images": {
       "color-1": "/img/catalogue/4c15b3525c9415b8.webp"
@@ -933,26 +910,18 @@ export const importedProducts: Product[] = [
     ],
     "name": "Housse de coussin Swirl rétro",
     "subtitle": "Housses de coussin",
-    "description": "Housse de coussin Swirl rétro. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "description": "Housse de coussin Swirl rétro, proposée à l’unité au format fournisseur 45 × 45 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "options": [
       {
         "id": "format-1",
-        "label": "45x45 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-2",
-        "label": "30x50 cm",
-        "price": 1990
-      },
-      {
-        "id": "format-3",
-        "label": "60x60 cm",
+        "label": "45 × 45 cm · 1 housse seule",
         "price": 1990
       }
     ],
     "details": [
-      "Les options sont relevées séparément : associations taille/couleur, contenu et stock restent à confirmer."
+      "La fiche fournisseur consultée documente le format 45 × 45 cm.",
+      "Une housse seule ; le coussin intérieur n’est pas inclus.",
+      "Disponibilité et coût livré à confirmer avant ouverture."
     ],
     "images": {
       "color-1": "/img/catalogue/fdb974a4fa78d860.webp"

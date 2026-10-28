@@ -1,12 +1,11 @@
 // Supplier images visually reviewed for this private collection; never infer a colour from a general view.
-export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,string[]>;macroGalleries?:Record<string,string[]>;modelScenes?:string[]}>= {
+export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,string[]>;macroGalleries?:Record<string,string[]>;modelScenes?:string[];excludedPhotos?:string[];photoNotes?:Record<string,string>}>= {
   "housse-cotelee": {
     "lifestyleGalleries": {
       "blanc": [
         "/img/canape-blanc.jpg"
       ],
       "rose": [
-        "/img/rose.jpg"
       ],
       "vert": [
         "/img/vert.jpg"
@@ -15,6 +14,9 @@ export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,stri
     "macroGalleries": {
       "blanc": [
         "/img/matiere.jpg"
+      ],
+      "rose": [
+        "/img/rose.jpg"
       ]
     }
   },
@@ -1485,6 +1487,9 @@ export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,stri
       "color-1": [
         "/img/catalogue/d4f5a49bd42806cc.webp"
       ]
+    },
+    "photoNotes": {
+      "/img/catalogue/d4f5a49bd42806cc.webp": "Mise en scène : seul le format fournisseur 45 × 45 cm est proposé, à l’unité. Le coussin assorti de format différent n’est pas inclus."
     }
   },
   "aw-cicc-14": {
@@ -1529,11 +1534,16 @@ export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,stri
     }
   },
   "aw-cicc-20": {
+    "excludedPhotos": [
+      "/img/catalogue/9acd38a91f0e2a71.webp"
+    ],
+    "photoNotes": {
+      "/img/catalogue/e4c66066a4232788.webp": "Mise en scène : le format confirmé est 45 × 45 cm et une seule housse est vendue. Le petit coussin assorti est un accessoire de décor, non inclus."
+    },
     "macroGalleries": {
       "color-1": [
         "/img/catalogue/489714b351514fbb.webp",
-        "/img/catalogue/d471b25bc8e98a4c.webp",
-        "/img/catalogue/9acd38a91f0e2a71.webp"
+        "/img/catalogue/d471b25bc8e98a4c.webp"
       ]
     },
     "lifestyleGalleries": {
@@ -1562,6 +1572,9 @@ export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,stri
       "color-1": [
         "/img/catalogue/5fa418fad734ed13.webp"
       ]
+    },
+    "photoNotes": {
+      "/img/catalogue/5fa418fad734ed13.webp": "Mise en scène : seule une housse de 45 × 45 cm est proposée à l’unité. Le coussin assorti d’un autre format n’est pas inclus."
     }
   },
   "aw-linc-palm": {
@@ -1628,15 +1641,20 @@ export const photoCuration:Record<string,{lifestyleGalleries?:Record<string,stri
   "aw-cicc-19": {
     "lifestyleGalleries": {
       "color-1": [
-        "/img/catalogue/8c0da2f685569bde.webp",
         "/img/catalogue/1000594612df04cf.webp"
       ]
+    },
+    "excludedPhotos": [
+      "/img/catalogue/8c0da2f685569bde.webp"
+    ],
+    "photoNotes": {
+      "/img/catalogue/1000594612df04cf.webp": "Mise en scène : seule la housse jaune de 45 × 45 cm est vendue ici. Le coussin rayé sert de décor et n’est pas inclus."
     },
     "macroGalleries": {
       "color-1": [
         "/img/catalogue/b8c0d17ca8df059e.webp"
       ]
-    }
+    },
   },
   "aw-bohot-01": {
     "lifestyleGalleries": {

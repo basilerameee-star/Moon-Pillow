@@ -1,0 +1,902 @@
+[
+  {
+    "reviewId": 1,
+    "classification": "reject",
+    "reason": "Détourage de taies sur fond blanc, nuancier/collage."
+  },
+  {
+    "reviewId": 2,
+    "classification": "scene",
+    "reason": "Couette matelassée visible sur un lit aménagé ; vue générale non attribuée à une couleur."
+  },
+  {
+    "reviewId": 3,
+    "classification": "reject",
+    "reason": "Oreillers isolés sur fond blanc."
+  },
+  {
+    "reviewId": 4,
+    "classification": "scene",
+    "reason": "Oreillers visibles sur un lit contre une tête de lit grise ; cadrage rapproché, vue générale non attribuée."
+  },
+  {
+    "reviewId": 5,
+    "classification": "scene",
+    "reason": "Taie bleue sur un oreiller posé sur un lit, mur beige ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 6,
+    "classification": "scene",
+    "reason": "Couvre-lit matelassé jaune visible sur un lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 7,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 8,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 9,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 10,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 11,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 12,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 13,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 14,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 15,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 16,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 17,
+    "classification": "scene",
+    "reason": "Plaid indigo visible sur une chaise, sol et plante : mise en situation réelle."
+  },
+  {
+    "reviewId": 18,
+    "classification": "scene",
+    "reason": "Plaid indigo visible sur une chaise, sol et plante : mise en situation réelle."
+  },
+  {
+    "reviewId": 19,
+    "classification": "scene",
+    "reason": "Plaid indigo visible sur une chaise, sol et plante : mise en situation réelle."
+  },
+  {
+    "reviewId": 20,
+    "classification": "scene",
+    "reason": "Plaid indigo visible sur une chaise, sol et plante : mise en situation réelle."
+  },
+  {
+    "reviewId": 21,
+    "classification": "scene",
+    "reason": "Plaid indigo visible sur une chaise, sol et plante : mise en situation réelle."
+  },
+  {
+    "reviewId": 22,
+    "classification": "scene",
+    "reason": "Plaid indigo visible sur une chaise, sol et plante : mise en situation réelle."
+  },
+  {
+    "reviewId": 23,
+    "classification": "reject",
+    "reason": "Plaid suspendu sur une échelle isolée, fond blanc dominant : pas une vraie ambiance."
+  },
+  {
+    "reviewId": 24,
+    "classification": "reject",
+    "reason": "Plaid suspendu sur une échelle isolée, fond blanc dominant : pas une vraie ambiance."
+  },
+  {
+    "reviewId": 25,
+    "classification": "reject",
+    "reason": "Plaid suspendu sur une échelle isolée, fond blanc dominant : pas une vraie ambiance."
+  },
+  {
+    "reviewId": 26,
+    "classification": "reject",
+    "reason": "Plaid suspendu sur une échelle isolée, fond blanc dominant : pas une vraie ambiance."
+  },
+  {
+    "reviewId": 27,
+    "classification": "reject",
+    "reason": "Plaid suspendu sur une échelle isolée, fond blanc dominant : pas une vraie ambiance."
+  },
+  {
+    "reviewId": 28,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 29,
+    "classification": "scene",
+    "reason": "Taie blanche visible sur un lit aménagé ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 30,
+    "classification": "scene",
+    "reason": "Housse de couette sable visible sur un lit dans une chambre meublée."
+  },
+  {
+    "reviewId": 31,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 32,
+    "classification": "reject",
+    "reason": "Serviette pliée détourée sur fond blanc, aucune ambiance."
+  },
+  {
+    "reviewId": 33,
+    "classification": "scene",
+    "reason": "Fouta sable déployée sur une chaise avec mobilier et plantes."
+  },
+  {
+    "reviewId": 34,
+    "classification": "scene",
+    "reason": "Housse de couette naturelle à rayures visible sur le lit dans une chambre."
+  },
+  {
+    "reviewId": 35,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 36,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 37,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 38,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 39,
+    "classification": "reject",
+    "reason": "Coin de drap-housse isolé sur fond blanc."
+  },
+  {
+    "reviewId": 40,
+    "classification": "scene",
+    "reason": "Housse naturelle visible sur le lit dans une chambre."
+  },
+  {
+    "reviewId": 41,
+    "classification": "scene",
+    "reason": "Plaid beige déployé sur un fauteuil dans un salon ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 42,
+    "classification": "reject",
+    "reason": "Drap plié isolé sur fond blanc."
+  },
+  {
+    "reviewId": 43,
+    "classification": "scene",
+    "reason": "Plaid déployé sur chaise dans une pièce ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 44,
+    "classification": "scene",
+    "reason": "Plaid tricoté déployé sur fauteuil dans une pièce ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 45,
+    "classification": "scene",
+    "reason": "Housses de coussin de plusieurs couleurs visibles sur canapé ; vue générale non attribuée, pas une image de chaque couleur."
+  },
+  {
+    "reviewId": 46,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 47,
+    "classification": "reject",
+    "reason": "Produit isolé sur fond blanc, aucune mise en situation."
+  },
+  {
+    "reviewId": 48,
+    "classification": "scene",
+    "reason": "Drap plat sable visible tombant sur le côté du lit, sol visible."
+  },
+  {
+    "reviewId": 49,
+    "classification": "reject",
+    "reason": "Galette de chaise détourée sur fond blanc."
+  },
+  {
+    "reviewId": 50,
+    "classification": "scene",
+    "reason": "Plaid vert déployé sur un lit occupé ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 51,
+    "classification": "scene",
+    "reason": "Taie rose visible sur oreiller posé sur le lit ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 52,
+    "classification": "scene",
+    "reason": "Taies bleu clair visibles sur oreillers avec tête de lit ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 53,
+    "classification": "scene",
+    "reason": "Plaid rose vif visible sur un lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 54,
+    "classification": "scene",
+    "reason": "Housse décorative visible sur un canapé en osier ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 55,
+    "classification": "scene",
+    "reason": "Serviette camel suspendue à une échelle dans une salle de bain."
+  },
+  {
+    "reviewId": 56,
+    "classification": "scene",
+    "reason": "Drap plat sable visible sur le lit en cadrage rapproché, literie visible."
+  },
+  {
+    "reviewId": 57,
+    "classification": "scene",
+    "reason": "Drap plat naturel visible drapé sur le côté du lit, sol et autres couches visibles."
+  },
+  {
+    "reviewId": 58,
+    "classification": "scene",
+    "reason": "Couette blanche visible sur un lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 59,
+    "classification": "reject",
+    "reason": "Coin de drap-housse isolé sur fond blanc."
+  },
+  {
+    "reviewId": 60,
+    "classification": "scene",
+    "reason": "Drap de bain beige suspendu près d’une fenêtre dans une salle de bain ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 61,
+    "classification": "scene",
+    "reason": "Serviette camel exposée dans une salle de bain avec vasque et décor."
+  },
+  {
+    "reviewId": 62,
+    "classification": "reject",
+    "reason": "Gants pliés isolés sur fond blanc."
+  },
+  {
+    "reviewId": 63,
+    "classification": "reject",
+    "reason": "Coussin détouré sur fond blanc."
+  },
+  {
+    "reviewId": 64,
+    "classification": "scene",
+    "reason": "Serviette camel suspendue au bord d’une baignoire dans la salle de bain."
+  },
+  {
+    "reviewId": 65,
+    "classification": "scene",
+    "reason": "Petites serviettes suspendues sur patères devant un mur bleu ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 66,
+    "classification": "scene",
+    "reason": "Serviette camel suspendue à une échelle près de la baignoire."
+  },
+  {
+    "reviewId": 67,
+    "classification": "scene",
+    "reason": "Taie blanche visible sur oreiller devant une chambre aménagée ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 68,
+    "classification": "scene",
+    "reason": "Plaid rose déployé sur canapé avec plante et décor ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 69,
+    "classification": "scene",
+    "reason": "Plaid rose déployé sur canapé avec mobilier ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 70,
+    "classification": "scene",
+    "reason": "Housses de coussin peluche sur canapé dans une pièce ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 71,
+    "classification": "scene",
+    "reason": "Serviettes gris foncé pliées sur panier avec plante et décor de salle de bain ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 72,
+    "classification": "scene",
+    "reason": "Serviettes de plusieurs couleurs pliées devant une fenêtre ; vue générale non attribuée, pas chaque couleur."
+  },
+  {
+    "reviewId": 73,
+    "classification": "scene",
+    "reason": "Plaid rose déployé sur lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 74,
+    "classification": "scene",
+    "reason": "Couette rose déployée sur lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 75,
+    "classification": "scene",
+    "reason": "Housse de couette naturelle visible sur lit dans une chambre meublée."
+  },
+  {
+    "reviewId": 76,
+    "classification": "reject",
+    "reason": "Taie gris Stone isolée sur fond blanc."
+  },
+  {
+    "reviewId": 77,
+    "classification": "reject",
+    "reason": "Photo commerciale avec textes et pictogrammes sur les serviettes, pas une scène premium."
+  },
+  {
+    "reviewId": 78,
+    "classification": "scene",
+    "reason": "Serviettes blanches empilées dans une pièce avec décor ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 79,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 80,
+    "classification": "scene",
+    "reason": "Housses de coussin côtelées sur canapé ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 81,
+    "classification": "scene",
+    "reason": "Plaid gris déployé sur canapé avec plante ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 82,
+    "classification": "reject",
+    "reason": "Peignoir plié détouré sur fond blanc."
+  },
+  {
+    "reviewId": 83,
+    "classification": "reject",
+    "reason": "Poncho plié détouré sur fond blanc."
+  },
+  {
+    "reviewId": 84,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 85,
+    "classification": "scene",
+    "reason": "Plaid doré drapé sur chaise dans une pièce ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 86,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 87,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 88,
+    "classification": "reject",
+    "reason": "Coin de drap-housse blanc détouré, fond blanc."
+  },
+  {
+    "reviewId": 89,
+    "classification": "reject",
+    "reason": "Coin de drap-housse blanc détouré, fond blanc."
+  },
+  {
+    "reviewId": 90,
+    "classification": "reject",
+    "reason": "Deux taies blanches détourées sur fond blanc."
+  },
+  {
+    "reviewId": 91,
+    "classification": "scene",
+    "reason": "Couette d’été grise visible sur le lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 92,
+    "classification": "reject",
+    "reason": "Serviettes avec photos de chien/chat ajoutées, collage commercial."
+  },
+  {
+    "reviewId": 93,
+    "classification": "scene",
+    "reason": "Drap-housse blanc visible sur matelas posé sur lit à pieds, sol et linge de lit dans le cadre."
+  },
+  {
+    "reviewId": 94,
+    "classification": "reject",
+    "reason": "Coin de drap-housse naturel isolé, fond uni et très peu de contexte ; rejet comme ambiance."
+  },
+  {
+    "reviewId": 95,
+    "classification": "reject",
+    "reason": "Coin de drap-housse isolé sur fond blanc."
+  },
+  {
+    "reviewId": 96,
+    "classification": "reject",
+    "reason": "Coin de drap-housse isolé sur fond blanc."
+  },
+  {
+    "reviewId": 97,
+    "classification": "scene",
+    "reason": "Housse de couette blanche visible sur un lit dans une chambre décorée."
+  },
+  {
+    "reviewId": 98,
+    "classification": "reject",
+    "reason": "Housse de couette pliée détourée sur fond blanc."
+  },
+  {
+    "reviewId": 99,
+    "classification": "reject",
+    "reason": "Taies isolées sur fond blanc."
+  },
+  {
+    "reviewId": 100,
+    "classification": "reject",
+    "reason": "Fouta pliée détourée sur fond blanc."
+  },
+  {
+    "reviewId": 101,
+    "classification": "reject",
+    "reason": "Fouta pliée détourée sur fond transparent/noir, aucune ambiance."
+  },
+  {
+    "reviewId": 102,
+    "classification": "reject",
+    "reason": "Serviette à plat détourée sur fond blanc."
+  },
+  {
+    "reviewId": 103,
+    "classification": "reject",
+    "reason": "Taie blanche détourée sur fond blanc."
+  },
+  {
+    "reviewId": 104,
+    "classification": "reject",
+    "reason": "Taie sapin isolée sur fond blanc."
+  },
+  {
+    "reviewId": 105,
+    "classification": "reject",
+    "reason": "Drap blanc plié détouré sur fond blanc."
+  },
+  {
+    "reviewId": 106,
+    "classification": "scene",
+    "reason": "Drap plat sapin visible drapé sur le côté d’un lit."
+  },
+  {
+    "reviewId": 107,
+    "classification": "scene",
+    "reason": "Serviette émeraude suspendue au bord d’une baignoire dans une pièce."
+  },
+  {
+    "reviewId": 108,
+    "classification": "reject",
+    "reason": "Housse pliée isolée sur fond blanc."
+  },
+  {
+    "reviewId": 109,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 110,
+    "classification": "reject",
+    "reason": "Drap vert plié isolé sur fond blanc."
+  },
+  {
+    "reviewId": 111,
+    "classification": "scene",
+    "reason": "Drap de bain émeraude suspendu à une échelle près de la baignoire."
+  },
+  {
+    "reviewId": 112,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 113,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 114,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 115,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 116,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 117,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 118,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 119,
+    "classification": "reject",
+    "reason": "Serviette à plat isolée sur fond blanc."
+  },
+  {
+    "reviewId": 120,
+    "classification": "reject",
+    "reason": "Galette de chaise isolée sur fond blanc."
+  },
+  {
+    "reviewId": 121,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 122,
+    "classification": "scene",
+    "reason": "Drap plat vieux rose visible drapé sur lit, literie visible."
+  },
+  {
+    "reviewId": 123,
+    "classification": "reject",
+    "reason": "Le drap-housse vendu n’est pas identifiable : le dessus du lit est couvert par une couette noire imprimée."
+  },
+  {
+    "reviewId": 124,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 125,
+    "classification": "scene",
+    "reason": "Housse de couette imprimée visible sur le lit dans une chambre ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 126,
+    "classification": "scene",
+    "reason": "Housse de couette bleu clair visible sur le lit avec table basse ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 127,
+    "classification": "scene",
+    "reason": "Plaid crème déposé sur fauteuil avec décor ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 128,
+    "classification": "reject",
+    "reason": "Drap plié isolé sur fond blanc."
+  },
+  {
+    "reviewId": 129,
+    "classification": "reject",
+    "reason": "Pile de serviettes colorées isolée sur fond blanc avec fleurs ; pas une scène de pièce."
+  },
+  {
+    "reviewId": 130,
+    "classification": "reject",
+    "reason": "Drap plié isolé sur fond blanc."
+  },
+  {
+    "reviewId": 131,
+    "classification": "scene",
+    "reason": "Plaid taupe déployé sur le lit avec tasse ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 132,
+    "classification": "reject",
+    "reason": "Drap plié isolé sur fond blanc."
+  },
+  {
+    "reviewId": 133,
+    "classification": "reject",
+    "reason": "Chiffon de cuisine vendu difficile à identifier dans une mise en scène de serviettes de salle de bain."
+  },
+  {
+    "reviewId": 134,
+    "classification": "scene",
+    "reason": "Plaid orange déployé sur fauteuil avec décor ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 135,
+    "classification": "reject",
+    "reason": "Collage de neuf motifs, pas une photo unique de produit."
+  },
+  {
+    "reviewId": 136,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 137,
+    "classification": "scene",
+    "reason": "Plaids colorés empilés sur chaise près d’une fenêtre ; vue générale non attribuée, pas chaque couleur."
+  },
+  {
+    "reviewId": 138,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 139,
+    "classification": "scene",
+    "reason": "Serviette bleue utilisée sur un chien posé sur un banc dans une pièce ; vue générale non attribuée, usage animal visible."
+  },
+  {
+    "reviewId": 140,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 141,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 142,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 143,
+    "classification": "reject",
+    "reason": "Housse rose isolée sur fond blanc."
+  },
+  {
+    "reviewId": 144,
+    "classification": "reject",
+    "reason": "Drap de bain plié isolé sur fond presque blanc, aucune ambiance."
+  },
+  {
+    "reviewId": 145,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 146,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 147,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 148,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 149,
+    "classification": "reject",
+    "reason": "Coussins de garnissage isolés sur fond blanc."
+  },
+  {
+    "reviewId": 150,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 151,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 152,
+    "classification": "scene",
+    "reason": "Housse de couette imprimée rose foncé visible sur lit dans une chambre."
+  },
+  {
+    "reviewId": 153,
+    "classification": "scene",
+    "reason": "Housse de couette imprimée eucalyptus visible sur lit dans une chambre."
+  },
+  {
+    "reviewId": 154,
+    "classification": "reject",
+    "reason": "Taie blanche isolée sur fond blanc."
+  },
+  {
+    "reviewId": 155,
+    "classification": "reject",
+    "reason": "Taie rayée isolée sur fond blanc."
+  },
+  {
+    "reviewId": 156,
+    "classification": "scene",
+    "reason": "Plaid noir et blanc drapé sur fauteuil avec mobilier ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 157,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 158,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 159,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 160,
+    "classification": "reject",
+    "reason": "Housse isolée sur fond blanc."
+  },
+  {
+    "reviewId": 161,
+    "classification": "reject",
+    "reason": "Petit visuel commercial d’enfant utilisant un oreiller, encadré de blanc ; pas une photographie produit premium."
+  },
+  {
+    "reviewId": 162,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 163,
+    "classification": "scene",
+    "reason": "Housse de couette imprimée vert d’eau visible sur lit dans une chambre."
+  },
+  {
+    "reviewId": 164,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 165,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 166,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 167,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 168,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 169,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 170,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 171,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 172,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 173,
+    "classification": "reject",
+    "reason": "Housse pliée isolée sur fond blanc."
+  },
+  {
+    "reviewId": 174,
+    "classification": "scene",
+    "reason": "Housse de couette imprimée terracotta visible sur lit dans une chambre."
+  },
+  {
+    "reviewId": 175,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 176,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 177,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  },
+  {
+    "reviewId": 178,
+    "classification": "scene",
+    "reason": "Serviettes blanches suspendues sur barre devant une vasque, véritable contexte de salle de bain ; vue générale non attribuée."
+  },
+  {
+    "reviewId": 179,
+    "classification": "reject",
+    "reason": "Coussin isolé sur fond blanc."
+  },
+  {
+    "reviewId": 180,
+    "classification": "reject",
+    "reason": "Taie isolée sur fond blanc."
+  }
+]

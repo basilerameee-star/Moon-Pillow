@@ -1,0 +1,4815 @@
+{
+  "component": "IrisWebpage",
+  "props": {
+    "errors": {},
+    "currency": {
+      "code": "EUR",
+      "symbol": "€",
+      "name": "Euro"
+    },
+    "environment": "production",
+    "ziggy": {
+      "url": "https://www.aw-dropship.eu",
+      "port": null,
+      "defaults": [],
+      "routes": {
+        "iris.iris_robots": {
+          "uri": "robots.txt",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_favicon": {
+          "uri": "favicon.ico",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.": {
+          "uri": "{path}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "path": ".*\\.(png|jpe?g|gif)$"
+          },
+          "parameters": [
+            "path"
+          ]
+        },
+        "iris.webhooks.checkout_com_payment": {
+          "uri": "webhooks/checkout-com-payment",
+          "methods": [
+            "GET",
+            "HEAD",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE",
+            "OPTIONS",
+            "QUERY"
+          ]
+        },
+        "iris.generated::8Ruwj23ssaBvbhi3": {
+          "uri": "health-ping",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.wi.not_found": {
+          "uri": "wi/{image}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "image": ".*"
+          },
+          "parameters": [
+            "image"
+          ]
+        },
+        "iris.apple-pay-verification": {
+          "uri": ".well-known/apple-developer-merchantid-domain-association",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.disclosure.under-construction": {
+          "uri": "disclosure/under-construction",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.disclosure.under-maintenance": {
+          "uri": "disclosure/under-maintenance",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.disclosure.closed-down": {
+          "uri": "disclosure/closed-down",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.unsubscribe.show": {
+          "uri": "unsubscribe/{encryptedDispatchedEmailID}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "encryptedDispatchedEmailID"
+          ]
+        },
+        "iris.unsubscribe.update": {
+          "uri": "unsubscribe/{encryptedDispatchedEmailID}",
+          "methods": [
+            "POST"
+          ],
+          "parameters": [
+            "encryptedDispatchedEmailID"
+          ]
+        },
+        "iris.unsubscribe.aurora": {
+          "uri": "unsubscribe.php",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.basket.transaction_data": {
+          "uri": "json/basket/transaction-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.product_category.portfolio_data": {
+          "uri": "json/product-category/{productCategory}/portfolio-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.product_category.transaction_data": {
+          "uri": "json/product-category/{productCategory}/transaction-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.product.transaction_data": {
+          "uri": "json/product/{product}/transaction-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.json.collection.transaction_data": {
+          "uri": "json/collection/{collection}/transaction-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "collection": "[0-9]+"
+          },
+          "parameters": [
+            "collection"
+          ],
+          "bindings": {
+            "collection": "id"
+          }
+        },
+        "iris.json.website_dialog_dismissals.index": {
+          "uri": "json/website-dialog-dismissals",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.website_dialog_dismissals.store": {
+          "uri": "json/website-dialog-dismissals/{websiteDialog}",
+          "methods": [
+            "POST"
+          ],
+          "parameters": [
+            "websiteDialog"
+          ],
+          "bindings": {
+            "websiteDialog": "ulid"
+          }
+        },
+        "iris.json.zentrada_web_api": {
+          "uri": "json/zentrada-web-api",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.basket_transaction_product_data": {
+          "uri": "json/basket-transaction-product-data/{transaction}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "transaction": "[0-9]+"
+          },
+          "parameters": [
+            "transaction"
+          ],
+          "bindings": {
+            "transaction": "id"
+          }
+        },
+        "iris.json.canonical_redirect": {
+          "uri": "json/canonical-redirect",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.product_last_seen.index": {
+          "uri": "json/product-last-seen/{webpage}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "webpage": "[0-9]+"
+          },
+          "parameters": [
+            "webpage"
+          ],
+          "bindings": {
+            "webpage": "id"
+          }
+        },
+        "iris.json.product_last_seen.store": {
+          "uri": "json/product-last-seen/{webpage}",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "webpage": "[0-9]+"
+          },
+          "parameters": [
+            "webpage"
+          ],
+          "bindings": {
+            "webpage": "id"
+          }
+        },
+        "iris.json.product.alternatives": {
+          "uri": "json/product/{product}/alternatives",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.json.product_trends.index": {
+          "uri": "json/product-trends",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.search.catalogue": {
+          "uri": "json/search/catalogue",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.search.catalogue_page": {
+          "uri": "json/search/catalogue-page",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.search.click": {
+          "uri": "json/search/click",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.json.search.featured_items": {
+          "uri": "json/search/featured-items",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.sidebar": {
+          "uri": "json/sidebar",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.footer": {
+          "uri": "json/footer",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.registration_data": {
+          "uri": "json/registration-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.appointments.index": {
+          "uri": "json/appointments",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.first_hit": {
+          "uri": "json/first-hit",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.ecom_customer_data": {
+          "uri": "json/ecom-customer-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.collection.portfolio_data": {
+          "uri": "json/collection/{collection}/portfolio-data",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "collection": "[0-9]+"
+          },
+          "parameters": [
+            "collection"
+          ],
+          "bindings": {
+            "collection": "id"
+          }
+        },
+        "iris.json.tags.index": {
+          "uri": "json/tags",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.brands.index": {
+          "uri": "json/brands",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.fetch_basket": {
+          "uri": "json/fetch-basket",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.shops.tags.index": {
+          "uri": "json/shop-tags",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.shops.brands.index": {
+          "uri": "json/shop-brands",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.product_category.last-ordered-products.index": {
+          "uri": "json/product-category/{productCategory}/last-ordered-products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.product_category.products.index": {
+          "uri": "json/product-category/{productCategory}/products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.product_category.in_stock_products.index": {
+          "uri": "json/product-category/{productCategory}/in-stock-products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.product_category.out_of_stock_products.index": {
+          "uri": "json/product-category/{productCategory}/out-of-stock-products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.collection.products.index": {
+          "uri": "json/collection/{collection}/products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "collection": "[0-9]+"
+          },
+          "parameters": [
+            "collection"
+          ],
+          "bindings": {
+            "collection": "id"
+          }
+        },
+        "iris.json.collection.in_stock_products.index": {
+          "uri": "json/collection/{collection}/in-stock-products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "collection": "[0-9]+"
+          },
+          "parameters": [
+            "collection"
+          ],
+          "bindings": {
+            "collection": "id"
+          }
+        },
+        "iris.json.collection.out_of_stock_products.index": {
+          "uri": "json/collection/{collection}/out-of-stock-products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "collection": "[0-9]+"
+          },
+          "parameters": [
+            "collection"
+          ],
+          "bindings": {
+            "collection": "id"
+          }
+        },
+        "iris.json.customer.product.channel_ids.index": {
+          "uri": "json/customer/{customer}/product/{product}/channels",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "customer": "[0-9]+",
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "customer",
+            "product"
+          ],
+          "bindings": {
+            "customer": "id",
+            "product": "id"
+          }
+        },
+        "iris.json.customer.product_category.channel_ids.index": {
+          "uri": "json/customer/{customer}/product-category/{productCategory}/channels",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "customer": "[0-9]+",
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "customer",
+            "productCategory"
+          ],
+          "bindings": {
+            "customer": "id",
+            "productCategory": "id"
+          }
+        },
+        "iris.json.customer.collection.channel_ids.index": {
+          "uri": "json/customer/{customer}/collection/{collection}/channels",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "customer": "[0-9]+",
+            "collection": "[0-9]+"
+          },
+          "parameters": [
+            "customer",
+            "collection"
+          ],
+          "bindings": {
+            "customer": "id",
+            "collection": "id"
+          }
+        },
+        "iris.json.channels.index": {
+          "uri": "json/channels",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.product.ecom_ordering_data": {
+          "uri": "json/product/{product}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.json.products.variant": {
+          "uri": "json/variant/{variant}/products",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "variant": "[0-9]+"
+          },
+          "parameters": [
+            "variant"
+          ],
+          "bindings": {
+            "variant": "id"
+          }
+        },
+        "iris.json.variant": {
+          "uri": "json/variant/{variant}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "variant": "[0-9]+"
+          },
+          "parameters": [
+            "variant"
+          ],
+          "bindings": {
+            "variant": "id"
+          }
+        },
+        "iris.json.get_banner": {
+          "uri": "json/banner/{banner}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "banner": "[0-9]+"
+          },
+          "parameters": [
+            "banner"
+          ],
+          "bindings": {
+            "banner": "id"
+          }
+        },
+        "iris.json.reviews.index": {
+          "uri": "json/reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.reviews.shop.show": {
+          "uri": "json/shop/{shop}/reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "shop": "[0-9]+"
+          },
+          "parameters": [
+            "shop"
+          ],
+          "bindings": {
+            "shop": "id"
+          }
+        },
+        "iris.json.reviews.product.show": {
+          "uri": "json/product/{product}/reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.json.reviews.product_category.show": {
+          "uri": "json/product-category/{productCategory}/reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.json.reviews.third_party.product_review": {
+          "uri": "json/product/{product}/reviews-third-party",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.json.website.category.family_list_sorted": {
+          "uri": "json/{webpage}/{productCategory}/families",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "webpage",
+            "productCategory"
+          ],
+          "bindings": {
+            "webpage": "slug"
+          }
+        },
+        "iris.json.website.category.family_under_department": {
+          "uri": "json/{productCategory}/family-under-department",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "productCategory"
+          ]
+        },
+        "iris.json.website.category.comparison_detail": {
+          "uri": "json/{productCategory}/comparison-detail",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "productCategory"
+          ]
+        },
+        "iris.json.website.category.comparison_option": {
+          "uri": "json/{productCategory}/comparison-option",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "productCategory"
+          ]
+        },
+        "iris.json.blogs.index": {
+          "uri": "json/blogs",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.json.fetch_reviews": {
+          "uri": "json/{webpage}/reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "webpage"
+          ],
+          "bindings": {
+            "webpage": "slug"
+          }
+        },
+        "iris.json.fetch_reviews_new": {
+          "uri": "json/reviews/{webpage}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "webpage": "[0-9]+"
+          },
+          "parameters": [
+            "webpage"
+          ],
+          "bindings": {
+            "webpage": "id"
+          }
+        },
+        "iris.audio": {
+          "uri": "audio/{media}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "media"
+          ],
+          "bindings": {
+            "media": "ulid"
+          }
+        },
+        "iris.models.unsubscribe_aurora": {
+          "uri": "models/unsubscribe-aurora",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.appointment.store": {
+          "uri": "models/appointment",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.appointment.cancel": {
+          "uri": "models/appointment/{appointment}/{token}/cancel",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "appointment": "[0-9]+"
+          },
+          "parameters": [
+            "appointment",
+            "token"
+          ],
+          "bindings": {
+            "appointment": "id"
+          }
+        },
+        "iris.models.appointment.reschedule": {
+          "uri": "models/appointment/{appointment}/{token}/reschedule",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "appointment": "[0-9]+"
+          },
+          "parameters": [
+            "appointment",
+            "token"
+          ],
+          "bindings": {
+            "appointment": "id"
+          }
+        },
+        "iris.models.order_review.store": {
+          "uri": "models/review/{order}/{token}",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order",
+            "token"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.all_channels.portfolio.store": {
+          "uri": "models/portfolio-all-channels",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.multi_channels.portfolio.store": {
+          "uri": "models/portfolio-multi-channels",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.multi_channels.product_category.portfolio.store": {
+          "uri": "models/product-category/{productCategory}/portfolio-multi-channels",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "productCategory": "[0-9]+"
+          },
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "id"
+          }
+        },
+        "iris.models.multi_channels.portfolio.delete": {
+          "uri": "models/delete-portfolio-multi-channels",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.favourites.store": {
+          "uri": "models/favourite/{product}",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.models.favourites.delete": {
+          "uri": "models/un-favourite/{product}",
+          "methods": [
+            "DELETE"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.models.customer.update": {
+          "uri": "models/customer/update",
+          "methods": [
+            "PATCH"
+          ]
+        },
+        "iris.models.transaction.store": {
+          "uri": "models/{product}/store-transaction",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.models.transaction.update": {
+          "uri": "models/{transaction}/update-transaction",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "transaction": "[0-9]+"
+          },
+          "parameters": [
+            "transaction"
+          ],
+          "bindings": {
+            "transaction": "id"
+          }
+        },
+        "iris.models.remind_back_in_stock.store": {
+          "uri": "models/remind-back-in-stock/{product}",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.models.remind_back_in_stock.delete": {
+          "uri": "models/remind-back-in-stock/{product}",
+          "methods": [
+            "DELETE"
+          ],
+          "wheres": {
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "id"
+          }
+        },
+        "iris.models.review.react": {
+          "uri": "models/review/{review}/react",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "review": "[0-9]+"
+          },
+          "parameters": [
+            "review"
+          ],
+          "bindings": {
+            "review": "id"
+          }
+        },
+        "iris.models.order.update": {
+          "uri": "models/order/{order}/update",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_gr_gift": {
+          "uri": "models/order/{order}/update-gr-gift",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_premium_dispatch": {
+          "uri": "models/order/{order}/update-premium-dispatch",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_extra_packing": {
+          "uri": "models/order/{order}/update-extra-packing",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_gift_message": {
+          "uri": "models/order/{order}/update-gift-message",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_gift_message_text": {
+          "uri": "models/order/{order}/update-gift-message-text",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_gift_message_pdf": {
+          "uri": "models/order/{order}/update-gift-message-pdf",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.update_insurance": {
+          "uri": "models/order/{order}/update-insurance",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.store_voucher": {
+          "uri": "models/order/{order}/store-voucher",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.order.remove_voucher": {
+          "uri": "models/order/{order}/remove-voucher",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.title.generate": {
+          "uri": "models/dropshipping/bundles/title-generator",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.dropshipping.bundles.description.generate": {
+          "uri": "models/dropshipping/bundles/description-generator",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.models.dropshipping.bundles.store": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.store_or_update": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles/store-or-update",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.update": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles/{bundle}",
+          "methods": [
+            "PATCH"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+",
+            "bundle": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel",
+            "bundle"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id",
+            "bundle": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.products.images.generate": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles/products/{product}/images-generator",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+",
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel",
+            "product"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id",
+            "product": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.products.images.store": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles/products/{product}/images",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+",
+            "product": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel",
+            "product"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id",
+            "product": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.products.calculate": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles/calculate-bundle-product",
+          "methods": [
+            "POST"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id"
+          }
+        },
+        "iris.models.dropshipping.bundles.delete": {
+          "uri": "models/dropshipping/{customerSalesChannel}/bundles/{bundle}",
+          "methods": [
+            "DELETE"
+          ],
+          "wheres": {
+            "customerSalesChannel": "[0-9]+",
+            "bundle": "[0-9]+"
+          },
+          "parameters": [
+            "customerSalesChannel",
+            "bundle"
+          ],
+          "bindings": {
+            "customerSalesChannel": "id",
+            "bundle": "id"
+          }
+        },
+        "iris.attach.download": {
+          "uri": "attachment/{media}/download",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "media"
+          ],
+          "bindings": {
+            "media": "ulid"
+          }
+        },
+        "iris.shop.data_feed": {
+          "uri": "data-feed.csv",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.product_category.data_feed": {
+          "uri": "{productCategory}/data-feed.csv",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "slug"
+          }
+        },
+        "iris.redirect_bundle_to_retina": {
+          "uri": "redirect-bundle-to-retina",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.catalogue.product.resource": {
+          "uri": "catalogue/product/{product}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "product"
+          ]
+        },
+        "iris.catalogue.bundles.show": {
+          "uri": "catalogue/bundles/{bundle}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "bundle": "[0-9]+"
+          },
+          "parameters": [
+            "bundle"
+          ],
+          "bindings": {
+            "bundle": "id"
+          }
+        },
+        "iris.catalogue.department.show": {
+          "uri": "catalogue/department/{department}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "department"
+          ]
+        },
+        "iris.catalogue.sub_department.show": {
+          "uri": "catalogue/sub-department/{subDepartment}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "subDepartment"
+          ]
+        },
+        "iris.catalogue.family.show": {
+          "uri": "catalogue/family/{family}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "family"
+          ]
+        },
+        "iris.catalogue.collection.show": {
+          "uri": "catalogue/collection/{collection}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "collection"
+          ]
+        },
+        "iris.catalogue.product.show": {
+          "uri": "catalogue/products/{product}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "product"
+          ]
+        },
+        "iris.catalogue.product.ingredients_label": {
+          "uri": "catalogue/product/{product}/ingredients-label.pdf",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "product"
+          ]
+        },
+        "iris.catalogue.feeds.product_category.download_img": {
+          "uri": "catalogue/feeds/product-category/{productCategory}/download.img",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "slug"
+          }
+        },
+        "iris.catalogue.feeds.product_category.download": {
+          "uri": "catalogue/feeds/product-category/{productCategory}/download.csv",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "productCategory"
+          ],
+          "bindings": {
+            "productCategory": "slug"
+          }
+        },
+        "iris.catalogue.feeds.shop.download": {
+          "uri": "catalogue/feeds/shop/{shop}/download.csv",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "shop"
+          ],
+          "bindings": {
+            "shop": "slug"
+          }
+        },
+        "iris.catalogue.feeds.product.download_img": {
+          "uri": "catalogue/feeds/product/{product}/download.img",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "slug"
+          }
+        },
+        "iris.catalogue.feeds.product.download": {
+          "uri": "catalogue/feeds/product/{product}/download.csv",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "product"
+          ],
+          "bindings": {
+            "product": "slug"
+          }
+        },
+        "iris.catalogue.products.images.index": {
+          "uri": "catalogue/bulk-products-images",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.search": {
+          "uri": "search",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.login.store": {
+          "uri": "login",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.logout": {
+          "uri": "logout",
+          "methods": [
+            "POST"
+          ]
+        },
+        "iris.fulfilment-customer.webhook.show": {
+          "uri": "webhooks/{fulfilmentCustomer}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "fulfilmentCustomer"
+          ],
+          "bindings": {
+            "fulfilmentCustomer": "webhook_access_key"
+          }
+        },
+        "iris.iris_sitemap": {
+          "uri": "sitemap.xml",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_sitemap_sub": {
+          "uri": "sitemaps/{sitemapType}.xml",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "sitemapType": "products|departments|sub_departments|families|contents|blogs|pages|collections"
+          },
+          "parameters": [
+            "sitemapType"
+          ]
+        },
+        "iris.warming.base": {
+          "uri": "warming_base.txt",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.warming.families": {
+          "uri": "warming_families.txt",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.warming.products": {
+          "uri": "warming_products.txt",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_invoice": {
+          "uri": "invoice/{invoice}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "invoice"
+          ],
+          "bindings": {
+            "invoice": "ulid"
+          }
+        },
+        "iris.iris_appointment": {
+          "uri": "appointment/{appointment}/{token}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "appointment": "[0-9]+"
+          },
+          "parameters": [
+            "appointment",
+            "token"
+          ],
+          "bindings": {
+            "appointment": "id"
+          }
+        },
+        "iris.iris_attachment": {
+          "uri": "attachment/{media}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "media"
+          ],
+          "bindings": {
+            "media": "ulid"
+          }
+        },
+        "iris.iris_blog": {
+          "uri": "blog",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_newsletters": {
+          "uri": "david-aw-news",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_product_guides": {
+          "uri": "product-guides",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_docs": {
+          "uri": "docs",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_doc": {
+          "uri": "docs/{slug}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "slug": "[a-z0-9-]+"
+          },
+          "parameters": [
+            "slug"
+          ]
+        },
+        "iris.iris_business_tips": {
+          "uri": "business-tips",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_integrations_guides": {
+          "uri": "integrations-guides",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_dropshipping_guides": {
+          "uri": "dropshipping-guides",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.iris_llms_txt": {
+          "uri": "llms.txt",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.catalogue_iris": {
+          "uri": "catalogue",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.reviews": {
+          "uri": "reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.customer_reviews": {
+          "uri": "customer-reviews",
+          "methods": [
+            "GET",
+            "HEAD"
+          ]
+        },
+        "iris.reviews.product": {
+          "uri": "reviews/product/{product}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "product"
+          ]
+        },
+        "iris.reviews.family": {
+          "uri": "reviews/family/{family}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "family"
+          ]
+        },
+        "iris.order_review.preview": {
+          "uri": "review/preview/{token}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "token"
+          ]
+        },
+        "iris.order_review": {
+          "uri": "review/{order}/{token}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "wheres": {
+            "order": "[0-9]+"
+          },
+          "parameters": [
+            "order",
+            "token"
+          ],
+          "bindings": {
+            "order": "id"
+          }
+        },
+        "iris.iris_webpage": {
+          "uri": "{path?}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "path"
+          ]
+        },
+        "iris.iris_webpage.deep1": {
+          "uri": "{parentPath1}/{path}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "parentPath1",
+            "path"
+          ]
+        },
+        "iris.iris_webpage.deep2": {
+          "uri": "{parentPath1}/{parentPath2}/{path}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "parentPath1",
+            "parentPath2",
+            "path"
+          ]
+        },
+        "iris.iris_webpage.deep3": {
+          "uri": "{parentPath1}/{parentPath2}/{parentPath3}/{path}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "parentPath1",
+            "parentPath2",
+            "parentPath3",
+            "path"
+          ]
+        },
+        "iris.iris_webpage.deep4": {
+          "uri": "{parentPath1}/{parentPath2}/{parentPath3}/{parentPath4}/{path}",
+          "methods": [
+            "GET",
+            "HEAD"
+          ],
+          "parameters": [
+            "parentPath1",
+            "parentPath2",
+            "parentPath3",
+            "parentPath4",
+            "path"
+          ]
+        }
+      },
+      "location": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
+    },
+    "use_chat": true,
+    "iris": {
+      "header": {
+        "header": {
+          "id": 28,
+          "code": "header-2",
+          "data": {
+            "component": "header",
+            "fieldValue": {
+              "logo": {
+                "alt": "AW Dropship Europe",
+                "link": {
+                  "id": 420,
+                  "url": null,
+                  "data": {
+                    "id": 420,
+                    "url": null,
+                    "code": "storefront",
+                    "href": "https://www.aw-dropship.eu/",
+                    "slug": "storefront-dssk",
+                    "type": "storefront",
+                    "level": 1,
+                    "state": null,
+                    "title": null,
+                    "sub_type": "storefront",
+                    "typeIcon": {
+                      "app": {
+                        "name": "home",
+                        "type": "font-awesome-5"
+                      },
+                      "icon": "fal fa-home",
+                      "class": "text-lime-500",
+                      "color": "lime",
+                      "tooltip": "Storefront"
+                    },
+                    "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/storefront-dssk/workshop",
+                    "shop_name": "AWGifts Dropship",
+                    "shop_slug": "dssk",
+                    "created_at": null,
+                    "updated_at": null,
+                    "organisation_name": "Ancient Wisdom s.r.o.",
+                    "organisation_slug": "sk"
+                  },
+                  "href": "https://www.aw-dropship.eu/",
+                  "path": "storefront",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/storefront-dssk/workshop"
+                },
+                "image": {
+                  "source": {
+                    "original": "https://media.aiku.io/SJvvHoQESDASRs_eNXr8zh-oq7XIrxHqORE6W6eYGJs/rs::160:160::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw",
+                    "avif": "https://media.aiku.io/iLt8V2OcrM5gnJzUeVtSqg536PnoHITFcWFfUDiQ6Lo/rs::160:160::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw.avif",
+                    "webp": "https://media.aiku.io/0XRSDMqgaTOU9ZBUYtjsPQh4kfa-KB2PJzixx04q-20/rs::160:160::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw.webp",
+                    "png": "https://media.aiku.io/8x01nHq2kqyiksauhRl_g-GcGwggG3rIn3a8JOnFwLA/rs::160:160::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw.png",
+                    "avif_2x": "https://media.aiku.io/M4y0qjl_uYe-FMbaVZGLc1izGXsI8HM5q0i_3or88oQ/rs::320:320::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw.avif",
+                    "webp_2x": "https://media.aiku.io/VN-j3nYjEGQsgFkfiydTIoidrRH-X29lzOeQQs9FfRg/rs::320:320::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw.webp",
+                    "png_2x": "https://media.aiku.io/EEvVh2gv1lkV3pzBb4am5U6Un5SV5mRtoQ2KIEzl5Zw/rs::320:320::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw.png",
+                    "original_2x": "https://media.aiku.io/FX4IqT-4uMNFp79ZRDtKZ6UU_7_bUogvT7k0AcpJ1vo/rs::320:320::/bG9jYWw6Ly9tZWRpYS8xTS8yRC82MFIzMEMxSjY0VDMyRDFNL2U4NzY3MzExLnBuZw"
+                  },
+                  "attributes": {
+                    "fetchpriority": "high"
+                  }
+                },
+                "visible": "all",
+                "properties": {
+                  "border": {
+                    "top": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "unit": "px",
+                    "color": "#000000",
+                    "right": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    },
+                    "rounded": {
+                      "unit": "px",
+                      "topleft": {
+                        "value": 0
+                      },
+                      "topright": {
+                        "value": 0
+                      },
+                      "bottomleft": {
+                        "value": 0
+                      },
+                      "bottomright": {
+                        "value": 0
+                      }
+                    }
+                  },
+                  "margin": {
+                    "top": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "unit": "px",
+                    "right": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    }
+                  },
+                  "padding": {
+                    "top": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "unit": "px",
+                    "right": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    }
+                  },
+                  "dimension": {
+                    "mobile": {
+                      "width": {
+                        "unit": "px",
+                        "value": "80"
+                      },
+                      "height": {
+                        "unit": "%",
+                        "value": "100"
+                      }
+                    },
+                    "desktop": {
+                      "width": {
+                        "unit": "px",
+                        "value": "200"
+                      },
+                      "height": {
+                        "unit": "%",
+                        "value": "100"
+                      }
+                    }
+                  }
+                }
+              },
+              "text": {
+                "text": "<h2 style=\"text-align: right;\"><span style=\"font-family: Raleway, sans-serif; font-size: 1.25rem; color: rgb(160, 124, 102);\"><strong>Europe's Top Dropshipping Platform for Artisan Gifts</strong></span></h2><p style=\"text-align: right;\"><span style=\"font-family: Raleway, sans-serif; font-size: 1rem; color: rgb(29, 37, 46);\">Natural Wellness and Beauty Gifts, Unique Homeware and more</span></p>",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "width": "246px",
+                    "border": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "color": "rgba(231, 231, 231, 1)",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 5
+                        },
+                        "topright": {
+                          "value": 5
+                        },
+                        "bottomleft": {
+                          "value": 5
+                        },
+                        "bottomright": {
+                          "value": 5
+                        }
+                      }
+                    },
+                    "height": "38px",
+                    "margin": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    },
+                    "position": {
+                      "top": "35.7143%",
+                      "left": "910px",
+                      "right": "70px",
+                      "bottom": "80.9859%"
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "rgba(10, 10, 10, 1)",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                }
+              },
+              "mobile": {
+                "menu": {
+                  "icon": [
+                    "fal",
+                    "bars"
+                  ],
+                  "container": {
+                    "properties": {
+                      "text": {
+                        "color": "rgb(0, 0, 0)",
+                        "fontSize": 20
+                      }
+                    }
+                  }
+                },
+                "profile": {
+                  "icon": [
+                    "fal",
+                    "user-circle"
+                  ],
+                  "container": {
+                    "properties": {
+                      "text": {
+                        "color": "rgb(0, 0, 0)",
+                        "fontSize": "1.5rem"
+                      }
+                    }
+                  }
+                }
+              },
+              "search": {
+                "placeholder": "What will you dropship next? Search over 7500 wholesale gifts...",
+                "is_box_full_width": true
+              },
+              "button_1": {
+                "link": {
+                  "id": null,
+                  "url": "ancientwisdom.biz/login.sys",
+                  "type": "external",
+                  "workshop_route": null
+                },
+                "text": "Become Gold Reward Member",
+                "visible": null,
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "border": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "color": "rgba(231, 231, 231, 1)",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 5
+                        },
+                        "topright": {
+                          "value": 5
+                        },
+                        "bottomleft": {
+                          "value": 5
+                        },
+                        "bottomright": {
+                          "value": 5
+                        }
+                      }
+                    },
+                    "margin": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "rgba(10, 10, 10, 1)",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                }
+              },
+              "container": {
+                "properties": {
+                  "border": {
+                    "top": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "unit": "px",
+                    "color": "#000000",
+                    "right": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    },
+                    "rounded": {
+                      "unit": "px",
+                      "topleft": {
+                        "value": 0
+                      },
+                      "topright": {
+                        "value": 0
+                      },
+                      "bottomleft": {
+                        "value": 0
+                      },
+                      "bottomright": {
+                        "value": 0
+                      }
+                    }
+                  },
+                  "margin": {
+                    "top": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "unit": "px",
+                    "right": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    }
+                  },
+                  "padding": {
+                    "top": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "unit": "px",
+                    "right": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    }
+                  },
+                  "background": {
+                    "type": "color",
+                    "color": "#ffff",
+                    "image": {
+                      "original": null
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "icon": null,
+          "name": "Header 2",
+          "show": true,
+          "scope": "website",
+          "category": null,
+          "blueprint": [],
+          "component": "header",
+          "created_at": "2025-02-24T02:46:19.000000Z",
+          "screenshot": {
+            "png": "https://media.aiku.io/V0PwRnMGQzsIH3IJX-kepr2uJqLCU_e6Nt79P37YSRk/rs::0:0::/bG9jYWw6Ly9tZWRpYS85Ti9KQy82MFIzMEMxSDc0UjNKQzlOLzYzYzAzZWU1LnBuZw.png",
+            "avif": "https://media.aiku.io/kyJbHUM6A8YP-gEcawrGUl31dLBxW9U2YE04uGrihlY/rs::0:0::/bG9jYWw6Ly9tZWRpYS85Ti9KQy82MFIzMEMxSDc0UjNKQzlOLzYzYzAzZWU1LnBuZw.avif",
+            "webp": "https://media.aiku.io/FFDGkEW90kUj7-RBgiGu1qMv6Joo2CLmRAxRADqhKSE/rs::0:0::/bG9jYWw6Ly9tZWRpYS85Ti9KQy82MFIzMEMxSDc0UjNKQzlOLzYzYzAzZWU1LnBuZw.webp",
+            "original": "https://media.aiku.io/GcxDtxTMtHcRbNw3nC98mZVv4iq4CYa3arMcwFnex-o/rs::0:0::/bG9jYWw6Ly9tZWRpYS85Ti9KQy82MFIzMEMxSDc0UjNKQzlOLzYzYzAzZWU1LnBuZw"
+          },
+          "updated_at": "2025-07-03T10:22:42.000000Z",
+          "visibility": {
+            "in": true,
+            "out": true
+          },
+          "description": null
+        },
+        "status": true,
+        "topBar": {
+          "id": 21,
+          "code": "top-bar-1",
+          "data": {
+            "component": "topbar",
+            "fieldValue": {
+              "key": "Topheader",
+              "cart": {
+                "link": null,
+                "text": "{{ cart_count }} items",
+                "visible": "login",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    }
+                  }
+                }
+              },
+              "login": {
+                "link": null,
+                "text": "Login",
+                "visible": "logout",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "border": {
+                      "top": {
+                        "value": null
+                      },
+                      "left": {
+                        "value": null
+                      },
+                      "unit": "px",
+                      "color": "rgba(231, 231, 231, 1)",
+                      "right": {
+                        "value": null
+                      },
+                      "bottom": {
+                        "value": null
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 5
+                        },
+                        "topright": {
+                          "value": 5
+                        },
+                        "bottomleft": {
+                          "value": 5
+                        },
+                        "bottomright": {
+                          "value": 5
+                        }
+                      }
+                    },
+                    "margin": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "rgba(10, 10, 10, 1)",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                }
+              },
+              "logout": {
+                "link": null,
+                "text": "Log out",
+                "visible": "login",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "border": {
+                      "top": {
+                        "value": null
+                      },
+                      "left": {
+                        "value": null
+                      },
+                      "unit": "px",
+                      "color": null,
+                      "right": {
+                        "value": null
+                      },
+                      "bottom": {
+                        "value": null
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": null
+                        },
+                        "topright": {
+                          "value": null
+                        },
+                        "bottomleft": {
+                          "value": null
+                        },
+                        "bottomright": {
+                          "value": null
+                        }
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    }
+                  }
+                }
+              },
+              "profile": {
+                "link": null,
+                "text": "{{ name }}",
+                "visible": "login",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    }
+                  }
+                }
+              },
+              "register": {
+                "link": null,
+                "text": "Register",
+                "visible": "logout",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "border": {
+                      "top": {
+                        "value": 1
+                      },
+                      "left": {
+                        "value": 1
+                      },
+                      "unit": "px",
+                      "color": "rgba(255, 255, 255, 1)",
+                      "right": {
+                        "value": 1
+                      },
+                      "bottom": {
+                        "value": 1
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 5
+                        },
+                        "topright": {
+                          "value": 5
+                        },
+                        "bottomleft": {
+                          "value": 5
+                        },
+                        "bottomright": {
+                          "value": 5
+                        }
+                      }
+                    },
+                    "margin": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "rgba(10, 10, 10, 0)",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                }
+              },
+              "container": {
+                "properties": {
+                  "text": {
+                    "color": "rgba(255,255,255,1)",
+                    "fontFamily": "'Raleway', sans-serif"
+                  },
+                  "background": {
+                    "type": "color",
+                    "color": "rgba(75, 80, 88, 1)",
+                    "image": {
+                      "original": null
+                    }
+                  }
+                }
+              },
+              "favourite": {
+                "link": null,
+                "text": "{{ favourites_count }}",
+                "visible": "login",
+                "container": {
+                  "properties": {
+                    "text": {
+                      "color": "rgba(255, 255, 255, 1)"
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 5
+                      },
+                      "left": {
+                        "value": 20
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 20
+                      },
+                      "bottom": {
+                        "value": 5
+                      }
+                    }
+                  }
+                }
+              },
+              "main_title": {
+                "text": "<p><span style=\"font-family: Raleway, sans-serif; font-size: 1rem; color: rgb(255, 255, 255)\"><strong>FAIRLY DROPSHIPPING GIFTS IN EUROPE SINCE </strong></span><span style=\"font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 1rem; color: rgb(255, 255, 255)\"><strong>2017</strong></span></p>",
+                "visible": "all"
+              }
+            }
+          },
+          "icon": null,
+          "name": "Topbar Simple",
+          "show": true,
+          "scope": "website",
+          "blueprint": [],
+          "component": "topbar",
+          "created_at": "2024-12-31T19:43:42.000000Z",
+          "screenshot": {
+            "avif": "https://media.aiku.io/x9FSxdulYjn19J6-7bBJ8yXElgmXUuPALX2C2GZUumo/rs::0:0::/bG9jYWw6Ly9tZWRpYS85SC8wRC82MFIzMEMxRzYwUjMwRDlILzQ0MTBlN2JkLnBuZw.avif",
+            "webp": "https://media.aiku.io/JlvGBOTdqIF217yOiz7m1pHSCXyYVfKGp8wOPp7rUoE/rs::0:0::/bG9jYWw6Ly9tZWRpYS85SC8wRC82MFIzMEMxRzYwUjMwRDlILzQ0MTBlN2JkLnBuZw.webp",
+            "original": "https://media.aiku.io/GBqz_ZbjIaTWGFPwA8mVJLSpzIN_6ZIo0ydaolhaDwE/rs::0:0::/bG9jYWw6Ly9tZWRpYS85SC8wRC82MFIzMEMxRzYwUjMwRDlILzQ0MTBlN2JkLnBuZw"
+          },
+          "updated_at": "2025-05-16T04:01:31.000000Z",
+          "visibility": {
+            "in": true,
+            "out": true
+          },
+          "description": null
+        }
+      },
+      "menu": {
+        "id": 14,
+        "code": "menu-1",
+        "data": {
+          "component": "menu",
+          "fieldValue": {
+            "navigation": [
+              {
+                "id": 1,
+                "icon": {
+                  "icon": [
+                    224,
+                    512,
+                    [],
+                    "f0da",
+                    "M0 144.048v223.895c0 42.638 51.731 64.151 81.941 33.941l112-111.943c18.745-18.745 18.746-49.137 0-67.882l-112-111.952C51.792 79.958 0 101.325 0 144.048zM160 256L48 368V144l112 112z"
+                  ],
+                  "prefix": "far",
+                  "iconName": "caret-right"
+                },
+                "link": {
+                  "id": 238171,
+                  "url": "new",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/new",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/new-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/new"
+                },
+                "type": "single",
+                "label": "New Arrivals"
+              },
+              {
+                "id": 2,
+                "icon": {
+                  "icon": [
+                    224,
+                    512,
+                    [],
+                    "f0da",
+                    "M0 144.048v223.895c0 42.638 51.731 64.151 81.941 33.941l112-111.943c18.745-18.745 18.746-49.137 0-67.882l-112-111.952C51.792 79.958 0 101.325 0 144.048zM160 256L48 368V144l112 112z"
+                  ],
+                  "prefix": "far",
+                  "iconName": "caret-right"
+                },
+                "link": {
+                  "id": 254072,
+                  "url": "valentines",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/valentines",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/valentines-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/valentines"
+                },
+                "type": "single",
+                "label": "Valentine´s Day",
+                "hidden": true
+              },
+              {
+                "id": "01M34B890ATTGQY4GQA1JQ66ZE",
+                "link": {
+                  "id": 304494,
+                  "url": "halloween",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/halloween",
+                  "type": "internal",
+                  "target": "_self",
+                  "image_alt": "Halloween",
+                  "canonical_url": "https://www.aw-dropship.eu/halloween"
+                },
+                "type": "single",
+                "label": "Halloween",
+                "hidden": false
+              },
+              {
+                "id": "01M5HC8ZA60MYQ4V5J5KPM9221",
+                "link": {
+                  "id": null,
+                  "url": null,
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/autumn",
+                  "type": "external",
+                  "target": "_blank",
+                  "workshop": null,
+                  "image_alt": null,
+                  "canonical_url": null
+                },
+                "type": "single",
+                "label": "Autumn",
+                "hidden": false
+              },
+              {
+                "id": "01M5A5SAG9BNAWCS88K9KBV7B7",
+                "link": {
+                  "id": 242981,
+                  "url": "christmas-collection",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/christmas-collection",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": null,
+                  "image_alt": "Christmas",
+                  "canonical_url": "https://www.aw-dropship.eu/christmas-collection"
+                },
+                "type": "single",
+                "label": "Christmas",
+                "hidden": false
+              },
+              {
+                "id": 3,
+                "icon": null,
+                "link": {
+                  "id": 438,
+                  "url": "aromatherapy",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/aromatherapy",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/aromatherapy-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/aromatherapy"
+                },
+                "type": "single",
+                "label": "Aromatherapy",
+                "hidden": false
+              },
+              {
+                "id": 4,
+                "icon": null,
+                "link": {
+                  "id": 439,
+                  "url": "bath",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/bath",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/bath-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/bath"
+                },
+                "type": "single",
+                "label": "Bath & Body"
+              },
+              {
+                "id": 64,
+                "icon": null,
+                "link": {
+                  "id": 440,
+                  "url": "candles",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/candles",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/candles-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/candles"
+                },
+                "type": "single",
+                "label": "Candles"
+              },
+              {
+                "id": "01M34B7ZG6EX8J4HZEZA3QF0W2",
+                "link": {
+                  "id": 304688,
+                  "url": "pets",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/pets",
+                  "type": "internal",
+                  "target": "_self",
+                  "image_alt": "Pet Accessories",
+                  "canonical_url": "https://www.aw-dropship.eu/pets"
+                },
+                "type": "single",
+                "label": "Pets",
+                "hidden": false
+              },
+              {
+                "id": 65,
+                "icon": null,
+                "link": {
+                  "id": 445,
+                  "url": "esoteric",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/esoteric",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/esoteric-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/esoteric"
+                },
+                "type": "single",
+                "label": "Gemstones"
+              },
+              {
+                "id": 69,
+                "icon": null,
+                "link": {
+                  "id": 231852,
+                  "url": "incense",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/incense",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/incense-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/incense"
+                },
+                "type": "single",
+                "label": "Incense"
+              },
+              {
+                "id": 67,
+                "icon": null,
+                "link": {
+                  "id": 442,
+                  "url": "homeware",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/homeware",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/homeware-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/homeware"
+                },
+                "type": "single",
+                "label": "Home & Garden"
+              },
+              {
+                "id": 66,
+                "icon": null,
+                "link": {
+                  "id": 449,
+                  "url": "fragrance",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/fragrance",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/fragrance-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/fragrance"
+                },
+                "type": "single",
+                "label": "Fragrance"
+              },
+              {
+                "id": 68,
+                "icon": null,
+                "link": {
+                  "id": 235806,
+                  "url": "music",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/music",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/music-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/music"
+                },
+                "type": "single",
+                "label": "Music"
+              },
+              {
+                "id": 70,
+                "icon": null,
+                "link": {
+                  "id": 231855,
+                  "url": "bags",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/bags",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/bags-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/bags"
+                },
+                "type": "single",
+                "label": "Bags"
+              },
+              {
+                "id": "01KFFTX4K2V0TAJD7Y393THQDJ",
+                "link": {
+                  "id": 231854,
+                  "url": "jewellery",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/jewellery",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/jewellery-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/jewellery"
+                },
+                "type": "single",
+                "label": "Jewellery",
+                "hidden": false
+              },
+              {
+                "id": "01KFFTXZ8PMD4W3NVXF1VPW67T",
+                "link": {
+                  "id": 235819,
+                  "url": "clothing",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/clothing",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/clothing-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/clothing"
+                },
+                "type": "single",
+                "label": "Clothing",
+                "hidden": false
+              },
+              {
+                "id": "01KFFTYVS9S9TRT06KRW3MA7H3",
+                "link": {
+                  "id": 448,
+                  "url": "tea",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/tea",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/tea-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/tea"
+                },
+                "type": "single",
+                "label": "Artisan Tea",
+                "hidden": false
+              },
+              {
+                "id": "01KFFTZRW6Q218GVCST9PWN6ZC",
+                "link": {
+                  "id": 89584,
+                  "url": "packing",
+                  "data": [],
+                  "href": "https://www.aw-dropship.eu/packing",
+                  "type": "internal",
+                  "target": "_self",
+                  "workshop": "https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/packing-dssk/workshop",
+                  "canonical_url": "https://www.aw-dropship.eu/packing"
+                },
+                "type": "single",
+                "label": "Packaging",
+                "hidden": false
+              }
+            ],
+            "custom_navigation_1_styling": {
+              "properties": {
+                "background": {
+                  "type": "color",
+                  "color": "rgba(240, 240, 240, 1)",
+                  "image": {
+                    "original": null
+                  }
+                }
+              },
+              "index_of_navigation_to_apply": "1"
+            }
+          }
+        },
+        "icon": null,
+        "name": "Menu 1",
+        "show": true,
+        "scope": "website",
+        "status": true,
+        "category": null,
+        "blueprint": [],
+        "component": "menu",
+        "created_at": "2024-12-31T19:43:42.000000Z",
+        "screenshot": {
+          "png": "https://media.aiku.io/z0LwIOz0jj6Y0mII6-Xd-qlw5TMau6Lq2ZvGVMDxAl0/rs::0:0::/bG9jYWw6Ly9tZWRpYS8xUC8wRC82MFIzMEMxRzYwUjMwRDFQLzAzYzNjNzAyLnBuZw.png",
+          "avif": "https://media.aiku.io/bFpwi4LBkc9Mo_RJYSUDkkfLKTsIJxWbNIV6sy4ruDE/rs::0:0::/bG9jYWw6Ly9tZWRpYS8xUC8wRC82MFIzMEMxRzYwUjMwRDFQLzAzYzNjNzAyLnBuZw.avif",
+          "webp": "https://media.aiku.io/mZ4unr8icpnnxkBJYvTEJxSV6teR81nU9TzYeCO2Akw/rs::0:0::/bG9jYWw6Ly9tZWRpYS8xUC8wRC82MFIzMEMxRzYwUjMwRDFQLzAzYzNjNzAyLnBuZw.webp",
+          "original": "https://media.aiku.io/b1gQPCSeqNvSvmaTxxjtYTt8STN_Flcrf21BViIswEU/rs::0:0::/bG9jYWw6Ly9tZWRpYS8xUC8wRC82MFIzMEMxRzYwUjMwRDFQLzAzYzNjNzAyLnBuZw"
+        },
+        "updated_at": "2025-10-15T06:36:46.000000Z",
+        "visibility": {
+          "in": true,
+          "out": true
+        },
+        "description": null
+      },
+      "shop": {
+        "type": "dropshipping",
+        "id": 26,
+        "slug": "dssk",
+        "name": "AW Dropship Europe",
+        "number_brands": 1397,
+        "number_current_brands": 1171,
+        "number_tags": 1397,
+        "number_current_tags": 7240,
+        "location": []
+      },
+      "website": {
+        "id": 25,
+        "slug": "awdsk",
+        "code": "awdsk",
+        "name": "AW Dropship Europe",
+        "domain": "aw-dropship.eu",
+        "url": "https://aw-dropship.eu",
+        "logo": {
+          "original": "https://media.aiku.io/VbxZfWJTLv3SniO6jeQxCeaqbTC_N97ikLE21CBzw9c/rs::350:350::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw",
+          "avif": "https://media.aiku.io/OXH3AvOSsovyOVm3mUr52Wwlr7xdWhIt39f0aYI6BS4/rs::350:350::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw.avif",
+          "webp": "https://media.aiku.io/4RFlQBINGkiORAKGByWjNBFZ7LqFkFoYbEIy_9GpVds/rs::350:350::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw.webp",
+          "png": "https://media.aiku.io/v7A5O-Skg24rg0_oCU8ndyIMHtRFwUdk1INUAYvpvQs/rs::350:350::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw.png",
+          "avif_2x": "https://media.aiku.io/NlN4cFmIm4KXQoz8ylZrjqFTubgckvhzWPndnVONOOs/rs::700:700::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw.avif",
+          "webp_2x": "https://media.aiku.io/y6cdJzulKM5PkvUQ_w4ddL9yN0hzibPEPrMQBx_Mk0U/rs::700:700::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw.webp",
+          "png_2x": "https://media.aiku.io/itPDhNA_ZzDm_rn5cNhWA6GqSiNVq9vik-kdjD9qyno/rs::700:700::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw.png",
+          "original_2x": "https://media.aiku.io/ioDGlN9tA1w3OLwBgAZp2V3B-BasNuyo7HgFjaZnmp0/rs::700:700::/bG9jYWw6Ly9tZWRpYS85SC84RS82MFIzMEMxSjYwVks4RTlIL2QxMjhjMTkwLnBuZw"
+        },
+        "type": "dropshipping",
+        "reviews_settings": {
+          "data": {
+            "url": "https://api.reviews.co.uk",
+            "store": "awgifts-eu",
+            "apikey": "1e2921eb92650564b52c2825a67d4553"
+          },
+          "enabled": true,
+          "provider": "reviews.io",
+          "visibility": {
+            "public": true,
+            "private": true
+          },
+          "add_other_shops": true,
+          "show_staff_who_reply": true
+        },
+        "terms_url": "https://www.aw-dropship.eu/terms-and-conditions"
+      },
+      "theme": {
+        "color": [
+          "#0F1626",
+          "#FFFFFF",
+          "#1e293b",
+          "#f1f5f9",
+          "#0f172a",
+          "#e2e8f0",
+          "#cccccc",
+          "#424242"
+        ],
+        "layout": "fullscreen",
+        "container": {
+          "properties": {
+            "text": {
+              "fontFamily": "'Raleway', sans-serif"
+            },
+            "padding": {
+              "mobile": {
+                "top": {
+                  "value": null
+                },
+                "left": {
+                  "value": 10
+                },
+                "unit": "px",
+                "right": {
+                  "value": 10
+                },
+                "bottom": {
+                  "value": null
+                }
+              },
+              "tablet": {
+                "top": {
+                  "value": null
+                },
+                "left": {
+                  "value": 25
+                },
+                "unit": "px",
+                "right": {
+                  "value": 25
+                },
+                "bottom": {
+                  "value": null
+                }
+              },
+              "desktop": {
+                "top": {
+                  "value": 10
+                },
+                "left": {
+                  "value": 50
+                },
+                "unit": "px",
+                "right": {
+                  "value": 50
+                },
+                "bottom": {
+                  "value": 10
+                }
+              }
+            },
+            "background": {
+              "type": "color",
+              "color": "rgba(255, 255, 255, 1)",
+              "image": {
+                "original": null
+              }
+            }
+          }
+        }
+      },
+      "is_have_gtm": true,
+      "currency": {
+        "code": "EUR",
+        "symbol": "€",
+        "name": "Euro"
+      },
+      "show_price": false,
+      "sound_player_style": "rainbow",
+      "locale": "en",
+      "website_i18n": {
+        "current_language": {
+          "id": 68,
+          "code": "en",
+          "name": "English",
+          "native_name": "English",
+          "flag": "gb.png"
+        },
+        "shop_language": {
+          "id": 68,
+          "code": "en",
+          "name": "English",
+          "native_name": "English",
+          "flag": "gb.png"
+        }
+      },
+      "migration_redirect": null,
+      "google": {
+        "client_id": "627235140872-2pbbrb6mlnj5g06us8t9fsph25h0je7f.apps.googleusercontent.com"
+      }
+    },
+    "retina": {
+      "type": "dropshipping",
+      "organisation": "sk"
+    },
+    "layout": {
+      "app_theme": [
+        "#0F1626",
+        "#FFFFFF",
+        "#1e293b",
+        "#f1f5f9",
+        "#0f172a",
+        "#e2e8f0",
+        "#cccccc",
+        "#424242"
+      ]
+    },
+    "outboxes": {
+      "oos_notification": {
+        "id": 284,
+        "state": "active"
+      }
+    },
+    "flash": {
+      "notification": null,
+      "modal": null
+    },
+    "announcements": [
+      {
+        "ulid": "01KC1R3RYN16ZKCQVSYG4NQQN1",
+        "name": "Christmas Opening Hours",
+        "show_pages": [
+          "all"
+        ],
+        "hide_pages": [],
+        "container_properties": {
+          "link": {
+            "href": "#",
+            "target": "_blank"
+          },
+          "text": {
+            "color": "rgba(10,10,10,1)",
+            "fontFamily": "'Raleway', sans-serif"
+          },
+          "border": {
+            "top": {
+              "value": 0
+            },
+            "left": {
+              "value": 0
+            },
+            "unit": "px",
+            "color": "rgba(243, 243, 243, 1)",
+            "right": {
+              "value": 0
+            },
+            "bottom": {
+              "value": 0
+            },
+            "rounded": {
+              "unit": "px",
+              "topleft": {
+                "value": 0
+              },
+              "topright": {
+                "value": 0
+              },
+              "bottomleft": {
+                "value": 0
+              },
+              "bottomright": {
+                "value": 0
+              }
+            }
+          },
+          "margin": {
+            "top": {
+              "value": 0
+            },
+            "left": {
+              "value": 0
+            },
+            "unit": "px",
+            "right": {
+              "value": 0
+            },
+            "bottom": {
+              "value": 0
+            }
+          },
+          "padding": {
+            "top": {
+              "value": 20
+            },
+            "left": {
+              "value": 20
+            },
+            "unit": "px",
+            "right": {
+              "value": 20
+            },
+            "bottom": {
+              "value": 20
+            }
+          },
+          "position": {
+            "x": "0%",
+            "y": "0px",
+            "type": "relative"
+          },
+          "dimension": {
+            "width": {
+              "unit": "%",
+              "value": 100
+            },
+            "height": {
+              "unit": "px",
+              "value": 0
+            },
+            "desktop": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 65
+              }
+            }
+          },
+          "background": {
+            "type": "color",
+            "color": "rgba(3, 3, 3, 1)",
+            "image": {
+              "source": {
+                "png": "https://media.aiku.io/j09KGLVXG5oz1ypS5ckg9is88436x_eaWcNnc3evbKg/bG9jYWw6Ly9tZWRpYS85Ti82RS82MFIzMEMxSjY0VEs2RTlOLzExMGJmZDczLmpwZw.png",
+                "avif": "https://media.aiku.io/7-nvfUk9vIDhBSajwfMkohL5uy8E7bCrrT-X8Jmv9FM/bG9jYWw6Ly9tZWRpYS85Ti82RS82MFIzMEMxSjY0VEs2RTlOLzExMGJmZDczLmpwZw.avif",
+                "webp": "https://media.aiku.io/PDFkLYF-I189dfzhRvWtQWJPzpCywgavKyWimefU-pI/bG9jYWw6Ly9tZWRpYS85Ti82RS82MFIzMEMxSjY0VEs2RTlOLzExMGJmZDczLmpwZw.webp",
+                "original": "https://media.aiku.io/V6mG_zmGZRnivKRlIE3hO256NDAxWLEC4pejFuIz2DI/bG9jYWw6Ly9tZWRpYS85Ti82RS82MFIzMEMxSjY0VEs2RTlOLzExMGJmZDczLmpwZw"
+              }
+            },
+            "gradient": {
+              "type": "linear",
+              "angle": "to right",
+              "value": "linear-gradient(90deg, rgba(221,245,254,1) 0%, rgba(252,247,255,1) 16%, rgba(255,252,246,1) 35%, rgba(248,240,255,1) 57%, rgba(255,250,246,1) 83%)",
+              "colors": [
+                "rgba(221,245,254,1)",
+                "rgba(252,247,255,1)",
+                "rgba(255,252,246,1)",
+                "rgba(248,240,255,1)",
+                "rgba(255,250,246,1)"
+              ]
+            }
+          },
+          "isCenterHorizontal": false
+        },
+        "fields": {
+          "text_1": {
+            "text": "<p><span style=\"color: rgb(255, 255, 255);\"><strong>Festive demand may extend shipping times until Christmas.</strong></span></p><p></p>",
+            "block_properties": {
+              "position": {
+                "x": "50%",
+                "y": "50%",
+                "type": "absolute"
+              }
+            }
+          },
+          "text_2": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet nisi at elit venenatis fringilla. Cras ut semper quam, sit.</p>",
+            "block_properties": {
+              "position": {
+                "x": "20%",
+                "y": "30%",
+                "type": "absolute"
+              }
+            }
+          },
+          "button_1": {
+            "link": {
+              "id": null,
+              "url": null,
+              "data": [],
+              "href": "https://www.aw-dropship.eu/shipping",
+              "type": "external",
+              "target": "_self",
+              "workshop": null,
+              "image_alt": null,
+              "canonical_url": null
+            },
+            "text": "Shipping Zones",
+            "container": {
+              "properties": {
+                "text": {
+                  "color": "rgba(0, 0, 0, 1)",
+                  "fontFamily": "Arial, sans-serif"
+                },
+                "border": {
+                  "top": {
+                    "value": 0
+                  },
+                  "left": {
+                    "value": 0
+                  },
+                  "unit": "px",
+                  "color": "#000000",
+                  "right": {
+                    "value": 0
+                  },
+                  "bottom": {
+                    "value": 0
+                  },
+                  "rounded": {
+                    "unit": "px",
+                    "topleft": {
+                      "value": 4
+                    },
+                    "topright": {
+                      "value": 4
+                    },
+                    "bottomleft": {
+                      "value": 4
+                    },
+                    "bottomright": {
+                      "value": 4
+                    }
+                  }
+                },
+                "margin": {
+                  "top": {
+                    "value": 0
+                  },
+                  "left": {
+                    "value": 0
+                  },
+                  "unit": "px",
+                  "right": {
+                    "value": 0
+                  },
+                  "bottom": {
+                    "value": 0
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "value": 3
+                  },
+                  "left": {
+                    "value": 15
+                  },
+                  "unit": "px",
+                  "right": {
+                    "value": 15
+                  },
+                  "bottom": {
+                    "value": 3
+                  }
+                },
+                "background": {
+                  "type": "color",
+                  "color": "rgba(255, 255, 255, 1)",
+                  "image": {
+                    "original": null
+                  }
+                }
+              }
+            }
+          },
+          "close_button": {
+            "size": "0.5",
+            "block_properties": {
+              "text": {
+                "color": "rgba(0, 0, 0, 0.5)"
+              },
+              "position": {
+                "x": "97%",
+                "y": "50%",
+                "type": "absolute"
+              }
+            }
+          }
+        },
+        "schedule_at": null,
+        "schedule_finish_at": "2026-12-24T13:40:00.000000Z",
+        "resumes_at": null,
+        "settings": {
+          "position": "top-bar",
+          "target_pages": {
+            "type": "all",
+            "specific": []
+          },
+          "target_users": {
+            "auth_state": "all"
+          }
+        },
+        "template_code": "announcement-promo-1"
+      }
+    ],
+    "website_dialogs": [],
+    "show_contact_options_panel": true,
+    "contact_options_panel": [
+      {
+        "url": "mailto:hello@aw-dropship.eu",
+        "icon": [
+          "fal",
+          "envelope"
+        ],
+        "label": "Email Us"
+      },
+      {
+        "url": "https://www.aw-dropship.eu/tutorials",
+        "icon": [
+          "fab",
+          "youtube"
+        ],
+        "label": "Tutorials"
+      },
+      {
+        "url": "https://aw-dropship.info/",
+        "icon": [
+          "fal",
+          "lightbulb"
+        ],
+        "label": "Dropship Knowledge Hub"
+      },
+      {
+        "url": "https://www.aw-dropship.eu/shipping",
+        "icon": [
+          "fal",
+          "truck"
+        ],
+        "label": "Delivery Info"
+      },
+      {
+        "url": "https://www.aw-dropship.eu/faq",
+        "icon": [
+          "fal",
+          "question-circle"
+        ],
+        "label": "FAQ"
+      }
+    ],
+    "appointment_types": [],
+    "canonical_url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20",
+    "phpComponent": null,
+    "breadcrumbs": [
+      {
+        "type": "simple",
+        "simple": {
+          "icon": "fal fa-home",
+          "url": "/"
+        }
+      },
+      {
+        "type": "simple",
+        "simple": {
+          "short_label": "home",
+          "label": "Gifts for Home and Garden",
+          "url": "https://www.aw-dropship.eu/homeware"
+        }
+      },
+      {
+        "type": "simple",
+        "simple": {
+          "short_label": "sd-rugs",
+          "label": "Rugs & Soft Furnishings",
+          "url": "https://www.aw-dropship.eu/homeware/sd-rugs"
+        }
+      },
+      {
+        "type": "simple",
+        "simple": {
+          "short_label": "CICC",
+          "label": "Classic Cushion Cover",
+          "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc"
+        }
+      },
+      {
+        "type": "simple",
+        "simple": {
+          "short_label": "CICC-20",
+          "label": "CICC-20",
+          "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
+        }
+      }
+    ],
+    "navigation": {
+      "previous": {
+        "label": "Classic Cushion Cover - Urban Swirl- 30x50cm - Lumber Style",
+        "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-21"
+      },
+      "next": {
+        "label": "Classic Cushion Cover - Marigold Loom - 45x45cm",
+        "url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
+      }
+    },
+    "webpage_data": {
+      "seo_data": {
+        "image_alt": "Classic Cushion Cover - Mustard Diamonds - 45x45cm"
+      },
+      "seo_image_alt": "Classic Cushion Cover - Mustard Diamonds - 45x45cm",
+      "title": "Classic Cushion Cover - Mustard Diamonds - 45x45cm",
+      "description": null,
+      "canonical_url": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20",
+      "hreflang": {
+        "locale": "en_GB",
+        "alternates": []
+      },
+      "type": "catalogue",
+      "sub_type": "product",
+      "model_type": "Product",
+      "model_slug": "cicc-20-dssk",
+      "product_page": {
+        "department": {
+          "name": "Home & Garden",
+          "webpage_title": "Gifts for Home and Garden"
+        }
+      }
+    },
+    "webpage_img": {
+      "original": "https://www.aw-dropship.eu/i/4vdt/oLjtfE42/1200x1200.jpg",
+      "avif": "https://www.aw-dropship.eu/i/4vdt/WGWQGkEe/1200x1200.avif",
+      "png": "https://www.aw-dropship.eu/i/4vdt/bTqStJMr/1200x1200.png",
+      "avif_2x": "https://www.aw-dropship.eu/i/4vdt/lq3odLWy/2400x2400.avif",
+      "png_2x": "https://www.aw-dropship.eu/i/4vdt/Iyf_-TmE/2400x2400.png",
+      "original_2x": "https://www.aw-dropship.eu/i/4vdt/gDasIwK-/2400x2400.jpg"
+    },
+    "index_page": true,
+    "follow_link": true,
+    "webpage_slug": "cicc-20-dssk",
+    "webpage_id": 278941,
+    "allow_review_reaction": true,
+    "allow_review_reply_reaction": true,
+    "minimum_reviews_to_show": 0,
+    "webpage_reviews_count": 0,
+    "show_staff_who_reply": true,
+    "status": "ok",
+    "web_blocks": [
+      {
+        "type": "product-1",
+        "structure": {
+          "product": {
+            "slug": "cicc-20-dssk",
+            "code": "CICC-20",
+            "family_id": 20033,
+            "family_code": "CICC",
+            "name": "Classic Cushion Cover - Mustard Diamonds - 45x45cm",
+            "description": "<p>Add a bold yet timeless accent to your home with the Classic Cushion Cover – Mustard Diamonds. Featuring a striking diamond pattern in warm mustard tones, this cushion instantly brings energy and style to any space.</p>",
+            "description_title": null,
+            "description_extra": "<p>The geometric design offers a perfect balance between modern and boho aesthetics, making it easy to pair with both neutral and colourful interiors. Whether styled on a sofa, bed, or accent chair, it creates a fresh focal point while still feeling cosy and inviting.</p><p>Ideal for layering with other textures or using as a statement piece, this cushion cover is a simple way to refresh your décor with warmth, pattern, and contemporary charm.</p>",
+            "stock": 383,
+            "specifications": {
+              "countries_of_origin": [
+                {
+                  "name": "India",
+                  "code": "IN"
+                }
+              ],
+              "ingredients": null,
+              "gross_weight": 200,
+              "barcode": "5056368363696",
+              "dimensions": "45x45 (cm)",
+              "cpnp": null,
+              "marketing_weight": 200,
+              "unit": "cover"
+            },
+            "contents": [],
+            "id": 465321,
+            "image_id": 227297,
+            "currency_code": "EUR",
+            "price": "7.50",
+            "price_per_unit": 7.5,
+            "status": "for-sale",
+            "status_label": "For Sale",
+            "state": "active",
+            "units": 1,
+            "unit": "cover",
+            "web_images": {
+              "v": "1.1",
+              "all": [
+                {
+                  "gallery": {
+                    "png": "https://www.aw-dropship.eu/i/4vdt/3dGI64VY/0x600.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdt/IlGWRKxV/0x600.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdt/BsWkRZlr/0x1200.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdt/F3pJS6O6/0x1200.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdt/l4WhQWk0/0x600.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdt/BjaDF6kM/0x1200.jpg"
+                  },
+                  "original": {
+                    "png": "https://www.aw-dropship.eu/i/4vdt/v-xvgAnZ.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdt/TkqCzcrv.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdt/XS7mCG4l.jpg"
+                  },
+                  "thumbnail": {
+                    "png": "https://www.aw-dropship.eu/i/4vdt/VD9mifmN/0x48.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdt/iQr4eRey/0x48.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdt/oMof3-r1/0x96.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdt/mCQmL9vF/0x96.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdt/bVT-sUtE/0x48.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdt/9CzZUlWD/0x96.jpg"
+                  }
+                },
+                {
+                  "gallery": {
+                    "png": "https://www.aw-dropship.eu/i/4vdx/MM0NY17X/0x600.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdx/i59dwEVp/0x600.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdx/YBUz2SFZ/0x1200.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdx/ven4nVQO/0x1200.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdx/HMectw5S/0x600.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdx/YTxffDKG/0x1200.jpg"
+                  },
+                  "original": {
+                    "png": "https://www.aw-dropship.eu/i/4vdx/oYydMF0T.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdx/OI73vity.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdx/RQVh19Lc.jpg"
+                  },
+                  "thumbnail": {
+                    "png": "https://www.aw-dropship.eu/i/4vdx/6ocvH7_P/0x48.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdx/T4qCAyJp/0x48.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdx/Q0yg-nKZ/0x96.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdx/8T5jsw-J/0x96.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdx/KlLrvhCW/0x48.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdx/xmd1dHTc/0x96.jpg"
+                  }
+                },
+                {
+                  "gallery": {
+                    "png": "https://www.aw-dropship.eu/i/4vdw/k2usEauN/0x600.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdw/NTO0X4o0/0x600.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdw/nuHL68_q/0x1200.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdw/VEm7dquI/0x1200.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdw/e4bgWtfE/0x600.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdw/9rypX7-Z/0x1200.jpg"
+                  },
+                  "original": {
+                    "png": "https://www.aw-dropship.eu/i/4vdw/amdkOq8-.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdw/qYmmBr2-.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdw/bVhIvsFi.jpg"
+                  },
+                  "thumbnail": {
+                    "png": "https://www.aw-dropship.eu/i/4vdw/tRJDfhoC/0x48.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdw/ZPx11Z_v/0x48.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdw/KffF1UpK/0x96.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdw/Ky5lHG4z/0x96.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdw/YnqDw9W_/0x48.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdw/fOZ-pBQW/0x96.jpg"
+                  }
+                },
+                {
+                  "gallery": {
+                    "png": "https://www.aw-dropship.eu/i/4veh/VV7atlbV/0x600.png",
+                    "avif": "https://www.aw-dropship.eu/i/4veh/KTv13elg/0x600.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4veh/PHWz4WW3/0x1200.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4veh/lTTUqwjf/0x1200.avif",
+                    "original": "https://www.aw-dropship.eu/i/4veh/f2yb11f-/0x600.png",
+                    "original_2x": "https://www.aw-dropship.eu/i/4veh/fXpBNTUD/0x1200.png"
+                  },
+                  "original": {
+                    "png": "https://www.aw-dropship.eu/i/4veh/p3KsmGXR.png",
+                    "avif": "https://www.aw-dropship.eu/i/4veh/tvkF0EYR.avif",
+                    "original": "https://www.aw-dropship.eu/i/4veh/vyUYjeA6.png"
+                  },
+                  "thumbnail": {
+                    "png": "https://www.aw-dropship.eu/i/4veh/FW5NyXS-/0x48.png",
+                    "avif": "https://www.aw-dropship.eu/i/4veh/RENYb3Jw/0x48.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4veh/HHWwtS9t/0x96.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4veh/ROnIwt0a/0x96.avif",
+                    "original": "https://www.aw-dropship.eu/i/4veh/H9DDsV7h/0x48.png",
+                    "original_2x": "https://www.aw-dropship.eu/i/4veh/6_PFOyTu/0x96.png"
+                  }
+                },
+                {
+                  "gallery": {
+                    "png": "https://www.aw-dropship.eu/i/4vdu/qcg5FbCM/0x600.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdu/Wz5KGM0Y/0x600.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdu/BJsmW9a4/0x1200.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdu/Bvb6a77S/0x1200.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdu/9dfiDYVP/0x600.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdu/pMFU2qsS/0x1200.jpg"
+                  },
+                  "original": {
+                    "png": "https://www.aw-dropship.eu/i/4vdu/bbRdVShM.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdu/KZi2VIRM.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdu/EjMy5yOE.jpg"
+                  },
+                  "thumbnail": {
+                    "png": "https://www.aw-dropship.eu/i/4vdu/PCafz-5Q/0x48.png",
+                    "avif": "https://www.aw-dropship.eu/i/4vdu/TpLjwgGo/0x48.avif",
+                    "png_2x": "https://www.aw-dropship.eu/i/4vdu/rgUEWtYH/0x96.png",
+                    "avif_2x": "https://www.aw-dropship.eu/i/4vdu/b9A7k0eD/0x96.avif",
+                    "original": "https://www.aw-dropship.eu/i/4vdu/cs1cOD_K/0x48.jpg",
+                    "original_2x": "https://www.aw-dropship.eu/i/4vdu/75VIM-jd/0x96.jpg"
+                  }
+                }
+              ],
+              "main": {
+                "gallery": {
+                  "png": "https://www.aw-dropship.eu/i/4vdt/3dGI64VY/0x600.png",
+                  "avif": "https://www.aw-dropship.eu/i/4vdt/IlGWRKxV/0x600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdt/BsWkRZlr/0x1200.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdt/F3pJS6O6/0x1200.avif",
+                  "original": "https://www.aw-dropship.eu/i/4vdt/l4WhQWk0/0x600.jpg",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdt/BjaDF6kM/0x1200.jpg"
+                },
+                "original": {
+                  "png": "https://www.aw-dropship.eu/i/4vdt/v-xvgAnZ.png",
+                  "avif": "https://www.aw-dropship.eu/i/4vdt/TkqCzcrv.avif",
+                  "original": "https://www.aw-dropship.eu/i/4vdt/XS7mCG4l.jpg"
+                },
+                "thumbnail": {
+                  "png": "https://www.aw-dropship.eu/i/4vdt/VD9mifmN/0x48.png",
+                  "avif": "https://www.aw-dropship.eu/i/4vdt/iQr4eRey/0x48.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdt/oMof3-r1/0x96.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdt/mCQmL9vF/0x96.avif",
+                  "original": "https://www.aw-dropship.eu/i/4vdt/bVT-sUtE/0x48.jpg",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdt/9CzZUlWD/0x96.jpg"
+                }
+              },
+              "showcase": [],
+              "secondary": {
+                "gallery": {
+                  "png": "https://www.aw-dropship.eu/i/4vdw/k2usEauN/0x600.png",
+                  "avif": "https://www.aw-dropship.eu/i/4vdw/NTO0X4o0/0x600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdw/nuHL68_q/0x1200.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdw/VEm7dquI/0x1200.avif",
+                  "original": "https://www.aw-dropship.eu/i/4vdw/e4bgWtfE/0x600.jpg",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdw/9rypX7-Z/0x1200.jpg"
+                },
+                "original": {
+                  "png": "https://www.aw-dropship.eu/i/4vdw/amdkOq8-.png",
+                  "avif": "https://www.aw-dropship.eu/i/4vdw/qYmmBr2-.avif",
+                  "original": "https://www.aw-dropship.eu/i/4vdw/bVhIvsFi.jpg"
+                },
+                "thumbnail": {
+                  "png": "https://www.aw-dropship.eu/i/4vdw/tRJDfhoC/0x48.png",
+                  "avif": "https://www.aw-dropship.eu/i/4vdw/ZPx11Z_v/0x48.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdw/KffF1UpK/0x96.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdw/Ky5lHG4z/0x96.avif",
+                  "original": "https://www.aw-dropship.eu/i/4vdw/YnqDw9W_/0x48.jpg",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdw/fOZ-pBQW/0x96.jpg"
+                }
+              },
+              "description": [],
+              "extraDescription": []
+            },
+            "audio": null,
+            "created_at": "2026-04-02T13:49:42.000000Z",
+            "updated_at": "2026-10-23T03:03:27.000000Z",
+            "images": [
+              {
+                "label": "Main",
+                "type": "image",
+                "column_in_db": "image_id",
+                "id": 227297,
+                "images": {
+                  "original": "https://www.aw-dropship.eu/i/4vdt/i5Oxk7IT/800x800.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdt/CjvXtZSa/800x800.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdt/os5uRqNX/800x800.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdt/FXfaQn-4/1600x1600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdt/j-s-kijW/1600x1600.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdt/EKAoQ9FI/1600x1600.jpg"
+                },
+                "thumbnail": {
+                  "original": "https://www.aw-dropship.eu/i/4vdt/WP151RyF/0x192.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdt/pYMSIwQa/0x192.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdt/1YoSZNm7/0x192.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdt/AqlUFrr7/0x384.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdt/1h2v1dz5/0x384.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdt/g__6XAkM/0x384.jpg"
+                },
+                "zoom": {
+                  "original": "https://www.aw-dropship.eu/i/4vdt/EKAoQ9FI/1600x1600.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdt/FXfaQn-4/1600x1600.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdt/j-s-kijW/1600x1600.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdt/U1oS-JnE/3200x3200.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdt/CbiuU4sM/3200x3200.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdt/3ghtDxKD/3200x3200.jpg"
+                },
+                "dimensions": {
+                  "width": 2000,
+                  "height": 2000
+                },
+                "alt": null
+              },
+              {
+                "label": "Video",
+                "type": "video",
+                "information": "You can use YouTube or Vimeo links",
+                "column_in_db": "video_url",
+                "url": null
+              },
+              {
+                "label": "Front side",
+                "type": "image",
+                "column_in_db": "front_image_id",
+                "id": 227300,
+                "images": {
+                  "original": "https://www.aw-dropship.eu/i/4vdw/m6BYdYin/800x800.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdw/q3_NaFo3/800x800.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdw/kc0xw8I6/800x800.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdw/yDmXicLj/1600x1600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdw/wGRcr4oz/1600x1600.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdw/xBz45d81/1600x1600.jpg"
+                },
+                "thumbnail": {
+                  "original": "https://www.aw-dropship.eu/i/4vdw/S1fNf6c1/0x192.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdw/4OtO0Npf/0x192.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdw/3els03mP/0x192.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdw/6plTMhe0/0x384.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdw/Vo7kgzAb/0x384.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdw/Ujuqvia_/0x384.jpg"
+                },
+                "zoom": {
+                  "original": "https://www.aw-dropship.eu/i/4vdw/xBz45d81/1600x1600.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdw/yDmXicLj/1600x1600.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdw/wGRcr4oz/1600x1600.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdw/lG_J-5-b/3200x3200.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdw/-4Q350yu/3200x3200.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdw/Zs99ROEv/3200x3200.jpg"
+                },
+                "dimensions": {
+                  "width": 2000,
+                  "height": 2000
+                },
+                "alt": null
+              },
+              {
+                "label": "Left side",
+                "type": "image",
+                "column_in_db": "left_image_id",
+                "id": 227321,
+                "images": {
+                  "original": "https://www.aw-dropship.eu/i/4veh/WjUJwUdc/800x800.png",
+                  "avif": "https://www.aw-dropship.eu/i/4veh/RfWo27wc/800x800.avif",
+                  "png": "https://www.aw-dropship.eu/i/4veh/3_mbD8KR/800x800.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4veh/YMYJfTKs/1600x1600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4veh/J2aCpGHa/1600x1600.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4veh/Hgi8frPd/1600x1600.png"
+                },
+                "thumbnail": {
+                  "original": "https://www.aw-dropship.eu/i/4veh/-ThKgPUj/0x192.png",
+                  "avif": "https://www.aw-dropship.eu/i/4veh/PC0gQFwT/0x192.avif",
+                  "png": "https://www.aw-dropship.eu/i/4veh/cGjaaZEe/0x192.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4veh/i9la4dEF/0x384.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4veh/Zz22Hk0E/0x384.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4veh/4OgJ_pIU/0x384.png"
+                },
+                "zoom": {
+                  "original": "https://www.aw-dropship.eu/i/4veh/Hgi8frPd/1600x1600.png",
+                  "avif": "https://www.aw-dropship.eu/i/4veh/YMYJfTKs/1600x1600.avif",
+                  "png": "https://www.aw-dropship.eu/i/4veh/J2aCpGHa/1600x1600.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4veh/12I16TVp/3200x3200.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4veh/McpoAKL9/3200x3200.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4veh/vRaG5RmU/3200x3200.png"
+                },
+                "dimensions": {
+                  "width": 2000,
+                  "height": 2000
+                },
+                "alt": null
+              },
+              {
+                "label": "3/4 angle side",
+                "type": "image",
+                "column_in_db": "34_image_id",
+                "id": 227301,
+                "images": {
+                  "original": "https://www.aw-dropship.eu/i/4vdx/a86ziUmY/800x800.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdx/roBpuqlY/800x800.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdx/xJCkbEp7/800x800.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdx/s7505Dw1/1600x1600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdx/jhKVcrOU/1600x1600.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdx/jNLr-tyg/1600x1600.jpg"
+                },
+                "thumbnail": {
+                  "original": "https://www.aw-dropship.eu/i/4vdx/i5dGQogo/0x192.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdx/jMoFMTyN/0x192.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdx/37qxjUo5/0x192.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdx/0v4Ou7N6/0x384.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdx/icgklZZa/0x384.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdx/K-5ji9Oc/0x384.jpg"
+                },
+                "zoom": {
+                  "original": "https://www.aw-dropship.eu/i/4vdx/jNLr-tyg/1600x1600.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdx/s7505Dw1/1600x1600.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdx/jhKVcrOU/1600x1600.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdx/ovilnb-e/3200x3200.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdx/BdT0H8vo/3200x3200.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdx/hx_eK7-H/3200x3200.jpg"
+                },
+                "dimensions": {
+                  "width": 2000,
+                  "height": 2000
+                },
+                "alt": null
+              },
+              {
+                "label": "Right side",
+                "type": "image",
+                "column_in_db": "right_image_id",
+                "id": 227298,
+                "images": {
+                  "original": "https://www.aw-dropship.eu/i/4vdu/olubPljT/800x800.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdu/_pTm-gvt/800x800.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdu/H-lWsECY/800x800.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdu/z0UrdVRM/1600x1600.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdu/_G-cPxtx/1600x1600.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdu/YgbGPjoB/1600x1600.jpg"
+                },
+                "thumbnail": {
+                  "original": "https://www.aw-dropship.eu/i/4vdu/FWQobDM8/0x192.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdu/0UZzAV1-/0x192.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdu/MRh1rmBX/0x192.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdu/v3y-QRZC/0x384.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdu/GHcHgDlO/0x384.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdu/M-3yrz7c/0x384.jpg"
+                },
+                "zoom": {
+                  "original": "https://www.aw-dropship.eu/i/4vdu/YgbGPjoB/1600x1600.jpg",
+                  "avif": "https://www.aw-dropship.eu/i/4vdu/z0UrdVRM/1600x1600.avif",
+                  "png": "https://www.aw-dropship.eu/i/4vdu/_G-cPxtx/1600x1600.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4vdu/AElPjmaB/3200x3200.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4vdu/J49cXtPM/3200x3200.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4vdu/9JKXwQdo/3200x3200.jpg"
+                },
+                "dimensions": {
+                  "width": 2000,
+                  "height": 2000
+                },
+                "alt": null
+              },
+              {
+                "label": "Back side",
+                "type": "image",
+                "column_in_db": "back_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Top side",
+                "type": "image",
+                "column_in_db": "top_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Bottom side",
+                "type": "image",
+                "column_in_db": "bottom_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Comparison image",
+                "type": "image",
+                "column_in_db": "size_comparison_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Lifestyle image",
+                "type": "image",
+                "column_in_db": "lifestyle_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Art 1",
+                "type": "image",
+                "column_in_db": "art1_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Art 2",
+                "type": "image",
+                "column_in_db": "art2_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Art 3",
+                "type": "image",
+                "column_in_db": "art3_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Art 4",
+                "type": "image",
+                "column_in_db": "art4_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Art 5",
+                "type": "image",
+                "column_in_db": "art5_image_id",
+                "id": null,
+                "images": null,
+                "thumbnail": null,
+                "zoom": null,
+                "dimensions": {
+                  "width": 0,
+                  "height": 0
+                },
+                "alt": null
+              },
+              {
+                "label": "Sound sample",
+                "type": "audio",
+                "information": "Audio sample, e.g. for musical instruments or singing bowls",
+                "column_in_db": "audio_id",
+                "id": null,
+                "audio": null
+              }
+            ],
+            "tags": [
+              {
+                "id": 5,
+                "slug": "100-cotton",
+                "name": "100% Cotton",
+                "image": {
+                  "png": "https://www.aw-dropship.eu/i/4ftd/4tKSSTTe/30x30.png",
+                  "avif": "https://www.aw-dropship.eu/i/4ftd/Q1Q_h1D3/30x30.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4ftd/TmbEydqu/60x60.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4ftd/DEk2CfSX/60x60.avif",
+                  "original": "https://www.aw-dropship.eu/i/4ftd/OPw4heAT/30x30.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4ftd/amUEkpQS/60x60.png"
+                },
+                "label": "100% Cotton"
+              },
+              {
+                "id": 16,
+                "slug": "handmade",
+                "name": "Handmade",
+                "image": {
+                  "png": "https://www.aw-dropship.eu/i/4fto/CGePwW1k/30x30.png",
+                  "avif": "https://www.aw-dropship.eu/i/4fto/FqFhFwSY/30x30.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4fto/06u6q4EY/60x60.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4fto/3O1br0sg/60x60.avif",
+                  "original": "https://www.aw-dropship.eu/i/4fto/YBQL5Yi9/30x30.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4fto/HzAOjzLD/60x60.png"
+                },
+                "label": "Handmade"
+              },
+              {
+                "id": 17,
+                "slug": "made-in-india",
+                "name": "Made In India",
+                "image": {
+                  "png": "https://www.aw-dropship.eu/i/4ftp/G1SCpVmX/30x30.png",
+                  "avif": "https://www.aw-dropship.eu/i/4ftp/7uEnpwNl/30x30.avif",
+                  "png_2x": "https://www.aw-dropship.eu/i/4ftp/xOr1KLfp/60x60.png",
+                  "avif_2x": "https://www.aw-dropship.eu/i/4ftp/x3vCRlHo/60x60.avif",
+                  "original": "https://www.aw-dropship.eu/i/4ftp/UheYVLu3/30x30.png",
+                  "original_2x": "https://www.aw-dropship.eu/i/4ftp/CIBBnbf_/60x60.png"
+                },
+                "label": "Made In India"
+              }
+            ],
+            "is_coming_soon": false,
+            "is_on_demand": false,
+            "is_golden_product": false,
+            "is_back_in_stock": false,
+            "expected_back_in_stock_at": null,
+            "expected_back_in_stock_is_estimate": false,
+            "back_in_stock": false,
+            "pre_order": null,
+            "discounted_price": 7.5,
+            "discounted_price_per_unit": 7.5,
+            "discounted_percentage": "0%",
+            "is_single_trade_unit": true,
+            "marketing_material_route": {
+              "name": "iris.catalogue.feeds.product.download_img",
+              "parameters": {
+                "product": "cicc-20-dssk",
+                "type": "products_images"
+              }
+            },
+            "allow_stocks_to_be_shown_on_iris": true,
+            "allow_incoming_stocks_to_be_shown_on_iris": true,
+            "incoming_stock": [],
+            "label_info": {
+              "markets": {
+                "show": false,
+                "label": "Markets",
+                "value": []
+              },
+              "batch_number": {
+                "show": false,
+                "label": "Batch Number",
+                "value": false
+              },
+              "country_of_origin": {
+                "show": true,
+                "label": "Country Of Origin",
+                "value": {
+                  "code": "IN",
+                  "name": "India"
+                }
+              },
+              "barcode": {
+                "show": true,
+                "label": "Barcode / EAN",
+                "value": "5056368363696"
+              },
+              "manufacturer": {
+                "show": false,
+                "label": "Manufacturer Details",
+                "value": null
+              },
+              "uk_responsible_person": {
+                "show": false,
+                "label": "UK Responsible Person",
+                "value": {
+                  "name": "Ancient Wisdom Ltd",
+                  "address": "Affinity Park, Europa Drive, Sheffield S9 1XT, United Kingdom",
+                  "email": null
+                }
+              },
+              "eu_responsible_person": {
+                "show": false,
+                "label": "EU Responsible Person",
+                "value": {
+                  "name": "Ancient Wisdom s.r.o.",
+                  "address": "Prílohy 583/57, 919 26 Zavar, Slovensko",
+                  "email": "contact@awgifts.eu"
+                }
+              },
+              "languages": {
+                "show": false,
+                "label": "Languages",
+                "value": []
+              },
+              "best_before": {
+                "show": false,
+                "label": "PAO / Expiry Date / Best Before",
+                "value": null
+              },
+              "ingredients": {
+                "show": false,
+                "label": "Ingredients",
+                "value": null
+              },
+              "direction_for_use": {
+                "show": false,
+                "label": "Direction For Use",
+                "value": null
+              },
+              "warnings_and_precautions": {
+                "show": false,
+                "label": "Warning & Precautions",
+                "value": null
+              },
+              "clp_ghs_pictograms": {
+                "show": false,
+                "label": "CLP / GHS Pictograms",
+                "value": []
+              },
+              "ufi_number": {
+                "show": false,
+                "label": "UFI Number",
+                "value": null
+              },
+              "safety_icons": {
+                "show": false,
+                "label": "Safety Icons",
+                "value": false
+              },
+              "net_quantity": {
+                "show": true,
+                "label": "Net Quantity",
+                "value": {
+                  "grams": 200,
+                  "formatted": "200 g"
+                }
+              },
+              "packaging_material_codes": {
+                "show": false,
+                "label": "Packaging Material Codes",
+                "value": []
+              },
+              "ce_marking": {
+                "show": false,
+                "label": "CE Markings",
+                "value": false,
+                "mark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+PHBhdGggZD0iTTQyIDE0IEEzNiAzNiAwIDAgMCA0MiA4NiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjkiLz48cGF0aCBkPSJNOTQgMTQgQTM2IDM2IDAgMCAwIDk0IDg2IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iOSIvPjxsaW5lIHgxPSI1OCIgeTE9IjUwIiB4Mj0iODgiIHkyPSI1MCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjkiLz48L3N2Zz4="
+              },
+              "ukca_marking": {
+                "show": false,
+                "label": "UKCA Marking",
+                "value": false
+              },
+              "weee_symbol": {
+                "show": false,
+                "label": "WEEE Symbol",
+                "value": false,
+                "mark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+PHBhdGggZD0iTTMwIDMwIEw3MCAzMCBMNjYgODAgTDM0IDgwIFoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGxpbmUgeDE9IjI0IiB5MT0iMjQiIHgyPSI3NiIgeTI9IjI0IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iNSIvPjxsaW5lIHgxPSI0MiIgeTE9IjE4IiB4Mj0iNTgiIHkyPSIxOCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48Y2lyY2xlIGN4PSIzOCIgY3k9Ijg1IiByPSI1IiBmaWxsPSIjMDAwIi8+PGxpbmUgeDE9IjEyIiB5MT0iMTAiIHgyPSI4OCIgeTI9Ijg4IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iNSIvPjxsaW5lIHgxPSI4OCIgeTE9IjEwIiB4Mj0iMTIiIHkyPSI4OCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48cmVjdCB4PSIxNCIgeT0iOTIiIHdpZHRoPSI3MiIgaGVpZ2h0PSI3IiBmaWxsPSIjMDAwIi8+PC9zdmc+"
+              },
+              "ip_rating": {
+                "show": false,
+                "label": "IP Rating",
+                "value": false
+              },
+              "sorting_recycling_information": {
+                "show": false,
+                "label": "Sorting / Recycling Information",
+                "value": false
+              }
+            },
+            "is_label_info_approved": false
+          },
+          "setting": {
+            "faqs": true,
+            "information": true,
+            "product_specs": true,
+            "customer_review": true,
+            "payments_and_policy": true
+          },
+          "description": {
+            "description_extra": {
+              "text": {
+                "color": "rgba(0, 0, 0, 1)",
+                "fontSize": null,
+                "fontFamily": "'Raleway', sans-serif"
+              }
+            },
+            "description_title": {
+              "text": {
+                "color": "rgba(0, 0, 0, 1)",
+                "fontSize": null,
+                "fontFamily": "'Raleway', sans-serif"
+              }
+            },
+            "description_content": {
+              "text": {
+                "color": "rgba(0, 0, 0, 1)",
+                "fontSize": null,
+                "fontFamily": "'Raleway', sans-serif"
+              }
+            }
+          },
+          "information": [
+            {
+              "text": "<p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem; color: rgb(0, 0, 0);\">We operate on 1-2 working days for dispatch.. Orders are collected around 02:00 PM.</span></p><table style=\"min-width: 125px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><th colspan=\"5\" rowspan=\"1\" data-background-color=\"#F3F3F300\" style=\"background-color: rgba(243, 243, 243, 0);\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.875rem;\"><strong>Zone 1 Slovakia</strong></span></p></th></tr><tr><td colspan=\"5\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem; color: rgb(0, 0, 0);\">Orders are sent via Packeta. Delivery via Packeta can take 1-2 working days (Excluding weekends).</span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>0-1kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>1-2kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>2-5kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>5-15kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>15-30kg</strong></span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€2.70+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€2.80+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€2.90+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€3.00+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€3.50+vat</strong></span></p></td></tr></tbody></table><table style=\"min-width: 125px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><th colspan=\"5\" rowspan=\"1\" data-background-color=\"#F3F3F300\" style=\"background-color: rgba(243, 243, 243, 0);\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.875rem;\"><strong>Zone 2 Czechia</strong></span></p></th></tr><tr><td colspan=\"5\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem; color: rgb(0, 0, 0);\">Orders up to are sent via Packeta. Delivery via Packeta can take 1-2 working days (Excluding weekends).</span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>0-1kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>1-2kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>2-5kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>5-15kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>15-30kg</strong></span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€3.90+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€4.30+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€4.85+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€5.85+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€6.20+vat</strong></span></p></td></tr></tbody></table><table style=\"min-width: 100px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><th colspan=\"4\" rowspan=\"1\" data-background-color=\"#F3F3F300\" style=\"background-color: rgba(243, 243, 243, 0);\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.875rem;\"><strong>Zone 3 Austria</strong></span></p></th></tr><tr><td colspan=\"4\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem; color: rgb(0, 0, 0);\">Orders up to 5kg are sent via Packeta up to 5 kg and DPD from 5kg.. Delivery via Packeta / DPD can take 2-3 working days (Excluding weekends).</span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>0-1kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>1-2kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>2-5kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>5-30kg</strong></span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€5.10+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€5.30+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€5.70+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€6.20+vat</strong></span></p></td></tr></tbody></table><table style=\"min-width: 150px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><th colspan=\"6\" rowspan=\"1\" data-background-color=\"#F3F3F300\" style=\"background-color: rgba(243, 243, 243, 0);\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.875rem;\"><strong>Zone 4 Poland</strong></span></p></th></tr><tr><td colspan=\"6\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem; color: rgb(0, 0, 0);\">Orders are sent via Packeta. (PL InPost - HD + Paczkomaty, Poczta Polska - Žabka stores PP, DPD - HD) Delivery via Packeta can take 1 - 2 working days (Excluding weekends).</span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>0-1kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>1-2kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>2-5kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>5-10kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>10-15kg</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>15-30kg</strong></span></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€4.40+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€4.80+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€5.00+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€6.00+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€7.00+vat</strong></span></p></td><td colspan=\"1\" rowspan=\"1\" style=\"\"><p style=\"text-align: center;\"><span style=\"font-family: Raleway, sans-serif; font-size: 0.75rem;\"><strong>€7.50+vat</strong></span></p></td></tr></tbody></table><p style=\"text-align: center;\"><a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"customLink\" href=\"https://www.aw-dropship.eu/shipping\" type=\"external\" workshop=\"https://app.aiku.io/org/aw/shops/awd/web/awd/webpages/shipping-awd/workshop\"><strong>For more Zones click here &gt;</strong></a></p>",
+              "title": "Delivery info"
+            },
+            {
+              "text": "<p><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">We kindly ask all trade customers to check their orders upon receipt and report any issues within </span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem\"><strong>3 working days</strong></span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">. </span><span style=\"font-size: 0.8750rem\"><br><br></span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">If an item arrives </span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem\"><strong>damaged, faulty, or is missing</strong></span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">, or if you received something by mistake, we’ll resolve it swiftly—typically via </span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem\"><strong>store credit, replacement, or refund</strong></span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">. </span></p><p></p><p style=\"text-align: left\"><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">For voluntary returns of unwanted items, notify us within </span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem\"><strong>14 days</strong></span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem; color: rgb(0, 0, 0)\">, and return them in resalable condition (buyer covers return postage).</span><span style=\"font-size: 0.8750rem\"><br></span><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem\"><br></span><a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"customLink\" href=\"returns\" type=\"internal\" workshop=\"https://app.aiku.io/org/sk/shops/dssk/web/awdsk/webpages/returns-dssk/workshop\" id=\"423\"><span style=\"font-family: 'Raleway', sans-serif; font-size: 0.8750rem\">Read the full returns policy here &gt;</span></a></p>",
+              "title": "Return Policy"
+            }
+          ],
+          "paymentData": [
+            {
+              "name": "Secure Checkout",
+              "image": "/grp/assets/SecureCheckout-uoRVFiOs.png",
+              "value": "Secure Checkout"
+            },
+            {
+              "name": "Google Pay",
+              "image": "/grp/assets/GooglePay-9x9UR-VQ.png",
+              "value": "Google Pay"
+            },
+            {
+              "name": "Apple Pay Frame",
+              "image": "/grp/assets/ApplePayFrame-uvDZhzfZ.png",
+              "value": "Apple Pay Frame"
+            },
+            {
+              "name": "PayPal",
+              "image": "/grp/assets/paypal-B2JDQxNO.svg",
+              "value": "PayPal"
+            },
+            {
+              "name": "MasterCard",
+              "image": "/grp/assets/mastercard-DUa45uNf.png",
+              "value": "MasterCard"
+            },
+            {
+              "name": "Visa Brandmark Blue",
+              "image": "/grp/assets/VisaBrandmarkBlueRGB2021-DckPXQxf.png",
+              "value": "Visa Brandmark Blue"
+            },
+            {
+              "name": "Karna Badge",
+              "image": "/grp/assets/Klarna_Payment_Badge-BqvonOw4.png",
+              "value": "Karna Badge"
+            },
+            {
+              "name": "PastPay",
+              "image": "/grp/assets/pastpay-jVhazMJk.svg",
+              "value": "PastPay"
+            }
+          ],
+          "information_style": {
+            "title": {
+              "text": {
+                "color": "rgba(0, 0, 0, 1)",
+                "fontSize": null,
+                "fontStyle": null,
+                "fontFamily": "'Raleway', sans-serif"
+              }
+            },
+            "content": {
+              "text": {
+                "color": "rgba(0, 0, 0, 1)",
+                "fontSize": null,
+                "fontStyle": null,
+                "fontFamily": "'Raleway', sans-serif"
+              }
+            }
+          },
+          "tabs": {
+            "description": "<p>Add a bold yet timeless accent to your home with the Classic Cushion Cover – Mustard Diamonds. Featuring a striking diamond pattern in warm mustard tones, this cushion instantly brings energy and style to any space.</p>",
+            "marketing_material_route": {
+              "name": "iris.catalogue.feeds.product.download_img",
+              "parameters": {
+                "product": "cicc-20-dssk"
+              }
+            },
+            "customize_option": [
+              {
+                "key": "packaging",
+                "label": "Packaging",
+                "icon": "fal fa-box",
+                "available": false,
+                "moq": "",
+                "notes": ""
+              },
+              {
+                "key": "fragrance",
+                "label": "Fragrance",
+                "icon": "fal fa-smoke",
+                "available": false,
+                "moq": "",
+                "notes": ""
+              },
+              {
+                "key": "colour",
+                "label": "Colour",
+                "icon": "fal fa-tint",
+                "available": false,
+                "moq": "",
+                "notes": ""
+              },
+              {
+                "key": "formulation",
+                "label": "Formulation",
+                "icon": "fal fa-flask",
+                "available": false,
+                "moq": "",
+                "notes": ""
+              },
+              {
+                "key": "labeling",
+                "label": "Labeling",
+                "icon": "fal fa-tags",
+                "available": false,
+                "moq": "",
+                "notes": ""
+              },
+              {
+                "key": "pack_sizes",
+                "label": "Pack Sizes",
+                "icon": "fal fa-box-open",
+                "available": false,
+                "moq": "",
+                "notes": ""
+              }
+            ],
+            "storage_option": {
+              "storage_conditions": [
+                {
+                  "key": "storage",
+                  "label": "Storage",
+                  "placeholder": "e.g. Store in a cool, dry place away from direct sunlight and heat.",
+                  "value": ""
+                },
+                {
+                  "key": "shelf_life",
+                  "label": "Shelf Life",
+                  "placeholder": "e.g. 24 months from date of manufacture (see batch number).",
+                  "value": ""
+                },
+                {
+                  "key": "after_opening",
+                  "label": "POA (After Opening)",
+                  "placeholder": "e.g. Use within 12 months of opening.",
+                  "value": ""
+                }
+              ],
+              "storage_temperature": "",
+              "storage_guidelines": []
+            },
+            "is_aroma_organisation": false,
+            "faq": []
+          },
+          "tabs_style": null
+        }
+      },
+      {
+        "id": 1400324,
+        "name": "Luigi: Similar Product",
+        "show": true,
+        "type": "luigi-item-alternatives-1",
+        "web_block": {
+          "id": 1400311,
+          "data": [],
+          "layout": {
+            "data": {
+              "fieldValue": {
+                "title": "<p style=\"text-align: center\">You may also like</p>",
+                "settings": null,
+                "container": {
+                  "properties": {
+                    "border": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "color": "#000000",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 0
+                        },
+                        "topright": {
+                          "value": 0
+                        },
+                        "bottomleft": {
+                          "value": 0
+                        },
+                        "bottomright": {
+                          "value": 0
+                        }
+                      }
+                    },
+                    "margin": {
+                      "top": {
+                        "value": 20
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "#fff",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                },
+                "product": {
+                  "id": 465321
+                },
+                "recommendation_scope": {
+                  "department_id": 241
+                }
+              }
+            }
+          }
+        },
+        "visibility": {
+          "in": true,
+          "out": true
+        }
+      },
+      {
+        "id": 1400325,
+        "name": "Luigi: Trends",
+        "show": true,
+        "type": "luigi-trends-1",
+        "web_block": {
+          "id": 1400312,
+          "data": [],
+          "layout": {
+            "data": {
+              "fieldValue": {
+                "title": "<p style=\"text-align: center\">Trending</p>",
+                "settings": null,
+                "container": {
+                  "properties": {
+                    "border": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "color": "#000000",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 0
+                        },
+                        "topright": {
+                          "value": 0
+                        },
+                        "bottomleft": {
+                          "value": 0
+                        },
+                        "bottomright": {
+                          "value": 0
+                        }
+                      }
+                    },
+                    "margin": {
+                      "top": {
+                        "value": 20
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "#fff",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                },
+                "product": {
+                  "id": 465321
+                },
+                "recommendation_scope": {
+                  "department_id": 241
+                }
+              }
+            }
+          }
+        },
+        "visibility": {
+          "in": true,
+          "out": true
+        }
+      },
+      {
+        "id": 1400326,
+        "name": "Luigi: Last Seen",
+        "show": true,
+        "type": "luigi-last-seen-1",
+        "web_block": {
+          "id": 1400313,
+          "data": [],
+          "layout": {
+            "data": {
+              "fieldValue": {
+                "title": "<p style=\"text-align: center\">Last seen</p>",
+                "settings": null,
+                "container": {
+                  "properties": {
+                    "border": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "color": "#000000",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      },
+                      "rounded": {
+                        "unit": "px",
+                        "topleft": {
+                          "value": 0
+                        },
+                        "topright": {
+                          "value": 0
+                        },
+                        "bottomleft": {
+                          "value": 0
+                        },
+                        "bottomright": {
+                          "value": 0
+                        }
+                      }
+                    },
+                    "margin": {
+                      "top": {
+                        "value": 20
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "value": 0
+                      },
+                      "left": {
+                        "value": 0
+                      },
+                      "unit": "px",
+                      "right": {
+                        "value": 0
+                      },
+                      "bottom": {
+                        "value": 0
+                      }
+                    },
+                    "background": {
+                      "type": "color",
+                      "color": "#fff",
+                      "image": {
+                        "original": null
+                      }
+                    }
+                  }
+                },
+                "product": {
+                  "id": 465321
+                },
+                "recommendation_scope": {
+                  "department_id": 241
+                }
+              }
+            }
+          }
+        },
+        "visibility": {
+          "in": true,
+          "out": true
+        }
+      }
+    ]
+  },
+  "url": "/homeware/sd-rugs/cicc/cicc-20",
+  "version": "937043c316ccd1174985fb2c007e04bd",
+  "clearHistory": false,
+  "encryptHistory": true
+}

@@ -26,9 +26,10 @@ export function PinterestButton(){
 }
 
 const answers=[
- {title:'Choisir une taille',text:'Mesurez la couette pour sa housse, le matelas et sa hauteur pour un drap-housse, ou le coussin pour sa housse. Le guide de chaque fiche reprend les dimensions relevées.'},
- {title:'Choisir une couleur',text:'La lumière et l’écran peuvent modifier la perception des teintes. Chaque coloris affiche uniquement les photographies qui lui sont attribuées ; les vues générales sont signalées à part.'},
- {title:'Livraison et retours',text:'La collection est en préparation. Les délais, les frais et la procédure de retour seront confirmés avant l’ouverture des commandes.'}
+ {title:'Trouver le bon format',text:'Mesurez l’objet que vous avez déjà, en centimètres. Pour une housse de couette, mesurez la couette ; pour une housse de coussin, mesurez le coussin intérieur. Choisissez le format qui reprend ces dimensions. Si elles ne correspondent pas, ne devinez pas : demandez-nous.'},
+ {title:'Comprendre ce qui est inclus',text:'Le format choisi indique ce que vous achetez. « 1 housse seule » signifie une housse sans coussin intérieur. Les coussins ou accessoires qui décorent la photo ne sont pas inclus, sauf mention explicite.'},
+ {title:'Comparer les couleurs',text:'Les nuances sont propres à chaque produit. Deux teintes portant le même nom peuvent différer selon la matière, la lumière et l’écran. Nous n’affichons un choix de couleur que lorsqu’une photo est rattachée à cette référence.'},
+ {title:'Livraison et retours',text:'Les commandes ne sont pas encore ouvertes. Les frais et délais de livraison, ainsi que les conditions de retour, seront affichés avant tout paiement.'}
 ];
 export function BoutiqueAssistance(){
  const [open,setOpen]=useState(false);

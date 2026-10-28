@@ -1,0 +1,1374 @@
+{
+  "checkedAt": "2026-10-25",
+  "method": "Source supplier SKU/title association plus direct visual inspection via view_image of all downloaded selected-color photographs in labelled contact sheets; additionally inspected full-size pd-25080 Naturel #4 and pd-25300 Sable #3. No generated/recolored/cropped images substituted. Supplier photos are original and may show styled accessories not included.",
+  "scope": "Les 16 couleurs déclarées de ces trois modèles ont été inspectées. pd-25300: 8 couleurs ×4vues distinctes, modèle entier qualifié. pd-25080:4couleurs inspectées, mais Romarin n’a que2vues; modèle entier non qualifié. pd-25536:4couleurs inspectées,2vues par couleur; modèle entier non qualifié.",
+  "manifest": "work/gallery-proof-assets/manifest.json",
+  "models": [
+    {
+      "id": "pd-25300",
+      "colors": [
+        {
+          "id": "terre-de-sienne",
+          "name": "Terre De Sienne",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82187-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-terre-de-sienne-01.jpg",
+              "sha256": "22a7b78eb45e474323a8eca2a161a4c8026dbf4e9a3b3117ea37632783157671",
+              "supplierSku": "PD25299",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25299-housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82188-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-terre-de-sienne-02.jpg",
+              "sha256": "d1bd51ba7b74992c090e49eab81c221a09978ecd4cbba886a816820196eb8c46",
+              "supplierSku": "PD25299",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25299-housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82189-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-terre-de-sienne-03.jpg",
+              "sha256": "3fbe9084aaaf170c04a0e04fba531e972e8d96785a4841f08b46b98e2df1370d",
+              "supplierSku": "PD25299",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25299-housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82190-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-terre-de-sienne-04.jpg",
+              "sha256": "6635f5390ae0901f88e34875281be875698be29d9720f98568fc68662f43e4f1",
+              "supplierSku": "PD25299",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25299-housse-de-couette-240x260-cm-percale-de-coton-terre-de-sienne.html",
+              "sourceSize": "240x260 cm"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82155-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82156-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82157-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82158-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82123-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82124-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82125-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82126-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82091-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82092-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82093-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82094-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-terre-de-sienne.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Percale unie : Sable beige/écru, Terre de Sienne terracotta, Neige blanc. Quatre vues réellement distinctes : lit mis en scène, produit plié, détail boutons, détail tissu. Les objets de décor/taies présents sur la photo ne sont pas vendus avec la housse. Photographies répétées pour les différentes tailles, non comptées comme vues nouvelles."
+        },
+        {
+          "id": "sable",
+          "name": "Sable",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82183-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-sable-01.jpg",
+              "sha256": "5ae1e8df626e23368e14428105b53b5fcf054a2e76bfc51932dd9b7fa8dd7533",
+              "supplierSku": "PD25298",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25298-housse-de-couette-240x260-cm-percale-de-coton-sable.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82184-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-sable-02.jpg",
+              "sha256": "cac7e6b88ee37548acc68254f0f7dbe7f6f1ad129a97d031ec7b1b81294f6440",
+              "supplierSku": "PD25298",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25298-housse-de-couette-240x260-cm-percale-de-coton-sable.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82185-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-sable-03.jpg",
+              "sha256": "c3971990fea5dbeff1c35ee725823ae40414ec77d1665ecee67d3155d35db641",
+              "supplierSku": "PD25298",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25298-housse-de-couette-240x260-cm-percale-de-coton-sable.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82186-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-sable-04.jpg",
+              "sha256": "be9357eb0d53231cd4e429ee260a9d4e1c2531c03e95cb2545714a5ebad31519",
+              "supplierSku": "PD25298",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25298-housse-de-couette-240x260-cm-percale-de-coton-sable.html",
+              "sourceSize": "240x260 cm"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82151-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82152-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82153-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82154-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82119-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82120-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82121-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82122-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82087-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82088-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82089-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82090-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Percale unie : Sable beige/écru, Terre de Sienne terracotta, Neige blanc. Quatre vues réellement distinctes : lit mis en scène, produit plié, détail boutons, détail tissu. Les objets de décor/taies présents sur la photo ne sont pas vendus avec la housse. Photographies répétées pour les différentes tailles, non comptées comme vues nouvelles."
+        },
+        {
+          "id": "neige",
+          "name": "Neige",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82179-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-neige-01.jpg",
+              "sha256": "e425626fd0ee6bac760f4048b804f29b689283e80020c81114ca67cf3f4aebad",
+              "supplierSku": "PD25297",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25297-housse-de-couette-240x260-cm-percale-de-coton-neige.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82180-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-neige-02.jpg",
+              "sha256": "4f92504785595bfa8aa6ae6876d5314ca1d18fcec66f5d499d93a9587c74f882",
+              "supplierSku": "PD25297",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25297-housse-de-couette-240x260-cm-percale-de-coton-neige.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82181-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-neige-03.jpg",
+              "sha256": "f7f851ded8d07e74201ed86c689f6f56c977010e995e3df6302b0ffb4267f706",
+              "supplierSku": "PD25297",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25297-housse-de-couette-240x260-cm-percale-de-coton-neige.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82182-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-neige.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25300-neige-04.jpg",
+              "sha256": "2669ecc399e8ce256a51cd467d9d1e0a1eb68478a0d3f44d9e7fa075cd03e798",
+              "supplierSku": "PD25297",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25297-housse-de-couette-240x260-cm-percale-de-coton-neige.html",
+              "sourceSize": "240x260 cm"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82147-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82148-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82149-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82150-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82115-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82116-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82117-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82118-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82083-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82084-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82085-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82086-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-neige.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Percale unie : Sable beige/écru, Terre de Sienne terracotta, Neige blanc. Quatre vues réellement distinctes : lit mis en scène, produit plié, détail boutons, détail tissu. Les objets de décor/taies présents sur la photo ne sont pas vendus avec la housse. Photographies répétées pour les différentes tailles, non comptées comme vues nouvelles."
+        },
+        {
+          "id": "thym",
+          "name": "Thym",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82191-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\3a0a4ecca0ac5907de7f5cb2.webp",
+              "sha256": "b25a8bbd81e62205f1c4cd2b5076f7e487a6f40ad58f42251ee1086b76d9b4f4",
+              "supplierSku": "PD25300",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "3a0a4ecca0ac5907de7f5cb2c083ca56fe0729fe6ee04682255ab2db56de0890"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82192-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\4f0a41d0124e5488a94936dd.webp",
+              "sha256": "19f7b9ec9caea71a8d54028a7ba880cb430bc457120f06717338d797dffd11db",
+              "supplierSku": "PD25300",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "4f0a41d0124e5488a94936dd551ed49ac5d25588f568f608e51605ced84a0b2a"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82193-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\26286385aaba5f78ec948752.webp",
+              "sha256": "ace465b0e118df16c7955923e58658cacbfd1db0db1137139fb19b6fe4f81f86",
+              "supplierSku": "PD25300",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "26286385aaba5f78ec948752ada66c0b4c58de83c3bbb7941e6187e08764d5d4"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82194-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-thym.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\0b9bb8f7627c0042920517b9.webp",
+              "sha256": "3edc1be3041de1d56ec6ddff7996f4e5880311e80b9a9359065018d371b82caf",
+              "supplierSku": "PD25300",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "0b9bb8f7627c0042920517b9f75b87b067b4e947c6091976f62902e48db8062b"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82159-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82160-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82161-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82162-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82127-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82128-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82129-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82130-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82095-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82096-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82097-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82098-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-thym.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        },
+        {
+          "id": "havane",
+          "name": "Havane",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82175-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\31c2e0b6f47c7a7649e37773.webp",
+              "sha256": "e750260d06a5c6b7d70d4c6b80d16472137e5bfb1e5ca2c3da12ac9947eccefc",
+              "supplierSku": "PD25296",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25296-housse-de-couette-240x260-cm-percale-de-coton-havane.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "31c2e0b6f47c7a7649e37773f41b063d3db1c9a493847f67fbd2b9fce0b37f9f"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82176-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\8b741da5b7b46e07fcafb5d0.webp",
+              "sha256": "aee6de4ab26ac6b11717a48ffdaeddb93f5bafe489811f00d37b625653d232d8",
+              "supplierSku": "PD25296",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25296-housse-de-couette-240x260-cm-percale-de-coton-havane.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "8b741da5b7b46e07fcafb5d075e8441c844ec47e8d2a9ab810d3a401979d441f"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82177-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\29c5f31e2dda99232102e3da.webp",
+              "sha256": "50f9cfa1185e1a1a0048716a434769b812cd0fb2998c9ab0077853cb19b9655d",
+              "supplierSku": "PD25296",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25296-housse-de-couette-240x260-cm-percale-de-coton-havane.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "29c5f31e2dda99232102e3dac2490fe7fd0ee5ef1684d02d8dd61639358f89a3"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82178-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-havane.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\3c16af717d8e0567e004b19b.webp",
+              "sha256": "baa6895c97fa877a660d14ea88275f2d4a502ecb9acb5937e96ae24cab9ab177",
+              "supplierSku": "PD25296",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25296-housse-de-couette-240x260-cm-percale-de-coton-havane.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "3c16af717d8e0567e004b19b9f951e78077641654e6f1b3f2bf041a8fc3d95c2"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82143-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82144-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82145-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82146-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82111-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82112-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82113-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82114-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82079-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82080-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82081-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82082-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-havane.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        },
+        {
+          "id": "galet",
+          "name": "Galet",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82171-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\f44ee6566155b4d13c08d9f1.webp",
+              "sha256": "59d37c695558e6bf663d70dfe2e0df2fa96eadd44c7d4c3237da6792aebf5053",
+              "supplierSku": "PD25295",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25295-housse-de-couette-240x260-cm-percale-de-coton-galet.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "f44ee6566155b4d13c08d9f105aea8775068d5caa0f05ca327b722d33fb88b68"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82172-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\c0c43524cf967a34ea8af153.webp",
+              "sha256": "418da9f829e495dd5ddf87ecc1d70459ddd50613ed06af5896e1cdf1d58c1052",
+              "supplierSku": "PD25295",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25295-housse-de-couette-240x260-cm-percale-de-coton-galet.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "c0c43524cf967a34ea8af1530bf00b98817c7a17483445817be0638ae6c23e78"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82173-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\7be737668ff5453d481aa2e1.webp",
+              "sha256": "72fb57046f1a384979a8e3673e47bb0eeee85fa95cc896b9a66bfd41d39363ce",
+              "supplierSku": "PD25295",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25295-housse-de-couette-240x260-cm-percale-de-coton-galet.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "7be737668ff5453d481aa2e17151445b32973f1873ee58869e4ab745d5bc3f95"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82174-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-galet.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\2126becc9715405cc36fe4e1.webp",
+              "sha256": "5d7977a1e89e5ff69f2fd7b1ddf2ffdbc8143cf76c584e3e0a347fe3462eb8f0",
+              "supplierSku": "PD25295",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25295-housse-de-couette-240x260-cm-percale-de-coton-galet.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "2126becc9715405cc36fe4e1fb6b116a4c7df6d9fd703fa77a3a52ac195fabba"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82139-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82140-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82141-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82142-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82107-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82108-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82109-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82110-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82075-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82076-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82077-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82078-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-galet.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        },
+        {
+          "id": "celadon",
+          "name": "Céladon",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82167-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\90f7ea26e92bbccc3706e5d7.webp",
+              "sha256": "a76394996b402e906c137d99bb963d2b5fdb3704d44a2484ff1e25fec8ce2eeb",
+              "supplierSku": "PD25294",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25294-housse-de-couette-240x260-cm-percale-de-coton-celadon.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "90f7ea26e92bbccc3706e5d74b932d64d5cd8f6847dd7b6891e225b6274e9b5c"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82168-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\6534c3101c0a28f6c428f22d.webp",
+              "sha256": "dabcbc46faedaedcb8dacba64dc671db3b481b2c71f1472ca1182e857133f931",
+              "supplierSku": "PD25294",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25294-housse-de-couette-240x260-cm-percale-de-coton-celadon.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "6534c3101c0a28f6c428f22d199843faf65b52d066547367c25e0906b8d306f0"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82169-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\00278962ef59d97399ddf33d.webp",
+              "sha256": "7185045b2fca8962b910068280d3bab600d83a5f6d242a0669506d65f03ca372",
+              "supplierSku": "PD25294",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25294-housse-de-couette-240x260-cm-percale-de-coton-celadon.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "00278962ef59d97399ddf33d874824225422dd7730d3402952d947fd58e3c47d"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82170-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-celadon.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\969b199a5fa1f33d53eb71c2.webp",
+              "sha256": "0947335f49f18d9fa0c8969d3a2480244ad51a2f526460d0a18ca8e78938d6b4",
+              "supplierSku": "PD25294",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25294-housse-de-couette-240x260-cm-percale-de-coton-celadon.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "969b199a5fa1f33d53eb71c29111d85287d33d071ad051d900731e87af403e51"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82135-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82136-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82137-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82138-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82103-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82104-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82105-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82106-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82071-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82072-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82073-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82074-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-celadon.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        },
+        {
+          "id": "bleu-nuit",
+          "name": "Bleu Nuit",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82163-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\6991d2c12c992d6e955a6a76.webp",
+              "sha256": "7a0245e8c236605e9c64b83f917f858a7487bb6d39204d54afd317354dc7ab34",
+              "supplierSku": "PD25293",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25293-housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "6991d2c12c992d6e955a6a76790b901c29b70287b5d2c94ed05c2645bf5a82c7"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82164-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\8030e5077e7e8fc56b967997.webp",
+              "sha256": "9755a8401ba370db348fb103e45d8713a311079170d2c7cd63ca5b1aece20abd",
+              "supplierSku": "PD25293",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25293-housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "8030e5077e7e8fc56b96799733c83baa0d93ea7a384caa5bbf70a37adc3e525c"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82165-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\55ecdd8deba36c892e524169.webp",
+              "sha256": "4fc60c008881537c4196f0f94155f2f01dced480c7cde6199329d6e32812150c",
+              "supplierSku": "PD25293",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25293-housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "55ecdd8deba36c892e5241695875d7d62829551a2aaa0a682e0b4fc9e873b220"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82166-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\f588f1abe1b19fa862e74881.webp",
+              "sha256": "36794deffd94749607a6da48f60783e7ef6808ba08fa9067d57c0e543cf9d627",
+              "supplierSku": "PD25293",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25293-housse-de-couette-240x260-cm-percale-de-coton-bleu-nuit.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "f588f1abe1b19fa862e7488153156b79ec85ae40f72425e3cd3e26f8debd3b36"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82131-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82132-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82133-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82134-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82099-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82100-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82101-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82102-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82067-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82068-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82069-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82070-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-bleu-nuit.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        }
+      ],
+      "reviewedAllSelectedColorUrls": true,
+      "meetsTwoColorsThreeDistinctViews": true,
+      "notes": "Housse de couette percale unie. Les 8 couleurs déclarées (Thym, Terre de Sienne, Sable, Neige, Havane, Galet, Céladon, Bleu Nuit) ont chacune 4 vues distinctes inspectées : lit, produit plié, boutons, tissu. Les répétitions de taille ont été exclues. Céladon conservé en UTF-8; URL fournisseur /celadon.jpg. Les taies et objets de décor des mises en scène ne sont pas inclus.",
+      "allDeclaredColorsVisuallyReviewed": true,
+      "meetsAllColorsThreeDistinctViews": true,
+      "wholeModelQualified": true
+    },
+    {
+      "id": "pd-25080",
+      "colors": [
+        {
+          "id": "terracotta",
+          "name": "Terracotta",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/81611-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-terracotta-01.jpg",
+              "sha256": "6da81d64aa3f39ec803e6b993ef838a517446f6a59e5af4d3923d71916d343be",
+              "supplierSku": "PD25080",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81612-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-terracotta-02.jpg",
+              "sha256": "a867557e7a257361a15d43112775f1f46dc00df65de39415adfc2093aa76e32e",
+              "supplierSku": "PD25080",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81613-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-terracotta-03.jpg",
+              "sha256": "6b013c4db909c37a4f238eb3d4dcbeca4cbfbd85b1fe745e94fdc55ee7436ceb",
+              "supplierSku": "PD25080",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81614-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-terracotta-04.jpg",
+              "sha256": "d39e16d27a1450afcee7808157a3fe95006e185c7f498e2b20eecf884f7197bf",
+              "supplierSku": "PD25080",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html",
+              "sourceSize": "240x260 cm"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/81552-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81553-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81554-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81555-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81493-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81494-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81495-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81496-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81434-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81435-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81436-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81437-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-terracotta.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Gaze de coton Vickie réversible à petits carreaux : Naturel beige/écru et Terracotta. Quatre vues réellement distinctes du même coloris : lit trois-quarts côté motif/uni selon couleur, produit plié, face du lit, arrangement alternatif. Naturel est une gamme beige à motif Vichy, pas une housse unie. Décor et taies non inclus. Répétitions entre tailles non comptées."
+        },
+        {
+          "id": "naturel",
+          "name": "Naturel",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/81605-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-naturel-01.jpg",
+              "sha256": "408eb209090e92fce0f406a14802093a55ad29ee307c83b702b3d03b71bdae79",
+              "supplierSku": "PD25078",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25078-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81606-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-naturel-02.jpg",
+              "sha256": "8597294c9ececa1c7730f19e91a603affc4e1bda30d753840ec74bed0d72b2e1",
+              "supplierSku": "PD25078",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25078-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81607-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-naturel-03.jpg",
+              "sha256": "cc20409c43ff4979489aa019e1f156b2abf8f4c2f164d7e01aafb57129318e90",
+              "supplierSku": "PD25078",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25078-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.html",
+              "sourceSize": "240x260 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81608-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25080-naturel-04.jpg",
+              "sha256": "05288655a97c1de90231cf1358ece32988736e01dcf002f678ddce66b3e7a43e",
+              "supplierSku": "PD25078",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25078-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.html",
+              "sourceSize": "240x260 cm"
+            }
+          ],
+          "distinctVerifiedViews": 4,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/81546-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81547-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81548-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81549-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81487-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81488-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81489-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81490-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81428-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81429-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81430-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81431-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Gaze de coton Vickie réversible à petits carreaux : Naturel beige/écru et Terracotta. Quatre vues réellement distinctes du même coloris : lit trois-quarts côté motif/uni selon couleur, produit plié, face du lit, arrangement alternatif. Naturel est une gamme beige à motif Vichy, pas une housse unie. Décor et taies non inclus. Répétitions entre tailles non comptées."
+        },
+        {
+          "id": "romarin",
+          "name": "Romarin",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/81609-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-romarin.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\abc8ae4a8b653bcfa4d05d1c.webp",
+              "sha256": "51d9caef685895b522d3097591954baec96afe60fa23eb40aafab5c45d25e42c",
+              "supplierSku": "PD25079",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25079-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-romarin.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "abc8ae4a8b653bcfa4d05d1cc66f8d0345559c11c6ff22290d1647fa46c280a6"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81610-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-romarin.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\be770c8f155a76d0c0bb197c.webp",
+              "sha256": "9d07714cdf7b07dd947aa03e4e60b8194ff39a80b3d1e634bcdc05e05b2d249e",
+              "supplierSku": "PD25079",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25079-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-romarin.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "be770c8f155a76d0c0bb197cd629ed0ad344dba9e9f331564ea9b77fdd7558f1"
+            }
+          ],
+          "distinctVerifiedViews": 2,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/81550-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-romarin.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81551-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-romarin.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81491-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-romarin.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81492-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-romarin.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81432-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-romarin.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81433-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-romarin.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        },
+        {
+          "id": "eucalyptus",
+          "name": "Eucalyptus",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/81599-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\6ee4c3d87d8e356aa118735b.webp",
+              "sha256": "bb663572f1e43bbc72bee95c45e59d8daf0ce896300011130fb798739ca1df98",
+              "supplierSku": "PD25077",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25077-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "6ee4c3d87d8e356aa118735b89e4f2fd808449ead78c1d31e918a574c6312b86"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81600-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\69d7055a6dd3873122e42ef9.webp",
+              "sha256": "9375ca1f7fa105479c6970c21f87177f060cda819f0713c588928ba2a8cd5c7e",
+              "supplierSku": "PD25077",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25077-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "69d7055a6dd3873122e42ef9dd8011d74836934df5f47fada051586f19ca7fd9"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81601-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\072dd4d26eda559a5204aa55.webp",
+              "sha256": "73d1c2c2609c668df31e4bc67d9066ae71ed09ea057f7767b4c9102d4e292c1c",
+              "supplierSku": "PD25077",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25077-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "072dd4d26eda559a5204aa558791dafbaffadd1839c3253879628cec96b7ba40"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81602-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\217488dd76dfc6cc7ee1065d.webp",
+              "sha256": "c20c17fd7626091ee2074f87ff82df546a1211777eda80f63f5aaa94e6d2639d",
+              "supplierSku": "PD25077",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25077-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "217488dd76dfc6cc7ee1065d389f8eb04d1dc536084738a8f1bca0ed5275fe11"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81603-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\95f6f05e1c28162ee34f8f01.webp",
+              "sha256": "e12223ab457eac0506b12574d5635672b36ce926c0be48f11aeea0be82b5e4a2",
+              "supplierSku": "PD25077",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25077-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "95f6f05e1c28162ee34f8f017297bca3a1d0c4cf87f91b6c1d3cdf832ec402f6"
+            },
+            {
+              "url": "https://www.planetediscount.eu/81604-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\7961e68b9b65baabe2cef8ca.webp",
+              "sha256": "fafe9e52de37c0ef520cf23119580eadafef2890b34a4244f7ecacd9e223ad01",
+              "supplierSku": "PD25077",
+              "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25077-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-eucalyptus.html",
+              "sourceSize": "240x260 cm",
+              "pixelHash": "7961e68b9b65baabe2cef8ca92d7ad5f5a8e8421968fc019627e8142b0cab4c6"
+            }
+          ],
+          "distinctVerifiedViews": 6,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/81540-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81541-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81542-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81543-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81544-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81545-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81481-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81482-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81483-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81484-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81485-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81486-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81422-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81423-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81424-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81425-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81426-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/81427-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-eucalyptus.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        }
+      ],
+      "reviewedAllSelectedColorUrls": true,
+      "meetsTwoColorsThreeDistinctViews": true,
+      "notes": "Gaze de coton Vickie réversible à petits carreaux : Naturel beige/écru et Terracotta. Quatre vues réellement distinctes du même coloris : lit trois-quarts côté motif/uni selon couleur, produit plié, face du lit, arrangement alternatif. Naturel est une gamme beige à motif Vichy, pas une housse unie. Décor et taies non inclus. Répétitions entre tailles non comptées.",
+      "allDeclaredColorsVisuallyReviewed": true,
+      "meetsAllColorsThreeDistinctViews": false,
+      "wholeModelQualified": false,
+      "remainingPhotoGap": "Romarin : deux vues distinctes seulement. Ne pas prétendre que toutes les couleurs atteignent trois photos."
+    },
+    {
+      "id": "pd-25536",
+      "colors": [
+        {
+          "id": "aqua",
+          "name": "Aqua",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82646-thickbox_default/drap-housse-180x20035-cm-lin-metis-aqua.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25536-aqua-01.jpg",
+              "sha256": "e5df45bdedb6c42bf4fd87a0b0c23db58f8f0087db9b9c98c2ff7eb2a6bca5ae",
+              "supplierSku": "PD25536",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html",
+              "sourceSize": "180x200 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82647-thickbox_default/drap-housse-180x20035-cm-lin-metis-aqua.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25536-aqua-02.jpg",
+              "sha256": "f08c2d0b611be143361e81cb844c87686f6be5e3d5a05d798a4e445729c489fd",
+              "supplierSku": "PD25536",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html",
+              "sourceSize": "180x200 cm"
+            }
+          ],
+          "distinctVerifiedViews": 2,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82644-thickbox_default/drap-housse-160x20035-cm-lin-metis-aqua.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82645-thickbox_default/drap-housse-160x20035-cm-lin-metis-aqua.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82642-thickbox_default/drap-housse-140x19035-cm-lin-metis-aqua.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82643-thickbox_default/drap-housse-140x19035-cm-lin-metis-aqua.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Lin métis : Naturel beige, Aqua turquoise clair, Caramel orangé. Seulement deux vues distinctes : drap sur coin de lit et drap roulé. Les six URLs par couleur répètent ces deux mêmes images sur trois tailles. Ce modèle ne remplit pas l’exigence de trois photos distinctes par coloris."
+        },
+        {
+          "id": "naturel",
+          "name": "Naturel",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82640-thickbox_default/drap-housse-180x20035-cm-lin-metis-naturel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25536-naturel-01.jpg",
+              "sha256": "6c5f5bbd2f99db93d7af8ac5ea4535cb7f0a4028ea207597cf4a289b06ae59ec",
+              "supplierSku": "PD25533",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25533-drap-housse-180x20035-cm-lin-metis-naturel.html",
+              "sourceSize": "180x200 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82641-thickbox_default/drap-housse-180x20035-cm-lin-metis-naturel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25536-naturel-02.jpg",
+              "sha256": "c7b141e55b1b9d05a4bcc1da8f71fceeb37a65c59faedac2614ea245a1f3c6ca",
+              "supplierSku": "PD25533",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25533-drap-housse-180x20035-cm-lin-metis-naturel.html",
+              "sourceSize": "180x200 cm"
+            }
+          ],
+          "distinctVerifiedViews": 2,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82638-thickbox_default/drap-housse-160x20035-cm-lin-metis-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82639-thickbox_default/drap-housse-160x20035-cm-lin-metis-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82636-thickbox_default/drap-housse-140x19035-cm-lin-metis-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82637-thickbox_default/drap-housse-140x19035-cm-lin-metis-naturel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Lin métis : Naturel beige, Aqua turquoise clair, Caramel orangé. Seulement deux vues distinctes : drap sur coin de lit et drap roulé. Les six URLs par couleur répètent ces deux mêmes images sur trois tailles. Ce modèle ne remplit pas l’exigence de trois photos distinctes par coloris."
+        },
+        {
+          "id": "caramel",
+          "name": "Caramel",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82628-thickbox_default/drap-housse-180x20035-cm-lin-metis-caramel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25536-caramel-01.jpg",
+              "sha256": "b80835c95d1f5879a76255d6228adf8bd78b92f7bdc72a45d2f42dc44719b7ac",
+              "supplierSku": "PD25527",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25527-drap-housse-180x20035-cm-lin-metis-caramel.html",
+              "sourceSize": "180x200 cm"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82629-thickbox_default/drap-housse-180x20035-cm-lin-metis-caramel.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\gallery-proof-assets\\pd-25536-caramel-02.jpg",
+              "sha256": "dee4ead5bab07083a0ed856f67bd4d4f3737383d35d574ef90c58c4a7ae50bdf",
+              "supplierSku": "PD25527",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25527-drap-housse-180x20035-cm-lin-metis-caramel.html",
+              "sourceSize": "180x200 cm"
+            }
+          ],
+          "distinctVerifiedViews": 2,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82626-thickbox_default/drap-housse-160x20035-cm-lin-metis-caramel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82627-thickbox_default/drap-housse-160x20035-cm-lin-metis-caramel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82624-thickbox_default/drap-housse-140x19035-cm-lin-metis-caramel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82625-thickbox_default/drap-housse-140x19035-cm-lin-metis-caramel.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Lin métis : Naturel beige, Aqua turquoise clair, Caramel orangé. Seulement deux vues distinctes : drap sur coin de lit et drap roulé. Les six URLs par couleur répètent ces deux mêmes images sur trois tailles. Ce modèle ne remplit pas l’exigence de trois photos distinctes par coloris."
+        },
+        {
+          "id": "kaki",
+          "name": "Kaki",
+          "associationVerified": true,
+          "verifiedAt": "2026-10-25",
+          "verifiedBy": "visual-inspection-of-source-photos",
+          "images": [
+            {
+              "url": "https://www.planetediscount.eu/82634-thickbox_default/drap-housse-180x20035-cm-lin-metis-kaki.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\cabad40565f0adfbf8f16019.webp",
+              "sha256": "b3207e1575d175ee08199eae067f88ae87905134125d62248e0dc8133310721f",
+              "supplierSku": "PD25530",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25530-drap-housse-180x20035-cm-lin-metis-kaki.html",
+              "sourceSize": "180x200 cm",
+              "pixelHash": "cabad40565f0adfbf8f160195fd9dc236c4fb8134c6845e7d46066f8441037ae"
+            },
+            {
+              "url": "https://www.planetediscount.eu/82635-thickbox_default/drap-housse-180x20035-cm-lin-metis-kaki.jpg",
+              "localPath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\catalog-image-cache\\52b690188dfc927f7159b0c1.webp",
+              "sha256": "745da31d984e1b43e4b6fe10118715b2f9c3356af5804da8ef15c677b3ba31c8",
+              "supplierSku": "PD25530",
+              "sourceUrl": "https://www.planetediscount.eu/drap-housse/25530-drap-housse-180x20035-cm-lin-metis-kaki.html",
+              "sourceSize": "180x200 cm",
+              "pixelHash": "52b690188dfc927f7159b0c10862ebaf0e783a03cd06f3569968b6a6664d6866"
+            }
+          ],
+          "distinctVerifiedViews": 2,
+          "rejectedImages": [
+            {
+              "url": "https://www.planetediscount.eu/82632-thickbox_default/drap-housse-160x20035-cm-lin-metis-kaki.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82633-thickbox_default/drap-housse-160x20035-cm-lin-metis-kaki.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82630-thickbox_default/drap-housse-140x19035-cm-lin-metis-kaki.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            },
+            {
+              "url": "https://www.planetediscount.eu/82631-thickbox_default/drap-housse-140x19035-cm-lin-metis-kaki.jpg",
+              "reason": "Même vue photographique répétée pour une autre taille ; ne pas compter comme vue distincte."
+            }
+          ],
+          "imageNotes": "Toutes les vues distinctes affichées et inspectées dans la planche complémentaire. Correspondance de teinte et de motif cohérente avec le titre de la référence fournisseur; les accessoires présents restent hors contenu vendu."
+        }
+      ],
+      "reviewedAllSelectedColorUrls": true,
+      "meetsTwoColorsThreeDistinctViews": false,
+      "notes": "Lin métis : Naturel beige, Aqua turquoise clair, Caramel orangé. Seulement deux vues distinctes : drap sur coin de lit et drap roulé. Les six URLs par couleur répètent ces deux mêmes images sur trois tailles. Ce modèle ne remplit pas l’exigence de trois photos distinctes par coloris.",
+      "allDeclaredColorsVisuallyReviewed": true,
+      "meetsAllColorsThreeDistinctViews": false,
+      "wholeModelQualified": false
+    }
+  ],
+  "additionalProof": "work/gallery-proof-assets/additional-colors-manifest.json",
+  "summary": {
+    "verifiedColors": 16,
+    "verifiedDistinctPhotoPlacements": 56,
+    "wholeModelsQualified": 1
+  }
+}

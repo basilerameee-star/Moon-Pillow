@@ -1,3 +1,19 @@
+# Moon & Pillow
+
+French-language home linen storefront project. The current site is a pre-launch catalogue and experience prototype; supplier, legal, payment, fulfilment, and advertising integrations still require verification and approval before accepting real orders.
+
+## Project handoff
+
+- [Current project state and decisions](docs/handoff/PROJECT_STATE.md)
+- [Remaining work, in priority order](docs/handoff/NEXT_STEPS.md)
+- [Archived source prompts and briefs](docs/prompts/README.md)
+
+Current catalogue source: `lib/imported-products.ts`, `lib/sourcing-data.ts`, and `lib/photo-curation.ts`. Product photos used by the storefront are in `public/img/catalogue/`.
+
+Local preview is not a public deployment. Start with the commands documented below after installing dependencies. Never add real `.env`/`.dev.vars` credentials to Git.
+
+---
+
 # vinext-starter
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.

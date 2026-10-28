@@ -1,0 +1,2355 @@
+{
+  "checkedAt": "2026-10-25",
+  "sourceNotes": [
+    "25 modèles Alibaba existants normalisés ; aucune multiplication des tailles ou couleurs en modèles distincts.",
+    "Nouvelles galeries issues de fiches officielles Alibaba dans des copies publiques indexées. La fiche active dans le navigateur est bloquée par un CAPTCHA, qui n’a pas été résolu ni contourné.",
+    "13 photos et vignettes réelles utiles sur la parure velours, toutes inspectées ; elles ne valident pas 3 vues distinctes pour chaque teinte.",
+    "Aucune nouvelle référence ne satisfait complètement MOQ1 récurrent + 2 couleurs + 3 photos uniques par couleur + coût livré + droits images. Aucun produit nouveau n’a été ajouté au catalogue marchand par cet agent.",
+    "Prix fournisseurs indicatifs conservés avec devises et dates. Aucun prix public de vente inventé, aucun accord de coût ni de stock reçu."
+  ],
+  "products": [
+    {
+      "id": "alibaba-1600241398988",
+      "source": "Alibaba",
+      "supplierProductId": "1600241398988",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Winter-Duvet-Cover-and-Pillowcase-Set_1600241398988.html",
+      "supplier": "Shaoxing Skyline Import & Export Co., Ltd.",
+      "nameFR": "Parure polaire trois pièces",
+      "category": "housses-couette",
+      "descriptionFrench": "Parure polaire comprenant une housse de couette et deux taies, proposée par Shaoxing Skyline.",
+      "materials": [
+        "Composition déclarée : 100 % polyester.",
+        "Contenu indiqué par le fournisseur : 1 housse de couette + 2 taies d'oreiller"
+      ],
+      "sizes": [
+        "150*200 cm 3 pièces",
+        "200*230 cm 3 pièces"
+      ],
+      "colors": [
+        {
+          "id": "rose-1",
+          "name": "Rose",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/@sc04/kf/Ha55747f00244464f9e38549f22432741O.jpg_960x960q80.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1600241398988.jpg",
+              "kind": "lifestyle",
+              "evidence": "Parure polaire rose sur lit, avec une personne allongée.",
+              "rightsApproved": false,
+              "visuallyInspected": true,
+              "commercialGalleryRecommended": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "gris-2",
+          "name": "Gris",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "kaki-3",
+          "name": "Kaki",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/Ha55747f00244464f9e38549f22432741O.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1600241398988.jpg",
+          "kind": "lifestyle",
+          "evidence": "Parure polaire rose sur lit, avec une personne allongée.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 20.28,
+        "max": 23.88,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Winter-Duvet-Cover-and-Pillowcase-Set_1600241398988.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "jeu",
+        "conflict": null
+      },
+      "shippingNote": {
+        "currency": "EUR",
+        "amount": 58.19,
+        "quantity": 1,
+        "unit": "jeu",
+        "displayedWindow": "03 nov. au 21 nov.",
+        "verified": false,
+        "noteFR": "Estimation affichée pour la variante sélectionnée par défaut ; coût livré complet, taxes et disponibilité non confirmés."
+      },
+      "uncertainties": [
+        "Coût livré à revalider par taille et couleur ; transport affiché élevé.",
+        "Accord d’expédition directe à l’unité et adresse de retour.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601070472662",
+      "source": "Alibaba",
+      "supplierProductId": "1601070472662",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Silk-Silver-Infused-Pillow-Case-100_1601070472662.html",
+      "supplier": "Suzhou Yasha Silk Technology Co., Ltd.",
+      "nameFR": "Taie à fermeture éclair",
+      "category": "taies",
+      "descriptionFrench": "Taie à fermeture éclair, présentée en soie de mûrier par son fournisseur. Composition et livraison à confirmer.",
+      "materials": [
+        "Composition déclarée : 100 % soie ; marque fournisseur Yashasilk."
+      ],
+      "sizes": [
+        "Standard 20*26 pouces (51 cm*66 cm)",
+        "Reine 20*30 pouces (51 cm*76 cm)",
+        "Roi 20*36 pouces (51 cm * 91 cm)"
+      ],
+      "colors": [
+        {
+          "id": "ivoire-1",
+          "name": "#Ivoire",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "argent-2",
+          "name": "#Argent",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "champagne-3",
+          "name": "#Champagne",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "marine-fonce-4",
+          "name": "#Marine foncé",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/Hfdd64955518f46c7853c9677889220a6O.png_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601070472662.jpg",
+          "kind": "lifestyle",
+          "evidence": "Taie ivoire présentée avec emballage Yasha Silk et logo de certification.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 11.98,
+        "max": 15.31,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Silk-Silver-Infused-Pillow-Case-100_1601070472662.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "pièce/taille/couleur",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Frais et délai de livraison France.",
+        "Composition, marque et droit de revente sans réétiquetage.",
+        "Ne pas reprendre les promesses antibactériennes ou thérapeutiques sans preuve.",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Marque Yasha Silk visible; ne pas présenter comme Moon & Pillow.",
+        "Logo OEKO-TEX et numéro affichés sur la photo; certification non vérifiée, éviter de publier comme preuve."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601564961499",
+      "source": "Alibaba",
+      "supplierProductId": "1601564961499",
+      "sourceUrl": "https://www.alibaba.com/product-detail/2025-New-Product-Luxury-Bamboo-Fiber_1601564961499.html",
+      "supplier": "Hebei Heguo Textile Technology Co., Ltd.",
+      "nameFR": "Parure de draps quatre pièces",
+      "category": "draps",
+      "descriptionFrench": "Ensemble composé d’un drap plat, d’un drap-housse et de deux taies, proposé en un format King détaillé par le fournisseur.",
+      "materials": [
+        "Composition déclarée : fibre de bambou ; composition textile et certification à vérifier.",
+        "Contenu indiqué par le fournisseur : 1 drap plat + 1 drap-housse + 2 taies"
+      ],
+      "sizes": [
+        "King:1*269*259cm;1*193*203+40cm;2*50*70cm"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/H8fc6ee3fa5c74348992648ef54812be0N.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601564961499.jpg",
+          "kind": "lifestyle",
+          "evidence": "Parure de draps saumon avec deux oreillers sur fond blanc.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 36.03,
+        "max": 36.03,
+        "basis": "1-349 jeux; >=350 jeux 25.32 EUR",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/2025-New-Product-Luxury-Bamboo-Fiber_1601564961499.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "jeu",
+        "conflict": null
+      },
+      "shippingNote": {
+        "currency": "EUR",
+        "amount": 49.57,
+        "quantity": 1,
+        "unit": "jeu",
+        "displayedWindow": "05 nov. au 03 déc.",
+        "verified": false,
+        "noteFR": "Estimation affichée pour la variante sélectionnée par défaut ; coût livré complet, taxes et disponibilité non confirmés."
+      },
+      "uncertainties": [
+        "Dimensions du drap-housse incompatibles avec certains matelas français ; vérifier la cible.",
+        "Composition textile exacte et absence de preuve de certification biologique.",
+        "Coût livré France élevé ; minimum 350–400 lots pour une couleur personnalisée.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Photo saumon alors que seul Blanc a été confirmé dans le sélecteur; ne pas attribuer cette image à la variante Blanc."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601688153742",
+      "source": "Alibaba",
+      "supplierProductId": "1601688153742",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Price-Solid-Color-Soft-Satin_1601688153742.html",
+      "supplier": "Shaoxing Yunmianji Textile Co., Ltd.",
+      "nameFR": "Taie satin polyester",
+      "category": "taies",
+      "descriptionFrench": "Taie en satin de polyester proposée en sachet d’une pièce. Le nuancier reste à préciser.",
+      "materials": [
+        "Composition déclarée : 100 % polyester. Le satin désigne ici le tissu, pas de la soie."
+      ],
+      "sizes": [
+        "20\"*26\"(50*66cm)-1pcs pack per bag"
+      ],
+      "colors": [],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/Hf350d31781e246a689bde770c2678045k.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601688153742.jpg",
+          "kind": "lifestyle",
+          "evidence": "Taies satin noir avec petit montage de différentes teintes au bas de la photo.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 1.1,
+        "max": 1.1,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Wholesale-Price-Solid-Color-Soft-Satin_1601688153742.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "pièce",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Le sélecteur « colors choice » ne définit aucune couleur : obtenir un nuancier avec codes.",
+        "Frais et délai de livraison France.",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Couleurs et codes des variantes commandables à obtenir.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Montage de couleurs; les petits échantillons visuels ne constituent pas une liste de variantes commandables.",
+        "Image de plusieurs taies alors que le conditionnement relevé est une pièce."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601248538962",
+      "source": "Alibaba",
+      "supplierProductId": "1601248538962",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mink-Velvet-Bed-Sheet-Set-Solid_1601248538962.html",
+      "supplier": "Nantong Xinshang Trading Co., Ltd.",
+      "nameFR": "Parure velours quatre pièces",
+      "category": "housses-couette",
+      "descriptionFrench": "Parure en velours comprenant une housse de couette, un drap et deux taies. Le type de drap et le minimum de commande demandent confirmation.",
+      "materials": [
+        "Velours de polyester déclaré ; marque fournisseur Petercat’s Home.",
+        "Contenu indiqué par le fournisseur : 1 housse de couette + 1 drap + 2 taies d'oreiller; type sélectionné : drap plat"
+      ],
+      "sizes": [
+        "200*230cm"
+      ],
+      "colors": [
+        {
+          "id": "rouge-1",
+          "name": "Rouge",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H88675eb6f55645e28665ccd8208b13baO.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-07.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée Rouge dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            },
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H9e832a2a91ce4bb5b031cacf0962d129W.jpg_960x960q80.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-03.jpg",
+              "kind": "lifestyle",
+              "evidence": "Vue supplémentaire de la galerie : correspondance visuelle de teinte et de modèle avec la vignette explicite, inspectée le 25 octobre 2026. Aucun recoloriage ni vue fabriquée.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "pourpre-2",
+          "name": "Pourpre",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H67a3aa0cafef4667bd8dc22039e4a3b3c.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-08.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée Pourpre dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "poudre-pour-la-peau-3",
+          "name": "Poudre pour la peau",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H38774e3e2bf144c08f9832b14ed3a51du.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-09.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée Poudre pour la peau dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            },
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/Hde9d2894316b4e6ca93838afb71aabdan.jpg_960x960q80.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-06.jpg",
+              "kind": "lifestyle",
+              "evidence": "Vue supplémentaire de la galerie : correspondance visuelle de teinte et de modèle avec la vignette explicite, inspectée le 25 octobre 2026. Aucun recoloriage ni vue fabriquée.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "jaune-4",
+          "name": "Jaune",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/Hd2aa07e6cf0345a6a5f33e247e27ef9et.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-10.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée Jaune dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-profond-5",
+          "name": "rose profond",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H5b3669c5b42947abbe5838cebd7fdb4fK.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-11.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée rose profond dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-6",
+          "name": "rose",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H5243d7a8f85e47eb97a5a7d630cd1494s.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-12.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée rose dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            },
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/He19985facf7e427d896c12fa7e7da891w.jpg_960x960q80.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-02.jpg",
+              "kind": "lifestyle",
+              "evidence": "Vue supplémentaire de la galerie : correspondance visuelle de teinte et de modèle avec la vignette explicite, inspectée le 25 octobre 2026. Aucun recoloriage ni vue fabriquée.",
+              "rightsApproved": false,
+              "visuallyInspected": true,
+              "possibleDuplicateOfVariant": true,
+              "countsAsDistinctPhoto": false
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur",
+          "uncertainty": "La vue de galerie et la vignette semblent utiliser la même prise de vue ; ne pas compter comme deux photos distinctes."
+        },
+        {
+          "id": "pu-ciel-7",
+          "name": "PU ciel",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H8e42efb5a6b04234b7ec584045c4ba3cM.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-13.jpg",
+              "kind": "variant",
+              "evidence": "Vignette explicitement libellée PU ciel dans le sélecteur fournisseur ; copie publique indexée de la fiche. Les libellés fournisseur sont conservés.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "argent-8",
+          "name": "Argent",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "champagne-9",
+          "name": "Champagne",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "vert-clair-10",
+          "name": "Vert clair",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "bleu-11",
+          "name": "Bleu",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-12",
+          "name": "Rose",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "blanc-13",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "deep-blue-14",
+          "name": "Deep blue",
+          "images": [
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/Hd05fc9680ad44c019b95c838263b5365S.jpg_960x960q80.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-01.jpg",
+              "kind": "lifestyle",
+              "evidence": "Deux vues bleu nuit de la galerie ; libellé Deep blue confirmé dans le sélecteur antérieur. Correspondance visuelle, stock et commande du SKU à confirmer.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            },
+            {
+              "url": "https://s.alicdn.com/%40sc04/kf/H3e491528c95c4c228f9d7adcf9f57639O.jpg_960x960q80.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-05.jpg",
+              "kind": "lifestyle",
+              "evidence": "Deuxième vue bleu nuit observée dans la galerie, même modèle ; correspondance visuelle, pas de preuve de stock.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ],
+          "evidence": "Sélecteur de la fiche consultée en navigateur",
+          "mappingNeedsSupplierConfirmation": true
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hd05fc9680ad44c019b95c838263b5365S.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-01.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/He19985facf7e427d896c12fa7e7da891w.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-02.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H9e832a2a91ce4bb5b031cacf0962d129W.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-03.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Ha023fa0ca3ff481e908860156fd3f685v.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-04.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H3e491528c95c4c228f9d7adcf9f57639O.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-05.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hde9d2894316b4e6ca93838afb71aabdan.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-06.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H88675eb6f55645e28665ccd8208b13baO.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-07.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H67a3aa0cafef4667bd8dc22039e4a3b3c.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-08.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H38774e3e2bf144c08f9832b14ed3a51du.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-09.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hd2aa07e6cf0345a6a5f33e247e27ef9et.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-10.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H5b3669c5b42947abbe5838cebd7fdb4fK.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-11.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H5243d7a8f85e47eb97a5a7d630cd1494s.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-12.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H8e42efb5a6b04234b7ec584045c4ba3cM.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\velvet-13.jpg",
+          "kind": "variant",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 15.05,
+        "max": 15.05,
+        "basis": "1-99 jeux; >=100 14.42; >=1000 12.62 EUR",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Mink-Velvet-Bed-Sheet-Set-Solid_1601248538962.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "jeu",
+        "conflict": "Checkout starts at 1 set but attributes and supplier description state MOQ 5 Sets"
+      },
+      "shippingNote": {
+        "currency": "EUR",
+        "amount": 42.84,
+        "quantity": 1,
+        "unit": "jeu",
+        "displayedWindow": "05 nov. au 03 déc.",
+        "verified": false,
+        "noteFR": "Estimation affichée pour la variante sélectionnée par défaut ; coût livré complet, taxes et disponibilité non confirmés."
+      },
+      "uncertainties": [
+        "Minimum contradictoire : commande à partir de 1 lot, mais attributs et description à 5 lots.",
+        "Titre drap-housse, type sélectionné drap plat : confirmer le contenu.",
+        "Plusieurs libellés couleur sont ambigus ou similaires : conserver les codes et vérifier les photos.",
+        "Le format 220 × 240 cm cité dans le descriptif n’est pas confirmé dans le sélecteur.",
+        "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "La mise en scène comprend davantage de coussins décoratifs que les quatre pièces décrites; préciser le contenu.",
+        "Aucun coloris ne dispose de trois vues distinctes confirmées.",
+        "Les 13 images sont 6 vues de galerie et 7 vignettes, pas 13 vues d’une seule couleur.",
+        "Les vues peuvent montrer des coussins de mise en scène supplémentaires ; le contenu fournisseur reste une housse de couette, un drap et deux taies."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false,
+      "additionalSizeEvidence": [
+        {
+          "label": "200 × 230 cm — housse, drap 230 × 250 cm, 2 taies 48 × 74 cm",
+          "status": "description fournisseur, format déjà sélectionnable 200×230 cm"
+        },
+        {
+          "label": "220 × 240 cm — housse, drap 230 × 250 cm, 2 taies 48 × 74 cm",
+          "status": "description fournisseur seulement, pas confirmé au sélecteur : ne pas ajouter comme variante achetable"
+        }
+      ],
+      "secondaryPriceObservations": [
+        {
+          "currency": "USD",
+          "amount": 16,
+          "quantityBasis": "1–99 lots",
+          "sourceUrl": "https://www.alibaba.com/product-detail/Mink-Velvet-Bed-Sheet-Set-Solid_1601248538962.html",
+          "evidence": "Copie publique indexée il y a cinq mois ; valeur historique, ne remplace pas le relevé EUR du 24 octobre 2026."
+        }
+      ]
+    },
+    {
+      "id": "alibaba-1601521930949",
+      "source": "Alibaba",
+      "supplierProductId": "1601521930949",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Light-Luxury-Lyocell-Cotton-Green-Jacquard_1601521930949.html",
+      "supplier": "Chengdu Molee Textile Co., Ltd.",
+      "nameFR": "Parure jacquard quatre pièces",
+      "category": "housses-couette",
+      "descriptionFrench": "Parure à motif jacquard comprenant une housse de couette, un drap et deux taies. Dimensions exactes et composition à confirmer.",
+      "materials": [
+        "Lyocell et coton mentionnés ; proportions non indiquées.",
+        "Contenu indiqué par le fournisseur : 1 housse de couette + 1 drap + 2 taies d'oreiller"
+      ],
+      "sizes": [
+        "King Size",
+        "QUEEN"
+      ],
+      "colors": [
+        {
+          "id": "jaune-1",
+          "name": "Jaune",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-2",
+          "name": "Rose",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "marron-3",
+          "name": "Marron",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "or-4",
+          "name": "Or",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "violet-5",
+          "name": "VIOLET",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/Ha95a78a8e98e417ab683c76e195244a2P.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601521930949.jpg",
+          "kind": "lifestyle",
+          "evidence": "Parure jacquard à motifs ondulés avec revers bleu clair sur lit.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 48.65,
+        "max": 50.46,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Light-Luxury-Lyocell-Cotton-Green-Jacquard_1601521930949.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "jeu",
+        "conflict": null
+      },
+      "shippingNote": {
+        "currency": "EUR",
+        "amount": 48.16,
+        "quantity": 1,
+        "unit": "jeu",
+        "displayedWindow": "06 nov. au 04 déc.",
+        "verified": false,
+        "noteFR": "Estimation affichée pour la variante sélectionnée par défaut ; coût livré complet, taxes et disponibilité non confirmés."
+      },
+      "uncertainties": [
+        "Dimensions exactes de King et Queen.",
+        "Proportions de lyocell et coton.",
+        "Le vert cité dans le titre n’est pas une couleur sélectionnable.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Photo bleu/vert d eau alors que ces couleurs ne sont pas confirmées dans le sélecteur; photo illustrative du modèle seulement."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601451040881",
+      "source": "Alibaba",
+      "supplierProductId": "1601451040881",
+      "sourceUrl": "https://www.alibaba.com/product-detail/ChamXue-Duvet-Comforter-Quilt-Insert-Four_1601451040881.html",
+      "supplier": "Tongcheng Dijing Home Technology Co., Ltd.",
+      "nameFR": "Couette matelassée et taies coordonnées",
+      "category": "couettes",
+      "descriptionFrench": "Ensemble avec couette garnie et taie ou taies selon le format sélectionné. Les dimensions sont conservées telles qu’affichées par le fournisseur.",
+      "materials": [
+        "Enveloppe déclarée en coton à faible densité ; garnissage polyester ; option affichée 250 g/m²."
+      ],
+      "sizes": [
+        "Ensemble deux pièces pour lit simple 173x229cm, taie d'oreiller : 50x75cm x 1",
+        "Ensemble complet trois pièces 209x 219cm taie d'oreiller : 50x75cmx2",
+        "Ensemble trois pièces Queen 224x 224cm, taie d'oreiller : 50x75cmx2",
+        "Taie d'oreiller King trois pièces 259x 229cm : 50x75cmx2"
+      ],
+      "colors": [
+        {
+          "id": "bleu-fonce-1",
+          "name": "Bleu foncé",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-2",
+          "name": "Rose",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "noir-3",
+          "name": "Noir",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "gris-4",
+          "name": "Gris",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "beige-5",
+          "name": "Beige",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/H2579b509c8ba47dab535d4c26036925bs.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601451040881.jpg",
+          "kind": "lifestyle",
+          "evidence": "Couette matelassée bleu marine et taies assorties sur lit.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 10.81,
+        "max": 16.21,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/ChamXue-Duvet-Comforter-Quilt-Insert-Four_1601451040881.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "pièce",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Prix livré par variante et nombre exact de pièces.",
+        "Formats non standard en France ; ne pas les convertir en tailles françaises.",
+        "Composition et grammage par variante.",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Plusieurs oreillers de mise en scène; préciser le nombre inclus selon la taille."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601080870169",
+      "source": "Alibaba",
+      "supplierProductId": "1601080870169",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Stripe-Duvet-Cover-Set-European-Style_1601080870169.html",
+      "supplier": "Ningbo Mr. Dream Trading Co., Ltd.",
+      "nameFR": "Parure rayée trois pièces",
+      "category": "housses-couette",
+      "descriptionFrench": "Parure rayée comprenant une housse de couette et deux taies, sans couette garnie ni drap.",
+      "materials": [
+        "Microfibre et tissu satin mentionnés ; sans garnissage ; marque fournisseur Yovepii.",
+        "Contenu indiqué par le fournisseur : 1 housse de couette + 2 taies d'oreiller; sans drap"
+      ],
+      "sizes": [
+        "150*200cm+2taie d'oreiller",
+        "180*220cm+2taie d'oreiller",
+        "200*230cm+2 taie d'oreiller"
+      ],
+      "colors": [
+        {
+          "id": "bande-blanche-1",
+          "name": "Bande blanche",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "noir-2",
+          "name": "Noir",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-blanc-3",
+          "name": "Rose blanc",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "bleu-clair-4",
+          "name": "bleu clair",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "keke-vert-5",
+          "name": "keke vert",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "keke-violette-6",
+          "name": "keke violette",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "blanc-bleu-7",
+          "name": "Blanc bleu",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "sable-8",
+          "name": "sablé",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "noir-blanc-9",
+          "name": "Noir blanc",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "rose-10",
+          "name": "rose",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/H82d1d677ddd8411da6f1ce47e7c199e1f.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601080870169.jpg",
+          "kind": "lifestyle",
+          "evidence": "Parure blanche à rayures sombres sur un lit avec taies assorties.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 4.97,
+        "max": 5.93,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Stripe-Duvet-Cover-Set-European-Style_1601080870169.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "jeu",
+        "conflict": null
+      },
+      "shippingNote": {
+        "currency": "EUR",
+        "amount": 13.14,
+        "quantity": 1,
+        "unit": "jeu",
+        "displayedWindow": "03 nov. au 21 nov.",
+        "verified": false,
+        "noteFR": "Estimation affichée pour la variante sélectionnée par défaut ; coût livré complet, taxes et disponibilité non confirmés."
+      },
+      "uncertainties": [
+        "Composition textile et dimensions exactes des taies.",
+        "Correspondance entre codes couleur et photographies.",
+        "L’expédition directe est citée dans le titre mais ses conditions restent à confirmer.",
+        "Transport, taxes et coût total par variante.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Vérifier la correspondance entre image et libellé exact du fournisseur avant sélection de couleur."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1600901588050",
+      "source": "Alibaba",
+      "supplierProductId": "1600901588050",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Bed-Pillows-50x75-Cm-Firm-Luxury_1600901588050.html",
+      "supplier": "Nantong Hongya Weaving Co., Ltd.",
+      "nameFR": "Oreiller à dimensions sur mesure",
+      "category": "oreillers",
+      "descriptionFrench": "Oreiller avec enveloppe déclarée en coton et garnissage déclaré en polyester. Le fournisseur présente un seul choix combinant plusieurs dimensions sur mesure.",
+      "materials": [
+        "Enveloppe déclarée 100 % coton ; garnissage déclaré 100 % fibres polyester.",
+        "Un seul choix fournisseur : « 45*75cm, 50*70cm ou 50*75cm sur mesure »."
+      ],
+      "sizes": [
+        "45*75cm, 50*70cm ou 50*75cm sur mesure"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "noir-2",
+          "name": "Noir",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "gris-3",
+          "name": "Gris",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "bleu-marine-4",
+          "name": "Bleu marine",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "ardoise-5",
+          "name": "Ardoisé",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "jaune-6",
+          "name": "Jaune",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "kaki-fonce-7",
+          "name": "Kaki foncé",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "bourgogne-8",
+          "name": "Bourgogne",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "marron-9",
+          "name": "Marron",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        },
+        {
+          "id": "violet-10",
+          "name": "VIOLET",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/Hadc510aaf14949d3b33c69baeda5c0e5U.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1600901588050.jpg",
+          "kind": "lifestyle",
+          "evidence": "Deux oreillers blancs avec liseré gris sur fond blanc.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 3.16,
+        "max": 3.16,
+        "basis": "1-49 pieces; 50-199 2.26; >=200 0.901 EUR",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Bed-Pillows-50x75-Cm-Firm-Luxury_1600901588050.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "pièce",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Un seul libellé de dimension sur mesure regroupe trois formats : aucun format indépendant en stock n’est confirmé.",
+        "Cinq autres couleurs ne sont pas détaillées ; ne pas les inventer.",
+        "Prix livré et faisabilité d’une unité sur mesure.",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Étiquette CozyLux visible; produit de marque à ne pas présenter comme fabrication Moon & Pillow.",
+        "Photo de deux oreillers ne prouve pas un lot de deux."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601816193307",
+      "source": "Alibaba",
+      "supplierProductId": "1601816193307",
+      "sourceUrl": "https://french.alibaba.com/product-detail/Oreiller-de-lit-moelleux-et-respirant-1601816193307.html",
+      "supplier": "Nantong Hongya Weaving Co., Ltd.",
+      "nameFR": "Oreiller 48 × 74 cm",
+      "category": "oreillers",
+      "descriptionFrench": "Oreiller 48 × 74 cm avec enveloppe déclarée en coton et garnissage déclaré en microfibre polyester. Le nombre de pièces par sac reste inconnu.",
+      "materials": [
+        "Enveloppe déclarée 100 % coton ; garnissage déclaré en microfibre polyester."
+      ],
+      "sizes": [
+        "48*74cm"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/H34a7dfe1cc1348f6996337fd26461cf5B.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601816193307.jpg",
+          "kind": "lifestyle",
+          "evidence": "Trois oreillers blancs mis en scène sur lit blanc.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 1.94,
+        "max": 1.94,
+        "basis": "1-199 bags; >=200 1.91; >=5000 1.41 EUR",
+        "evidenceUrl": "https://french.alibaba.com/product-detail/Oreiller-de-lit-moelleux-et-respirant-1601816193307.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "sac",
+        "conflict": "Price tier uses sac; attributes MOQ1pcs. Number of pillows per bag not verified."
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Unité contradictoire : prix par sac et attribut à la pièce ; nombre d’oreillers par sac inconnu.",
+        "Poids de colis 10 kg incohérent avec poids produit 0,5–1 kg : clarifier le transport.",
+        "Ne pas reprendre les allégations médicales ou antibactériennes.",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Photo de trois oreillers alors que quantité par sac non confirmée; ne pas suggérer un lot de trois."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601710942064",
+      "source": "Alibaba",
+      "supplierProductId": "1601710942064",
+      "sourceUrl": "https://french.alibaba.com/product-detail/Taie-d-oreiller-100-coton-bleu-1601710942064.html",
+      "supplier": "GI.PE.TEX S.R.L",
+      "nameFR": "Taie bleu clair 50 × 75 cm",
+      "category": "taies",
+      "descriptionFrench": "Taie bleu clair 50 × 75 cm proposée sous la marque Gipetex par un fournisseur situé en Italie selon sa fiche.",
+      "materials": [
+        "Composition déclarée 100 % coton ; marque Gipetex ; origine Italie déclarée par le fournisseur.",
+        "Pays du fournisseur indiqué sur la fiche : IT."
+      ],
+      "sizes": [
+        "50x75cm"
+      ],
+      "colors": [
+        {
+          "id": "bleu-clair-1",
+          "name": "bleu clair",
+          "images": [],
+          "evidence": "Sélecteur de la fiche consultée en navigateur"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/H9f1c5a1fdf044c02a693e33f2362597al.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\ali-1601710942064.jpg",
+          "kind": "lifestyle",
+          "evidence": "Taie bleu clair sur oreiller rectangulaire, fond beige.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "min": 2.39,
+        "max": 2.39,
+        "basis": "1-50 pieces; 51-100 2.29; >=101 2.19 EUR",
+        "evidenceUrl": "https://french.alibaba.com/product-detail/Taie-d-oreiller-100-coton-bleu-1601710942064.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "pièce",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Frais, délais et adresse de retour France.",
+        "Marque Gipetex : vérifier l’autorisation de revente, sans réétiquetage Moon & Pillow.",
+        "Fournisseur et origine Italie déclarés, non audités.",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Image 400x400, netteté modérée; exploitable en petite carte, limitée pour grand zoom."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601393545708",
+      "source": "Alibaba",
+      "supplierProductId": "1601393545708",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Corduroy-Throw-Pillow-Cover-Soft-Velvet_1601393545708.html",
+      "supplier": "Shaoxing Yuanqi Textile Co.,ltd.",
+      "nameFR": "Housse de coussin côtelée",
+      "category": "housses",
+      "descriptionFrench": "Housse de coussin à texture côtelée repérée chez Shaoxing Yuanqi. Dimensions, couleurs et conditions de livraison restent à vérifier.",
+      "materials": [],
+      "sizes": [],
+      "colors": [],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 1.1,
+        "max": 1.3,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Corduroy-Throw-Pillow-Cover-Soft-Velvet_1601393545708.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 20,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Tailles et couleurs exactes",
+        "Photos et droit de réutilisation",
+        "Prix unitaire et livraison France",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Dimensions de produit et variantes commandables à obtenir.",
+        "Couleurs et codes des variantes commandables à obtenir.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601425929295",
+      "source": "Alibaba",
+      "supplierProductId": "1601425929295",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-18x18-Inch-45x45cm-Luxury_1601425929295.html",
+      "supplier": "Yiwu Leshang Import & Export Co., Ltd.",
+      "nameFR": "Housse de coussin unie",
+      "category": "housses",
+      "descriptionFrench": "Housse de coussin unie repérée chez Yiwu Leshang. Le titre mentionne 45 × 45 cm, sans variante de commande actuellement vérifiée.",
+      "materials": [],
+      "sizes": [
+        "45x45cm"
+      ],
+      "colors": [],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 0.51,
+        "max": 1.15,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-18x18-Inch-45x45cm-Luxury_1601425929295.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 50,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Couleurs exactes et stock",
+        "Prix pour 1 pièce",
+        "MOQ par couleur ou par commande",
+        "Transport France",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Couleurs et codes des variantes commandables à obtenir.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601524493215",
+      "source": "Alibaba",
+      "supplierProductId": "1601524493215",
+      "sourceUrl": "https://www.alibaba.com/product-detail/High-Quality-Rabbit-Fur-Throw-Pillow_1601524493215.html",
+      "supplier": "Yongkang Top Fine Trade Co., Ltd.",
+      "nameFR": "Housse de coussin à texture douce",
+      "category": "housses",
+      "descriptionFrench": "Housse de coussin à texture douce. La nature de la matière mentionnée dans le titre fournisseur reste ambiguë.",
+      "materials": [],
+      "sizes": [],
+      "colors": [],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 2.91,
+        "max": 3.36,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/High-Quality-Rabbit-Fur-Throw-Pillow_1601524493215.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 2,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Rabbit fur est ambigu : confirmer matière exacte, naturelle ou synthétique",
+        "Dimensions et couleurs",
+        "Photos",
+        "Livraison à l'unité France",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Dimensions de produit et variantes commandables à obtenir.",
+        "Couleurs et codes des variantes commandables à obtenir.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1600456299693",
+      "source": "Alibaba",
+      "supplierProductId": "1600456299693",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cushion-Cover-45x45cm-Solid-Plain-Linen_1600456299693.html",
+      "supplier": "Shaoxing Chiyou Digital Technology Co., Ltd.",
+      "nameFR": "Housse de coussin à pompons",
+      "category": "housses",
+      "descriptionFrench": "Housse de coussin à pompons. Le titre mentionne un format 45 × 45 cm et deux couleurs, encore à vérifier dans les sélecteurs.",
+      "materials": [
+        "Lin et coton cités dans le titre ; proportions non confirmées."
+      ],
+      "sizes": [
+        "45x45cm"
+      ],
+      "colors": [
+        {
+          "id": "jaune-1",
+          "name": "Jaune",
+          "images": [],
+          "evidence": "supplier_title"
+        },
+        {
+          "id": "beige-2",
+          "name": "Beige",
+          "images": [],
+          "evidence": "supplier_title"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 0.98,
+        "max": 1.26,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Cushion-Cover-45x45cm-Solid-Plain-Linen_1600456299693.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 10,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Nuancier et combinaisons en stock",
+        "Composition exacte",
+        "Photographies",
+        "Livraison à l'unité France",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601063679171",
+      "source": "Alibaba",
+      "supplierProductId": "1601063679171",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html",
+      "supplier": "SHENZHEN YALV HOME AND DRESS DECORATION CO.,LTD",
+      "nameFR": "Coussin uni — housse seule ou avec garnissage",
+      "category": "coussins",
+      "descriptionFrench": "Coussin uni proposé en housse seule ou avec garnissage selon les libellés indexés. Les variantes et leur stock restent à revérifier sur la fiche courante.",
+      "materials": [
+        "Polyester déclaré pour la housse ; fibres polyester déclarées pour le garnissage."
+      ],
+      "sizes": [
+        "30x50cm (housse seule)",
+        "45x45cm (housse seule)",
+        "50x50cm (housse seule)",
+        "30x50cm (housse + garnissage)",
+        "45x45cm (housse + garnissage)",
+        "50x50cm (housse + garnissage)"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "rose-2",
+          "name": "Rose",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "noir-3",
+          "name": "Noir",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "marron-4",
+          "name": "Marron",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "marron-fonce-5",
+          "name": "Marron foncé",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "kaki-6",
+          "name": "Kaki",
+          "images": [],
+          "evidence": "listing_variations"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 4.59,
+        "max": 8.75,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Throw-Pillow-Covers-18-x-18_1601063679171.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 5,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "1 couleur supplémentaire masquée et non inventée",
+        "Combinaisons exactes et prix de chaque variante",
+        "La liste catégorie affiche aussi $3.30–6.30 : devis nécessaire",
+        "Livraison France et photos",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601420936444",
+      "source": "Alibaba",
+      "supplierProductId": "1601420936444",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Throw-Pillow-Insert-Cushion-Inner-Fluffy_1601420936444.html",
+      "supplier": "Shaoxing Yuanqi Textile Co.,ltd.",
+      "nameFR": "Garnissage de coussin",
+      "category": "coussins",
+      "descriptionFrench": "Garnissage de coussin proposé par Shaoxing Yuanqi. Les formats cités dans le titre ne sont pas encore vérifiés comme variantes commandables.",
+      "materials": [],
+      "sizes": [
+        "30x50cm",
+        "45x45cm",
+        "50x50cm"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "supplier_title"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 1,
+        "max": 1.6,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Throw-Pillow-Insert-Cushion-Inner-Fluffy_1601420936444.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 20,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Poids de garnissage, matière et prix par taille",
+        "Expédition à l'unité France",
+        "Photos",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1600663621616",
+      "source": "Alibaba",
+      "supplierProductId": "1600663621616",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html",
+      "supplier": "Huaian Goodlife Textile Co., Ltd.",
+      "nameFR": "Plaid grosse maille",
+      "category": "plaids",
+      "descriptionFrench": "Plaid à grosse maille proposé en plusieurs formats dans les informations indexées. Composition et options courantes restent à confirmer.",
+      "materials": [
+        "La composition est contradictoire : chenille, polyester et laine apparaissent dans les informations fournisseur."
+      ],
+      "sizes": [
+        "60*60cm",
+        "80*100cm",
+        "100*150cm",
+        "100*200cm",
+        "127*152cm",
+        "60*80cm",
+        "80*80cm"
+      ],
+      "colors": [
+        {
+          "id": "beige-1",
+          "name": "Beige",
+          "images": [],
+          "evidence": "supplier_title_only"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 6.4,
+        "max": 23.4,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Beige-Chunky-Knit-Wool_1600663621616.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 20,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Composition exacte",
+        "Couleurs exactes et stock",
+        "Poids et prix par taille",
+        "Transport France : poids indiqué 2.5–3 kg mais colis5kg",
+        "Expédition à l'unité",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601024896360",
+      "source": "Alibaba",
+      "supplierProductId": "1601024896360",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cloudland-Custom-Cotton-Fitted-Sheets-Egyptian_1601024896360.html",
+      "supplier": "Hebei Cloudland Home Textiles Trading Co., Ltd.",
+      "nameFR": "Drap-housse Cloudland",
+      "category": "draps",
+      "descriptionFrench": "Drap-housse proposé sous le nom Cloudland. Dimensions, hauteur de bonnet et contenu du lot restent à confirmer.",
+      "materials": [
+        "Coton et coton égyptien cités dans le titre ; origine de la fibre non vérifiée."
+      ],
+      "sizes": [
+        "Queen (titre fournisseur, aucune dimension exacte confirmée)"
+      ],
+      "colors": [],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 15,
+        "max": 16,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Cloudland-Custom-Cotton-Fitted-Sheets-Egyptian_1601024896360.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "set",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Dimensions exactes et hauteur du bonnet",
+        "Contenu du set",
+        "Couleurs et photos",
+        "Prix et livraison 1 unité France",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Couleurs et codes des variantes commandables à obtenir.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1600317900242",
+      "source": "Alibaba",
+      "supplierProductId": "1600317900242",
+      "sourceUrl": "https://www.alibaba.com/product-detail/suzhou-yasha-silk-technology-pillow-case_1600317900242.html",
+      "supplier": "Suzhou Yasha Silk Technology Co., Ltd.",
+      "nameFR": "Taie d’oreiller Yasha",
+      "category": "taies",
+      "descriptionFrench": "Taie d’oreiller Yasha dont la composition, le minimum de commande et les variantes restent à confirmer.",
+      "materials": [
+        "Composition contradictoire : attribut 100 % soie, titre mentionnant soie et Tencel sur deux faces."
+      ],
+      "sizes": [
+        "Toddler 14*20inch(51cm*36cm)",
+        "Standard 20*26inch(51cm*66cm)",
+        "Queen 20*30inch(51cm*76cm)",
+        "King 20*36inch(51cm*91cm)"
+      ],
+      "colors": [
+        {
+          "id": "01-lavande-1",
+          "name": "01 lavande",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "02-rose-clair-2",
+          "name": "02 rose clair",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "04-ivoire-3",
+          "name": "04 ivoire",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "06-bleu-clair-4",
+          "name": "06 bleu clair",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "07-vert-clair-5",
+          "name": "07 vert clair",
+          "images": [],
+          "evidence": "listing_variations"
+        },
+        {
+          "id": "08-violet-6",
+          "name": "08 violet",
+          "images": [],
+          "evidence": "listing_variations"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 9.7,
+        "max": 17.8,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/suzhou-yasha-silk-technology-pillow-case_1600317900242.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": null,
+        "unit": null,
+        "conflict": "Attribut MOQ10, encart commande minimum1 meter : unité et quantité incohérentes"
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "26 couleurs supplémentaires masquées non inventées",
+        "Dimensions source incohérentes pour Toddler : conserver le libellé fournisseur pour contrôle",
+        "Composition et MOQ",
+        "Livraison France et photos",
+        "Écarter option enfant du lancement adulte",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601563999505",
+      "source": "Alibaba",
+      "supplierProductId": "1601563999505",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-High-Quality-50-80-White_1601563999505.html",
+      "supplier": "Nantong Youmian Haochen Textile Co., Ltd.",
+      "nameFR": "Taie d’oreiller rayée",
+      "category": "taies",
+      "descriptionFrench": "Taie d’oreiller rayée blanche. Le titre indique 50 × 80, sans unité ni variante de commande vérifiées.",
+      "materials": [
+        "Coton cité dans le titre ; proportion non confirmée."
+      ],
+      "sizes": [
+        "50*80"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "supplier_title"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 1.83,
+        "max": 2.05,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Wholesale-High-Quality-50-80-White_1601563999505.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 20,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Dimensions, fermeture et composition exactes",
+        "Photos et prix d'une pièce",
+        "Livraison France",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-12000003344865",
+      "source": "Alibaba",
+      "supplierProductId": "12000003344865",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Modern-Breathable-White-Cotton-Striped-Satin_12000003344865.html",
+      "supplier": "ZADE OTEL TEKSTIL",
+      "nameFR": "Taie d’oreiller rayée à rabat",
+      "category": "taies",
+      "descriptionFrench": "Taie d’oreiller rayée à rabat. Le titre mentionne 50 × 70 cm et du coton ; composition et variantes restent à confirmer.",
+      "materials": [
+        "Coton et satin rayé cités dans le titre ; proportion non confirmée."
+      ],
+      "sizes": [
+        "50x70 cm"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "supplier_title"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 1.57,
+        "max": 1.57,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Modern-Breathable-White-Cotton-Striped-Satin_12000003344865.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 20,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Photos, composition et variantes exactes",
+        "Livraison depuis Turquie vers France",
+        "Expédition à l'unité",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1600774859826",
+      "source": "Alibaba",
+      "supplierProductId": "1600774859826",
+      "sourceUrl": "https://www.alibaba.com/product-detail/High-Quality-600gsm-100-Cotton-5_1600774859826.html",
+      "supplier": "Nantong Youmian Haochen Textile Co., Ltd.",
+      "nameFR": "Serviette blanche — plusieurs formats",
+      "category": "serviettes",
+      "descriptionFrench": "Serviette blanche proposée en plusieurs formats dans les informations indexées. Le minimum affiché de 500 pièces ne convient pas à un achat au fil des ventes.",
+      "materials": [
+        "Coton et 600 g/m² cités dans le titre ; attribut de grammage 500–699 g/m². Valeur exacte par variante à confirmer."
+      ],
+      "sizes": [
+        "70*140cm",
+        "80*150cm",
+        "35*75cm",
+        "35*35cm"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "listing_variations"
+        }
+      ],
+      "gallery": [],
+      "price": {
+        "currency": "USD",
+        "min": 0.6647,
+        "max": 6.55,
+        "basis": "Prix fournisseur indicatif du relevé du 24 octobre 2026, hors coût livré non confirmé ; ce n’est pas un prix public de vente.",
+        "evidenceUrl": "https://www.alibaba.com/product-detail/High-Quality-600gsm-100-Cotton-5_1600774859826.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 500,
+        "unit": "pieces",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "MOQ500 incompatible avec achat au fil des ventes sans accord particulier",
+        "Poids exact par taille et prix par variante",
+        "Coût livré France",
+        "Photo et droits",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    },
+    {
+      "id": "alibaba-1601723803318",
+      "source": "Alibaba",
+      "supplierProductId": "1601723803318",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Premium-Hotel-Quality-100-Cotton-SPA_1601723803318.html",
+      "supplier": "Guangxi Xinbailong Import And Export Trade Co., Ltd.",
+      "nameFR": "Serviette mains blanche",
+      "category": "serviettes",
+      "descriptionFrench": "Serviette blanche sélectionnée en format 35 × 75 cm sur la fiche fournisseur. Le minimum de commande présente une contradiction.",
+      "materials": [
+        "100 % coton déclaré ; attribut de grammage 500–699 g/m²."
+      ],
+      "sizes": [
+        "35*75cm"
+      ],
+      "colors": [
+        {
+          "id": "blanc-1",
+          "name": "Blanc",
+          "images": [],
+          "evidence": "listing_current_selection"
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/@sc04/kf/He67371a883854e278530abcef34b71a4t.png_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\alibaba-1601723803318.jpg",
+          "kind": "lifestyle",
+          "evidence": "Serviettes blanches roulées avec broderie SPA, sur table en bois.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "min": 1.25,
+        "max": 1.42,
+        "basis": [
+          {
+            "quantity_min": 20,
+            "quantity_max": 999,
+            "price": 1.42
+          },
+          {
+            "quantity_min": 1000,
+            "quantity_max": 1999,
+            "price": 1.33
+          },
+          {
+            "quantity_min": 2000,
+            "quantity_max": null,
+            "price": 1.25
+          }
+        ],
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Premium-Hotel-Quality-100-Cotton-SPA_1601723803318.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 20,
+        "unit": "pieces",
+        "conflict": "Descriptif : 10 ensembles ; encart de commande : 20 pièces."
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Listing currentselection35x75 vs marketingtitreBathTowelSet : confirmer pièce vendue",
+        "Promo finissant30sept dans page malgré consultation24oct : prix à revalider",
+        "DescriptifMOQ10sets en contradiction20pieces encart",
+        "Livraison France et expédition unité",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Clarifier la contradiction sur le minimum et l’unité de commande avant toute vente.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Texte marketing 100% cotton intégré à image et broderie SPA; ne pas considérer comme certification de composition.",
+        "Pas adaptée comme image premium sans accord fournisseur et photo sans texte.",
+        "La galerie supplémentaire entière a été inspectée et exclue de la galerie commerciale : logos et contenus de personnalisation.",
+        "La description mentionne gris, rose, bleu et fabrication sur mesure ; seul Blanc est confirmé au sélecteur. Ne pas ajouter ces teintes comme variantes à l’unité."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false,
+      "rejectedGallery": [
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/He67371a883854e278530abcef34b71a4t.png_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\towel-01.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false,
+          "reason": "Marques de clients, personnalisation de logo, montage promotionnel ou capture d’avis : impropre à illustrer une serviette Moon & Pillow vendue sans ces éléments."
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hfaaa38d61a094ecbbc9f85d7684ccbde2.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\towel-02.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false,
+          "reason": "Marques de clients, personnalisation de logo, montage promotionnel ou capture d’avis : impropre à illustrer une serviette Moon & Pillow vendue sans ces éléments."
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hedf00683d6e74689a2cabeabf2b93a09A.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\towel-03.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false,
+          "reason": "Marques de clients, personnalisation de logo, montage promotionnel ou capture d’avis : impropre à illustrer une serviette Moon & Pillow vendue sans ces éléments."
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H992bda18ee5f4fb3bb81880518a7f7cfS.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\towel-04.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false,
+          "reason": "Marques de clients, personnalisation de logo, montage promotionnel ou capture d’avis : impropre à illustrer une serviette Moon & Pillow vendue sans ces éléments."
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hc020c1ee68834ed6a878be1f0ead8117P.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\towel-05.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false,
+          "reason": "Marques de clients, personnalisation de logo, montage promotionnel ou capture d’avis : impropre à illustrer une serviette Moon & Pillow vendue sans ces éléments."
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H64881a97a2134b1a86eaac8858906f20Q.png_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\towel-06.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": false,
+          "reason": "Marques de clients, personnalisation de logo, montage promotionnel ou capture d’avis : impropre à illustrer une serviette Moon & Pillow vendue sans ces éléments."
+        }
+      ]
+    },
+    {
+      "id": "alibaba-1600911117672",
+      "source": "Alibaba",
+      "supplierProductId": "1600911117672",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Chinese-Manufacture-Hotel-Home-100-organic_1600911117672.html",
+      "supplier": "Qdtex Co., Ltd.",
+      "nameFR": "Couvre-lit matelassé",
+      "category": "couvre-lits",
+      "descriptionFrench": "Couvre-lit matelassé présenté en ensemble. Dimensions, couleurs et contenu exact restent à confirmer.",
+      "materials": [
+        "Coton biologique cité dans le titre uniquement ; aucune certification vérifiée."
+      ],
+      "sizes": [
+        "King",
+        "Queen"
+      ],
+      "colors": [],
+      "gallery": [
+        {
+          "url": "https://sc04.alicdn.com/kf/Hf503d35bcc164fa687e72b5c1392d086u.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-assets\\alibaba-1600911117672.jpg",
+          "kind": "lifestyle",
+          "evidence": "Couvre-lit jaune moutarde matelassé et deux taies assorties sur lit.",
+          "rightsApproved": false,
+          "visuallyInspected": true,
+          "commercialGalleryRecommended": true
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "min": 21.9,
+        "max": 29.9,
+        "basis": [
+          {
+            "quantity_min": 50,
+            "quantity_max": 99,
+            "price": 29.9
+          },
+          {
+            "quantity_min": 100,
+            "quantity_max": 499,
+            "price": 27.9
+          },
+          {
+            "quantity_min": 500,
+            "quantity_max": 999,
+            "price": 25.9
+          },
+          {
+            "quantity_min": 1000,
+            "quantity_max": null,
+            "price": 21.9
+          }
+        ],
+        "evidenceUrl": "https://www.alibaba.com/product-detail/Chinese-Manufacture-Hotel-Home-100-organic_1600911117672.html",
+        "checkedAt": "2026-10-24",
+        "approved": false
+      },
+      "moq": {
+        "quantity": 50,
+        "unit": "sets",
+        "conflict": null
+      },
+      "shippingNote": null,
+      "uncertainties": [
+        "Dimensions exactes et contenu set",
+        "Couleurs exactes et stock",
+        "Composition/enveloppe/garnissage",
+        "Prix50sets minimum incompatible avec budget120€",
+        "LivraisonFranceunité",
+        "Droitphotos",
+        "Coût complet livré en France et délai par variante non validés.",
+        "Couleurs et codes des variantes commandables à obtenir.",
+        "Minimum supérieur à une unité : achat au fil des ventes impossible sans accord fournisseur spécifique.",
+        "Combinaisons taille/couleur et stock non confirmés.",
+        "Accord d’expédition directe au client, retours et droit de réutilisation des photos non validés.",
+        "La liste des tailles et couleurs ne prouve ni les combinaisons disponibles ni le stock.",
+        "L’accès actuel à Alibaba est arrêté par une vérification CAPTCHA ; aucun nouveau relevé en session connectée.",
+        "Les couleurs et dimensions commandables restent inconnues; ne pas proposer jaune sur la seule base de la photo."
+      ],
+      "readyForSale": false,
+      "newModel": false,
+      "evidenceCheckedAt": "2026-10-24",
+      "photoRightsApproved": false,
+      "minimumTwoColorsThreePhotosEachVerified": false
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "supplierProductId": "1601514865637",
+      "source": "Alibaba",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Luxury-Duvet-Bedding-Set-King_1601514865637.html",
+      "nameFR": "Parure avec jupe de lit — contenu à confirmer",
+      "category": "draps",
+      "price": {
+        "currency": "USD",
+        "min": 4.6,
+        "max": 9.2,
+        "basis": "Quantité minimum annoncée 1 lot, prix non livré et variante non définie"
+      },
+      "moq": {
+        "quantity": 1,
+        "unit": "lot",
+        "recurrentDropshippingConfirmed": false
+      },
+      "colors": [
+        {
+          "id": "supplier-1",
+          "name": "1",
+          "images": [
+            {
+              "url": "https://sc04.alicdn.com/kf/H968698693af8476386d81fe16b707cebA.jpg_100x100.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\newParure-04.jpg",
+              "kind": "variant",
+              "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ]
+        },
+        {
+          "id": "supplier-2",
+          "name": "2",
+          "images": [
+            {
+              "url": "https://sc04.alicdn.com/kf/Hfd793f8ad0e14dbda6ca79ce9d1633efj.jpg_100x100.jpg",
+              "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\newParure-05.jpg",
+              "kind": "variant",
+              "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+              "rightsApproved": false,
+              "visuallyInspected": true
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H3dbe3d7a91b54f2aa254c8b94cba5ee6h.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\newParure-01.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/H4eda202a34f0422b90d683ada4bfc055X.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\newParure-02.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://s.alicdn.com/%40sc04/kf/Hddbe8478e152426b8f5e7ca2a6bde6f8K.jpg_960x960q80.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\newParure-03.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        },
+        {
+          "url": "https://sc04.alicdn.com/kf/H42cc187e98ed4f8b841753d030429a6e7/276291138/H42cc187e98ed4f8b841753d030429a6e7.jpg",
+          "localpath": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-10-23\\https-www-youtube-com-watch-v\\work\\alibaba-expanded-assets\\newParure-06.jpg",
+          "kind": "lifestyle",
+          "evidence": "Photographie de la galerie officielle, relevée dans une copie publique indexée de la fiche et inspectée visuellement le 25 octobre 2026.",
+          "rightsApproved": false,
+          "visuallyInspected": true
+        }
+      ],
+      "uncertainties": [
+        "Fiche présentée comme Comforter Set 100% Cotton, photos montrant une housse à volant/jupe de lit sans couette identifiable.",
+        "Dimensions seulement personnalisables, aucune taille de vente vérifiée.",
+        "Délais annoncés 31 jours de production pour 1–50 lots, hors transport.",
+        "Couleurs numérotées sans correspondance de nom ; les trois vues principales sont des couleurs différentes, pas trois vues d’un coloris.",
+        "Prix fournisseur actuel, contenu, stock, expédition au client et droits photos non confirmés."
+      ],
+      "exclusionReason": "Contenu produit et variantes non qualifiés, esthétique et délai peu compatibles avec le lancement envisagé.",
+      "readyForSale": false
+    }
+  ],
+  "counts": {
+    "existingModels": 25,
+    "additionalModelsApprovedForImport": 0,
+    "newUsefulPhotos": 13,
+    "rejectedTowelImages": 6,
+    "rejectedNewCandidateImages": 6,
+    "modelsMeetingFullRequestedPhotoMinimum": 0
+  }
+}

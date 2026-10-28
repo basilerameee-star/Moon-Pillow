@@ -1,0 +1,1030 @@
+{
+  "checkedAt": "2026-10-25",
+  "scope": [
+    "specialist-expanded-2026-10-25.json",
+    "cj-expanded-2026-10-25.json"
+  ],
+  "method": "Read-only audit of normalized source data and their normalizers; exact URL overlap, label identity, grouping keys and existing local file hashes. No visual verification is implied by image counts.",
+  "summary": {
+    "candidateGroups": 333,
+    "sourceCounts": {
+      "AW Dropship Europe": 46,
+      "Planete Discount": 227,
+      "CJdropshipping": 60
+    },
+    "confirmedVisuallyDistinctModels": null,
+    "confirmedCompleteTwoColorsThreeExactPhotosEach": 0,
+    "colorLabels": 931,
+    "exactColorAssociationsMarkedVerified": 0,
+    "missingAssociationVerifiedFieldColors": 335,
+    "rawColorImagePlacements": 2529,
+    "generalGalleryImagePlacements": 1171,
+    "twoLabelAndThreeUrlsPerLabelUnverifiedGroups": 35
+  },
+  "exactIdentityDuplicates": {
+    "id": [],
+    "sourceUrl": [],
+    "supplierProductId": []
+  },
+  "duplicateColorIdentityGroups": [
+    {
+      "id": "cj-2411140800561622400",
+      "duplicateIds": {
+        "blue-gray": [
+          "Blue Gray",
+          "blue gray"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "blue gray": [
+          "Blue Gray",
+          "blue gray"
+        ]
+      }
+    },
+    {
+      "id": "cj-1585238757278756864",
+      "duplicateIds": {
+        "speckled-off-white": [
+          "Speckled off white",
+          "speckled off white"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "speckled off white": [
+          "Speckled off white",
+          "speckled off white"
+        ]
+      }
+    },
+    {
+      "id": "cj-1594162272279212032",
+      "duplicateIds": {
+        "orange": [
+          "Orange",
+          "orange"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "orange": [
+          "Orange",
+          "orange"
+        ]
+      }
+    },
+    {
+      "id": "cj-2501270947581604800",
+      "duplicateIds": {
+        "white": [
+          "White",
+          "white"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "white": [
+          "White",
+          "white"
+        ]
+      }
+    },
+    {
+      "id": "cj-2411300645591615100",
+      "duplicateIds": {
+        "pink": [
+          "Pink",
+          "pink"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "pink": [
+          "Pink",
+          "pink"
+        ]
+      }
+    },
+    {
+      "id": "cj-2412040749281608900",
+      "duplicateIds": {
+        "beige": [
+          "Beige",
+          "beige"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "beige": [
+          "Beige",
+          "beige"
+        ]
+      }
+    },
+    {
+      "id": "cj-2406300252491604000",
+      "duplicateIds": {
+        "dark-gray": [
+          "Dark Gray",
+          "dark gray"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "dark gray": [
+          "Dark Gray",
+          "dark gray"
+        ]
+      }
+    },
+    {
+      "id": "cj-2501221336081602300",
+      "duplicateIds": {
+        "candy-velvet-almond-yellow": [
+          "Candy Velvet Almond Yellow",
+          "Candy velvet almond yellow"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "candy velvet almond yellow": [
+          "Candy Velvet Almond Yellow",
+          "Candy velvet almond yellow"
+        ]
+      }
+    },
+    {
+      "id": "cj-0f71f755-035c-49ce-9e54-8103862c06ae",
+      "duplicateIds": {
+        "dark-brown": [
+          "Dark brown",
+          "dark brown"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "dark brown": [
+          "Dark brown",
+          "dark brown"
+        ]
+      }
+    },
+    {
+      "id": "cj-2504170512571608400",
+      "duplicateIds": {
+        "light-light-gray": [
+          "Light Light gray",
+          "light light gray"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "light light gray": [
+          "Light Light gray",
+          "light light gray"
+        ]
+      }
+    },
+    {
+      "id": "cj-1737748230328299520",
+      "duplicateIds": {
+        "black": [
+          "Black",
+          "black"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "black": [
+          "Black",
+          "black"
+        ]
+      }
+    },
+    {
+      "id": "cj-2412030755331624800",
+      "duplicateIds": {
+        "beige": [
+          "Beige",
+          "beige"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "beige": [
+          "Beige",
+          "beige"
+        ]
+      }
+    },
+    {
+      "id": "cj-2412240323031626200",
+      "duplicateIds": {
+        "bright-red": [
+          "Bright Red",
+          "bright red"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "bright red": [
+          "Bright Red",
+          "bright red"
+        ]
+      }
+    },
+    {
+      "id": "cj-2412230656071609300",
+      "duplicateIds": {
+        "black-tip-on-white-background": [
+          "Black Tip On White Background",
+          "black tip on white background"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "black tip on white background": [
+          "Black Tip On White Background",
+          "black tip on white background"
+        ]
+      }
+    },
+    {
+      "id": "cj-1380498548117868544",
+      "duplicateIds": {
+        "white": [
+          "White",
+          "white"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "white": [
+          "White",
+          "white"
+        ]
+      }
+    },
+    {
+      "id": "cj-1723169213197594624",
+      "duplicateIds": {
+        "pure-white": [
+          "Pure White",
+          "pure white"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "pure white": [
+          "Pure White",
+          "pure white"
+        ]
+      }
+    },
+    {
+      "id": "cj-2411100651541612500",
+      "duplicateIds": {
+        "gray": [
+          "Gray",
+          "gray"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "gray": [
+          "Gray",
+          "gray"
+        ]
+      }
+    },
+    {
+      "id": "cj-2406100547151615200",
+      "duplicateIds": {
+        "bean-pink": [
+          "Bean Pink",
+          "Bean pink"
+        ]
+      },
+      "duplicateNormalizedNames": {
+        "bean pink": [
+          "Bean Pink",
+          "Bean pink"
+        ]
+      }
+    }
+  ],
+  "sameUrlAcrossDifferentColors": [
+    {
+      "modelId": "aw-vcush",
+      "url": "https://www.aw-dropship.eu/i/1lgq/70hsZdi-/800x800.jpeg",
+      "colors": [
+        "Multicoloured",
+        "Natural Greens",
+        "Sunrise Oranges",
+        "Charcoal Greys",
+        "Aqua Blues",
+        "Rich Reds"
+      ],
+      "action": "Do not map this image as an exact color photo for each label. Keep only as a general gallery image unless visual proof identifies one exact color."
+    }
+  ],
+  "sameUrlAcrossModels": [
+    {
+      "url": "https://www.aw-dropship.eu/i/1fvx/-cv-mUAe/800x800.jpeg",
+      "models": [
+        "aw-cicc-01",
+        "aw-cicc-02",
+        "aw-cicc-03",
+        "aw-cicc-04",
+        "aw-cicc-05",
+        "aw-cicc-06",
+        "aw-cicc-07",
+        "aw-cicc-08",
+        "aw-cicc-09",
+        "aw-cicc-10"
+      ]
+    },
+    {
+      "url": "https://www.aw-dropship.eu/i/1fvy/ra57f_1y/800x800.jpeg",
+      "models": [
+        "aw-cicc-01",
+        "aw-cicc-02",
+        "aw-cicc-03",
+        "aw-cicc-04",
+        "aw-cicc-05",
+        "aw-cicc-06",
+        "aw-cicc-07",
+        "aw-cicc-09",
+        "aw-cicc-10"
+      ]
+    },
+    {
+      "url": "https://www.aw-dropship.eu/i/1fvv/boMOsUDN/800x800.jpeg",
+      "models": [
+        "aw-cicc-01",
+        "aw-cicc-02",
+        "aw-cicc-03",
+        "aw-cicc-04",
+        "aw-cicc-05",
+        "aw-cicc-06",
+        "aw-cicc-07",
+        "aw-cicc-08",
+        "aw-cicc-09",
+        "aw-cicc-10"
+      ]
+    },
+    {
+      "url": "https://www.aw-dropship.eu/i/1fvw/xCfN2XMH/800x800.jpeg",
+      "models": [
+        "aw-cicc-01",
+        "aw-cicc-02",
+        "aw-cicc-03",
+        "aw-cicc-04",
+        "aw-cicc-05",
+        "aw-cicc-06",
+        "aw-cicc-07",
+        "aw-cicc-08",
+        "aw-cicc-09",
+        "aw-cicc-10"
+      ]
+    },
+    {
+      "url": "https://www.aw-dropship.eu/i/1dk8/lIGSp24v/800x800.jpeg",
+      "models": [
+        "aw-cmc-hamsa",
+        "aw-cmc-lotus",
+        "aw-cmc-traditional"
+      ]
+    },
+    {
+      "url": "https://www.aw-dropship.eu/i/1dkb/SsQai5sc/800x800.jpeg",
+      "models": [
+        "aw-cmc-hamsa",
+        "aw-cmc-lotus",
+        "aw-cmc-traditional"
+      ]
+    }
+  ],
+  "identicalFullImageSetAcrossModels": [],
+  "sameNameDifferentGroupChecks": [
+    {
+      "normalizedName": "parure de lit microfibre",
+      "groups": [
+        {
+          "id": "pd-25998",
+          "materials": [
+            "100% Polyester 100 gsm"
+          ],
+          "sizes": [
+            "220x240 cm",
+            "240x260 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/parure-de-couette/25998-parure-de-lit-220x240-cm-microfibre-tomette.html",
+          "colors": [
+            "Tomette",
+            "Blanc",
+            "Lichen"
+          ],
+          "threadFeatures": [
+            ""
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        },
+        {
+          "id": "pd-25971",
+          "materials": [
+            "100% Polyester 90 gsm"
+          ],
+          "sizes": [
+            "220x240 cm",
+            "240x260 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/parure-de-couette/25971-parure-de-lit-220x240-cm-microfibre-bleu-paon.html",
+          "colors": [
+            "Bleu Paon",
+            "Figue"
+          ],
+          "threadFeatures": [
+            ""
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        }
+      ],
+      "action": "Potential regrouping review, not an automatic duplicate deletion. Compare exact composition/thread count/pack; source contradictions require confirmation."
+    },
+    {
+      "normalizedName": "coussin dehoussable coton violette",
+      "groups": [
+        {
+          "id": "pd-24851",
+          "materials": [
+            "100% Coton"
+          ],
+          "sizes": [
+            "50x50 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/coussin/24851-coussin-carre-dehoussable-50x50-cm-coton-violette.html",
+          "colors": [
+            "Multicolore"
+          ],
+          "threadFeatures": [
+            ""
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        },
+        {
+          "id": "pd-24802",
+          "materials": [
+            "Enveloppe : 100% Coton - Garnissage : 100% Polyester"
+          ],
+          "sizes": [
+            "40x60 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/coussin/24802-coussin-rectangulaire-dehoussable-40x60-cm-coton-violette.html",
+          "colors": [
+            "Multicolore"
+          ],
+          "threadFeatures": [
+            ""
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        }
+      ],
+      "action": "Potential regrouping review, not an automatic duplicate deletion. Compare exact composition/thread count/pack; source contradictions require confirmation."
+    },
+    {
+      "normalizedName": "drap housse percale de coton",
+      "groups": [
+        {
+          "id": "pd-25857",
+          "materials": [
+            "100% Percale de Coton 65 fils"
+          ],
+          "sizes": [
+            "160x200 cm",
+            "140x190 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25857-drap-housse-160x20030-cm-percale-de-coton-vert-sauge.html",
+          "colors": [
+            "Vert Sauge",
+            "Blanc",
+            "Bleu Fumé",
+            "Rose Thé"
+          ],
+          "threadFeatures": [
+            "Tissage ultra serré 65 fils /cm²"
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        },
+        {
+          "id": "pd-25600",
+          "materials": [
+            "100% Percale de Coton 80 fils"
+          ],
+          "sizes": [
+            "180x200 cm",
+            "160x200 cm",
+            "90x190 cm",
+            "140x190 cm",
+            "200x200 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html",
+          "colors": [
+            "Jaune Moutarde",
+            "Emeraude",
+            "Ocre",
+            "Bleu Azur",
+            "Blanc",
+            "Lin",
+            "Noir Clair",
+            "Vert Kaki",
+            "Thym",
+            "Terre De Sienne",
+            "Sable",
+            "Neige",
+            "Havane",
+            "Galet",
+            "Céladon",
+            "Bleu Nuit"
+          ],
+          "threadFeatures": [
+            "Tissage ultra serré 80 fils /cm²"
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        },
+        {
+          "id": "pd-25578",
+          "materials": [
+            "100% Percale de Coton 80 fils"
+          ],
+          "sizes": [
+            "160x200 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-housse/25578-drap-housse-160x20030-cm-percale-de-coton-vert-kaki.html",
+          "colors": [
+            "Vert Kaki"
+          ],
+          "threadFeatures": [
+            "Tissage ultra serré 65 fils /cm²"
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        }
+      ],
+      "action": "Potential regrouping review, not an automatic duplicate deletion. Compare exact composition/thread count/pack; source contradictions require confirmation."
+    },
+    {
+      "normalizedName": "drap plat satin de coton",
+      "groups": [
+        {
+          "id": "pd-25863",
+          "materials": [
+            "100% Satin de Coton 105 fils"
+          ],
+          "sizes": [
+            "265x300 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-plat/25863-drap-plat-265x300-cm-satin-de-coton-blanc.html",
+          "colors": [
+            "Blanc",
+            "Celadon",
+            "Bleu Marine"
+          ],
+          "threadFeatures": [
+            "Tissage ultra serré 105 fils /cm²"
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        },
+        {
+          "id": "pd-16134",
+          "materials": [
+            "Satin de Coton"
+          ],
+          "sizes": [
+            "240x300 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-plat/16134-drap-plat-240x300-satin-de-coton-noir.html",
+          "colors": [
+            "Noir",
+            "Sable",
+            "Tourterelle",
+            "Gris Foncé",
+            "Celadon",
+            "Blanc"
+          ],
+          "threadFeatures": [
+            "Tissage ultra serré 105 fils /cm²"
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        }
+      ],
+      "action": "Potential regrouping review, not an automatic duplicate deletion. Compare exact composition/thread count/pack; source contradictions require confirmation."
+    },
+    {
+      "normalizedName": "drap plat gaze de coton",
+      "groups": [
+        {
+          "id": "pd-20939",
+          "materials": [
+            "100% Gaze de Coton"
+          ],
+          "sizes": [
+            "270x300 cm",
+            "240x300 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-plat/20939-drap-plat-270x300-cm-gaze-de-coton-eucalyptus.html",
+          "colors": [
+            "Eucalyptus"
+          ],
+          "threadFeatures": [
+            ""
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        },
+        {
+          "id": "pd-17737",
+          "materials": [
+            "100% Gaze de Coton"
+          ],
+          "sizes": [
+            "270x300 cm",
+            "240x300 cm"
+          ],
+          "sourceUrl": "https://www.planetediscount.eu/drap-plat/17737-drap-plat-270x300-cm-gaze-de-coton-naturel.html",
+          "colors": [
+            "Naturel",
+            "Rose",
+            "Camel",
+            "Minuit",
+            "Romarin",
+            "Lie de vin",
+            "Chantilly",
+            "Guimauve",
+            "Vert d'eau",
+            "Canard",
+            "Safran",
+            "Terracotta",
+            "Nuage",
+            "Granit"
+          ],
+          "threadFeatures": [
+            "Tissage ultra serré 74 fils /cm²"
+          ],
+          "densityFeatures": [
+            ""
+          ]
+        }
+      ],
+      "action": "Potential regrouping review, not an automatic duplicate deletion. Compare exact composition/thread count/pack; source contradictions require confirmation."
+    }
+  ],
+  "localHashAudit": {
+    "localFilesFound": 0,
+    "uniqueHashes": 0,
+    "duplicateContentGroups": [],
+    "limitation": "No image can be declared visually distinct from a URL/hash alone. Absent local assets cannot be content-hashed."
+  },
+  "beigePriorityForVisualReview": [
+    {
+      "modelId": "pd-25868",
+      "name": "Housse de couette Gaze de Coton",
+      "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25868-housse-de-couette-220x240-cm-gaze-de-coton-naturel.html",
+      "colorCount": 1,
+      "totalModelUrls": 6,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/83549-thickbox_default/housse-de-couette-220x240-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83550-thickbox_default/housse-de-couette-220x240-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83551-thickbox_default/housse-de-couette-220x240-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83546-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83547-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83548-thickbox_default/housse-de-couette-240x260-cm-gaze-de-coton-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/housse-de-couette/25868-housse-de-couette-220x240-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/housse-de-couette/25867-housse-de-couette-240x260-cm-gaze-de-coton-naturel.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-25300",
+      "name": "Housse de couette Percale de Coton",
+      "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25300-housse-de-couette-240x260-cm-percale-de-coton-thym.html",
+      "colorCount": 8,
+      "totalModelUrls": 128,
+      "beigeChoices": [
+        {
+          "name": "Sable",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/82183-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82184-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82185-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82186-thickbox_default/housse-de-couette-240x260-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82151-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82152-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82153-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82154-thickbox_default/housse-de-couette-220x240-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82119-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82120-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82121-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82122-thickbox_default/housse-de-couette-200x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82087-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82088-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82089-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82090-thickbox_default/housse-de-couette-140x200-cm-percale-de-coton-sable.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/housse-de-couette/25298-housse-de-couette-240x260-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/housse-de-couette/25290-housse-de-couette-220x240-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/housse-de-couette/25282-housse-de-couette-200x200-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/housse-de-couette/25274-housse-de-couette-140x200-cm-percale-de-coton-sable.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-25080",
+      "name": "Housse de couette Reversible Gaze de Coton Vickie",
+      "sourceUrl": "https://www.planetediscount.eu/housse-de-couette/25080-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-terracotta.html",
+      "colorCount": 4,
+      "totalModelUrls": 64,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/81605-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81606-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81607-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81608-thickbox_default/housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81546-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81547-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81548-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81549-thickbox_default/housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81487-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81488-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81489-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81490-thickbox_default/housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81428-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81429-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81430-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg",
+            "https://www.planetediscount.eu/81431-thickbox_default/housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/housse-de-couette/25078-housse-de-couette-reversible-240x260-cm-gaze-de-coton-vickie-naturel.html",
+            "https://www.planetediscount.eu/housse-de-couette/25064-housse-de-couette-reversible-220x240-cm-gaze-de-coton-vickie-naturel.html",
+            "https://www.planetediscount.eu/housse-de-couette/25050-housse-de-couette-reversible-200x200-cm-gaze-de-coton-vickie-naturel.html",
+            "https://www.planetediscount.eu/housse-de-couette/25036-housse-de-couette-reversible-140x200-cm-gaze-de-coton-vickie-naturel.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-25860",
+      "name": "Drap Housse Gaze de Coton",
+      "sourceUrl": "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html",
+      "colorCount": 1,
+      "totalModelUrls": 9,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/83529-thickbox_default/drap-housse-160x20030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83530-thickbox_default/drap-housse-160x20030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83531-thickbox_default/drap-housse-160x20030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83526-thickbox_default/drap-housse-140x19030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83527-thickbox_default/drap-housse-140x19030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83528-thickbox_default/drap-housse-140x19030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83523-thickbox_default/drap-housse-180x20030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83524-thickbox_default/drap-housse-180x20030-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/83525-thickbox_default/drap-housse-180x20030-cm-gaze-de-coton-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/drap-housse/25860-drap-housse-160x20030-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/drap-housse/25859-drap-housse-140x19030-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/drap-housse/25858-drap-housse-180x20030-cm-gaze-de-coton-naturel.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-25600",
+      "name": "Drap Housse Percale de Coton",
+      "sourceUrl": "https://www.planetediscount.eu/drap-housse/25600-drap-housse-180x20030-cm-percale-de-coton-jaune-moutarde.html",
+      "colorCount": 16,
+      "totalModelUrls": 117,
+      "beigeChoices": [
+        {
+          "name": "Lin",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/82780-thickbox_default/drap-housse-180x20030-cm-percale-de-coton-lin.jpg",
+            "https://www.planetediscount.eu/82781-thickbox_default/drap-housse-180x20030-cm-percale-de-coton-lin.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/drap-housse/25593-drap-housse-180x20030-cm-percale-de-coton-lin.html"
+          ]
+        },
+        {
+          "name": "Sable",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/82061-thickbox_default/drap-housse-90x19025-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82062-thickbox_default/drap-housse-90x19025-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82045-thickbox_default/drap-housse-200x20035-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82046-thickbox_default/drap-housse-200x20035-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82029-thickbox_default/drap-housse-180x20035-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82030-thickbox_default/drap-housse-180x20035-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82013-thickbox_default/drap-housse-160x20030-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/82014-thickbox_default/drap-housse-160x20030-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/81997-thickbox_default/drap-housse-140x19030-cm-percale-de-coton-sable.jpg",
+            "https://www.planetediscount.eu/81998-thickbox_default/drap-housse-140x19030-cm-percale-de-coton-sable.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/drap-housse/25266-drap-housse-90x19025-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/drap-housse/25258-drap-housse-200x20035-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/drap-housse/25250-drap-housse-180x20035-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/drap-housse/25242-drap-housse-160x20030-cm-percale-de-coton-sable.html",
+            "https://www.planetediscount.eu/drap-housse/25234-drap-housse-140x19030-cm-percale-de-coton-sable.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-26025",
+      "name": "Taie d’oreiller Gaze de Coton",
+      "sourceUrl": "https://www.planetediscount.eu/taie-d-oreiller/26025-taie-doreiller-65x65-cm-gaze-de-coton-naturel.html",
+      "colorCount": 1,
+      "totalModelUrls": 4,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/84070-thickbox_default/taie-doreiller-65x65-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/84071-thickbox_default/taie-doreiller-65x65-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/84068-thickbox_default/taie-doreiller-50x70-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/84069-thickbox_default/taie-doreiller-50x70-cm-gaze-de-coton-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/taie-d-oreiller/26025-taie-doreiller-65x65-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/taie-d-oreiller/26024-taie-doreiller-50x70-cm-gaze-de-coton-naturel.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-24850",
+      "name": "Coussin déhoussable Gaze de Coton Terra",
+      "sourceUrl": "https://www.planetediscount.eu/coussin/24850-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-vert-d-eau.html",
+      "colorCount": 17,
+      "totalModelUrls": 68,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/80919-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-naturel.jpg",
+            "https://www.planetediscount.eu/80920-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-naturel.jpg",
+            "https://www.planetediscount.eu/80869-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-naturel.jpg",
+            "https://www.planetediscount.eu/80870-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/coussin/24844-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-naturel.html",
+            "https://www.planetediscount.eu/coussin/24820-coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-naturel.html"
+          ]
+        },
+        {
+          "name": "Ficelle",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/80909-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-ficelle.jpg",
+            "https://www.planetediscount.eu/80910-thickbox_default/coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-ficelle.jpg",
+            "https://www.planetediscount.eu/80859-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-ficelle.jpg",
+            "https://www.planetediscount.eu/80860-thickbox_default/coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-ficelle.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/coussin/24839-coussin-carre-dehoussable-45x45-cm-gaze-de-coton-terra-ficelle.html",
+            "https://www.planetediscount.eu/coussin/24815-coussin-rectangulaire-dehoussable-40x60-cm-gaze-de-coton-terra-ficelle.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-20931",
+      "name": "Serviette de bain Gaze de Coton",
+      "sourceUrl": "https://www.planetediscount.eu/serviette-de-bain/20931-serviette-de-bain-90x150-cm-gaze-de-coton-eucalyptus.html",
+      "colorCount": 6,
+      "totalModelUrls": 48,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/61417-thickbox_default/serviette-de-bain-90x150-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61418-thickbox_default/serviette-de-bain-90x150-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61404-thickbox_default/serviette-de-bain-70x130-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61405-thickbox_default/serviette-de-bain-70x130-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61392-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61393-thickbox_default/serviette-de-bain-50x90-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61380-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-naturel.jpg",
+            "https://www.planetediscount.eu/61381-thickbox_default/serviette-de-bain-30x50-cm-gaze-de-coton-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/serviette-de-bain/20930-serviette-de-bain-90x150-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/serviette-de-bain/20924-serviette-de-bain-70x130-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/serviette-de-bain/20918-serviette-de-bain-50x90-cm-gaze-de-coton-naturel.html",
+            "https://www.planetediscount.eu/serviette-de-bain/20912-serviette-de-bain-30x50-cm-gaze-de-coton-naturel.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "pd-25536",
+      "name": "Drap Housse Lin Métis",
+      "sourceUrl": "https://www.planetediscount.eu/drap-housse/25536-drap-housse-180x20035-cm-lin-metis-aqua.html",
+      "colorCount": 4,
+      "totalModelUrls": 24,
+      "beigeChoices": [
+        {
+          "name": "Naturel",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.planetediscount.eu/82640-thickbox_default/drap-housse-180x20035-cm-lin-metis-naturel.jpg",
+            "https://www.planetediscount.eu/82641-thickbox_default/drap-housse-180x20035-cm-lin-metis-naturel.jpg",
+            "https://www.planetediscount.eu/82638-thickbox_default/drap-housse-160x20035-cm-lin-metis-naturel.jpg",
+            "https://www.planetediscount.eu/82639-thickbox_default/drap-housse-160x20035-cm-lin-metis-naturel.jpg",
+            "https://www.planetediscount.eu/82636-thickbox_default/drap-housse-140x19035-cm-lin-metis-naturel.jpg",
+            "https://www.planetediscount.eu/82637-thickbox_default/drap-housse-140x19035-cm-lin-metis-naturel.jpg"
+          ],
+          "sourcePages": [
+            "https://www.planetediscount.eu/drap-housse/25533-drap-housse-180x20035-cm-lin-metis-naturel.html",
+            "https://www.planetediscount.eu/drap-housse/25532-drap-housse-160x20035-cm-lin-metis-naturel.html",
+            "https://www.planetediscount.eu/drap-housse/25531-drap-housse-140x19035-cm-lin-metis-naturel.html"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    },
+    {
+      "modelId": "aw-cicc-18",
+      "name": "Housse de coussin Soft Stone",
+      "sourceUrl": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18",
+      "colorCount": 1,
+      "totalModelUrls": 13,
+      "beigeChoices": [
+        {
+          "name": "Beige pierre",
+          "declaredAssociationVerified": false,
+          "urls": [
+            "https://www.aw-dropship.eu/i/4vdj/sKWguygk/800x800.jpg",
+            "https://www.aw-dropship.eu/i/4vdm/Jed_kmz_/800x800.jpg",
+            "https://www.aw-dropship.eu/i/4vef/kmPfjiiB/800x800.png",
+            "https://www.aw-dropship.eu/i/4vdn/lUA43UDZ/800x800.jpg",
+            "https://www.aw-dropship.eu/i/4vdk/xAl_s7w6/800x800.jpg",
+            "https://www.aw-dropship.eu/i/5f20/mRTiNADm/800x800.jpg",
+            "https://www.aw-dropship.eu/i/5f19/IRngRaM_/800x800.png",
+            "https://www.aw-dropship.eu/i/5f1c/hOWaH3m9/800x800.jpg",
+            "https://www.aw-dropship.eu/i/5f1b/Ou_qBEmY/800x800.jpg",
+            "https://www.aw-dropship.eu/i/5f1d/UMQnRqaD/800x800.jpg",
+            "https://www.aw-dropship.eu/i/5f1e/DQPefgeS/800x800.png",
+            "https://www.aw-dropship.eu/i/5f1f/uEoXOSZO/800x800.jpg",
+            "https://www.aw-dropship.eu/i/5f1g/hMpJHPa8/800x800.jpg"
+          ],
+          "sourcePages": [
+            "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-18",
+            "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-38"
+          ]
+        }
+      ],
+      "reviewStatus": "Not visually verified. Review at least three truly different photos of the exact beige SKU and at least one other exact color; do not count size duplicates or generic details as exact color shots."
+    }
+  ],
+  "rules": [
+    "A supplier SKU gallery is not proof that every image depicts the exact SKU color, nor that three URLs give three distinct useful views.",
+    "Every specialist color currently has associationVerified=false. CJ colors omit the flag and have empty images: treat missing as false, never as verified.",
+    "Do not promote raw two-color/three-URL counts into fulfilled user requirements without visual review and supplier matching.",
+    "CJ general galleries must stay separate from color galleries until images have been matched to the exact labels.",
+    "A beige-like term in a model title or in a multicolored motif does not establish a plain beige product photograph.",
+    "Different sizes and colors must not be counted as different models; conversely different fabric/density/pack composition must not be silently merged.",
+    "Model groups are source-derived candidates, not a certified count of commercially distinct, stocked, approved sellable products."
+  ]
+}

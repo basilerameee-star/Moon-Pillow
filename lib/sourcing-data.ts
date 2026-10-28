@@ -2492,16 +2492,6 @@ export const sourcingCandidates = [
         "label": "45x45 cm",
         "verified": true,
         "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
-      },
-      {
-        "label": "30x50 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
-      },
-      {
-        "label": "60x60 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-20"
       }
     ],
     "colors": [
@@ -2528,11 +2518,11 @@ export const sourcingCandidates = [
     },
     "shipping": null,
     "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
-    "descriptionFrench": "Housse de coussin Diamonds moutarde. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "descriptionFrench": "Housse de coussin Diamonds moutarde, documentée en 45 × 45 cm uniquement. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "detailsFrench": [],
     "openQuestionsFR": [
       "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
-      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "La fiche fournisseur consultée ne documente que le format 45 × 45 cm.",
       "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
       "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
       "Droits de réutilisation commerciale des photographies à confirmer."
@@ -2574,16 +2564,6 @@ export const sourcingCandidates = [
         "label": "45x45 cm",
         "verified": true,
         "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
-      },
-      {
-        "label": "30x50 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
-      },
-      {
-        "label": "60x60 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-19"
       }
     ],
     "colors": [
@@ -2610,11 +2590,11 @@ export const sourcingCandidates = [
     },
     "shipping": null,
     "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
-    "descriptionFrench": "Housse de coussin Marigold tissée. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "descriptionFrench": "Housse de coussin Marigold tissée, documentée en 45 × 45 cm uniquement. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "detailsFrench": [],
     "openQuestionsFR": [
       "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
-      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "La fiche fournisseur consultée ne documente que le format 45 × 45 cm.",
       "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
       "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
       "Droits de réutilisation commerciale des photographies à confirmer."
@@ -3138,16 +3118,6 @@ export const sourcingCandidates = [
         "label": "45x45 cm",
         "verified": true,
         "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
-      },
-      {
-        "label": "30x50 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
-      },
-      {
-        "label": "60x60 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-12"
       }
     ],
     "colors": [
@@ -3174,11 +3144,11 @@ export const sourcingCandidates = [
     },
     "shipping": null,
     "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
-    "descriptionFrench": "Housse de coussin Stripes multicolore. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "descriptionFrench": "Housse de coussin Stripes multicolore, documentée en 45 × 45 cm uniquement. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "detailsFrench": [],
     "openQuestionsFR": [
       "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
-      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "La fiche fournisseur consultée documente le format 45 × 45 cm.",
       "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
       "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
       "Droits de réutilisation commerciale des photographies à confirmer."
@@ -3220,16 +3190,6 @@ export const sourcingCandidates = [
         "label": "45x45 cm",
         "verified": true,
         "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
-      },
-      {
-        "label": "30x50 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
-      },
-      {
-        "label": "60x60 cm",
-        "verified": true,
-        "source": "https://www.aw-dropship.eu/homeware/sd-rugs/cicc/cicc-11"
       }
     ],
     "colors": [
@@ -3256,11 +3216,11 @@ export const sourcingCandidates = [
     },
     "shipping": null,
     "publicPriceHint": "Tarif HT hors livraison exposé dans le JSON public de la fiche; compte professionnel, stock et devis livré non validés.",
-    "descriptionFrench": "Housse de coussin Swirl rétro. Dimensions documentées : 45x45 cm, 30x50 cm, 60x60 cm. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
+    "descriptionFrench": "Housse de coussin Swirl rétro, documentée en 45 × 45 cm uniquement. Tarif professionnel, disponibilité et livraison à valider avant commercialisation.",
     "detailsFrench": [],
     "openQuestionsFR": [
       "Stock, prix du compte professionnel, coût livré et droits de réutilisation des images à confirmer avant vente.",
-      "Photos issues de la galerie publique fournisseur; la présence de plusieurs dimensions est documentée dans chaque photo.",
+      "La fiche fournisseur consultée documente le format 45 × 45 cm.",
       "Un seul coloris documenté pour ce modèle; minimum demandé de deux non atteint.",
       "Coût livré, stock et combinaisons taille/couleur à valider avant vente.",
       "Droits de réutilisation commerciale des photographies à confirmer."

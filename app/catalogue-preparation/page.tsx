@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { sourcingCandidates } from '@/lib/sourcing-data';
 import { categoryLabel, products, collectionImage, type Category } from '@/lib/catalog';
@@ -9,9 +10,9 @@ const cost=(value:number,currency:string)=>new Intl.NumberFormat('fr-FR',{style:
 export default function Preparation(){
  const unitCandidates=sourcingCandidates.filter(p=>p.moq.quantity===1&&!p.moq.conflict).length;
  return <main className="sourcing-page">
-  <a className="wordmark" href="/">Moon <i>&</i> Pillow</a>
+  <Link className="wordmark" href="/">Moon <i>&</i> Pillow</Link>
   <p className="eyebrow" style={{marginTop:60}}>APERÇU PRIVÉ · RECHERCHE FOURNISSEURS</p>
-  <h1>Le catalogue <em>prend forme.</em></h1>
+  <h1>Le catalogue <em>prend forme.</em></h1><Link href="/preparation-experience" className="underlined" style={{marginBottom:35}}>Préparer les e-mails, le colis et les retours <ArrowUpRight size={15}/></Link>
   <p className="category-intro">Les références ci-dessous sont des pistes de travail. Les prix relevés sont des prix fournisseurs, distincts du prix de vente. Aucun de ces nouveaux modèles n’est ouvert aux commandes.</p>
   <div className="progress-summary">
    <div><strong>{sourcingCandidates.length}</strong><span>modèles repérés</span></div>
@@ -23,14 +24,14 @@ export default function Preparation(){
   <div style={{overflowX:'auto'}}><table className="sourcing-table"><caption className="sr-only">{sourcingCandidates.length} références fournisseurs en préparation</caption><thead><tr><th scope="col">Modèle</th><th scope="col">Choix relevés</th><th scope="col">Minimum fournisseur</th><th scope="col">Coût relevé</th><th scope="col">À confirmer</th></tr></thead><tbody>
    {sourcingCandidates.map(p=>{
     const knownSizes=p.sizes.filter(s=>s.verified),knownColors=p.colors.filter(c=>c.verified);
-    return <tr key={p.id}><td><a href={`/produits/${p.id}`}><strong>{p.nameFR}</strong></a><p>{categoryLabel(p.category as Category)}</p><p>{p.supplier}</p><a href={p.url} target="_blank" rel="noopener noreferrer">Fiche {p.sourceLabel} <ArrowUpRight size={13}/></a></td>
-    <td><p>{knownSizes.length?knownSizes.map(s=>s.label.replaceAll('*',' × ')).join(' · '):'Dimensions commandables non confirmées'}</p><p>{knownColors.length?knownColors.map(c=>c.label).join(' · '):'Nuancier commandable non confirmé'}</p><p>{p.photoAudit.assignedPhotos} vues reliées aux coloris · {p.photoAudit.unassignedPhotos} vues générales</p><p>{p.photoAudit.meetsRequestedMinimum?'Minimum photographique contrôlé visuellement':'Minimum photographique pas encore validé pour tous les coloris'}</p>{p.requiresSupplierBundle&&<p>Lot fournisseur conservé en recherche ; retiré de la collection à composer.</p>}<a href={`/produits/${p.id}`}>Examiner la fiche</a></td>
+    return <tr key={p.id}><td><Link href={`/produits/${p.id}`}><strong>{p.nameFR}</strong></Link><p>{categoryLabel(p.category as Category)}</p><p>{p.supplier}</p><a href={p.url} target="_blank" rel="noopener noreferrer">Fiche {p.sourceLabel} <ArrowUpRight size={13}/></a></td>
+    <td><p>{knownSizes.length?knownSizes.map(s=>s.label.replaceAll('*',' × ')).join(' · '):'Dimensions commandables non confirmées'}</p><p>{knownColors.length?knownColors.map(c=>c.label).join(' · '):'Nuancier commandable non confirmé'}</p><p>{p.photoAudit.assignedPhotos} vues reliées aux coloris · {p.photoAudit.unassignedPhotos} vues générales</p><p>{p.photoAudit.meetsRequestedMinimum?'Minimum photographique contrôlé visuellement':'Minimum photographique pas encore validé pour tous les coloris'}</p>{p.requiresSupplierBundle&&<p>Lot fournisseur conservé en recherche ; retiré de la collection à composer.</p>}<Link href={`/produits/${p.id}`}>Examiner la fiche</Link></td>
     <td>{p.moq.quantity??'?'} {p.moq.unit}{p.moq.conflict&&<p className="error">Quantité ou unité contradictoire</p>}</td>
     <td>{p.cost.min!==null&&p.cost.max!==null?<>{cost(p.cost.min,p.cost.currency)}{p.cost.max!==p.cost.min&&<> à {cost(p.cost.max,p.cost.currency)}</>}</>:'Prix de compte non confirmé'}{p.publicPriceHint&&<p><small>Indice public : {p.publicPriceHint}</small></p>}<p>{p.shipping?`Port indicatif : ${cost(p.shipping.amount,p.shipping.currency)}`:'Port France non confirmé'}</p><small>Coût livré complet non validé</small></td>
     <td><ul>{p.openQuestionsFR.slice(0,3).map(q=><li key={q}>{q}</li>)}</ul></td></tr>;
    })}
   </tbody></table></div>
   <p className="source-note" style={{marginTop:32}}>La collection privilégie les mises en situation contrôlées et les macros sans détourage. Les autres modèles restent accessibles dans cette liste de préparation. Les photos dont la couleur ou une certification n’est pas vérifiée ne servent pas de visuel de variante. {products.filter(p=>p.draftOnly&&p.coverImage).length} nouveaux modèles disposent d’un visuel pour cet aperçu privé.</p>
-  <a className="underlined" href="/#collection" style={{marginTop:35}}><ArrowLeft size={16}/> Retour à la collection</a>
+  <Link className="underlined" href="/#collection" style={{marginTop:35}}><ArrowLeft size={16}/> Retour à la collection</Link>
  </main>;
 }
