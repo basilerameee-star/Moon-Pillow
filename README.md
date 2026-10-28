@@ -1,4 +1,7 @@
-# Moon & Pillow
+# Moon-Pillow
+Website to furbish your home
+
+## Moon & Pillow
 
 French-language home linen storefront project. The current site is a pre-launch catalogue and experience prototype; supplier, legal, payment, fulfilment, and advertising integrations still require verification and approval before accepting real orders.
 
