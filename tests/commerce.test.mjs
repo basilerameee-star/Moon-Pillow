@@ -1,17 +1,19 @@
 import test, { before, after } from "node:test";
 import assert from "node:assert/strict";
 import { products, colorName, galleryFor, firstColor, resolvePreviewItem, resolveItem, startingPrice } from "../lib/catalog.ts";
+import { productShipping, shippingCostCents, shippingForCart } from "../lib/shipping.ts";
 import { assertCheckoutAllowed, buildCheckoutParameters, checkoutFingerprint, createStripeCheckout, getShopConfig, MAX_BODY_BYTES, publicShopStatus, readCheckoutRequest, receiptFromSession, retrieveStripeReceipt, safeCheckoutUrl, validateCheckout } from "../lib/commerce.ts";
 
 const attemptId = "b8dc3488-5088-49b0-906d-d2e47f998a20";
 const first = { productId: products[0].id, optionId: products[0].options[0].id, color: "blanc", quantity: 1 };
 const request = (items = [first], extra = {}) => ({ attemptId, items, ...extra });
-const environment = () => ({ SHOP_READY: "true", LEGAL_APPROVED: "true", APP_ORIGIN: "https://shop.example", APPROVED_PRODUCT_IDS: products.filter(product=>!product.draftOnly).map(product => product.id).join(","), SHIPPING_CENTS: "490", SHIPPING_MIN_DAYS: "3", SHIPPING_MAX_DAYS: "7", STRIPE_SECRET_KEY: "sk_test_fixtureonly" });
+const environment = () => ({ SHOP_READY: "true", LEGAL_APPROVED: "true", APP_ORIGIN: "https://shop.example", APPROVED_PRODUCT_IDS: products.filter(product=>!product.draftOnly).map(product => product.id).join(","), SHIPPING_MIN_DAYS: "3", SHIPPING_MAX_DAYS: "7", STRIPE_SECRET_KEY: "sk_test_fixtureonly" });
 // Explicit test fixtures only; the shipped catalogue retains proposed prices.
 const fixtures=products.filter(p=>!p.draftOnly);
 const originalStatuses=fixtures.map(p=>p.priceStatus);
-before(()=>fixtures.forEach(p=>{p.priceStatus='approved';}));
-after(()=>fixtures.forEach((p,i)=>{p.priceStatus=originalStatuses[i];}));
+// Shipping fixtures: the two publishable items are weighed as if shipped by AW (real AW grid).
+before(()=>{fixtures.forEach(p=>{p.priceStatus='approved';}); productShipping['housse-cotelee']={supplier:'aw',grams:200}; productShipping['plaid-cotele']={supplier:'aw',grams:1500};});
+after(()=>{fixtures.forEach((p,i)=>{p.priceStatus=originalStatuses[i];}); delete productShipping['housse-cotelee']; delete productShipping['plaid-cotele'];});
 
 test("the forced bundle is removed; covers and throws remain individual choices", () => {
   assert.equal(products.some(p=>p.id==='ensemble-cocon'),false);
@@ -87,13 +89,13 @@ test("payment requires every explicit readiness condition, and status never expo
     const env = environment(); delete env[key];
     assert.equal(getShopConfig(env).checkoutEnabled, false, key);
   }
-  assert.deepEqual(Object.keys(publicShopStatus(getShopConfig(environment()))).sort(), ["checkoutEnabled", "maxDays", "minDays", "shippingCents", "testMode"]);
+  assert.deepEqual(Object.keys(publicShopStatus(getShopConfig(environment()))).sort(), ["checkoutEnabled", "maxDays", "minDays", "testMode"]);
   assert.equal(publicShopStatus(getShopConfig(environment())).testMode, true);
   assert.equal(publicShopStatus(getShopConfig({ ...environment(), STRIPE_SECRET_KEY: "sk_live_fixtureonly" })).testMode, false);
 });
 
 test("invalid delivery, unknown product approvals and noncanonical origins stay closed", () => {
-  for (const overrides of [{ SHIPPING_CENTS: "-1" }, { SHIPPING_CENTS: "4.9" }, { SHIPPING_MIN_DAYS: "8" }, { SHIPPING_MAX_DAYS: "61" }, { APPROVED_PRODUCT_IDS: "unknown" }, { APP_ORIGIN: "http://shop.example" }, { APP_ORIGIN: "https://shop.example/path" }, { APP_ORIGIN: "https://shop.example/" }, { APP_ORIGIN: "https://user:pass@shop.example" }, { LEGAL_APPROVED: "yes" }]) {
+  for (const overrides of [{ SHIPPING_MIN_DAYS: "8" }, { SHIPPING_MAX_DAYS: "61" }, { APPROVED_PRODUCT_IDS: "unknown" }, { APP_ORIGIN: "http://shop.example" }, { APP_ORIGIN: "https://shop.example/path" }, { APP_ORIGIN: "https://shop.example/" }, { APP_ORIGIN: "https://user:pass@shop.example" }, { LEGAL_APPROVED: "yes" }]) {
     assert.equal(getShopConfig({ ...environment(), ...overrides }).checkoutEnabled, false);
   }
 });
@@ -121,7 +123,7 @@ test("Stripe receives server prices, EUR, address restriction, consent and canon
   assert.equal(params.get("shipping_address_collection[allowed_countries][0]"), "FR");
   assert.equal(params.get("consent_collection[terms_of_service]"), "required");
   assert.equal(params.get("success_url"), "https://shop.example/commande?session_id={CHECKOUT_SESSION_ID}");
-  assert.equal(params.get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "490");
+  assert.equal(params.get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "900");
 });
 
 test("delivery is free from 100 € of server-priced items, and charged below", () => {
@@ -130,9 +132,20 @@ test("delivery is free from 100 € of server-priced items, and charged below", 
   const below = Math.max(1, Math.ceil(10000 / price) - 1);
   const above = Math.ceil(10000 / price);
   const amount = quantity => buildCheckoutParameters(config, validateCheckout(request([{ ...first, quantity }])), "hash");
-  if (price * below < 10000) assert.equal(amount(below).get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "490");
+  if (price * below < 10000) assert.equal(amount(below).get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), String(shippingCostCents([{ productId: first.productId, quantity: below }])));
   assert.equal(amount(above).get("shipping_options[0][shipping_rate_data][fixed_amount][amount]"), "0");
   assert.equal(amount(above).get("shipping_options[0][shipping_rate_data][display_name]"), "Livraison offerte en France");
+});
+
+test("customers pay the supplier's real shipping cost: one parcel per supplier, AW weight grid, unknown stays closed", () => {
+  assert.equal(shippingCostCents([{ productId: 'aw-cicc-20', quantity: 1 }]), 900);
+  assert.equal(shippingCostCents([{ productId: 'aw-cicc-20', quantity: 1 }, { productId: 'aw-hit-01', quantity: 1 }]), 936);
+  assert.equal(shippingCostCents([{ productId: 'aw-hit-01', quantity: 3 }]), 1548);
+  assert.equal(shippingCostCents([{ productId: 'unknown-product', quantity: 1 }]), null);
+  assert.equal(shippingForCart(10000, [{ productId: 'unknown-product', quantity: 1 }]), 0);
+  const saved = productShipping['housse-cotelee']; delete productShipping['housse-cotelee'];
+  assert.throws(() => buildCheckoutParameters(getShopConfig(environment()), validateCheckout(request()), "hash"), error => error.status === 503);
+  productShipping['housse-cotelee'] = saved;
 });
 
 test("same-origin and approved supplier products are enforced server-side", () => {
@@ -149,7 +162,8 @@ test("idempotency fingerprint is stable for equivalent carts and changes with de
   const a = validateCheckout(request([{ ...first, quantity: 2 }]));
   const b = validateCheckout(request([first, first]));
   assert.equal(await checkoutFingerprint(config, a), await checkoutFingerprint(config, b));
-  assert.notEqual(await checkoutFingerprint(config, a), await checkoutFingerprint({ ...config, shippingCents: 0 }, a));
+  const before = await checkoutFingerprint(config, a); productShipping['housse-cotelee'].grams = 3000;
+  assert.notEqual(before, await checkoutFingerprint(config, a)); productShipping['housse-cotelee'].grams = 200;
   assert.notEqual(await checkoutFingerprint(config, a), await checkoutFingerprint(config, validateCheckout(request())));
 });
 

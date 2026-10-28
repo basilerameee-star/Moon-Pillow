@@ -1,5 +1,6 @@
 import "server-only";
-import { colorName, products, resolveItem, shippingFor, type CartItem } from "./catalog";
+import { colorName, products, resolveItem, type CartItem } from "./catalog";
+import { shippingForCart } from "./shipping";
 
 export const SHOP_ID = "moon-and-pillow";
 export const MAX_BODY_BYTES = 16 * 1024;
@@ -10,7 +11,6 @@ export type ShopConfig = {
   checkoutEnabled: boolean;
   origin: string | null;
   approvedIds: string[];
-  shippingCents: number | null;
   minDays: number | null;
   maxDays: number | null;
   secretKey: string | null;
@@ -52,21 +52,20 @@ export function getShopConfig(env: Environment): ShopConfig {
     ? [...new Set(env.APPROVED_PRODUCT_IDS.split(",").map(id => id.trim()).filter(Boolean))].sort()
     : [];
   const approved = approvedIds.length > 0 && approvedIds.every(id => products.some(product => product.id === id && !product.draftOnly && product.priceStatus === "approved"));
-  const shippingCents = integerSetting(env.SHIPPING_CENTS, 0, 10000);
   const minDays = integerSetting(env.SHIPPING_MIN_DAYS, 1, 60);
   const maxDays = integerSetting(env.SHIPPING_MAX_DAYS, 1, 60);
   const secretKey = typeof env.STRIPE_SECRET_KEY === "string" && /^(?:sk|rk)_(?:test|live)_[A-Za-z0-9]+$/.test(env.STRIPE_SECRET_KEY)
     ? env.STRIPE_SECRET_KEY : null;
   return {
     checkoutEnabled: env.SHOP_READY === "true" && env.LEGAL_APPROVED === "true" && Boolean(origin && approved && secretKey)
-      && shippingCents !== null && minDays !== null && maxDays !== null && maxDays >= minDays,
-    origin, approvedIds, shippingCents, minDays, maxDays, secretKey,
+      && minDays !== null && maxDays !== null && maxDays >= minDays,
+    origin, approvedIds, minDays, maxDays, secretKey,
     testMode: secretKey !== null && /^(?:sk|rk)_test_/.test(secretKey),
   };
 }
 
 export function publicShopStatus(config: ShopConfig) {
-  return { checkoutEnabled: config.checkoutEnabled, shippingCents: config.shippingCents, minDays: config.minDays, maxDays: config.maxDays, testMode: config.testMode };
+  return { checkoutEnabled: config.checkoutEnabled, minDays: config.minDays, maxDays: config.maxDays, testMode: config.testMode };
 }
 
 function plainObject(value: unknown): value is Record<string, unknown> {
@@ -145,15 +144,17 @@ export function assertCheckoutAllowed(config: ShopConfig, checkout: ValidatedChe
   }
 }
 
-function checkoutShipping(config: ShopConfig, checkout: ValidatedCheckout) {
-  if (config.shippingCents === null) throw new CheckoutError("La livraison doit être configurée.", 503);
+// Port au prix coûtant par fournisseur, offert dès le seuil ; un port non vérifié bloque le paiement.
+export function checkoutShipping(checkout: ValidatedCheckout) {
   const subtotal = checkout.items.reduce((sum, item) => sum + resolveItem(item).option.price * item.quantity, 0);
-  return shippingFor(subtotal, config.shippingCents);
+  const shipping = shippingForCart(subtotal, checkout.items);
+  if (shipping === null) throw new CheckoutError("Les frais de port de cet article sont en cours de vérification.", 503);
+  return shipping;
 }
 
 export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedCheckout, cartHash: string) {
-  if (!config.origin || config.shippingCents === null || config.minDays === null || config.maxDays === null) throw new CheckoutError("La livraison doit être configurée.", 503);
-  const shipping = checkoutShipping(config, checkout);
+  if (!config.origin || config.minDays === null || config.maxDays === null) throw new CheckoutError("La livraison doit être configurée.", 503);
+  const shipping = checkoutShipping(checkout);
   const params = new URLSearchParams({
     mode: "payment", locale: "fr", customer_creation: "always",
     success_url: `${config.origin}/commande?session_id={CHECKOUT_SESSION_ID}`,
@@ -169,7 +170,7 @@ export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedC
     "shipping_options[0][shipping_rate_data][type]": "fixed_amount",
     "shipping_options[0][shipping_rate_data][fixed_amount][amount]": String(shipping),
     "shipping_options[0][shipping_rate_data][fixed_amount][currency]": "eur",
-    "shipping_options[0][shipping_rate_data][display_name]": shipping === 0 ? "Livraison offerte en France" : "Livraison en France",
+    "shipping_options[0][shipping_rate_data][display_name]": shipping === 0 ? "Livraison offerte en France" : "Livraison en France, au prix coûtant",
     "shipping_options[0][shipping_rate_data][delivery_estimate][minimum][unit]": "business_day",
     "shipping_options[0][shipping_rate_data][delivery_estimate][minimum][value]": String(config.minDays),
     "shipping_options[0][shipping_rate_data][delivery_estimate][maximum][unit]": "business_day",
@@ -194,7 +195,7 @@ export function buildCheckoutParameters(config: ShopConfig, checkout: ValidatedC
 export async function checkoutFingerprint(config: ShopConfig, checkout: ValidatedCheckout) {
   const pricedItems = checkout.items.map(item => ({ ...item, unitAmount: resolveItem(item).option.price }));
   const bytes = new TextEncoder().encode(JSON.stringify({ shop: SHOP_ID, origin: config.origin, items: pricedItems,
-    shipping: checkoutShipping(config, checkout), minDays: config.minDays, maxDays: config.maxDays, currency: "eur" }));
+    shipping: checkoutShipping(checkout), minDays: config.minDays, maxDays: config.maxDays, currency: "eur" }));
   const digest = await crypto.subtle.digest("SHA-256", bytes);
   return Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
 }

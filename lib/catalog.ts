@@ -47,9 +47,6 @@ export const categories: {id:Category;label:string}[] = [{id:'housses-couette',l
 export const categoryLabel = (category:Category) => categories.find(c=>c.id===category)?.label??category;
 export const roomFor = (product:Product) => ['housses','coussins','plaids','ensembles'].includes(product.category)?'salon':product.category==='serviettes'?'bain':'chambre';
 export const money = (cents: number) => new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(cents / 100);
-/** Livraison offerte en France dès ce sous-total, en centimes (décision du fondateur, 28/10/2026). */
-export const FREE_SHIPPING_FROM = 10000;
-export const shippingFor = (subtotalCents: number, shippingCents: number) => subtotalCents >= FREE_SHIPPING_FROM ? 0 : shippingCents;
 export const colorName = (id: Color, product?: Product) => product?.colorOptions?.find(c=>c.id===id)?.name ?? (id === 'vert' ? (product?.category === 'housses' ? 'Vert clair' : product?.category === 'plaids' ? 'Vert olive' : 'Vert') : colors.find(c => c.id === id)?.name ?? 'Coloris à confirmer');
 const foldColor=(value:string)=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 export function colorSwatchBackground(color:Pick<ProductColor,'name'|'hex'>){

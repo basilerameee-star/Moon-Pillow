@@ -29,7 +29,7 @@ const answers=[
  {title:'Trouver le bon format',text:'Mesurez l’objet que vous avez déjà, en centimètres. Pour une housse de couette, mesurez la couette ; pour une housse de coussin, mesurez le coussin intérieur. Choisissez le format qui reprend ces dimensions. Si elles ne correspondent pas, ne devinez pas : demandez-nous.'},
  {title:'Comprendre ce qui est inclus',text:'Le format choisi indique ce que vous achetez. « 1 housse seule » signifie une housse sans coussin intérieur. Les coussins ou accessoires qui décorent la photo ne sont pas inclus, sauf mention explicite.'},
  {title:'Comparer les couleurs',text:'Les nuances sont propres à chaque produit. Deux teintes portant le même nom peuvent différer selon la matière, la lumière et l’écran. Nous n’affichons un choix de couleur que lorsqu’une photo est rattachée à cette référence.'},
- {title:'Livraison et retours',text:'La livraison est offerte en France dès 100 € d’achat. Vous avez 14 jours après réception pour retourner un article, et les frais de retour sont à notre charge.'}
+ {title:'Livraison et retours',text:'La livraison est offerte en France dès 100 € d’achat ; en dessous, vous payez seulement le coût réel de l’envoi. Vous avez 14 jours après réception pour retourner un article, et les frais de retour sont à notre charge.'}
 ];
 export function BoutiqueAssistance(){
  const [open,setOpen]=useState(false);

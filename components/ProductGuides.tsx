@@ -48,7 +48,7 @@ export function ProductGuides({ product, optionLabel }: { product: Product; opti
     </details>
     <details className="guide-panel">
       <summary><span><Truck size={17} strokeWidth={1.3}/> Livraison & retours</span><ChevronDown size={16}/></summary>
-        <div className="guide-content"><p>Livraison offerte en France dès 100 € d’achat. Retours gratuits sous 14 jours après réception, sans justification.</p><p>Les éléments du décor photographié ne sont pas inclus, sauf mention explicite dans le format sélectionné.</p><Link href="/informations/retours" className="guide-link">Consulter les informations de livraison et de retour</Link></div>
+        <div className="guide-content"><p>Livraison offerte en France dès 100 € d’achat ; en dessous, le port est facturé au prix coûtant, sans marge. Retours gratuits sous 14 jours après réception, sans justification.</p><p>Les éléments du décor photographié ne sont pas inclus, sauf mention explicite dans le format sélectionné.</p><Link href="/informations/retours" className="guide-link">Consulter les informations de livraison et de retour</Link></div>
     </details>
   </div>;
 }
