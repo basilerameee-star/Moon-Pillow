@@ -49,7 +49,7 @@ test('a proposed price never becomes payable by adding its product to the approv
 test('colour galleries never reuse another colour or a general fallback',()=>{
  for(const id of ['housse-cotelee','plaid-cotele']){
   const product=products.find(p=>p.id===id);
-  assert.equal(galleryFor(product,'rose').length,1);
+  assert.ok(galleryFor(product,'rose').length>=3);
   assert.ok(galleryFor(product,'blanc').length>=3);
   assert.ok(!galleryFor(product,'rose').some(src=>galleryFor(product,'blanc').includes(src)));
  }
