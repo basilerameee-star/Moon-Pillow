@@ -1,5 +1,6 @@
 import { importedProducts } from './imported-products';
 import { photoCuration } from './photo-curation';
+import { generatedPhotos } from './generated-photos';
 export type Color = string;
 export type Category = 'housses' | 'plaids' | 'ensembles' | 'housses-couette' | 'couettes' | 'oreillers' | 'taies' | 'draps' | 'coussins' | 'serviettes' | 'couvre-lits';
 export type ProductColor = {id:Color;name:string;hex?:string;swatch?:string};
@@ -12,8 +13,24 @@ const catalogueProducts: Product[] = [
  { id: 'plaid-cotele', category: 'plaids', availableColors: ['blanc', 'rose', 'vert'], name: 'Le plaid côtelé', subtitle: 'Votre prochain rendez-vous avec le canapé.', description: 'À poser au bout du lit ou sur l’accoudoir du canapé. Le plaid se décline en blanc, rose ou vert olive, avec deux formats à choisir. Son vert est différent de celui des housses sur les photos.', options: [{ id: '120-200', label: '120 × 200 cm', price: 4990 }, { id: '150-200', label: '150 × 200 cm', price: 5990 }], details: ['Deux formats proposés dans la sélection initiale.', 'Effet fausse fourrure à côtes.', 'Matière indiquée par le fabricant : peluche imitation fourrure de lapin.', 'Entretien indiqué par le fabricant : lavable en machine. Pour la température, suivez l’étiquette de l’article.'], images: { blanc: '/img/plaid-blanc.jpg', rose: '/img/plaid-rose.jpg', vert: '/img/plaid-vert.jpg' }, gallery: [], colorGalleries:{blanc:['/img/plaid-blanc.jpg','/img/plaid-matiere.jpg','/img/plaid-lit.jpg','/img/plaid-detente.jpg'],rose:['/img/plaid-rose.jpg'],vert:['/img/plaid-vert.jpg']}, priceStatus:'proposed' },
  ...importedProducts,
 ];
+// Virtual photos and colour-matched supplier photos join each colour's own gallery; white backgrounds they replace leave it.
+function withGeneratedGalleries(product:Product):Product{
+ const generated=generatedPhotos[product.id];
+ if(!generated)return product;
+ const removed=new Set(generated.removed??[]),colorGalleries:Record<Color,string[]>={...(product.colorGalleries??{})};
+ for(const [color,photos] of Object.entries(generated.colorGalleries??{}))colorGalleries[color]=[...new Set([...photos,...(colorGalleries[color]??(product.images?.[color]?[product.images[color]]:[]))])];
+ for(const color of Object.keys(colorGalleries))colorGalleries[color]=colorGalleries[color].filter(src=>!removed.has(src));
+ return {...product,colorGalleries,sharedGallery:[...new Set([...(product.sharedGallery??[]),...(generated.scenes??[])])]};
+}
+function withGeneratedViews(product:Product):Product{
+ const generated=generatedPhotos[product.id];
+ if(!generated)return product;
+ const merge=(base:Record<Color,string[]>|undefined,extra:Record<Color,string[]>|undefined)=>{const result={...(base??{})};for(const [color,photos] of Object.entries(extra??{}))result[color]=[...new Set([...photos,...(result[color]??[])])];return result;};
+ return {...product,lifestyleGalleries:merge(product.lifestyleGalleries,generated.lifestyle),macroGalleries:merge(product.macroGalleries,generated.macro),modelScenes:[...new Set([...(generated.scenes??[]),...(product.modelScenes??[])])],photoNotes:{...(product.photoNotes??{}),...(generated.notes??{})}};
+}
+const galleryProducts=catalogueProducts.map(withGeneratedGalleries);
 const imageOwners = new Map<string,Set<string>>();
-for(const product of catalogueProducts){
+for(const product of galleryProducts){
  const colorIds=new Set([...Object.keys(product.colorGalleries??{}),...Object.keys(product.images??{})]);
  for(const color of colorIds){
   const owner=`${product.id}::${color}`;
@@ -42,7 +59,7 @@ function priceOptionsByArea(product:Product):Product{
  const options=product.options.map((option,index)=>({...option,price:priceAtNinety(basePrice*sizes[index]/baseArea)})).sort((a,b)=>(dimensionArea(a.label)??0)-(dimensionArea(b.label)??0));
  return {...product,options,photoScalingNote:`Prix provisoires calculés selon la surface du format, à partir de ${product.options[baseIndex].label}. Coût fournisseur livré et marge encore à valider.`};
 }
-export const products:Product[]=catalogueProducts.map(product=>priceOptionsByArea({...product,...photoCuration[product.id]}));
+export const products:Product[]=galleryProducts.map(product=>priceOptionsByArea(withGeneratedViews({...product,...photoCuration[product.id]})));
 export const categories: {id:Category;label:string}[] = [{id:'housses-couette',label:'Housses de couette'},{id:'draps',label:'Draps'},{id:'taies',label:'Taies d’oreiller'},{id:'oreillers',label:'Oreillers'},{id:'couettes',label:'Couettes'},{id:'couvre-lits',label:'Couvre-lits'},{id:'housses',label:'Housses de coussin'},{id:'coussins',label:'Coussins'},{id:'plaids',label:'Plaids'},{id:'ensembles',label:'Ensembles'},{id:'serviettes',label:'Linge de bain'}];
 export const categoryLabel = (category:Category) => categories.find(c=>c.id===category)?.label??category;
 export const roomFor = (product:Product) => ['housses','coussins','plaids','ensembles'].includes(product.category)?'salon':product.category==='serviettes'?'bain':'chambre';
