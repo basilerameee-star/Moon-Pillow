@@ -5,7 +5,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
   "colorGalleries": {
    "color-1": [
     "/img/virtuelles/aw-bohot-01__3000__col.webp",
-    "/img/virtuelles/aw-bohot-01__022.webp"
+    "/img/virtuelles/aw-bohot-01__022.webp",
+    "/img/virtuelles/aw-bohot-01__g0012__gem.webp"
    ],
    "color-2": [
     "/img/virtuelles/aw-bohot-01__3001__col.webp",
@@ -33,12 +34,18 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/aw-bohot-01__3002__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/aw-bohot-01__022.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/aw-bohot-01__023.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/aw-bohot-01__024.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/aw-bohot-01__024.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/aw-bohot-01__g0012__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   },
   "removed": [
    "/img/catalogue/b4a771ef75f876b3.webp",
    "/img/catalogue/cedf33ae4c62e143.webp"
-  ]
+  ],
+  "macro": {
+   "color-1": [
+    "/img/virtuelles/aw-bohot-01__g0012__gem.webp"
+   ]
+  }
  },
  "aw-bohot-02": {
   "colorGalleries": {
@@ -910,7 +917,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
   "colorGalleries": {
    "color-1": [
     "/img/virtuelles/aw-hit-03__gp.webp",
-    "/img/virtuelles/aw-hit-03__g0007__gem.webp"
+    "/img/virtuelles/aw-hit-03__g0007__gem.webp",
+    "/img/virtuelles/aw-hit-03__g0006__gem.webp"
    ]
   },
   "macro": {
@@ -920,11 +928,13 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
   },
   "notes": {
    "/img/virtuelles/aw-hit-03__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/aw-hit-03__g0007__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/aw-hit-03__g0007__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/aw-hit-03__g0006__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   },
   "lifestyle": {
    "color-1": [
-    "/img/virtuelles/aw-hit-03__g0007__gem.webp"
+    "/img/virtuelles/aw-hit-03__g0007__gem.webp",
+    "/img/virtuelles/aw-hit-03__g0006__gem.webp"
    ]
   }
  },
@@ -956,7 +966,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
  "aw-hit-05": {
   "colorGalleries": {
    "color-1": [
-    "/img/virtuelles/aw-hit-05__gp.webp"
+    "/img/virtuelles/aw-hit-05__gp.webp",
+    "/img/virtuelles/aw-hit-05__g0002__gem.webp",
+    "/img/virtuelles/aw-hit-05__g0003__gem.webp"
    ]
   },
   "macro": {
@@ -965,14 +977,23 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ]
   },
   "notes": {
-   "/img/virtuelles/aw-hit-05__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/aw-hit-05__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/aw-hit-05__g0002__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/aw-hit-05__g0003__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+  },
+  "lifestyle": {
+   "color-1": [
+    "/img/virtuelles/aw-hit-05__g0002__gem.webp",
+    "/img/virtuelles/aw-hit-05__g0003__gem.webp"
+   ]
   }
  },
  "aw-hit-06": {
   "colorGalleries": {
    "color-1": [
     "/img/virtuelles/aw-hit-06__gp.webp",
-    "/img/virtuelles/aw-hit-06__g0001__gem.webp"
+    "/img/virtuelles/aw-hit-06__g0001__gem.webp",
+    "/img/virtuelles/aw-hit-06__g0000__gem.webp"
    ]
   },
   "macro": {
@@ -982,11 +1003,13 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
   },
   "notes": {
    "/img/virtuelles/aw-hit-06__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/aw-hit-06__g0001__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/aw-hit-06__g0001__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/aw-hit-06__g0000__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   },
   "lifestyle": {
    "color-1": [
-    "/img/virtuelles/aw-hit-06__g0001__gem.webp"
+    "/img/virtuelles/aw-hit-06__g0001__gem.webp",
+    "/img/virtuelles/aw-hit-06__g0000__gem.webp"
    ]
   }
  },
@@ -1578,13 +1601,17 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/virtuelles/cj-1452829463002877952__gp.webp",
     "/img/cj/0868860831c8f940.webp",
     "/img/cj/90962f55ceab846f.webp",
-    "/img/cj/5acc7786b114defa.webp"
+    "/img/cj/5acc7786b114defa.webp",
+    "/img/virtuelles/cj-1452829463002877952__g0162__gem.webp",
+    "/img/virtuelles/cj-1452829463002877952__g0163__gem.webp"
    ]
   },
   "lifestyle": {
    "color-1": [
     "/img/cj/0868860831c8f940.webp",
-    "/img/cj/90962f55ceab846f.webp"
+    "/img/cj/90962f55ceab846f.webp",
+    "/img/virtuelles/cj-1452829463002877952__g0162__gem.webp",
+    "/img/virtuelles/cj-1452829463002877952__g0163__gem.webp"
    ]
   },
   "macro": {
@@ -1594,7 +1621,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ]
   },
   "notes": {
-   "/img/virtuelles/cj-1452829463002877952__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-1452829463002877952__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1452829463002877952__g0162__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1452829463002877952__g0163__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-1566741036771323904": {
@@ -1602,13 +1631,17 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-1": [
     "/img/virtuelles/cj-1566741036771323904__gp.webp",
     "/img/cj/d2c5ed1bb80297aa.webp",
-    "/img/cj/ea4683cc3c4ae197.webp"
+    "/img/cj/ea4683cc3c4ae197.webp",
+    "/img/virtuelles/cj-1566741036771323904__g0172__gem.webp",
+    "/img/virtuelles/cj-1566741036771323904__g0173__gem.webp"
    ]
   },
   "lifestyle": {
    "color-1": [
     "/img/cj/d2c5ed1bb80297aa.webp",
-    "/img/cj/ea4683cc3c4ae197.webp"
+    "/img/cj/ea4683cc3c4ae197.webp",
+    "/img/virtuelles/cj-1566741036771323904__g0172__gem.webp",
+    "/img/virtuelles/cj-1566741036771323904__g0173__gem.webp"
    ]
   },
   "macro": {
@@ -1617,7 +1650,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ]
   },
   "notes": {
-   "/img/virtuelles/cj-1566741036771323904__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-1566741036771323904__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1566741036771323904__g0172__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1566741036771323904__g0173__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-1585238757278756864": {
@@ -1774,22 +1809,26 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-1": [
     "/img/virtuelles/cj-1723169213197594624__6086__fin.webp",
     "/img/virtuelles/cj-1723169213197594624__4111__col.webp",
-    "/img/cj/95c78fc6c4169fb0.webp"
+    "/img/cj/95c78fc6c4169fb0.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0026__gem.webp"
    ],
    "color-2": [
     "/img/virtuelles/cj-1723169213197594624__6087__fin.webp",
     "/img/virtuelles/cj-1723169213197594624__4112__col.webp",
-    "/img/cj/5e212b14238295ea.webp"
+    "/img/cj/5e212b14238295ea.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0027__gem.webp"
    ],
    "color-3": [
     "/img/virtuelles/cj-1723169213197594624__6088__fin.webp",
     "/img/virtuelles/cj-1723169213197594624__4113__col.webp",
-    "/img/cj/8e47aea72520f5f0.webp"
+    "/img/cj/8e47aea72520f5f0.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0028__gem.webp"
    ],
    "color-4": [
     "/img/virtuelles/cj-1723169213197594624__6089__fin.webp",
     "/img/virtuelles/cj-1723169213197594624__4114__col.webp",
-    "/img/cj/05ec9c8145b10660.webp"
+    "/img/cj/05ec9c8145b10660.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0029__gem.webp"
    ],
    "color-5": [
     "/img/virtuelles/cj-1723169213197594624__6090__fin.webp",
@@ -1830,19 +1869,23 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
   "lifestyle": {
    "color-1": [
     "/img/virtuelles/cj-1723169213197594624__4111__col.webp",
-    "/img/cj/95c78fc6c4169fb0.webp"
+    "/img/cj/95c78fc6c4169fb0.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0026__gem.webp"
    ],
    "color-2": [
     "/img/virtuelles/cj-1723169213197594624__4112__col.webp",
-    "/img/cj/5e212b14238295ea.webp"
+    "/img/cj/5e212b14238295ea.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0027__gem.webp"
    ],
    "color-3": [
     "/img/virtuelles/cj-1723169213197594624__4113__col.webp",
-    "/img/cj/8e47aea72520f5f0.webp"
+    "/img/cj/8e47aea72520f5f0.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0028__gem.webp"
    ],
    "color-4": [
     "/img/virtuelles/cj-1723169213197594624__4114__col.webp",
-    "/img/cj/05ec9c8145b10660.webp"
+    "/img/cj/05ec9c8145b10660.webp",
+    "/img/virtuelles/cj-1723169213197594624__g0029__gem.webp"
    ],
    "color-5": [
     "/img/virtuelles/cj-1723169213197594624__4115__col.webp",
@@ -1934,7 +1977,11 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-1723169213197594624__4119__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-1723169213197594624__4120__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-1723169213197594624__4121__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-1723169213197594624__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-1723169213197594624__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1723169213197594624__g0026__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1723169213197594624__g0027__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1723169213197594624__g0028__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1723169213197594624__g0029__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-1737748230328299520": {
@@ -1952,7 +1999,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-2": [
     "/img/cj/b113bd4c13e2c2b7.webp",
     "/img/cj/d9432bf3aff560ff.webp",
-    "/img/virtuelles/cj-1737748230328299520__11056__comp.webp"
+    "/img/virtuelles/cj-1737748230328299520__11056__comp.webp",
+    "/img/virtuelles/cj-1737748230328299520__g0147__gem.webp",
+    "/img/virtuelles/cj-1737748230328299520__g0148__gem.webp"
    ]
   },
   "lifestyle": {
@@ -1965,7 +2014,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/virtuelles/cj-1737748230328299520__4087__col.webp"
    ],
    "color-2": [
-    "/img/cj/b113bd4c13e2c2b7.webp"
+    "/img/cj/b113bd4c13e2c2b7.webp",
+    "/img/virtuelles/cj-1737748230328299520__g0147__gem.webp",
+    "/img/virtuelles/cj-1737748230328299520__g0148__gem.webp"
    ]
   },
   "macro": {
@@ -1991,7 +2042,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-1737748230328299520__4086__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-1737748230328299520__4087__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-1737748230328299520__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-1737748230328299520__11056__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-1737748230328299520__11056__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1737748230328299520__g0147__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1737748230328299520__g0148__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-1760929687901048832": {
@@ -2019,7 +2072,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-4": [
     "/img/cj/81b416d5b76317b8.webp",
     "/img/cj/a78441abddd135cb.webp",
-    "/img/virtuelles/cj-1760929687901048832__10053__comp.webp"
+    "/img/virtuelles/cj-1760929687901048832__10053__comp.webp",
+    "/img/virtuelles/cj-1760929687901048832__g0129__gem.webp",
+    "/img/virtuelles/cj-1760929687901048832__g0130__gem.webp"
    ]
   },
   "lifestyle": {
@@ -2039,7 +2094,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-4": [
     "/img/cj/81b416d5b76317b8.webp",
-    "/img/cj/a78441abddd135cb.webp"
+    "/img/cj/a78441abddd135cb.webp",
+    "/img/virtuelles/cj-1760929687901048832__g0129__gem.webp",
+    "/img/virtuelles/cj-1760929687901048832__g0130__gem.webp"
    ],
    "color-5": [
     "/img/cj/4b664e45f0508418.webp",
@@ -2070,7 +2127,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-1760929687901048832__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-1760929687901048832__10052__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-1760929687901048832__10053__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-1760929687901048832__11054__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-1760929687901048832__11054__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1760929687901048832__g0129__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-1760929687901048832__g0130__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-1780911060157992960": {
@@ -2222,7 +2281,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/caeffcb4e174559f.webp",
     "/img/cj/16981d4bd8c02098.webp",
     "/img/virtuelles/cj-2406130514081620000__g0048__gem.webp",
-    "/img/virtuelles/cj-2406130514081620000__g0049__gem.webp"
+    "/img/virtuelles/cj-2406130514081620000__g0049__gem.webp",
+    "/img/virtuelles/cj-2406130514081620000__g0050__gem.webp"
    ]
   },
   "lifestyle": {
@@ -2300,7 +2360,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/e9a4a9a2d94cb67c.webp",
     "/img/cj/caeffcb4e174559f.webp",
     "/img/cj/16981d4bd8c02098.webp",
-    "/img/virtuelles/cj-2406130514081620000__g0049__gem.webp"
+    "/img/virtuelles/cj-2406130514081620000__g0049__gem.webp",
+    "/img/virtuelles/cj-2406130514081620000__g0050__gem.webp"
    ]
   },
   "macro": {
@@ -2345,7 +2406,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2406130514081620000__4027__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2406130514081620000__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2406130514081620000__g0048__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2406130514081620000__g0049__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2406130514081620000__g0049__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2406130514081620000__g0050__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2406250724301611900": {
@@ -2592,37 +2654,55 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-1": [
     "/img/cj/5ebb617a498da62c.webp",
     "/img/cj/03cef92ec33217ba.webp",
-    "/img/cj/66f85cc57baf8953.webp"
+    "/img/cj/66f85cc57baf8953.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0115__gem.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0116__gem.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0117__gem.webp"
    ],
    "color-2": [
     "/img/cj/1711c09e8f69e0c8.webp",
     "/img/cj/fb5aea8ec0d7db94.webp",
-    "/img/cj/63c133fd64f94c0f.webp"
+    "/img/cj/63c133fd64f94c0f.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0118__gem.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0119__gem.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0120__gem.webp"
    ]
   },
   "lifestyle": {
    "color-1": [
-    "/img/cj/5ebb617a498da62c.webp"
+    "/img/cj/5ebb617a498da62c.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0116__gem.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0117__gem.webp"
    ],
    "color-2": [
     "/img/cj/1711c09e8f69e0c8.webp",
-    "/img/cj/fb5aea8ec0d7db94.webp"
+    "/img/cj/fb5aea8ec0d7db94.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0119__gem.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0120__gem.webp"
    ]
   },
   "macro": {
    "color-1": [
     "/img/cj/03cef92ec33217ba.webp",
-    "/img/cj/66f85cc57baf8953.webp"
+    "/img/cj/66f85cc57baf8953.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0115__gem.webp"
    ],
    "color-2": [
-    "/img/cj/63c133fd64f94c0f.webp"
+    "/img/cj/63c133fd64f94c0f.webp",
+    "/img/virtuelles/cj-2411300645591615100__g0118__gem.webp"
    ]
   },
   "scenes": [
    "/img/virtuelles/cj-2411300645591615100__gp.webp"
   ],
   "notes": {
-   "/img/virtuelles/cj-2411300645591615100__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2411300645591615100__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2411300645591615100__g0115__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2411300645591615100__g0116__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2411300645591615100__g0117__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2411300645591615100__g0118__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2411300645591615100__g0119__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2411300645591615100__g0120__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2412030755331624800": {
@@ -2644,7 +2724,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-6": [
     "/img/virtuelles/cj-2412030755331624800__6054__fin.webp",
     "/img/cj/03a7e5574a308e95.webp",
-    "/img/virtuelles/cj-2412030755331624800__10000__comp.webp"
+    "/img/virtuelles/cj-2412030755331624800__10000__comp.webp",
+    "/img/virtuelles/cj-2412030755331624800__g0020__gem.webp"
    ],
    "color-1": [
     "/img/cj/f37f5f1d84fd57de.webp",
@@ -2676,7 +2757,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-6": [
     "/img/cj/03a7e5574a308e95.webp",
-    "/img/virtuelles/cj-2412030755331624800__10000__comp.webp"
+    "/img/virtuelles/cj-2412030755331624800__10000__comp.webp",
+    "/img/virtuelles/cj-2412030755331624800__g0020__gem.webp"
    ]
   },
   "macro": {
@@ -2709,7 +2791,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2412030755331624800__g0016__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412030755331624800__g0017__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412030755331624800__g0018__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2412030755331624800__g0019__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2412030755331624800__g0019__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412030755331624800__g0020__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2412031152171627300": {
@@ -2773,49 +2856,59 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-3": [
     "/img/virtuelles/cj-2412040749281608900__6028__fin.webp",
     "/img/cj/4b4ed8e5a5bfaa7a.webp",
-    "/img/virtuelles/cj-2412040749281608900__11005__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11005__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0023__gem.webp"
    ],
    "color-5": [
     "/img/virtuelles/cj-2412040749281608900__6029__fin.webp",
     "/img/cj/010e64373390fa6f.webp",
-    "/img/virtuelles/cj-2412040749281608900__11008__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11008__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0025__gem.webp"
    ],
    "color-1": [
     "/img/cj/3dd0ab66f34bace0.webp",
     "/img/virtuelles/cj-2412040749281608900__10002__comp.webp",
-    "/img/virtuelles/cj-2412040749281608900__11001__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11001__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0021__gem.webp"
    ],
    "color-2": [
     "/img/cj/1fe27ef8dc1a4699.webp",
     "/img/virtuelles/cj-2412040749281608900__11003__comp.webp",
-    "/img/virtuelles/cj-2412040749281608900__11004__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11004__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0022__gem.webp"
    ],
    "color-4": [
     "/img/cj/0a1cc5e23934ea77.webp",
     "/img/virtuelles/cj-2412040749281608900__11006__comp.webp",
-    "/img/virtuelles/cj-2412040749281608900__11007__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11007__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0024__gem.webp"
    ]
   },
   "lifestyle": {
    "color-1": [
     "/img/cj/3dd0ab66f34bace0.webp",
-    "/img/virtuelles/cj-2412040749281608900__11001__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11001__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0021__gem.webp"
    ],
    "color-2": [
     "/img/cj/1fe27ef8dc1a4699.webp",
-    "/img/virtuelles/cj-2412040749281608900__11003__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11003__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0022__gem.webp"
    ],
    "color-3": [
     "/img/cj/4b4ed8e5a5bfaa7a.webp",
-    "/img/virtuelles/cj-2412040749281608900__11005__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11005__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0023__gem.webp"
    ],
    "color-4": [
     "/img/cj/0a1cc5e23934ea77.webp",
-    "/img/virtuelles/cj-2412040749281608900__11006__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11006__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0024__gem.webp"
    ],
    "color-5": [
     "/img/cj/010e64373390fa6f.webp",
-    "/img/virtuelles/cj-2412040749281608900__11008__comp.webp"
+    "/img/virtuelles/cj-2412040749281608900__11008__comp.webp",
+    "/img/virtuelles/cj-2412040749281608900__g0025__gem.webp"
    ]
   },
   "macro": {
@@ -2849,7 +2942,12 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2412040749281608900__11005__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412040749281608900__11006__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412040749281608900__11007__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2412040749281608900__11008__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2412040749281608900__11008__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040749281608900__g0021__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040749281608900__g0022__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040749281608900__g0023__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040749281608900__g0024__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040749281608900__g0025__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2412040824121618500": {
@@ -2859,14 +2957,18 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/8d93509d1e0502be.webp",
     "/img/cj/f3c2e1a672dbf6b0.webp",
     "/img/cj/de01706ef1603145.webp",
-    "/img/cj/3f158b17f4ff05b1.webp"
+    "/img/cj/3f158b17f4ff05b1.webp",
+    "/img/virtuelles/cj-2412040824121618500__g0158__gem.webp",
+    "/img/virtuelles/cj-2412040824121618500__g0159__gem.webp"
    ]
   },
   "lifestyle": {
    "color-1": [
     "/img/cj/8d93509d1e0502be.webp",
     "/img/cj/f3c2e1a672dbf6b0.webp",
-    "/img/cj/de01706ef1603145.webp"
+    "/img/cj/de01706ef1603145.webp",
+    "/img/virtuelles/cj-2412040824121618500__g0158__gem.webp",
+    "/img/virtuelles/cj-2412040824121618500__g0159__gem.webp"
    ]
   },
   "macro": {
@@ -2876,7 +2978,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ]
   },
   "notes": {
-   "/img/virtuelles/cj-2412040824121618500__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2412040824121618500__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040824121618500__g0158__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412040824121618500__g0159__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2412110801271608100": {
@@ -2898,7 +3002,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/08dfd132504b33ca.webp",
     "/img/cj/7a7662bd159bb34f.webp",
     "/img/cj/2c376f6a57b0d88c.webp",
-    "/img/virtuelles/cj-2412230656071609300__g0152__gem.webp"
+    "/img/virtuelles/cj-2412230656071609300__g0152__gem.webp",
+    "/img/virtuelles/cj-2412230656071609300__g0150__gem.webp",
+    "/img/virtuelles/cj-2412230656071609300__g0151__gem.webp"
    ]
   },
   "lifestyle": {
@@ -2909,7 +3015,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-2": [
     "/img/cj/08dfd132504b33ca.webp",
     "/img/cj/2c376f6a57b0d88c.webp",
-    "/img/virtuelles/cj-2412230656071609300__g0152__gem.webp"
+    "/img/virtuelles/cj-2412230656071609300__g0152__gem.webp",
+    "/img/virtuelles/cj-2412230656071609300__g0151__gem.webp"
    ]
   },
   "macro": {
@@ -2917,7 +3024,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/virtuelles/cj-2412230656071609300__6069__fin.webp"
    ],
    "color-2": [
-    "/img/cj/7a7662bd159bb34f.webp"
+    "/img/cj/7a7662bd159bb34f.webp",
+    "/img/virtuelles/cj-2412230656071609300__g0150__gem.webp"
    ]
   },
   "scenes": [
@@ -2927,7 +3035,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2412230656071609300__6069__fin.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412230656071609300__4105__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412230656071609300__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2412230656071609300__g0152__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2412230656071609300__g0152__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412230656071609300__g0150__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412230656071609300__g0151__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2412240323031626200": {
@@ -3006,7 +3116,10 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/557c37e35f0ccc21.webp",
     "/img/cj/b8c94d25e3effc92.webp",
     "/img/cj/46df0199e0b001f7.webp",
-    "/img/cj/32bb27bb04c1b7b7.webp"
+    "/img/cj/32bb27bb04c1b7b7.webp",
+    "/img/virtuelles/cj-2412240323031626200__g0062__gem.webp",
+    "/img/virtuelles/cj-2412240323031626200__g0063__gem.webp",
+    "/img/virtuelles/cj-2412240323031626200__g0064__gem.webp"
    ]
   },
   "lifestyle": {
@@ -3064,7 +3177,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-4": [
     "/img/cj/557c37e35f0ccc21.webp",
-    "/img/cj/32bb27bb04c1b7b7.webp"
+    "/img/cj/32bb27bb04c1b7b7.webp",
+    "/img/virtuelles/cj-2412240323031626200__g0063__gem.webp",
+    "/img/virtuelles/cj-2412240323031626200__g0064__gem.webp"
    ],
    "color-16": [
     "/img/cj/f6d5e846e02b0b96.webp",
@@ -3116,7 +3231,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-4": [
     "/img/cj/b8c94d25e3effc92.webp",
-    "/img/cj/46df0199e0b001f7.webp"
+    "/img/cj/46df0199e0b001f7.webp",
+    "/img/virtuelles/cj-2412240323031626200__g0062__gem.webp"
    ]
   },
   "scenes": [
@@ -3151,7 +3267,10 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2412240323031626200__4103__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412240323031626200__4104__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2412240323031626200__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2412240323031626200__11010__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2412240323031626200__11010__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412240323031626200__g0062__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412240323031626200__g0063__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2412240323031626200__g0064__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2501221336081602300": {
@@ -3159,12 +3278,16 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-2": [
     "/img/virtuelles/cj-2501221336081602300__6030__fin.webp",
     "/img/cj/19eddbd19f5ff7d2.webp",
-    "/img/cj/4fb1bc8e770c389c.webp"
+    "/img/cj/4fb1bc8e770c389c.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0136__gem.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0137__gem.webp"
    ],
    "color-4": [
     "/img/virtuelles/cj-2501221336081602300__6031__fin.webp",
     "/img/cj/c96d4eb433505dd9.webp",
-    "/img/cj/8a3b9e5a66be8863.webp"
+    "/img/cj/8a3b9e5a66be8863.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0139__gem.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0140__gem.webp"
    ],
    "color-3": [
     "/img/virtuelles/cj-2501221336081602300__4066__col.webp",
@@ -3174,7 +3297,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-1": [
     "/img/cj/982776957e92d6cf.webp",
     "/img/cj/9e0047d879f14ec6.webp",
-    "/img/virtuelles/cj-2501221336081602300__11055__comp.webp"
+    "/img/virtuelles/cj-2501221336081602300__11055__comp.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0134__gem.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0135__gem.webp"
    ]
   },
   "lifestyle": {
@@ -3184,13 +3309,19 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/8332fa33b74fbc4a.webp"
    ],
    "color-1": [
-    "/img/cj/9e0047d879f14ec6.webp"
+    "/img/cj/9e0047d879f14ec6.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0134__gem.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0135__gem.webp"
    ],
    "color-2": [
-    "/img/cj/4fb1bc8e770c389c.webp"
+    "/img/cj/4fb1bc8e770c389c.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0136__gem.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0137__gem.webp"
    ],
    "color-4": [
-    "/img/cj/8a3b9e5a66be8863.webp"
+    "/img/cj/8a3b9e5a66be8863.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0139__gem.webp",
+    "/img/virtuelles/cj-2501221336081602300__g0140__gem.webp"
    ]
   },
   "macro": {
@@ -3216,7 +3347,13 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2501221336081602300__4066__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2501221336081602300__4067__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2501221336081602300__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2501221336081602300__11055__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2501221336081602300__11055__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501221336081602300__g0134__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501221336081602300__g0135__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501221336081602300__g0136__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501221336081602300__g0137__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501221336081602300__g0139__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501221336081602300__g0140__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2501270947581604800": {
@@ -3224,7 +3361,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "color-2": [
     "/img/virtuelles/cj-2501270947581604800__6027__fin.webp",
     "/img/cj/8c5faabede08ec8d.webp",
-    "/img/cj/e1416dd18b86ebf1.webp"
+    "/img/cj/e1416dd18b86ebf1.webp",
+    "/img/virtuelles/cj-2501270947581604800__g0142__gem.webp",
+    "/img/virtuelles/cj-2501270947581604800__g0143__gem.webp"
    ],
    "color-1": [
     "/img/virtuelles/cj-2501270947581604800__4061__col.webp",
@@ -3240,7 +3379,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-2": [
     "/img/cj/8c5faabede08ec8d.webp",
-    "/img/cj/e1416dd18b86ebf1.webp"
+    "/img/cj/e1416dd18b86ebf1.webp",
+    "/img/virtuelles/cj-2501270947581604800__g0142__gem.webp",
+    "/img/virtuelles/cj-2501270947581604800__g0143__gem.webp"
    ]
   },
   "macro": {
@@ -3255,7 +3396,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2501270947581604800__6027__fin.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2501270947581604800__4061__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2501270947581604800__4062__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2501270947581604800__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2501270947581604800__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501270947581604800__g0142__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2501270947581604800__g0143__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2504170512571608400": {
@@ -3508,7 +3651,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/b9f97e50280ad284.webp",
     "/img/cj/b9dbd37caa4500c5.webp",
     "/img/cj/837469bd532da144.webp",
-    "/img/virtuelles/cj-2505020611461629500__g0155__gem.webp"
+    "/img/virtuelles/cj-2505020611461629500__g0155__gem.webp",
+    "/img/virtuelles/cj-2505020611461629500__g0153__gem.webp",
+    "/img/virtuelles/cj-2505020611461629500__g0154__gem.webp"
    ]
   },
   "lifestyle": {
@@ -3516,7 +3661,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/b5e1c6820ce2b9dc.webp",
     "/img/cj/dd209a32534946fa.webp",
     "/img/cj/b9f97e50280ad284.webp",
-    "/img/virtuelles/cj-2505020611461629500__g0155__gem.webp"
+    "/img/virtuelles/cj-2505020611461629500__g0155__gem.webp",
+    "/img/virtuelles/cj-2505020611461629500__g0154__gem.webp"
    ],
    "color-3": [
     "/img/cj/691b1c712317e28e.webp",
@@ -3536,7 +3682,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-1": [
     "/img/cj/b9dbd37caa4500c5.webp",
-    "/img/cj/837469bd532da144.webp"
+    "/img/cj/837469bd532da144.webp",
+    "/img/virtuelles/cj-2505020611461629500__g0153__gem.webp"
    ]
   },
   "scenes": [
@@ -3548,7 +3695,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2505020611461629500__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2505020611461629500__11058__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2505020611461629500__12057__comp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2505020611461629500__g0155__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2505020611461629500__g0155__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2505020611461629500__g0153__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2505020611461629500__g0154__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2506080418241625500": {
@@ -3567,7 +3716,10 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
     "/img/cj/b29dcec71327d41a.webp",
     "/img/cj/0f405e77b9c57134.webp",
     "/img/cj/67feb995a5bacc88.webp",
-    "/img/cj/d1adf018980481f4.webp"
+    "/img/cj/d1adf018980481f4.webp",
+    "/img/virtuelles/cj-2506080418241625500__g0125__gem.webp",
+    "/img/virtuelles/cj-2506080418241625500__g0126__gem.webp",
+    "/img/virtuelles/cj-2506080418241625500__g0127__gem.webp"
    ]
   },
   "lifestyle": {
@@ -3581,7 +3733,9 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-3": [
     "/img/cj/b29dcec71327d41a.webp",
-    "/img/cj/d1adf018980481f4.webp"
+    "/img/cj/d1adf018980481f4.webp",
+    "/img/virtuelles/cj-2506080418241625500__g0126__gem.webp",
+    "/img/virtuelles/cj-2506080418241625500__g0127__gem.webp"
    ]
   },
   "macro": {
@@ -3593,7 +3747,8 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    ],
    "color-3": [
     "/img/cj/0f405e77b9c57134.webp",
-    "/img/cj/67feb995a5bacc88.webp"
+    "/img/cj/67feb995a5bacc88.webp",
+    "/img/virtuelles/cj-2506080418241625500__g0125__gem.webp"
    ]
   },
   "scenes": [
@@ -3606,7 +3761,10 @@ export const generatedPhotos:Record<string,GeneratedPhotos>={
    "/img/virtuelles/cj-2506080418241625500__4075__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2506080418241625500__4076__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
    "/img/virtuelles/cj-2506080418241625500__4077__col.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
-   "/img/virtuelles/cj-2506080418241625500__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
+   "/img/virtuelles/cj-2506080418241625500__gp.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2506080418241625500__g0125__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2506080418241625500__g0126__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique.",
+   "/img/virtuelles/cj-2506080418241625500__g0127__gem.webp": "Image virtuelle : décor créé à partir de la photo du fournisseur, produit et couleur reproduits à l’identique."
   }
  },
  "cj-2508220355361610500": {
