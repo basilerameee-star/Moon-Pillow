@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useEffect, useId, useRef, useState, type RefObject } from 'react';
 import { Check, ChevronDown, Pin, ShoppingBag } from 'lucide-react';
 
@@ -25,13 +26,22 @@ export function PinterestButton(){
  return <span className="pinterest-control"><button className="pin-button" type="button" aria-label="Épingler sur Pinterest — disponible à l’ouverture publique" onClick={()=>setMessage(!message)}><Pin size={14}/> Épingler</button>{message&&<small role="status">Le partage Pinterest sera disponible avec la boutique publique.</small>}</span>;
 }
 
-const answers=[
+export const assistanceAnswers=[
  {title:'Trouver le bon format',text:'Mesurez l’objet que vous avez déjà, en centimètres. Pour une housse de couette, mesurez la couette ; pour une housse de coussin, mesurez le coussin intérieur. Choisissez le format qui reprend ces dimensions. Si elles ne correspondent pas, ne devinez pas : demandez-nous.'},
  {title:'Comprendre ce qui est inclus',text:'Le format choisi indique ce que vous achetez. « 1 housse seule » signifie une housse sans coussin intérieur. Les coussins ou accessoires qui décorent la photo ne sont pas inclus, sauf mention explicite.'},
  {title:'Comparer les couleurs',text:'Les nuances sont propres à chaque produit. Deux teintes portant le même nom peuvent différer selon la matière, la lumière et l’écran. Nous n’affichons un choix de couleur que lorsqu’une photo est rattachée à cette référence.'},
  {title:'Livraison et retours',text:'La livraison est offerte en France dès 100 € d’achat ; en dessous, vous payez seulement le coût réel de l’envoi. Vous avez 14 jours après réception pour retourner un article, et les frais de retour sont à notre charge.'}
 ];
-export function BoutiqueAssistance(){
- const [open,setOpen]=useState(false);
- return <aside className="boutique-assistance" aria-label="Aide pour votre sélection"><button className="assistance-trigger" aria-expanded={open} onClick={()=>setOpen(!open)}>{open?'Fermer l’aide':'Un doute sur une taille ?'} <ChevronDown size={15}/></button>{open&&<div className="assistance-panel"><p className="eyebrow">UN PEU D’AIDE</p><h3>Pour bien choisir.</h3>{answers.map(answer=><details key={answer.title}><summary>{answer.title}</summary><p>{answer.text}</p></details>)}<a href="mailto:contact@raime.fr">Poser une question par e-mail ↗</a></div>}</aside>;
+// Help lives in the product sheet, not in a floating bubble. Size and delivery are already
+// covered by ProductGuides just above, so only the answers it does not repeat are shown here.
+const productHelpAnswers=assistanceAnswers.filter(answer=>answer.title!=='Trouver le bon format'&&answer.title!=='Livraison et retours');
+export function ProductHelp(){
+ return <details className="product-help">
+  <summary>Une autre question ?</summary>
+  <div className="product-help-body">
+   {productHelpAnswers.map(answer=><div key={answer.title}><p className="help-title">{answer.title}</p><p>{answer.text}</p></div>)}
+   <a href="mailto:contact@raime.fr">Poser une question par e-mail</a>
+   <Link href="/guide-du-linge">Toutes nos réponses</Link>
+  </div>
+ </details>;
 }

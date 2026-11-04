@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import {privateMeta} from '@/lib/seo';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { sourcingCandidates } from '@/lib/sourcing-data';
 import { categoryLabel, products, collectionImage, type Category } from '@/lib/catalog';
 
-export const metadata:Metadata={title:'Catalogue de préparation — Moon & Pillow',robots:{index:false,follow:false}};
+export const metadata:Metadata=privateMeta({title:'Catalogue de préparation — Moon & Pillow',description:'Aperçu privé des références de linge de maison étudiées pour la collection Moon & Pillow.',path:'/catalogue-preparation'});
 const cost=(value:number,currency:string)=>new Intl.NumberFormat('fr-FR',{style:'currency',currency}).format(value);
 
 export default function Preparation(){

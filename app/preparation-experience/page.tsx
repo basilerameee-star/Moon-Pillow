@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import {privateMeta} from '@/lib/seo';
 import {ArrowLeft,ArrowUpRight,Check,Clock} from 'lucide-react';
 import {ExperienceWorkbench} from '@/components/ExperienceWorkbench';
-export const metadata={title:'Préparer l’expérience client — Moon & Pillow',robots:{index:false,follow:false}};
+export const metadata=privateMeta({title:'Préparer l’expérience client — Moon & Pillow',description:'Espace privé pour préparer les e-mails, le colis et les retours de Moon & Pillow.',path:'/preparation-experience'});
 const steps=[
  {title:'Les repères pour choisir',status:'Intégrés',ready:true,text:'Guide des tailles illustré, entretien prudent, FAQ et histoire de la marque.',url:'/guide-du-linge',link:'Lire le guide'},
  {title:'Les petits mots',status:'À tester ici',ready:false,text:'Bienvenue, relance de panier et découverte après achat. Les règles sont testables ; l’envoi réel reste déconnecté.',url:'#emails',link:'Tester les scénarios'},

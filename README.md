@@ -154,8 +154,10 @@ The portable build runs Vinext directly without a host `timeout` command. The ma
 ## Référencement (SEO)
 
 - Adresse, ouverture à l'indexation et code Search Console : `lib/seo.ts` (`SITE_URL`, `INDEXATION_OUVERTE`, `GOOGLE_SITE_VERIFICATION`). En préouverture, toutes les pages sont en `noindex` et `robots.txt` ferme l'accès.
-- Données structurées (JSON-LD, rendues dans le HTML) : `Organization` et `WebSite` + `SearchAction` (`/?recherche=…`) sur toutes les pages, `FAQPage` sur l'accueil, `Product` + `BreadcrumbList` sur chaque fiche. L'offre (`Offer` / `AggregateOffer`) n'est déclarée que pour un prix validé (`priceStatus: 'approved'`). Aucune note ni avis n'est déclaré tant qu'il n'existe pas d'avis client réel.
-- `sitemap.xml` (accueil, Notre univers, guide du linge, fiches non brouillon) et `robots.txt` sont générés par `app/sitemap.xml/route.ts` et `app/robots.txt/route.ts`.
+- Données structurées (JSON-LD, rendues dans le HTML) : `Organization` et `WebSite` + `SearchAction` (`/?recherche=…`) sur toutes les pages, `FAQPage` sur l'accueil, `Product` + `BreadcrumbList` sur chaque fiche non brouillon, `BreadcrumbList` sur Notre univers et le guide. L'offre (`Offer` / `AggregateOffer`) n'est déclarée que pour un prix validé (`priceStatus: 'approved'`). Aucune note ni avis n'est déclaré tant qu'il n'existe pas d'avis client réel.
+- `sitemap.xml` (accueil, Notre univers, guide du linge, fiches non brouillon ; vide tant que `INDEXATION_OUVERTE` est faux) et `robots.txt` sont générés par `app/sitemap.xml/route.ts` et `app/robots.txt/route.ts`.
+- Balises de page (titre, description, canonical, Open Graph, Twitter) : `pageMeta` et `privateMeta` dans `lib/seo.ts`. Toute nouvelle page doit passer par l'une des deux, sinon elle hérite de celles de l'accueil.
+- Une fiche produit est l'accueil avec la fiche ouverte : son H1 est le nom du produit, placé en tête du HTML ; le titre du hero devient alors un paragraphe.
 - Canonical sur l'accueil, Notre univers, le guide et chaque fiche (`metadataBase` = `SITE_URL`).
 
 ### Le jour de l'ouverture

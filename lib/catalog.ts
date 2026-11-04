@@ -62,7 +62,8 @@ function priceOptionsByArea(product:Product):Product{
 export const products:Product[]=galleryProducts.map(product=>priceOptionsByArea(withGeneratedViews({...product,...photoCuration[product.id]})));
 export const categories: {id:Category;label:string}[] = [{id:'housses-couette',label:'Housses de couette'},{id:'draps',label:'Draps'},{id:'taies',label:'Taies d’oreiller'},{id:'oreillers',label:'Oreillers'},{id:'couettes',label:'Couettes'},{id:'couvre-lits',label:'Couvre-lits'},{id:'housses',label:'Housses de coussin'},{id:'coussins',label:'Coussins'},{id:'plaids',label:'Plaids'},{id:'ensembles',label:'Ensembles'},{id:'serviettes',label:'Linge de bain'}];
 export const categoryLabel = (category:Category) => categories.find(c=>c.id===category)?.label??category;
-export const roomFor = (product:Product) => ['housses','coussins','plaids','ensembles'].includes(product.category)?'salon':product.category==='serviettes'?'bain':'chambre';
+export const roomForCategory = (category:Category):'chambre'|'salon'|'bain' => ['housses','coussins','plaids','ensembles'].includes(category)?'salon':category==='serviettes'?'bain':'chambre';
+export const roomFor = (product:Product) => roomForCategory(product.category);
 export const money = (cents: number) => new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(cents / 100);
 export const colorName = (id: Color, product?: Product) => product?.colorOptions?.find(c=>c.id===id)?.name ?? (id === 'vert' ? (product?.category === 'housses' ? 'Vert clair' : product?.category === 'plaids' ? 'Vert olive' : 'Vert') : colors.find(c => c.id === id)?.name ?? 'Coloris à confirmer');
 const foldColor=(value:string)=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
